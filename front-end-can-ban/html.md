@@ -58,7 +58,8 @@ Phần tử HTML được xác định bởi thẻ bắt đầu, một số nộ
 Phần tử HTML là tất cả mọi thứ từ thẻ bắt đầu đến thẻ kết thúc:
 
 ```markup
-<h1> Tiêu đề </h1><p> Đoạn văn </p>
+<h1> Tiêu đề </h1>
+<p> Đoạn văn </p>
 ```
 
 ​‌
@@ -124,7 +125,8 @@ Value là 1 Css value‌
 Ví dụ:
 
 ```markup
-<h1 style="background-color:powderblue;">This is a heading</h1><p style="background-color:tomato;">This is a paragraph.</p>
+<h1 style="background-color:powderblue;">This is a heading</h1>
+<p style="background-color:tomato;">This is a paragraph.</p>
 ```
 
 ![](https://gblobscdn.gitbook.com/assets%2Fwelcome-to-my-site%2F-MXvWNSrLk9ygm1zzKIA%2F-MXvX7GimvGV1q5eQaXL%2F1.png?alt=media)‌
