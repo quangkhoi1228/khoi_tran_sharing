@@ -7,8 +7,8 @@
   * [Bulma](front-end-can-ban/bulma.md)
   * [JS](front-end-can-ban/js.md)
 * [Shinobi JS core](shinobi-js-core/README.md)
-  * [Các khái niệm](shinobi-js-core/cac-khai-niem/README.md)
-    * [JSON](shinobi-js-core/cac-khai-niem/json.md)
-    * [JS class](shinobi-js-core/cac-khai-niem/js-class.md)
+  * [JSON](shinobi-js-core/json.md)
+  * [JS class](shinobi-js-core/js-class.md)
+  * [GIới thiệu shinobi JS core](shinobi-js-core/gioi-thieu-shinobi-js-core.md)
   * [Mapping.js](shinobi-js-core/mapping.js.md)
 
