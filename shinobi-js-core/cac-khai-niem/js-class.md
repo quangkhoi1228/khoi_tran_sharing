@@ -110,10 +110,10 @@ Trước 2015, JS chưa hỗ trợ Class nhưng chúng ta có thể tạo templa
  Ưu điểm:
 
 * Trình duyệt không hỗ trợ Class vẫn có thể hiểu được
-* Cách viết các thuộc tính và phương thức không khác cách viết bằng JS class
 
 Nhược điểm:
 
+* Cách viết các thuộc tính và phương thức hơi khác cách viết bằng JS class
 * Cấu trúc dài dòng và khó hiểu hơn class
 * Không truy suất được từ khóa `this` trực tiếp
 
