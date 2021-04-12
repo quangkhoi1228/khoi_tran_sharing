@@ -24,6 +24,19 @@
 &lt;/**body**&gt;  
 &lt;/**html**&gt;
 
+```text
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+<h1>This is a Heading</h1>
+<p>This is a paragraph.</p>
+</body>
+</html>
+```
+
 * &lt;!DOCTYPE html&gt; chỉ ra rằng tài liệu này là một tài liệu HTML5
 * &lt;html&gt; là phần tử gốc của một trang HTML
 * &lt;head&gt; chứa thông tin meta về trang HTML
@@ -212,7 +225,7 @@ Một trang web thiết kế responsive sẽ tự động điều chỉnh cho c�
 
 trang web thiết kế responsive sử dụng HTML và CSS để tự động chỉnh kích thước, ẩn, co lại hoặc phóng to các phần tử trong trang để trang web nhìn ổn trên tất cả thiết bị\(máy tính, máy tính bảng hoặc điện thoại\)
 
-![Responsive Web Design](.gitbook/assets/6.jpeg)
+![Responsive Web Design](.gitbook/assets/26.jpeg)
 
 ### Set viewport - Khung nhìn
 
@@ -224,11 +237,11 @@ Ví dụ:
 
 Không có set viewport
 
-![](.gitbook/assets/7%20%281%29.png)
+![](.gitbook/assets/7%20%281%29%20%281%29.png)
 
 Có set viewport
 
-![](.gitbook/assets/8%20%281%29.png)
+![](.gitbook/assets/8%20%281%29%20%281%29.png)
 
 ### Các đơn vị
 

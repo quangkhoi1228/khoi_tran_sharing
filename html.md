@@ -97,7 +97,7 @@ Ta có 1 thẻ như hình, và mong muốn màu nền của thẻ này là màu 
 
  cách 2:
 
-![](.gitbook/assets/9.png)
+![](.gitbook/assets/10%20%282%29.png)
 
  Dịch nghĩa : Tất cả các class tên demo-class sẽ có nền màu đỏ
 
@@ -301,7 +301,7 @@ Một trang web thiết kế responsive sẽ tự động điều chỉnh cho c�
 
 trang web thiết kế responsive sử dụng HTML và CSS để tự động chỉnh kích thước, ẩn, co lại hoặc phóng to các phần tử trong trang để trang web nhìn ổn trên tất cả thiết bị\(máy tính, máy tính bảng hoặc điện thoại\)
 
-![Responsive Web Design](.gitbook/assets/26.jpeg)
+![Responsive Web Design](.gitbook/assets/26%20%281%29.jpeg)
 
 ### Set viewport - Khung nhìn
 
@@ -313,11 +313,11 @@ Ví dụ:
 
 Không có set viewport
 
-![](.gitbook/assets/27.png)
+![](.gitbook/assets/7%20%281%29.png)
 
 Có set viewport
 
-![](.gitbook/assets/28.png)
+![](.gitbook/assets/8%20%281%29.png)
 
 ### Các đơn vị
 
