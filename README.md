@@ -317,5 +317,5 @@ Bài 2: Code giao diện cho desktop và mobile
 
 ![](.gitbook/assets/10%20%281%29.png)
 
-Bài 3: code giao diện\(chỉ có hình của 1 chiếc lá bên trái\)![](.gitbook/assets/11%20%281%29.png)
+Bài 3: code giao diện\(chỉ có hình của 1 chiếc lá bên trái chứ không hình chiếc lá bên phải\)![](.gitbook/assets/11%20%281%29.png)
 
