@@ -125,5 +125,53 @@ Một số sự kiện
 
 Xem thêm  các sự kiện [tại đây](https://www.w3schools.com/jsref/dom_obj_event.asp)
 
+## Điều kiện\(Condition\)
+
+### Câu lệnh if
+
+Dùng câu lệnh `if` để xác định khối code thực thi nếu điều kiện bằng `true`
+
+```javascript
+if (condition) {
+  //  block of code to be executed if the condition is true
+}
+```
+
+Ví dụ:
+
+```javascript
+if (hour < 18) {
+  greeting = "Good day";
+}
+//Good day
+```
+
+### Câu lệnh else
+
+Dùng câu lệnh `else`  để xác định khối code thực thi nếu điều kiện bằng `false`
+
+```javascript
+if (condition) {
+  //  block of code to be executed if the condition is true
+} else {
+  //  block of code to be executed if the condition is false
+}
+```
+
+Ví dụ:
+
+```javascript
+if (hour < 18) {
+  greeting = "Good day";
+} else {
+  greeting = "Good evening";
+}
+//Good day
+```
+
+### Câu lệnh else if
+
+
+
 ##  
 
