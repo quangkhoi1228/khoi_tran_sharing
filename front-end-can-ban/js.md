@@ -74,9 +74,8 @@ và 2 loại dữ liệu không chứa giá trị
 * `null`
 * `undefined`
 
-var length = 16;                               // Number
-
 ```javascript
+var length = 16;                               // Number
 var lastName = "Johnson";                      // String
 var x = {firstName:"John", lastName:"Doe"};   //object
 ```
@@ -456,9 +455,70 @@ while (i < 5);
 //The number is 4
 ```
 
+### Xử lý lỗi try/catch/throw/finally
 
+Mệnh đề `try` sẽ cố thực thi để tìm ra lỗi trong khối code
 
+Mệnh đề `catch` sẽ giúp xử lý lỗi
 
+Mệnh đề `throw` giúp tùy chỉnh lỗi 
+
+Mệnh đề `finally` giúp thực thi code sau khi try và catch bất kể kết quả là gì
+
+```javascript
+try {
+ // Block of code to try
+}
+catch(err) {
+//  Block of code to handle errors
+}
+finally {
+  //Block of code to be executed regardless of the try / catch result
+}
+```
+
+Ví dụ:
+
+```markup
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Please input a number between 5 and 10:</p>
+
+<input id="demo" type="text">
+<button type="button" onclick="myFunction()">Test Input</button>
+
+<p id="p01"></p>
+
+<script>
+function myFunction() {
+  var message, x;
+  message = document.getElementById("p01");
+  message.innerHTML = "";
+  x = document.getElementById("demo").value;
+  try { 
+    if(x == "")  throw "is empty";
+    if(isNaN(x)) throw "is not a number";
+    x = Number(x);
+    if(x > 10)   throw "is too high";
+    if(x < 5)  throw "is too low";
+  }
+  catch(err) {
+    message.innerHTML = "Input " + err;
+  }
+  finally {
+    document.getElementById("demo").value = "";
+  }
+}
+</script>
+
+</body>
+</html>
+
+```
+
+[chi tiết chạy](https://www.w3schools.com/js/tryit.asp?filename=tryjs_finally_error)
 
 
 
