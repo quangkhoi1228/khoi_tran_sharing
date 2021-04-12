@@ -261,6 +261,124 @@ switch (new Date().getDay()) {
 * Từ khóa `default` định nghĩa khối code thực thi khi không có trường hợp nào khớp với giá trị của điều kiện
 * Không nhất thiết phải đặt `default` cuối cùng của `switch`nhưng lúc đó phải có `break` trong khối code `default` 
 
+## Vòng lặp\(Loop\)
+
+Ta thường dùng vòng lặp nếu cần thực thi khối code lại nhiều lần nhưng chỉ khác thông số đầu vào.
+
+Trong JS ta có các kiểu lặp phổ biến sau:
+
+* `for` -  lặp lại một khối code với số lần lặp xác định trước
+* `for/in` - lặp qua các thuộc tính\(properties\) của 1 đối tượng\(object\)
+* `for/of` - lặp qua các giá trị của đối tượng có thể lặp lại
+* `while` - lặp qua một khối code khi điều kiện bằng `true`
+* `do/while` - lặp qua một khối code khi điều kiện bằng `true`
+
+### Vòng lặp for
+
+```javascript
+for (statement 1; statement 2; statement 3) {
+  // code block to be executed
+}
+```
+
+**Statement 1** được thực thi \(1 lần\) trước khi thực thi khối code
+
+**Statement 2** định nghĩa điều kiện cho việc thực thi khối code
+
+**Statement 3** được thực thi\(mỗi lần\) sau khi khối code được thực hiện xong
+
+Ví dụ:
+
+```javascript
+for (i = 0; i < 5; i++) {
+  text += "The number is " + i + "<br>";
+}
+//The number is 0
+//The number is 1
+//The number is 2
+//The number is 3
+//The number is 4
+```
+
+### Vòng lặp for/in
+
+#### For/in các thuộc tính của Object
+
+```javascript
+for (key in object) {
+  // code block to be executed
+}
+```
+
+Ví dụ:
+
+```javascript
+var person = {fname:"John", lname:"Doe", age:25};
+
+var text = "";
+var x;
+for (x in person) {
+  text += person[x];
+}
+//John Doe 25
+```
+
+#### For/in các phần tử của mảng
+
+```javascript
+for (variable in array) {
+  code
+}
+```
+
+Ví dụ:
+
+```javascript
+var txt = "";
+var numbers = [45, 4, 9, 16, 25];
+var x;
+for (x in numbers) {
+  txt += numbers[x] +  " "; 
+}
+console.log(txt)
+//45 4 9 16 25 
+```
+
+> Lưu ý không sử dụng for/in nếu quan tâm đến thứ tự duyệt phần tử, nếu index duyệt mảng quan trọng hãy sử dụng forEach để thay thế
+
+#### forEach trong mảng
+
+Dùng forEach để duyệt các phần tử trong mảng 1 lần
+
+```javascript
+var txt = "";
+var numbers = [45, 4, 9, 16, 25];
+var x;
+numbers.forEach(function(item) {
+  txt += item +  " "; 
+})
+console.log(txt)
+//45 4 9 16 25 
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
