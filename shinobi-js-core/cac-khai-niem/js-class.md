@@ -139,29 +139,3 @@ console.log("My car is " + myCar.age() + " years old.")
 //My car is 7 years old.
 ```
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
