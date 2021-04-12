@@ -238,19 +238,3 @@ Cú pháp:
 eval(statement)(parameter)
 ```
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
