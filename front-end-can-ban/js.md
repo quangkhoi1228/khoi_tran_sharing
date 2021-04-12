@@ -92,7 +92,38 @@ function myFunction(a, b) {
 //12
 ```
 
+## Đối tượng\(Object\)
 
+Object trong JS được định nghĩa theo cấu trúc JSON tìm hiểu thêm [tại đây](https://app.gitbook.com/@quangkhoi1228/s/front-end-guide/~/drafts/-MY3kpB8BWsP7tWZQ1b8/shinobi-js-core/cac-khai-niem/json)
+
+## Sự kiện\(Event\)
+
+Sự kiện trong JS có thể là 1 thứ gì đó trình duyệt web hoặc người dùng vừa thực hiện như: 
+
+* Trang tải xong
+* Người dùng thao tác với phần tử trong trang
+* ...
+
+Ví dụ:
+
+```markup
+<element event="some JavaScript">
+
+<button onclick="alert('Hello')">Click me.</button>
+```
+
+Một số sự kiện
+
+| Sự kiện | Diễn giải |
+| :--- | :--- |
+| onchange | Một phần tử HTML vừa thay đổi |
+| onclick | Người dùng click vào phần tử |
+| onmouseover | Người dùng rê chuột vào phần tử |
+| onmouseout | Người dùng rê chuột ra khỏi phần tử |
+| onkeydown | Người dùng nhấn 1 nút |
+| onload | Trình duyệt web load xong trang |
+
+Xem thêm  các sự kiện [tại đây](https://www.w3schools.com/jsref/dom_obj_event.asp)
 
 ##  
 
