@@ -12,7 +12,7 @@ JavaScript rất dễ để học
 
 Tham khảo HTML javascript: [Cách thêm JavaScript](https://app.gitbook.com/@quangkhoi1228/s/front-end-guide/~/drafts/-MY3PD3alRQ69Ywet0ra/front-end-can-ban/html#html-javascript)
 
-## Biến
+## Biến\(variables\)
 
 biến được khai báo bằng từ khóa `var`
 
@@ -60,7 +60,7 @@ var lastName = "Johnson";                      // String
 var x = {firstName:"John", lastName:"Doe"};   //object
 ```
 
-## Hàm
+## Hàm\(Function\)
 
 Một hàm JS là một khối code được thiết kế để thực thi 1 tác vụ nào đó
 
@@ -255,4 +255,25 @@ switch (new Date().getDay()) {
 * Khi JS thực thi tới từ khóa `break`, khối code switch đang thực thi sẽ dừng và thoát khỏi câu lệnh `switch`
 * Nếu khối code trong `case` đó được thực thi nhưng không có từ khóa `break` để thoát thì khối code trong `case` tiếp theo sẽ được kích hoạt cho dù có khớp với giá trị của điều kiện hay không và cứ thế đi đến hết các `case` của `switch`
 * Không cần `break` khối code cuối cùng vì đường nào khối code đó cũng sẽ dừng
+
+#### Từ khóa `default`
+
+* Từ khóa `default` định nghĩa khối code thực thi khi không có trường hợp nào khớp với giá trị của điều kiện
+* Không nhất thiết phải đặt `default` cuối cùng của `switch`nhưng lúc đó phải có `break` trong khối code `default` 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
