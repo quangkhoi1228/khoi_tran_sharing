@@ -253,6 +253,6 @@ switch (new Date().getDay()) {
 #### Từ khóa `break`
 
 * Khi JS thực thi tới từ khóa `break`, khối code switch đang thực thi sẽ dừng và thoát khỏi câu lệnh `switch`
-* Nếu khối code trong `case` đó được thực thi nhưng không có từ khóa `break` để thoát thì khối code trong `case` tiếp theo sẽ được kích hoạt và cứ thế đi đến hết các `case` của `switch`
+* Nếu khối code trong `case` đó được thực thi nhưng không có từ khóa `break` để thoát thì khối code trong `case` tiếp theo sẽ được kích hoạt cho dù có khớp với giá trị của điều kiện hay không và cứ thế đi đến hết các `case` của `switch`
 * Không cần `break` khối code cuối cùng vì đường nào khối code đó cũng sẽ dừng
 
