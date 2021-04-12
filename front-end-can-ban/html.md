@@ -62,7 +62,7 @@ Xem thêm: [https://www.w3schools.com/cssref/css\_selectors.asp](https://www.w3s
 
 ###  Cách 2: thêm vào trong file html dưới dạng 1 thẻ style \(embed\):
 
-* các selector sẽ được bọc trong 1 thẻ &lt;style&gt;&lt;/style&gt;
+* các selector sẽ được bọc trong 1 thẻ `<style></style>`
 * ví dụ
 * ![](../.gitbook/assets/4.png)
 
@@ -279,20 +279,6 @@ Có 1 cách duy nhất để đè !important là thêm !important vào rule css 
 
 ⇒ hãy cân nhắc khi sử dụng !important
 
-## Bài tập
-
-* bài tập căn bản:
-
- 1,Tạo ra 1 nút\(button\) tương tự như hình:
-
-![](../.gitbook/assets/24.png)
-
- 2, nút của câu 1 khi rê chuột vào, nút chuyển sang màu đỏ
-
- 3, làm 1 trang web giống hình dưới
-
-![](../.gitbook/assets/25.png)
-
 ## Responsive
 
 Responsive web design nói về việc tạo một trang web nhìn ổn trên mọi thiết bị
@@ -338,37 +324,49 @@ Các đơn vị tuyệt đối:
 
 Một cách chặt chẽ và chi tiết hơn là sử dụng media query để code css theo từng width cụ thể:
 
-&lt;style&gt;
+```markup
+<style>
+    .left,
+    .right {
+        float: left;
+        width: 20%;
+        /* The width is 20%, by default */
+    }
 
-.left, .right {
+    .main {
+        float: left;
+        width: 60%;
+        /* The width is 60%, by default */
+    }
 
- float: left;
+    /* Use a media query to add a breakpoint at 800px: */
+    @media screen and (max-width: 800px) {
 
- width: 20%; /\* The width is 20%, by default \*/
-
-}
-
-.main {
-
- float: left;
-
- width: 60%; /\* The width is 60%, by default \*/
-
-}
-
-/\* Use a media query to add a breakpoint at 800px: \*/
-
-@media screen and \(max-width: 800px\) {
-
- .left, .main, .right {
-
- width: 100%; /\* The width is 100%, when the viewport is 800px or smaller \*/
-
- }
-
-}
-
-&lt;/style&gt;
+        .left,
+        .main,
+        .right {
+            width: 100%;
+            /* The width is 100%, when the viewport is 800px or smaller */
+        }
+    }
+</style>
+```
 
 Các thư viện dùng để responsive: Bulma, Bootstrap, Tailwind,...
+
+## Bài tập
+
+* bài tập căn bản:
+
+ 1,Tạo ra 1 nút\(button\) tương tự như hình:
+
+![](../.gitbook/assets/24.png)
+
+ 2, nút của câu 1 khi rê chuột vào, nút chuyển sang màu đỏ
+
+ 3, làm 1 trang web giống hình dưới
+
+![](../.gitbook/assets/25.png)
+
+## 
 
