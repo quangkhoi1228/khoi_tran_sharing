@@ -1,6 +1,6 @@
 # CSS
 
-## CSS là gì
+## Css là gì
 
 * CSS viết tắt của Cascading Style Sheets
 * CSS miêu tả phần tử HTML được hiển thị như thế nào trên màn hình
@@ -64,8 +64,7 @@ Xem thêm: [https://www.w3schools.com/cssref/css\_selectors.asp](https://www.w3s
 
 * các selector sẽ được bọc trong 1 thẻ `<style></style>`
 * ví dụ
-* 
-![](../.gitbook/assets/4.png)
+* ![](../.gitbook/assets/4.png)
 
 ### Cách 3: Thêm dưới dạng 1 file có đuôi .css \(linked\)
 
@@ -292,9 +291,7 @@ trang web thiết kế responsive sử dụng HTML và CSS để tự động ch
 
 ### Set viewport - Khung nhìn
 
-```markup
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-```
+&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
 
 Thẻ meta sẽ đặt giá trị viewport cho trang, nó sẽ hướng dẫn trình duyệt cách kiểm soát chiều và việc điều chỉnh việc co/dãn của trang
 
