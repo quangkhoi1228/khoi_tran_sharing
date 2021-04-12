@@ -12,7 +12,7 @@ JavaScript rất dễ để học
 
 Tham khảo HTML javascript: [Cách thêm JavaScript](https://app.gitbook.com/@quangkhoi1228/s/front-end-guide/~/drafts/-MY3PD3alRQ69Ywet0ra/front-end-can-ban/html#html-javascript)
 
-## Biến\(variables\)
+## Biến
 
 biến được khai báo bằng từ khóa `var`
 
@@ -60,7 +60,7 @@ var lastName = "Johnson";                      // String
 var x = {firstName:"John", lastName:"Doe"};   //object
 ```
 
-## Hàm\(Function\)
+## Hàm
 
 Một hàm JS là một khối code được thiết kế để thực thi 1 tác vụ nào đó
 
@@ -252,146 +252,9 @@ switch (new Date().getDay()) {
 
 #### Từ khóa `break`
 
-* Khi JS thực thi tới từ khóa `break`, khối code switch đang thực thi sẽ dừng và thoát khỏi câu lệnh `switch`
-* Nếu khối code trong `case` đó được thực thi nhưng không có từ khóa `break` để thoát thì khối code trong `case` tiếp theo sẽ được kích hoạt cho dù có khớp với giá trị của điều kiện hay không và cứ thế đi đến hết các `case` của `switch`
-* Không cần `break` khối code cuối cùng vì đường nào khối code đó cũng sẽ dừng
+Khi JS thực thi tới từ khóa `break`, khối code switch đang thực thi sẽ dừng và thoát khỏi câu lệnh `switch`
 
-#### Từ khóa `default`
+Nếu khối code trong `case` đó được thực thi nhưng không có từ khóa `break` để thoát thì khối code trong `case` tiếp theo sẽ được kích hoạt và cứ thế đi đến hết các `case` của `switch`
 
-* Từ khóa `default` định nghĩa khối code thực thi khi không có trường hợp nào khớp với giá trị của điều kiện
-* Không nhất thiết phải đặt `default` cuối cùng của `switch`nhưng lúc đó phải có `break` trong khối code `default` 
-
-## Vòng lặp\(Loop\)
-
-Ta thường dùng vòng lặp nếu cần thực thi khối code lại nhiều lần nhưng chỉ khác thông số đầu vào.
-
-Trong JS ta có các kiểu lặp phổ biến sau:
-
-* `for` -  lặp lại một khối code với số lần lặp xác định trước
-* `for/in` - lặp qua các thuộc tính\(properties\) của 1 đối tượng\(object\)
-* `for/of` - lặp qua các giá trị của đối tượng có thể lặp lại
-* `while` - lặp qua một khối code khi điều kiện bằng `true`
-* `do/while` - lặp qua một khối code khi điều kiện bằng `true`
-
-### Vòng lặp for
-
-```javascript
-for (statement 1; statement 2; statement 3) {
-  // code block to be executed
-}
-```
-
-**Statement 1** được thực thi \(1 lần\) trước khi thực thi khối code
-
-**Statement 2** định nghĩa điều kiện cho việc thực thi khối code
-
-**Statement 3** được thực thi\(mỗi lần\) sau khi khối code được thực hiện xong
-
-Ví dụ:
-
-```javascript
-for (i = 0; i < 5; i++) {
-  text += "The number is " + i + "<br>";
-}
-//The number is 0
-//The number is 1
-//The number is 2
-//The number is 3
-//The number is 4
-```
-
-### Vòng lặp for/in
-
-#### For/in các thuộc tính của Object
-
-```javascript
-for (key in object) {
-  // code block to be executed
-}
-```
-
-Ví dụ:
-
-```javascript
-var person = {fname:"John", lname:"Doe", age:25};
-
-var text = "";
-var x;
-for (x in person) {
-  text += person[x];
-}
-//John Doe 25
-```
-
-#### For/in các phần tử của mảng
-
-```javascript
-for (variable in array) {
-  code
-}
-```
-
-Ví dụ:
-
-```javascript
-var txt = "";
-var numbers = [45, 4, 9, 16, 25];
-var x;
-for (x in numbers) {
-  txt += numbers[x] +  " "; 
-}
-console.log(txt)
-//45 4 9 16 25 
-```
-
-> Lưu ý không sử dụng for/in nếu quan tâm đến thứ tự duyệt phần tử, nếu index duyệt mảng quan trọng hãy sử dụng forEach để thay thế
-
-#### forEach trong mảng
-
-Dùng forEach để duyệt các phần tử trong mảng 1 lần
-
-```javascript
-var txt = "";
-var numbers = [45, 4, 9, 16, 25];
-var x;
-numbers.forEach(function(item) {
-  txt += item +  " "; 
-})
-console.log(txt)
-//45 4 9 16 25 
-```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Không cần `break` khối code cuối cùng vì đường nào khối code đó cũng sẽ dừng
 
