@@ -213,7 +213,7 @@ switch(expression) {
 }
 ```
 
-Cách xử lý:
+#### Cách hoạt động
 
 * Biểu thức `switch` được đánh giá 1 lần
 * Giá trị của biểu thức sẽ được so sánh với giá trị của mỗi `case` 
@@ -250,5 +250,11 @@ switch (new Date().getDay()) {
 //"Monday"
 ```
 
-###  
+#### Từ khóa `break`
+
+Khi JS thực thi tới từ khóa `break`, khối code switch đang thực thi sẽ dừng và thoát khỏi câu lệnh `switch`
+
+Nếu khối code trong `case` đó được thực thi nhưng không có từ khóa `break` để thoát thì khối code trong `case` tiếp theo sẽ được kích hoạt và cứ thế đi đến hết các `case` của `switch`
+
+Không cần `break` khối code cuối cùng vì đường nào khối code đó cũng sẽ dừng
 
