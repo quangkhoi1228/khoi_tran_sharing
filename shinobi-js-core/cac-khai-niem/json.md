@@ -218,23 +218,21 @@ console.log(json)
 //{name: "Khôi", age: "23", gender: "MR"}
 ```
 
-### Gán hàm\(function\) vào JSON
 
-Hàm không được chấp nhận trong JSON, nhưng nếu cần chứa hàm hãy viết nó sang dạng String và parse lại hàm sau.
 
-```javascript
-var text = '{ "name":"John", "age":"function () {return 30;}", "city":"New York"}';
-var obj = JSON.parse(text);
-obj.age = eval("(" + obj.age + ")");
-console.log(obj.name + ", " + obj.age());
-//John, 30
-```
 
-> Hàm eval dùng để thực thi 1 đoạn code JS
 
-Cú pháp:
 
-```javascript
-eval(statement)(parameter)
-```
+
+
+
+
+
+
+
+
+
+
+
+
 
