@@ -190,25 +190,27 @@ HTML có 1 vài phần tử ngữ nghĩa để định nghĩa sự khác nhau gi
       </th>
       <th style="text-align:left">
         <ul>
-          <li>&lt;header&gt; - &#x111;&#x1ECB;nh ngh&#x129;a m&#x1ED9;t header cho m&#x1ED9;t
-            trang ho&#x1EB7;c m&#x1ED9;t ph&#x1EA7;n</li>
-          <li>&lt;nav&gt; - &#x110;&#x1ECB;nh ngh&#x129;a m&#x1ED9;t b&#x1ED9; c&#xE1;c
-            &#x111;&#x1B0;&#x1EDD;ng d&#x1EAB;n &#x111;i&#x1EC1;u h&#x1B0;&#x1EDB;ng</li>
-          <li>&lt;section&gt; - &#x111;&#x1ECB;nh ngh&#x129;a m&#x1ED9;t ph&#x1EA7;n
-            c&#x1EE7;a v&#x103;n b&#x1EA3;n</li>
-          <li>&lt;article&gt; - &#x111;&#x1ECB;nh ngh&#x129;a m&#x1ED9;t ph&#x1EA7;n
-            t&#x1EED; &#x111;&#x1ED9;c l&#x1EAD;p ho&#x1EB7;c ph&#x1EA7;n t&#x1EED;
-            ch&#x1EE9;a n&#x1ED9;i dung</li>
-          <li>&lt;aside&gt; - &#x110;&#x1ECB;nh ngh&#x129;a n&#x1ED9;i dung n&#x1EB1;m
-            ngo&#xE0;i n&#x1ED9;i dung ch&#xED;nh(nh&#x1B0; l&#xE0; m&#x1ED9;t thanh
-            b&#xEA;n - sidebar )</li>
-          <li>&lt;footer&gt; - &#x111;&#x1ECB;nh ngh&#x129;a ph&#x1EA7;n ch&#xE2;n c&#x1EE7;a
-            trang ho&#x1EB7;c m&#x1ED9;t ph&#x1EA7;n c&#x1EE7;a trang</li>
-          <li>&lt;details&gt; - &#x111;&#x1ECB;nh ngh&#x129;a m&#x1ED9;t ph&#x1EA7;n
-            n&#x1ED9;i dung chi ti&#x1EBF;t, ng&#x1B0;&#x1EDD;i d&#xF9;ng c&#xF3; th&#x1EC3;
-            m&#x1EDF; ho&#x1EB7;c &#x111;&#xF3;ng t&#xF9;y nhu c&#x1EA7;u</li>
-          <li>&lt;summary&gt; - &#x111;&#x1ECB;nh ngh&#x129;a ph&#x1EA7;n &#x111;&#x1EA7;u
-            c&#x1EE7;a th&#x1EBB; &lt;details&gt;</li>
+          <li><code>&lt;header&gt;</code> - &#x111;&#x1ECB;nh ngh&#x129;a m&#x1ED9;t
+            header cho m&#x1ED9;t trang ho&#x1EB7;c m&#x1ED9;t ph&#x1EA7;n</li>
+          <li><code>&lt;nav&gt;</code> - &#x110;&#x1ECB;nh ngh&#x129;a m&#x1ED9;t b&#x1ED9;
+            c&#xE1;c &#x111;&#x1B0;&#x1EDD;ng d&#x1EAB;n &#x111;i&#x1EC1;u h&#x1B0;&#x1EDB;ng</li>
+          <li><code>&lt;section&gt;</code> - &#x111;&#x1ECB;nh ngh&#x129;a m&#x1ED9;t
+            ph&#x1EA7;n c&#x1EE7;a v&#x103;n b&#x1EA3;n</li>
+          <li><code>&lt;article&gt;</code> - &#x111;&#x1ECB;nh ngh&#x129;a m&#x1ED9;t
+            ph&#x1EA7;n t&#x1EED; &#x111;&#x1ED9;c l&#x1EAD;p ho&#x1EB7;c ph&#x1EA7;n
+            t&#x1EED; ch&#x1EE9;a n&#x1ED9;i dung</li>
+          <li><code>&lt;aside&gt;</code> - &#x110;&#x1ECB;nh ngh&#x129;a n&#x1ED9;i dung
+            n&#x1EB1;m ngo&#xE0;i n&#x1ED9;i dung ch&#xED;nh(nh&#x1B0; l&#xE0; m&#x1ED9;t
+            thanh b&#xEA;n - sidebar )</li>
+          <li><code>&lt;footer&gt;</code> - &#x111;&#x1ECB;nh ngh&#x129;a ph&#x1EA7;n
+            ch&#xE2;n c&#x1EE7;a trang ho&#x1EB7;c m&#x1ED9;t ph&#x1EA7;n c&#x1EE7;a
+            trang</li>
+          <li><code>&lt;details&gt;</code> - &#x111;&#x1ECB;nh ngh&#x129;a m&#x1ED9;t
+            ph&#x1EA7;n n&#x1ED9;i dung chi ti&#x1EBF;t, ng&#x1B0;&#x1EDD;i d&#xF9;ng
+            c&#xF3; th&#x1EC3; m&#x1EDF; ho&#x1EB7;c &#x111;&#xF3;ng t&#xF9;y nhu c&#x1EA7;u</li>
+          <li><code>&lt;summary&gt;</code> - &#x111;&#x1ECB;nh ngh&#x129;a ph&#x1EA7;n
+            &#x111;&#x1EA7;u c&#x1EE7;a th&#x1EBB; <code>&lt;details&gt;</code>
+          </li>
         </ul>
         <p>C&#xF3; th&#x1EC3; xem th&#xEA;m c&#xE1;c th&#x1EBB; kh&#xE1;c t&#x1EA1;i
           &#x111;&#xE2;y <a href="https://www.w3schools.com/html/html5_semantic_elements.asp">HTML Semantics</a>
@@ -240,7 +242,9 @@ trang web thiết kế responsive sử dụng HTML và CSS để tự động ch
 
 ### Set viewport - Khung nhìn
 
-&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+```markup
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+```
 
 Thẻ meta sẽ đặt giá trị viewport cho trang, nó sẽ hướng dẫn trình duyệt cách kiểm soát chiều và việc điều chỉnh việc co/dãn của trang
 
