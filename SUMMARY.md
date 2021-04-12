@@ -9,5 +9,6 @@
 * [Shinobi JS core](shinobi-js-core/README.md)
   * [Các khái niệm](shinobi-js-core/cac-khai-niem/README.md)
     * [JSON](shinobi-js-core/cac-khai-niem/json.md)
+    * [JS class](shinobi-js-core/cac-khai-niem/js-class.md)
   * [Mapping.js](shinobi-js-core/mapping.js.md)
 
