@@ -52,10 +52,31 @@ Từ [JavaScript \(ES6\)](https://www.w3schools.com/js/js_es6.asp) phiên bản 
 
 ### Kiểu dữ liệu
 
-Biến JS có thể chứa các dữ liệu kiểu String, Number, Object vân vân
+Trong JS có 5 loại kiểu dữ liệu có thể chứa giá trị
+
+* `string`
+* `number`
+* `boolean`
+* `object`
+* `function`
+
+Có 6 loại dữ liệu thuộc đối tượng
+
+* `Object`
+* `Date`
+* `Array`
+* `String`
+* `Number`
+* `Boolean`
+
+và 2 loại dữ liệu không chứa giá trị
+
+* `null`
+* `undefined`
+
+var length = 16;                               // Number
 
 ```javascript
-var length = 16;                               // Number
 var lastName = "Johnson";                      // String
 var x = {firstName:"John", lastName:"Doe"};   //object
 ```
