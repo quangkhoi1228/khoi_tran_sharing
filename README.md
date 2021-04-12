@@ -27,13 +27,13 @@
 </html>
 ```
 
-* &lt;!DOCTYPE html&gt; chỉ ra rằng tài liệu này là một tài liệu HTML5
-* &lt;html&gt; là phần tử gốc của một trang HTML
-* &lt;head&gt; chứa thông tin meta về trang HTML
-* &lt;title&gt; chỉ định tiêu đề cho trang HTML \(được hiển thị trong thanh tiêu đề của trình duyệt hoặc trong tab của trang\)
-* &lt;body&gt; xác định nội dung của tài liệu và là vùng chứa tất cả nội dung hiển thị, chẳng hạn như tiêu đề, đoạn văn, hình ảnh, siêu liên kết, bảng, danh sách, v.v.
-* &lt;h1&gt; xác định một tiêu đề lớn
-* &lt;p&gt; xác định một đoạn văn
+* `<!DOCTYPE html>` chỉ ra rằng tài liệu này là một tài liệu HTML5
+* `<html>` là phần tử gốc của một trang HTML
+* `<head>` chứa thông tin meta về trang HTML
+* `<title>` chỉ định tiêu đề cho trang HTML \(được hiển thị trong thanh tiêu đề của trình duyệt hoặc trong tab của trang\)
+* `<body>` xác định nội dung của tài liệu và là vùng chứa tất cả nội dung hiển thị, chẳng hạn như tiêu đề, đoạn văn, hình ảnh, siêu liên kết, bảng, danh sách, v.v.
+* `<h1>` xác định một tiêu đề lớn
+* `<p>` xác định một đoạn văn
 
 Kết quả:
 
@@ -43,27 +43,32 @@ Kết quả:
 
 Phần tử HTML được xác định bởi thẻ bắt đầu, một số nội dung và thẻ kết thúc:
 
-&lt;tagname&gt; Nội dung &lt;/tagname&gt;
+```markup
+<tagname> Nội dung </tagname>
+```
 
 Phần tử HTML là tất cả mọi thứ từ thẻ bắt đầu đến thẻ kết thúc:
 
-&lt;h1&gt; Tiêu đề &lt;/h1&gt;
+```markup
+<h1> Tiêu đề </h1>
+<p> Đoạn văn </p>
+```
 
-&lt;p&gt; Đoạn văn &lt;/p&gt;
 
-Lưu ý: Một số phần tử HTML không có nội dung \(như phần tử &lt;br&gt;\). Các phần tử này được gọi là phần tử rỗng. Các phần tử trống không có thẻ kết thúc!
+
+Lưu ý: Một số phần tử HTML không có nội dung \(như phần tử `<br>`\). Các phần tử này được gọi là phần tử rỗng. Các phần tử trống không có thẻ kết thúc!
 
 ## Các thẻ HTML căn bản
 
-&lt;h1&gt; đến &lt;h6&gt;: tiêu đề
+`<h1>` đến `<h6>`: tiêu đề
 
-&lt;p&gt;: đoạn văn bản
+`<p>`: đoạn văn bản
 
-&lt;a&gt;: đường dẫn
+`<a>`: đường dẫn
 
 \*Chi tiết các thẻ: [https://htmlreference.io/](https://htmlreference.io/)
 
-\*Các thẻ HTML không phân biệt hoa thường &lt;H1&gt; giống với &lt;h1&gt; nhưng khuyến khích viết chữ thường
+\*Các thẻ HTML không phân biệt hoa thường `<H1>` giống với `<h1>` nhưng khuyến khích viết chữ thường
 
 ## Thuộc tính HTML
 
@@ -74,12 +79,12 @@ Lưu ý: Một số phần tử HTML không có nội dung \(như phần tử &l
 
 Ví dụ:
 
-* Thuộc tính href của &lt;a&gt; quy định cụ thể các URL của trang liên kết đi vào
-* Thuộc tính src của &lt;img&gt; quy định cụ thể đường dẫn đến hình ảnh sẽ được hiển thị
-* Thuộc tính width và height cung cấp thông tin kích thước cho hình ảnh &lt;img&gt;
-* Thuộc tính alt của &lt;img&gt; cung cấp một văn bản thay thế cho hình ảnh
+* Thuộc tính href của `<a>` quy định cụ thể các URL của trang liên kết đi vào
+* Thuộc tính src của `<img>` quy định cụ thể đường dẫn đến hình ảnh sẽ được hiển thị
+* Thuộc tính width và height cung cấp thông tin kích thước cho hình ảnh `<img>`
+* Thuộc tính alt của `<img>` cung cấp một văn bản thay thế cho hình ảnh
 * Thuộc tính style được sử dụng để thêm phong cách cho một yếu tố, chẳng hạn như màu sắc, font chữ, kích thước, và nhiều hơn nữa
-* Thuộc tính lang của &lt;html&gt; tuyên bố ngôn ngữ của trang web
+* Thuộc tính lang của `<html>` tuyên bố ngôn ngữ của trang web
 
 \*Chi tiết: [https://www.w3schools.com/tags/ref\_attributes.asp](https://www.w3schools.com/tags/ref_attributes.asp)
 
@@ -89,15 +94,20 @@ Style là thuộc tính HTML được sử dụng để thêm kiểu vào một 
 
 Cú pháp:
 
- &lt;_tagname_ style="_property_:_value;_"&gt;
+```markup
+ <tagname style="property:value;">
+```
 
-* Property là 1 Css property
-* Value là 1 Css value
+Property là 1 CSS property
+
+Value là 1 Css value
 
 Ví dụ:
 
-&lt;**h1** style="background-color:powderblue;"&gt;This is a heading&lt;/**h1**&gt;  
-&lt;**p** style="background-color:tomato;"&gt;This is a paragraph.&lt;/**p**&gt;
+```markup
+<h1 style="background-color:powderblue;">This is a heading</h1>
+<p style="background-color:tomato;">This is a paragraph.</p>
+```
 
 ![](.gitbook/assets/1%20%281%29.png)
 
@@ -109,22 +119,33 @@ Ví dụ:
 
 Ví dụ:
 
-&lt;!DOCTYPE html&gt;  
-&lt;**html**&gt;  
-&lt;**head**&gt;  
-&lt;**style**&gt;  
-body {background-color: powderblue;}  
-h1 {color: blue;}  
-p {color: red;}  
-&lt;/**style**&gt;  
-&lt;/**head**&gt;  
-&lt;**body**&gt;
+```markup
+<!DOCTYPE html>
+<html>
 
-&lt;**h1**&gt;This is a heading&lt;/**h1**&gt;  
-&lt;**p**&gt;This is a paragraph.&lt;/**p**&gt;
+<head>
+    <style>
+        body {
+            background-color: powderblue;
+        }
 
-&lt;/**body**&gt;  
-&lt;/**html**&gt;
+        h1 {
+            color: blue;
+        }
+
+        p {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>This is a heading</h1>
+    <p>This is a paragraph.</p>
+</body>
+
+</html>
+```
 
 ![](.gitbook/assets/2%20%281%29.png)
 
@@ -134,20 +155,20 @@ JavaScript làm cho các trang HTML trở nên động và tương tác hơn.
 
 Ví dụ:
 
-&lt;!DOCTYPE html&gt;  
-&lt;**html**&gt;  
-&lt;**body**&gt;
+```markup
+<!DOCTYPE html>
+<html>
 
-&lt;**h1**&gt;My First JavaScript&lt;/**h1**&gt;
+<body>
+    <h1>My First JavaScript</h1>
+    <button type="button"
+        onclick="document.getElementById('demo').innerHTML = Date()">
+        Click me to display Date and Time.</button>
+    <p id="demo"></p>
+</body>
 
-&lt;**button** type="button"  
-onclick="document.getElementById\('demo'\).innerHTML = Date\(\)"&gt;  
-Click me to display Date and Time.&lt;/**button**&gt;
-
-&lt;**p** id="demo"&gt;&lt;/**p**&gt;
-
-&lt;/**body**&gt;  
-&lt;/**html**&gt;
+</html>
+```
 
 ![](.gitbook/assets/3.png)
 
