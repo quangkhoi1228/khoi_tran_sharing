@@ -1,6 +1,6 @@
 # CSS
 
-## Css là gì
+## CSS là gì
 
 * CSS viết tắt của Cascading Style Sheets
 * CSS miêu tả phần tử HTML được hiển thị như thế nào trên màn hình
