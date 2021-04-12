@@ -171,7 +171,84 @@ if (hour < 18) {
 
 ### Câu lệnh else if
 
+Sử dụng câu lệnh `else if` để định nghĩa 1 điều kiện mới điều kiện đầu tiên `false`
 
+```javascript
+if (condition1) {
+  //  block of code to be executed if condition1 is true
+} else if (condition2) {
+  //  block of code to be executed if the condition1 is false and condition2 is true
+} else {
+  //  block of code to be executed if the condition1 is false and condition2 is false
+}
+```
 
-##  
+Ví dụ:
+
+```javascript
+if (time < 10) {
+  greeting = "Good morning";
+} else if (time < 20) {
+  greeting = "Good day";
+} else {
+  greeting = "Good evening";
+}
+//Good day
+```
+
+### Câu lệnh switch
+
+Sử dụng câu lệnh `switch` để chọn 1 trong nhiều khối code để thực thi
+
+```javascript
+switch(expression) {
+  case x:
+    // code block
+    break;
+  case y:
+    // code block
+    break;
+  default:
+    // code block
+}
+```
+
+Cách xử lý:
+
+* Biểu thức `switch` được đánh giá 1 lần
+* Giá trị của biểu thức sẽ được so sánh với giá trị của mỗi `case` 
+* Nếu khớp, khối code liên kết với `case` đó sẽ được thực thi
+* Nếu không có trường hợp nào khớp, khối code `default` sẽ được thực thi 
+
+Ví dụ:
+
+```javascript
+//new Date().getDay() lấy về thứ tự hiện tại của ngày trong tuần 
+//từ 0 đến 6
+switch (new Date().getDay()) {
+  case 0:
+    day = "Sunday";
+    break;
+  case 1:
+    day = "Monday";
+    break;
+  case 2:
+     day = "Tuesday";
+    break;
+  case 3:
+    day = "Wednesday";
+    break;
+  case 4:
+    day = "Thursday";
+    break;
+  case 5:
+    day = "Friday";
+    break;
+  case 6:
+    day = "Saturday";
+}
+//"Monday"
+```
+
+###  
 
