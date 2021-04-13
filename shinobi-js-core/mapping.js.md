@@ -148,9 +148,15 @@ Lấy dữ liệu có thể có trong tập con của phần tử và trả về
 shinobi.mapping.getValue(selector,callback,options)
 ```
 
+### getValueElement\(element,callback,options\)
 
+Lấy dữ liệu có thể có trong tập con của phần tử và trả về dữ liệu dạng JSON
 
+```julia
+shinobi.mapping.getValueElement(element,callback,options)
+```
 
+### 
 
 
 
