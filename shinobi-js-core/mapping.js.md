@@ -583,6 +583,8 @@ Lưu ý:
 * mapping.js không tự thêm giá trị của `snb-key`, muốn thêm giá trị html ta khai báo `snb-key-html="keyName"` và `snb-key-value="keyName"` nếu muốn thêm giá trị `value` cho các thẻ form HTML
 {% endhint %}
 
+
+
 ## Lấy dữ liệu từ giao diện
 
 ### getValue/getValueElement
@@ -676,9 +678,17 @@ hàm `getValue` và hàm `getValueElement` giống nhau cách sử dụng và c�
 
 hai hàm này đều có nhiệm vụ lấy dữ liệu dạng JSON từ giao diện cụ thể hơn các cặp key-value của `json` trả về sẽ được lấy từ các thẻ con của phần tử `selector` hoặc `element` khai báo tại input của hàm dựa vào cách khai báo tại các thẻ con.
 
+Mặc định mapping.js chỉ lấy giá trị của các form HTML, nếu muốn lấy thêm giá trị của các thẻ HTML thường, có thể tham khảo bảng các thuộc tính `options` sau đây
+
+| Thuộc tính | Mặc định | Diễn giải |
+| :--- | :--- | :--- |
+| getHtml | false | Khi bằng `true` lấy giá trị cả các phần tử HTML thường, `key`: `snb-key` của phần tử, `value`: innerHTML của thẻ |
+| getText | false | Khi bằng `true` lấy giá trị cả các phần tử HTML thường, `key`: `snb-key` của phần tử, `value`: innerText của thẻ |
+| checkEmpty | false | Khi bằng `true` nếu thẻ form HTML lấy giá trị chưa có giá trị, phần tử sẽ bị hightlight đỏ theo các class Bulma |
+
 ### snb-key
 
-thuộc tính này dùng để xác định phần tử con này có thể được lấy giá trị giá trị `value` thuộc `key` của phần tử nào sẽ nào của `json` sẽ được gán vào giao diện, cụ thể hơn giá trị `value` của key sẽ được thêm vào nội dung thẻ hoặc thẻ được gán giá trị bằng `value` nếu thẻ là form HTML
+thuộc tính này dùng để xác định phần tử con này có thể được lấy giá trị bằng hàm `getValue` hoặc `getValueElement` , còn giá trị `key-value` được lấy ra tùy thuộc vào cách khai báo trên các phần tử con
 
 {% tabs %}
 {% tab title="Cú pháp" %}
@@ -689,10 +699,8 @@ thuộc tính này dùng để xác định phần tử con này có thể đư�
 
 {% tab title="code" %}
 ```markup
-<div id="container">
-    <p>Giá trị của key "name": <span snb-key="name"></span></p>
-    <p>Giá trị của key "age": <span snb-key="age"></span></p>
-</div>
+<input type="text" snb-key="name" value="Khôi">
+<input type="text" snb-key="age" value="23">
 ```
 {% endtab %}
 
@@ -711,17 +719,20 @@ thuộc tính này dùng để xác định phần tử con này có thể đư�
 
 <body>
     <div id="container">
-        <p>Giá trị của key "name": <span snb-key="name"></span></p>
-        <p>Giá trị của key "age": <span snb-key="age"></span></p>
+        <input type="text" snb-key="name" value="Khôi">
+        <input type="text" snb-key="age" value="23">
     </div>
 
     <script>
         document.addEventListener('DOMContentLoaded', () => {
-            var json = {
-                name: 'Khôi',
-                age: 23,
-            };
-            shinobi.mapping.render('#container', JSON.stringify(json));
+            shinobi.mapping.getValue('#container', function (jsonMapping) {
+                console.log(jsonMapping);
+            });
+
+            var container = document.getElementById('container');
+            shinobi.mapping.getValueElement(container, function (jsonMapping) {
+                console.log(jsonMapping)
+            })
         });
 
     </script>
@@ -732,190 +743,19 @@ thuộc tính này dùng để xác định phần tử con này có thể đư�
 {% endtab %}
 
 {% tab title="kết quả" %}
-![](../.gitbook/assets/image%20%284%29.png)
+![](../.gitbook/assets/image%20%2814%29.png)
 {% endtab %}
 {% endtabs %}
 
-{% hint style="info" %}
-Các trường hợp gán giá trị:
-
-* Với thẻ HTML bình thường: value sẽ gán làm innerHTML của thẻ
-* Với thẻ form HTML:
-  * input \(dựa vào thuộc tính `type` của input\)
-    * checkbox: giá trị gán vào thuộc tính `checked`
-    * radio: nếu `value` khớp với thuộc tính `radio-value` thì thuộc tính `checked=true` và ngược lại
-    * còn lại gán vào thuộc tính `value` của thẻ
-  * select: gán vào thuộc tính `value` của thẻ
-  * còn lại: gán vào thuộc tính `value` của thẻ
-{% endhint %}
-
-### snb-format
-
-thuộc tính này dùng để format giá trị dạng số, khai báo `snb-format="number"` để sử dụng
+Cụ thể việc xác định `key` và `value` được xác định như sau:
 
 {% hint style="info" %}
-Cần thêm util.js để sử dụng thuộc tính này
+mặc định mapping.js chỉ lấy giá trị của các thẻ form HTML và editor, nếu bạn muốn lấy giá trị value bao gồm cả các phần tử con của 
 {% endhint %}
-
-{% tabs %}
-{% tab title="Cú pháp" %}
-```markup
-<tagname snb-key="keyName" snb-format="number"> some default content </tagname>
-```
-{% endtab %}
-
-{% tab title="code" %}
-```markup
-<div id="container">
-    <p>Giá trị của key "name": <span snb-key="name"></span></p>
-    <p>key "myMoney": <span snb-key="myMoney"></span></p>
-    <p>key "myMoney": <span snb-key="myMoney" snb-format="number"></span>
-    </p>
-    <p>key "myMoney": <span snb-key="myMoney" snb-format="string"></span>
-    </p>
-</div>
-```
-{% endtab %}
-
-{% tab title="ví dụ" %}
-```markup
-<!DOCTYPE html>
-<html>
-
-<head>
-    <script>
-        shinobi = {};
-    </script>
-    <script
-        src="https://www.aladin.finance/static/js/component/mapping.js"></script>
-    <script
-        src="https://www.aladin.finance/static/js/component/util.js"></script>
-</head>
-
-<body>
-    <div id="container">
-        <p>Giá trị của key "name": <span snb-key="name"></span></p>
-        <p>key "myMoney": <span snb-key="myMoney"></span></p>
-        <p>key "myMoney": <span snb-key="myMoney" snb-format="number"></span>
-        </p>
-        <p>key "myMoney": <span snb-key="myMoney" snb-format="string"></span>
-        </p>
-    </div>
-
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            var json = {
-                name: 'Khôi',
-                age: 23,
-                myMoney: 1234567890
-            };
-            shinobi.mapping.render('#container', JSON.stringify(json));
-        });
-
-    </script>
-</body>
-
-</html>
-```
-{% endtab %}
-
-{% tab title="kết quả" %}
-![](../.gitbook/assets/image%20%2812%29.png)
-{% endtab %}
-{% endtabs %}
-
-### snb-render
-
-Đôi khi ta cần xử lý giá trị trước khi đưa lên giao diện hoặc thực hiện các thao tác khác liên quan đến thẻ HTML đang quan tâm, ta sử dụng `snb-render`
-
-`snb-render`là một hàm có 3 biến đầu vào `element`, `snbKeyValue`, và `json`
-
-{% hint style="info" %}
-Lưu ý: 
-
-* Khi có `snb-render` giá trị sẽ không tự động được gán vào phần tử
-* khi có`snb-render` trong phần tử sẽ vô hiệu hóa thuộc tính `snb-format`
-{% endhint %}
-
-{% tabs %}
-{% tab title="Cú pháp" %}
-```javascript
-function functionName(element,snbKeyValue,json){
-    ...
-}
-```
-{% endtab %}
-
-{% tab title="code" %}
-```javascript
-function dynamicColor(element, snbKeyValue, json) {
-    if (snbKeyValue < 40) {
-        element.style.color = 'red';
-    } else {
-        element.style.color = 'green';
-    }
-    element.innerHTML = snbKeyValue;
-};
-```
-{% endtab %}
-
-{% tab title="ví dụ" %}
-```markup
-<!DOCTYPE html>
-<html>
-
-<head>
-    <script>
-        shinobi = {};
-    </script>
-    <script
-        src="https://www.aladin.finance/static/js/component/mapping.js"></script>
-    <script
-        src="https://www.aladin.finance/static/js/component/util.js"></script>
-</head>
-
-<body>
-    <div id="container">
-        <p>Giá trị của key "name": <span snb-key="name"></span></p>
-        <p>key "age": <span snb-key="age" snb-render="dynamicColor"></span>
-        </p>
-        <p>key "myMoney": <span snb-key="myMoney" snb-render="dynamicColor"></span>
-        </p>
-    </div>
-
-    <script>
-        function dynamicColor(element, snbKeyValue, json) {
-            if (snbKeyValue < 40) {
-                element.style.color = 'red';
-            } else {
-                element.style.color = 'green';
-            }
-            element.innerHTML = snbKeyValue;
-        };
-        document.addEventListener('DOMContentLoaded', () => {
-            var json = {
-                name: 'Khôi',
-                age: 23,
-                myMoney: 1234567890
-            };
-            shinobi.mapping.render('#container', JSON.stringify(json));
-        });
-
-    </script>
-</body>
-
-</html>
-```
-{% endtab %}
-
-{% tab title="kết quả" %}
-![](../.gitbook/assets/image%20%2811%29.png)
-{% endtab %}
-{% endtabs %}
 
 ### snb-editor-index
 
-khi muốn sử dụng mapping.js để gán hoặc lấy dữ liệu của 1 editor ta thêm thuộc tính snb-editor-index cho thẻ init của editor
+khi muốn sử dụng mapping.js để lấy dữ liệu của 1 editor ta thêm thuộc tính snb-editor-index cho thẻ init của editor
 
 {% tabs %}
 {% tab title="Cú pháp" %}
@@ -927,7 +767,9 @@ khi muốn sử dụng mapping.js để gán hoặc lấy dữ liệu của 1 ed
 
 {% tab title="code" %}
 ```markup
-<div id="editor" snb-key="name" snb-editor-index="0"></div>
+<div id="container">
+    <div id="editor" snb-key="name" snb-editor-index="0">editor content</div>
+</div>
 ```
 {% endtab %}
 
@@ -949,20 +791,21 @@ khi muốn sử dụng mapping.js để gán hoặc lấy dữ liệu của 1 ed
 
 <body>
     <div id="container">
-        <p>Giá trị của key "name": <span snb-key="name"></span></p>
-        <div id="editor" snb-key="name" snb-editor-index="0"></div>
+        <div id="editor" snb-key="name" snb-editor-index="0">editor content</div>
     </div>
 
     <script>
         document.addEventListener('DOMContentLoaded', () => {
             CKEDITOR.replace('editor');
 
-            var json = {
-                name: 'Khôi',
-                age: 23,
-                myMoney: 1234567890
-            };
-            shinobi.mapping.render('#container', JSON.stringify(json));
+            shinobi.mapping.getValue('#container', function (jsonMapping) {
+                console.log(jsonMapping);
+            });
+
+            var container = document.getElementById('container');
+            shinobi.mapping.getValueElement(container, function (jsonMapping) {
+                console.log(jsonMapping)
+            })
         });
 
     </script>
@@ -973,7 +816,7 @@ khi muốn sử dụng mapping.js để gán hoặc lấy dữ liệu của 1 ed
 {% endtab %}
 
 {% tab title="kết quả" %}
-![](../.gitbook/assets/image%20%283%29.png)
+![](../.gitbook/assets/image%20%2813%29.png)
 {% endtab %}
 {% endtabs %}
 
