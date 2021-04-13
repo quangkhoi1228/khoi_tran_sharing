@@ -145,7 +145,7 @@ giá trị của phần tử
 {% endtab %}
 
 {% tab title="kết quả" %}
-![](../.gitbook/assets/image%20%283%29.png)
+![](../.gitbook/assets/image%20%285%29.png)
 {% endtab %}
 {% endtabs %}
 
@@ -203,13 +203,78 @@ thuộc tính này dùng để xác định giá trị `value` thuộc `key` nà
 {% endtab %}
 
 {% tab title="kết quả" %}
-![](../.gitbook/assets/image.png)
+![](../.gitbook/assets/image%20%283%29.png)
 {% endtab %}
 {% endtabs %}
 
 ### snb-format
 
 thuộc tính này dùng để format giá trị dạng số
+
+{% hint style="info" %}
+Cần thêm util.js để sử dụng thuộc tính này
+{% endhint %}
+
+{% tabs %}
+{% tab title="code" %}
+```markup
+<div id="container">
+    <p>Giá trị của key "name": <span snb-key="name"></span></p>
+    <p>key "myMoney": <span snb-key="myMoney"></span></p>
+    <p>key "myMoney": <span snb-key="myMoney" snb-format="number"></span>
+    </p>
+    <p>key "myMoney": <span snb-key="myMoney" snb-format="string"></span>
+    </p>
+</div>
+```
+{% endtab %}
+
+{% tab title="ví dụ" %}
+```markup
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script>
+        shinobi = {};
+    </script>
+    <script
+        src="https://www.aladin.finance/static/js/component/mapping.js"></script>
+    <script
+        src="https://www.aladin.finance/static/js/component/util.js"></script>
+</head>
+
+<body>
+    <div id="container">
+        <p>Giá trị của key "name": <span snb-key="name"></span></p>
+        <p>key "myMoney": <span snb-key="myMoney"></span></p>
+        <p>key "myMoney": <span snb-key="myMoney" snb-format="number"></span>
+        </p>
+        <p>key "myMoney": <span snb-key="myMoney" snb-format="string"></span>
+        </p>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            var json = {
+                name: 'Khôi',
+                age: 23,
+                myMoney: 1234567890
+            };
+            shinobi.mapping.render('#container', JSON.stringify(json));
+        });
+
+    </script>
+</body>
+
+</html>
+```
+{% endtab %}
+
+{% tab title="kết quả" %}
+![](../.gitbook/assets/image%20%286%29.png)
+{% endtab %}
+{% endtabs %}
 
 
 
