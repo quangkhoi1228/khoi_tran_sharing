@@ -678,7 +678,7 @@ hai hàm này đều có nhiệm vụ lấy dữ liệu dạng JSON từ giao di
 
 ### snb-key
 
-thuộc tính này dùng để xác định giá trị `value` thuộc `key` nào của `json` sẽ được gán vào giao diện, cụ thể hơn giá trị `value` của key sẽ được thêm vào nội dung thẻ hoặc thẻ được gán giá trị bằng `value` nếu thẻ là form HTML
+thuộc tính này dùng để xác định giá trị `value` thuộc `key` của phần tử nào sẽnào của `json` sẽ được gán vào giao diện, cụ thể hơn giá trị `value` của key sẽ được thêm vào nội dung thẻ hoặc thẻ được gán giá trị bằng `value` nếu thẻ là form HTML
 
 {% tabs %}
 {% tab title="Cú pháp" %}
