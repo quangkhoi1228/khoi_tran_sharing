@@ -203,13 +203,37 @@ shinobi.mapping.replaceFormWithLabelElement(element)
 shinobi.mapping.replaceFormWithLabelSnbKey(element)
 ```
 
+### checkPreProcess\(element,options\)
 
+biến đổi dữ liệu trả về tùy vào các thuộc tính `options`
 
+```javascript
+shinobi.mapping.checkPreProcess(element,options)
+```
 
+### getValueShinobiEditor\(element,options\)
 
+lấy dữ liệu từ phần tử dạng editor dựa vào các thuộc tính `options`
 
+```javascript
+shinobi.mapping.getValueShinobiEditor(element,options)
+```
 
+### clear\(selector,callback,options\)
 
+xóa dữ liệu các phần tử có chứa snbKey dựa vào các cấu hình `options`
+
+```javascript
+shinobi.mapping.clear(selector,callback,options)
+```
+
+### clearElement\(element,callback,options\)
+
+xóa dữ liệu các phần tử có chứa snbKey dựa vào các cấu hình `options`
+
+```javascript
+shinobi.mapping.clearElement(element,callback,options)
+```
 
 
 
