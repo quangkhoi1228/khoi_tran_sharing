@@ -228,6 +228,19 @@ thuộc tính này dùng để xác định giá trị `value` thuộc `key` nà
 {% endtab %}
 {% endtabs %}
 
+{% hint style="info" %}
+Các trường hợp gán giá trị:
+
+* Với thẻ HTML bình thường: value sẽ gán làm innerHTML của thẻ
+* Với thẻ form HTML:
+  * input \(dựa vào thuộc tính `type` của input\)
+    * checkbox: giá trị gán vào thuộc tính `checked`
+    * radio: nếu `value` khớp với thuộc tính `radio-value` thì thuộc tính `checked=true` và ngược lại
+    * còn lại gán vào thuộc tính `value` của thẻ
+  * select: gán vào thuộc tính `value` của thẻ
+  * còn lại: gán vào thuộc tính `value` của thẻ
+{% endhint %}
+
 ### snb-format
 
 thuộc tính này dùng để format giá trị dạng số, khai báo `snb-format="number"` để sử dụng
@@ -299,7 +312,7 @@ Cần thêm util.js để sử dụng thuộc tính này
 {% endtab %}
 
 {% tab title="kết quả" %}
-![](../.gitbook/assets/image%20%288%29.png)
+![](../.gitbook/assets/image%20%289%29.png)
 {% endtab %}
 {% endtabs %}
 
@@ -388,7 +401,7 @@ function dynamicColor(element, snbKeyValue, json) {
 {% endtab %}
 
 {% tab title="kết quả" %}
-![](../.gitbook/assets/image%20%287%29.png)
+![](../.gitbook/assets/image%20%288%29.png)
 {% endtab %}
 {% endtabs %}
 
@@ -456,11 +469,118 @@ khi muốn sử dụng mapping.js để gán hoặc lấy dữ liệu của 1 ed
 {% endtab %}
 {% endtabs %}
 
+### multiple snbKeyValue
 
+Đôi khi ta cần gán nhiều giá trị `value` của `json` vào các thuộc tính khác nhau lên cùng 1 thẻ mà không cần sử dụng `snb-render`, ta sử dụng `multiple snbKeyValue`
 
+{% tabs %}
+{% tab title="Cú pháp" %}
+```markup
+<tagname 
+snb-key="rootKey" 
+snb-key-attribute1="keyName1" 
+snb-key-attribute2="keyName2" 
+snb-key-innerhtml="keyName3"
+> 
+content 
+</tagname>
 
+```
+{% endtab %}
 
+{% tab title="code" %}
+```markup
+<div id="container">
+    <p>key "name":
+        <a snb-key="name" snb-key-title="name" snb-key-alt="age"
+            snb-key-href="myPage">Nội dung không có innerHTML</a>
+    </p>
 
+    <p>
+        <input type="text" snb-key="name" snb-key-name="name"
+            snb-key-placeholder="myPage" style="
+            width: 20rem;
+        ">
+    </p>
+
+    <p>key "name":
+        <a snb-key="name" snb-key-title="name" snb-key-alt="age"
+            snb-key-href="myPage" snb-key-innerhtml="name">Nội dung không có
+            innerHTML</a>
+    </p>
+
+    <p>
+        <input type="text" snb-key="name" snb-key-name="name"
+            snb-key-placeholder="myPage" snb-key-value="name" style="
+            width: 20rem;
+        ">
+    </p>
+</div>
+```
+{% endtab %}
+
+{% tab title="ví dụ" %}
+```markup
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script>
+        shinobi = {};
+    </script>
+    <script
+        src="https://www.aladin.finance/static/js/component/mapping.js"></script>
+</head>
+
+<body>
+    <div id="container">
+        <p>key "name": <a snb-key="name" snb-key-title="name" snb-key-alt="age"
+                snb-key-href="myPage">Nội dung không có innerHTML</a></p>
+        <p><input type="text" snb-key="name" snb-key-name="name"
+                snb-key-placeholder="myPage" style="
+                width: 20rem;
+            "></p>
+        <p>key "name": <a snb-key="name" snb-key-title="name" snb-key-alt="age"
+                snb-key-href="myPage" snb-key-innerhtml="name">Nội dung không có
+                innerHTML</a></p>
+        <p><input type="text" snb-key="name" snb-key-name="name"
+                snb-key-placeholder="myPage" snb-key-value="name" style="
+                width: 20rem;
+            "></p>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+
+            var json = {
+                name: 'Khôi',
+                age: 23,
+                myMoney: 1234567890,
+                myPage: 'https://quangkhoi1228.gitbook.io/'
+            };
+            shinobi.mapping.render('#container', JSON.stringify(json));
+        });
+
+    </script>
+</body>
+
+</html>
+```
+{% endtab %}
+
+{% tab title="" %}
+![](../.gitbook/assets/image%20%287%29.png)
+{% endtab %}
+{% endtabs %}
+
+Ta cần khai báo thuộc tính `snb-key="keyName"` để đánh dấu sự ảnh hưởng của mapping.js lên thẻ, khai báo giá trị được gán cho thuộc tính của thẻ theo cú pháp `snb-key-attributeName="keyName"`
+
+{% hint style="info" %}
+Lưu ý:
+
+* Luôn cần khai báo thuộc tính mồi `snb-key="keyName"`
+* mapping.js không tự thêm giá trị của `snb-key`, muốn thêm giá trị html ta khai báo `snb-key-html="keyName"` và `snb-key-value="keyName"` nếu muốn thêm giá trị `value` cho các thẻ form HTML
+{% endhint %}
 
 
 
