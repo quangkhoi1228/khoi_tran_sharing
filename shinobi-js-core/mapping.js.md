@@ -761,7 +761,6 @@ khi muốn sử dụng mapping.js để lấy dữ liệu của 1 editor ta thê
 {% tab title="Cú pháp" %}
 ```markup
 <tagname snb-key="keyname" snb-editor-index="editorIndex"></tagname>
-
 ```
 {% endtab %}
 
