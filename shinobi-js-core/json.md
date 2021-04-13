@@ -38,7 +38,9 @@ JSON chấp nhận 1 trong các kiểu dữ liệu dưới đây:
 * a boolean
 * _null_
 
-> Lưu ý: JSON có thể gán giá trị là 1 hàm\(function\) nhưng khi sử dụng hàm JSON.stringify, JSON.parse giá trị chứa hàm sẽ mất
+{% hint style="info" %}
+Lưu ý: JSON có thể gán giá trị là 1 hàm\(function\) nhưng khi sử dụng hàm JSON.stringify, JSON.parse giá trị chứa hàm sẽ mất 
+{% endhint %}
 
 Ví dụ:
 
@@ -230,7 +232,9 @@ console.log(obj.name + ", " + obj.age());
 //John, 30
 ```
 
-> Hàm eval dùng để thực thi 1 đoạn code JS
+{% hint style="info" %}
+Hàm eval dùng để thực thi 1 đoạn code JS 
+{% endhint %}
 
 Cú pháp:
 

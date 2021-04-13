@@ -110,7 +110,7 @@ giá trị của phần tử
 ```
 {% endtab %}
 
-{% tab title="simple example" %}
+{% tab title="ví dụ" %}
 ```markup
 <!DOCTYPE html>
 <html>
@@ -143,13 +143,89 @@ giá trị của phần tử
 </html>
 ```
 {% endtab %}
+
+{% tab title="kết quả" %}
+![](../.gitbook/assets/image%20%283%29.png)
+{% endtab %}
 {% endtabs %}
 
-hàm `render` và hàm `renderElement` giống nhau cách sử dụng và các cấu hình, chỉ khác nhau input đầu vào của hàm,
+hàm `render` và hàm `renderElement` giống nhau cách sử dụng và các cấu hình, chỉ khác nhau input đầu vào của hàm.
 
-hai hàm này đều có nhiệm vụ đưa dữ liệu dạng JSON lên giao diện
+hai hàm này đều có nhiệm vụ đưa dữ liệu dạng JSON lên giao diện cụ thể hơn các cặp key-value của `json` sẽ được đưa vào các thẻ con của phần tử `selector` hoặc `element` khai báo tại input của hàm
 
 ### snb-key
+
+thuộc tính này dùng để xác định giá trị `value` thuộc `key` nào của `json` sẽ được gán vào giao diện
+
+{% tabs %}
+{% tab title="code" %}
+```markup
+<div id="container">
+    <p>Giá trị của key "name": <span snb-key="name"></span></p>
+    <p>Giá trị của key "age": <span snb-key="age"></span></p>
+</div>
+```
+{% endtab %}
+
+{% tab title="ví dụ" %}
+```markup
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script>
+        shinobi = {};
+    </script>
+    <script
+        src="https://www.aladin.finance/static/js/component/mapping.js"></script>
+</head>
+
+<body>
+    <div id="container">
+        <p>Giá trị của key "name": <span snb-key="name"></span></p>
+        <p>Giá trị của key "age": <span snb-key="age"></span></p>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            var json = {
+                name: 'Khôi',
+                age: 23,
+            };
+            shinobi.mapping.render('#container', JSON.stringify(json));
+        });
+
+    </script>
+</body>
+
+</html>
+```
+{% endtab %}
+
+{% tab title="kết quả" %}
+![](../.gitbook/assets/image.png)
+{% endtab %}
+{% endtabs %}
+
+### snb-format
+
+thuộc tính này dùng để format giá trị dạng số
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
