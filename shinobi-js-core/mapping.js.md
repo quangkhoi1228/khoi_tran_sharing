@@ -987,19 +987,6 @@ Khi muốn chuẩn hóa kiểu dữ liệu của giá trị trước khi gán v�
 {% endtab %}
 {% endtabs %}
 
-Ta cần khai báo thuộc tính `snb-key="keyName"` để đánh dấu sự ảnh hưởng của mapping.js lên thẻ, khai báo giá trị được gán cho thuộc tính của thẻ theo cú pháp `snb-key-attributeName="keyName"`
-
-{% hint style="info" %}
-Lưu ý:
-
-* Luôn cần khai báo thuộc tính mồi `snb-key="keyName"`
-* mapping.js không tự thêm giá trị của `snb-key`, muốn thêm giá trị html ta khai báo `snb-key-html="keyName"` và `snb-key-value="keyName"` nếu muốn thêm giá trị `value` cho các thẻ form HTML
-{% endhint %}
-
-
-
-
-
 
 
 
