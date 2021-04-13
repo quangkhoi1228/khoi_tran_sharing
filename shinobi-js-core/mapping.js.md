@@ -40,17 +40,78 @@ mapping.js là một thư viện đơn giản để tương tác với giao di�
 </html>
 ```
 
+## Thuật ngữ/Khái niệm
 
+### selector
 
-## API
-
-### render \(element, json\)
-
-Dùng để đưa dữ liệu JSON lên giao diện
+DOM query selector đầu vào của hàm `document.querySelector` hoặc `document.querySelectorAll`
 
 ```markup
-shinobi.mapping.render(element,json)
+#id1
+.class1
+.class1.class2
 ```
+
+### json
+
+dữ liệu có định dạng JSON
+
+```css
+{
+    name : "Khôi",
+    age: 23,
+}
+```
+
+### jsonString
+
+chuỗi chứa nội dung có định dạng JSON
+
+```javascript
+''
+```
+
+## Các hàm hỗ trợ
+
+### render \(selector, jsonString\)
+
+Đưa dữ liệu lên giao diện
+
+```
+shinobi.mapping.render(selector,jsonString)
+```
+
+### renderElement\(element,json\)
+
+Đưa dữ liệu lên giao diện
+
+```javascript
+shinobi.mapping.renderElement(element,json)
+```
+
+### renderSelector\(element,json,snbKey\)
+
+Đưa dữ liệu vài phần tử
+
+```javascript
+shinobi.mapping.renderSelector(element,json,snbKey)
+```
+
+### 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
