@@ -79,7 +79,14 @@ một biến kiểu JSON quy định một số khai báo phụ của hàm
 }
 ```
 
+### snbKeyValue
 
+giá trị của phần tử
+
+```javascript
+12
+'Giá trị'
+```
 
 
 
@@ -156,11 +163,45 @@ Lấy dữ liệu có thể có trong tập con của phần tử và trả về
 shinobi.mapping.getValueElement(element,callback,options)
 ```
 
-### 
+### handleOptionMapping\(element,snbKeyValue,options\)
 
+áp dụng các thay đổi lên phần tử dựa theo các `options` được khai báo
 
+```javascript
+shinobi.mapping.handleOptionMapping(element,snbKeyValue,options)
+```
 
+### getValueMappingNormalTag\(element,options\)
 
+lấy giá trị của element HTML
+
+```javascript
+shinobi.mapping.getValueMappingNormalTag(element,options)
+```
+
+### replaceFormWithLabel\(selector\)
+
+đổi các phần tử con của phần tử `selector` từ form HTML thành dạng text HTML
+
+```javascript
+shinobi.mapping.replaceFormWithLabel(selector)
+```
+
+### replaceFormWithLabelElement\(element\)
+
+đổi các phần tử con của phần tử `element` từ form HTML thành dạng text HTML
+
+```javascript
+shinobi.mapping.replaceFormWithLabelElement(element)
+```
+
+### replaceFormWithLabelSnbKey\(element\)
+
+đổi phần tử form HTML thành dạng text HTML
+
+```javascript
+shinobi.mapping.replaceFormWithLabelSnbKey(element)
+```
 
 
 
