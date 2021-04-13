@@ -985,7 +985,146 @@ Khi muốn chuẩn hóa kiểu dữ liệu của giá trị trước khi gán v�
 {% endtab %}
 {% endtabs %}
 
+## Xóa dữ liệu trên giao diện
 
+### render/renderElement
+
+{% tabs %}
+{% tab title="code" %}
+```markup
+<p id="demo" snb-key="name"></p>
+<p class="demo1" snb-key="age"></p>
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        var json = {
+            name: 'Khôi',
+            age: 23,
+        };
+        shinobi.mapping.render('#demo', JSON.stringify(json));
+        var container = document.querySelector('demo1');
+        shinobi.mapping.renderElement(container,json);
+    });
+</script>
+```
+{% endtab %}
+
+{% tab title="ví dụ" %}
+```markup
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script>
+        shinobi = {};
+    </script>
+    <script
+        src="https://www.aladin.finance/static/js/component/mapping.js"></script>
+</head>
+
+<body>
+    <p id="demo" snb-key="name"></p>
+    <p class="demo1" snb-key="age"></p>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            var json = {
+                name: 'Khôi',
+                age: 23,
+            };
+            shinobi.mapping.render('#demo', JSON.stringify(json));
+            var container = document.querySelector('demo1');
+            shinobi.mapping.renderElement(container,json);
+        });
+
+    </script>
+</body>
+
+</html>ả
+```
+{% endtab %}
+
+{% tab title="kết quả" %}
+![](../.gitbook/assets/image%20%286%29.png)
+{% endtab %}
+{% endtabs %}
+
+hàm `render` và hàm `renderElement` giống nhau cách sử dụng và các cấu hình, chỉ khác nhau input đầu vào của hàm.
+
+hai hàm này đều có nhiệm vụ đưa dữ liệu dạng JSON lên giao diện cụ thể hơn các cặp key-value của `json` sẽ được đưa vào các thẻ con của phần tử `selector` hoặc `element` khai báo tại input của hàm
+
+### snb-key
+
+thuộc tính này dùng để xác định giá trị `value` thuộc `key` nào của `json` sẽ được gán vào giao diện, cụ thể hơn giá trị `value` của key sẽ được thêm vào nội dung thẻ hoặc thẻ được gán giá trị bằng `value` nếu thẻ là form HTML
+
+{% tabs %}
+{% tab title="Cú pháp" %}
+```markup
+<tagname snb-key="keyName"> some default content </tagname>
+```
+{% endtab %}
+
+{% tab title="code" %}
+```markup
+<div id="container">
+    <p>Giá trị của key "name": <span snb-key="name"></span></p>
+    <p>Giá trị của key "age": <span snb-key="age"></span></p>
+</div>
+```
+{% endtab %}
+
+{% tab title="ví dụ" %}
+```markup
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script>
+        shinobi = {};
+    </script>
+    <script
+        src="https://www.aladin.finance/static/js/component/mapping.js"></script>
+</head>
+
+<body>
+    <div id="container">
+        <p>Giá trị của key "name": <span snb-key="name"></span></p>
+        <p>Giá trị của key "age": <span snb-key="age"></span></p>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            var json = {
+                name: 'Khôi',
+                age: 23,
+            };
+            shinobi.mapping.render('#container', JSON.stringify(json));
+        });
+
+    </script>
+</body>
+
+</html>
+```
+{% endtab %}
+
+{% tab title="kết quả" %}
+![](../.gitbook/assets/image%20%284%29.png)
+{% endtab %}
+{% endtabs %}
+
+{% hint style="info" %}
+Các trường hợp gán giá trị:
+
+* Với thẻ HTML bình thường: value sẽ gán làm innerHTML của thẻ
+* Với thẻ form HTML:
+  * input \(dựa vào thuộc tính `type` của input\)
+    * checkbox: giá trị gán vào thuộc tính `checked`
+    * radio: nếu `value` khớp với thuộc tính `radio-value` thì thuộc tính `checked=true` và ngược lại
+    * còn lại gán vào thuộc tính `value` của thẻ
+  * select: gán vào thuộc tính `value` của thẻ
+  * còn lại: gán vào thuộc tính `value` của thẻ
+{% endhint %}
+
+### snb-format
 
 
 
