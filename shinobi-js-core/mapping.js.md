@@ -1,8 +1,13 @@
----
-description: Thư viện đơn giản để tương tác với giao diện dựa trên dữ liệu kiểu JSON
----
-
 # Mapping.js
+
+## Mapping.js là gì?
+
+mapping.js là một thư viện đơn giản để tương tác với giao diện dựa trên dữ liệu kiểu JSON và một số thao tác khác như:
+
+* Gán dữ liệu từ dữ liệu định dạng JSON lên giao diện
+* Lấy dữ liệu từ giao diện trả về giá trị theo định dạng JSON
+* Chuyển các element form HTML thành element dạng text HTML
+* Xóa dữ liệu trên giao diện
 
 ## Cách dùng
 
