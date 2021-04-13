@@ -837,10 +837,10 @@ Khi muốn lấy giá trị từ `input` kiểu `radio`ta cần gán giá trị 
 
 ### image-url
 
-Khi muốn lấy input dạng file ta cần gán giá trị image-url bằng value 
+Khi muốn lấy `input` dạng `file` ta cần gán giá trị `image-url` bằng `value` 
 
 ```markup
-
+<input type="file"  snb-key="file" image-url="file.jpg">
 ```
 
 ### 
@@ -957,8 +957,6 @@ Lưu ý:
 * Luôn cần khai báo thuộc tính mồi `snb-key="keyName"`
 * mapping.js không tự thêm giá trị của `snb-key`, muốn thêm giá trị html ta khai báo `snb-key-html="keyName"` và `snb-key-value="keyName"` nếu muốn thêm giá trị `value` cho các thẻ form HTML
 {% endhint %}
-
-## 
 
 
 
