@@ -16,7 +16,13 @@
 
 ### **Nâng cao**
 
-> clone trang [divjoy.com](https://divjoy.com/)
+
+
+{% hint style="info" %}
+clone trang [divjoy.com](https://divjoy.com/)
+{% endhint %}
+
+\*\*\*\*
 
 **Bài 1:**
 
