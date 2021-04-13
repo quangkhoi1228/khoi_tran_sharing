@@ -158,6 +158,12 @@ hai hàm này đều có nhiệm vụ đưa dữ liệu dạng JSON lên giao di
 thuộc tính này dùng để xác định giá trị `value` thuộc `key` nào của `json` sẽ được gán vào giao diện
 
 {% tabs %}
+{% tab title="Cú pháp" %}
+```markup
+<tagname snb-key="keyName"> some default content </tagname>
+```
+{% endtab %}
+
 {% tab title="code" %}
 ```markup
 <div id="container">
@@ -209,13 +215,19 @@ thuộc tính này dùng để xác định giá trị `value` thuộc `key` nà
 
 ### snb-format
 
-thuộc tính này dùng để format giá trị dạng số
+thuộc tính này dùng để format giá trị dạng số, khai báo `snb-format="number"` để sử dụng
 
 {% hint style="info" %}
 Cần thêm util.js để sử dụng thuộc tính này
 {% endhint %}
 
 {% tabs %}
+{% tab title="Cú pháp" %}
+```markup
+<tagname snb-key="keyName" snb-format="number"> some default content </tagname>
+```
+{% endtab %}
+
 {% tab title="code" %}
 ```markup
 <div id="container">
@@ -276,11 +288,29 @@ Cần thêm util.js để sử dụng thuộc tính này
 {% endtab %}
 {% endtabs %}
 
+### snb-render
 
+Đôi khi ta cần xử lý giá trị trước khi đưa lên giao diện hoặc thực hiện các thao tác khác liên quan đến thẻ HTML đang quan tâm, ta sử dụng `snb-render`
 
+`snb-render`là một hàm có 3 biến đầu vào `element`, `snbKeyValue`, và `json`
 
+{% tabs %}
+{% tab title="Cú pháp" %}
+```javascript
+function(element,snbKeyValue,json){
+    ...
+}function(){
+```
+{% endtab %}
 
-
+{% tab title="ví dụ" %}
+```javascript
+function(element,snbKeyValue,json){
+    
+}
+```
+{% endtab %}
+{% endtabs %}
 
 
 
