@@ -119,7 +119,8 @@ các thẻ thuộc dạng form như input,select,textarea,...
             age: 23,
         };
         shinobi.mapping.render('#demo', JSON.stringify(json));
-        shinobi.mapping.renderElement('.demo1',json);
+        var container = document.querySelector('demo1');
+        shinobi.mapping.renderElement(container,json);
     });
 </script>
 ```
@@ -148,14 +149,14 @@ các thẻ thuộc dạng form như input,select,textarea,...
                 age: 23,
             };
             shinobi.mapping.render('#demo', JSON.stringify(json));
-            shinobi.mapping.renderElement('.demo1', json);
-
+            var container = document.querySelector('demo1');
+            shinobi.mapping.renderElement(container,json);
         });
 
     </script>
 </body>
 
-</html>
+</html>ả
 ```
 {% endtab %}
 
@@ -312,7 +313,7 @@ Cần thêm util.js để sử dụng thuộc tính này
 {% endtab %}
 
 {% tab title="kết quả" %}
-![](../.gitbook/assets/image%20%289%29.png)
+![](../.gitbook/assets/image%20%2812%29.png)
 {% endtab %}
 {% endtabs %}
 
@@ -401,7 +402,7 @@ function dynamicColor(element, snbKeyValue, json) {
 {% endtab %}
 
 {% tab title="kết quả" %}
-![](../.gitbook/assets/image%20%288%29.png)
+![](../.gitbook/assets/image%20%2811%29.png)
 {% endtab %}
 {% endtabs %}
 
@@ -569,7 +570,7 @@ content
 {% endtab %}
 
 {% tab title="" %}
-![](../.gitbook/assets/image%20%287%29.png)
+![](../.gitbook/assets/image%20%2810%29.png)
 {% endtab %}
 {% endtabs %}
 
@@ -589,17 +590,32 @@ Lưu ý:
 {% tabs %}
 {% tab title="code" %}
 ```markup
-<p id="demo" snb-key="name"></p>
-<p class="demo1" snb-key="age"></p>
+<div id="container">
+    <p> tên <input type="text" snb-key="name" value="Khôi"></p>
+    <p> tuổi <input type="text" snb-key="age" value="23"></p>
+    <p>giới tính </p>
+    <p><input type="radio" name="gender" snb-key="gender" radio-value="MR"
+            checked="true"> nam
+        <input type="radio" name="gender" snb-key="gender" radio-value="MS">
+        nữ
+    </p>
+    <p>
+        <input type="checkbox" snb-key="isHandsome" checked="true"> đẹp trai
+    </p>
+</div>
+
 <script>
     document.addEventListener('DOMContentLoaded', () => {
-        var json = {
-            name: 'Khôi',
-            age: 23,
-        };
-        shinobi.mapping.render('#demo', JSON.stringify(json));
-        shinobi.mapping.renderElement('.demo1',json);
+        shinobi.mapping.getValue('#container', function (jsonMapping) {
+            console.log(jsonMapping);
+        });
+
+        var container = document.getElementById('container');
+        shinobi.mapping.getValueElement(container, function (jsonMapping) {
+            console.log(jsonMapping)
+        })
     });
+
 </script>
 ```
 {% endtab %}
@@ -618,17 +634,30 @@ Lưu ý:
 </head>
 
 <body>
-    <p id="demo" snb-key="name"></p>
-    <p class="demo1" snb-key="age"></p>
+    <div id="container">
+        <p> tên <input type="text" snb-key="name" value="Khôi"></p>
+        <p> tuổi <input type="text" snb-key="age" value="23"></p>
+        <p>giới tính </p>
+        <p><input type="radio" name="gender" snb-key="gender" radio-value="MR"
+                checked="true"> nam
+            <input type="radio" name="gender" snb-key="gender" radio-value="MS">
+            nữ
+        </p>
+        <p>
+            <input type="checkbox" snb-key="isHandsome" checked="true"> đẹp trai
+        </p>
+    </div>
+
     <script>
         document.addEventListener('DOMContentLoaded', () => {
-            var json = {
-                name: 'Khôi',
-                age: 23,
-            };
-            shinobi.mapping.render('#demo', JSON.stringify(json));
-            shinobi.mapping.renderElement('.demo1', json);
+            shinobi.mapping.getValue('#container', function (jsonMapping) {
+                console.log(jsonMapping);
+            });
 
+            var container = document.getElementById('container');
+            shinobi.mapping.getValueElement(container, function (jsonMapping) {
+                console.log(jsonMapping)
+            })
         });
 
     </script>
@@ -639,7 +668,7 @@ Lưu ý:
 {% endtab %}
 
 {% tab title="kết quả" %}
-![](../.gitbook/assets/image%20%286%29.png)
+![](../.gitbook/assets/image%20%287%29.png)
 {% endtab %}
 {% endtabs %}
 
@@ -791,7 +820,7 @@ Cần thêm util.js để sử dụng thuộc tính này
 {% endtab %}
 
 {% tab title="kết quả" %}
-![](../.gitbook/assets/image%20%289%29.png)
+![](../.gitbook/assets/image%20%2812%29.png)
 {% endtab %}
 {% endtabs %}
 
@@ -880,7 +909,7 @@ function dynamicColor(element, snbKeyValue, json) {
 {% endtab %}
 
 {% tab title="kết quả" %}
-![](../.gitbook/assets/image%20%288%29.png)
+![](../.gitbook/assets/image%20%2811%29.png)
 {% endtab %}
 {% endtabs %}
 
@@ -1048,7 +1077,7 @@ content
 {% endtab %}
 
 {% tab title="" %}
-![](../.gitbook/assets/image%20%287%29.png)
+![](../.gitbook/assets/image%20%2810%29.png)
 {% endtab %}
 {% endtabs %}
 
