@@ -819,6 +819,18 @@ khi muốn sử dụng mapping.js để lấy dữ liệu của 1 editor ta thê
 {% endtab %}
 {% endtabs %}
 
+### snb-date-filter
+
+khi muốn sử dụng thuộc tính `options` là `isEmpty: true` cho component bulma-calendar ta phải thêm thuộc tính `snb-date-filter` lên thẻ html gốc của bulma-calendar
+
+```markup
+<input class="input date-filter" snb-key="start" type="date" snb-date-filter>
+```
+
+### radio-value
+
+Khi muốn lấy giá trị từ input
+
 ### multiple snbKeyValue
 
 Đôi khi ta cần gán nhiều giá trị `value` của `json` vào các thuộc tính khác nhau lên cùng 1 thẻ mà không cần sử dụng `snb-render`, ta sử dụng `multiple snbKeyValue`
