@@ -76,7 +76,7 @@ var json = {
 
 ## Các thao tác liên quan
 
-### Cú truy xuất giá trị chung 
+### Cú pháp truy xuất giá trị chung 
 
 ```javascript
 var json = {
