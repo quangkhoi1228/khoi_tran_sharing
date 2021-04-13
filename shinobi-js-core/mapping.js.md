@@ -88,33 +88,33 @@ giá trị của phần tử
 'Giá trị'
 ```
 
+## Gán dữ liệu lên giao diện
 
-
-## Cách dùng
-
-### Gán dữ liệu lên giao diện
+### render/renderElement
 
 {% tabs %}
-{% tab title="Code" %}
+{% tab title="code" %}
 ```markup
 <p id="demo" snb-key="name"></p>
+<p class="demo1" snb-key="age"></p>
 <script>
     document.addEventListener('DOMContentLoaded', () => {
         var json = {
             name: 'Khôi',
             age: 23,
         };
-        shinobi.mapping.render('#demo', JSON.stringify(json))
+        shinobi.mapping.render('#demo', JSON.stringify(json));
+        shinobi.mapping.renderElement('.demo1',json);
     });
-
 </script>
 ```
 {% endtab %}
 
-{% tab title="Ví dụ" %}
+{% tab title="simple example" %}
 ```markup
 <!DOCTYPE html>
 <html>
+
 <head>
     <script>
         shinobi = {};
@@ -125,21 +125,31 @@ giá trị của phần tử
 
 <body>
     <p id="demo" snb-key="name"></p>
+    <p class="demo1" snb-key="age"></p>
     <script>
         document.addEventListener('DOMContentLoaded', () => {
             var json = {
                 name: 'Khôi',
                 age: 23,
             };
-            shinobi.mapping.render('#demo', JSON.stringify(json))
+            shinobi.mapping.render('#demo', JSON.stringify(json));
+            shinobi.mapping.renderElement('.demo1', json);
+
         });
 
     </script>
 </body>
+
 </html>
 ```
 {% endtab %}
 {% endtabs %}
+
+hàm `render` và hàm `renderElement` giống nhau cách sử dụng và các cấu hình, chỉ khác nhau input đầu vào của hàm,
+
+hai hàm này đều có nhiệm vụ đưa dữ liệu dạng JSON lên giao diện
+
+### snb-key
 
 
 
