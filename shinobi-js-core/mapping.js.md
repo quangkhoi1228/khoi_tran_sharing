@@ -94,6 +94,24 @@ giá trị của phần tử
 
 ### Gán dữ liệu lên giao diện
 
+{% tabs %}
+{% tab title="Code" %}
+```markup
+<p id="demo" snb-key="name"></p>
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        var json = {
+            name: 'Khôi',
+            age: 23,
+        };
+        shinobi.mapping.render('#demo', JSON.stringify(json))
+    });
+
+</script>
+```
+{% endtab %}
+
+{% tab title="Ví dụ" %}
 ```markup
 <!DOCTYPE html>
 <html>
@@ -120,6 +138,10 @@ giá trị của phần tử
 </body>
 </html>
 ```
+{% endtab %}
+{% endtabs %}
+
+
 
 ## Các hàm hỗ trợ
 
