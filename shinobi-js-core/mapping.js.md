@@ -829,7 +829,21 @@ khi muốn sử dụng thuộc tính `options` là `isEmpty: true` cho component
 
 ### radio-value
 
-Khi muốn lấy giá trị từ input
+Khi muốn lấy giá trị từ `input` kiểu `radio`ta cần gán giá trị của từng input bằng thuộc tính `radio-value` để xác định input hiện tại có đang `checked` hay không.
+
+```markup
+<input type="radio" name="gender" snb-key="gender" radio-value="MR">
+```
+
+### image-url
+
+Khi muốn lấy input dạng file ta cần gán giá trị image-url bằng value 
+
+```markup
+
+```
+
+### 
 
 ### multiple snbKeyValue
 
