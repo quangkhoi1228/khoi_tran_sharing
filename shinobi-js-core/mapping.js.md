@@ -688,7 +688,7 @@ Mặc định mapping.js chỉ lấy giá trị của các form HTML, nếu mu�
 
 ### snb-key
 
-thuộc tính này dùng để xác định phần tử con này có thể được lấy giá trị bằng hàm `getValue` hoặc `getValueElement` , còn giá trị `key-value` được lấy ra tùy thuộc vào cách khai báo trên các phần tử con
+thuộc tính này dùng để xác định phần tử con này có thể được lấy giá trị bằng hàm `getValue` hoặc `getValueElement` , còn giá trị `key-value` được lấy ra tùy thuộc vào cách khai báo trên các phần tử con dựa vào các cấu hình của `options`
 
 {% tabs %}
 {% tab title="Cú pháp" %}
@@ -747,10 +747,8 @@ thuộc tính này dùng để xác định phần tử con này có thể đư�
 {% endtab %}
 {% endtabs %}
 
-Cụ thể việc xác định `key` và `value` được xác định như sau:
-
 {% hint style="info" %}
-mặc định mapping.js chỉ lấy giá trị của các thẻ form HTML và editor, nếu bạn muốn lấy giá trị value bao gồm cả các phần tử con của 
+mặc định mapping.js chỉ lấy giá trị của các thẻ form HTML và editor, nếu bạn muốn lấy giá trị value của tag HTML thường thì phải cấu hình thêm trong biến `options`
 {% endhint %}
 
 ### snb-editor-index
