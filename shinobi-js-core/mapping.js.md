@@ -987,24 +987,49 @@ Khi muốn chuẩn hóa kiểu dữ liệu của giá trị trước khi gán v�
 
 ## Xóa dữ liệu trên giao diện
 
-### render/renderElement
+### clear/clearElement
 
 {% tabs %}
 {% tab title="code" %}
 ```markup
-<p id="demo" snb-key="name"></p>
-<p class="demo1" snb-key="age"></p>
-<script>
-    document.addEventListener('DOMContentLoaded', () => {
-        var json = {
-            name: 'Khôi',
-            age: 23,
-        };
-        shinobi.mapping.render('#demo', JSON.stringify(json));
-        var container = document.querySelector('demo1');
-        shinobi.mapping.renderElement(container,json);
-    });
-</script>
+<p>container</p>
+    <div id="container">
+        <p> tên <input type="text" snb-key="name" value="Khôi"></p>
+        <p> tuổi <input type="text" snb-key="age" value="23"></p>
+        <p>giới tính </p>
+        <p><input type="radio" name="gender" snb-key="gender" radio-value="MR"
+                checked="true"> nam
+            <input type="radio" name="gender" snb-key="gender" radio-value="MS">
+            nữ
+        </p>
+        <p>
+            <input type="checkbox" snb-key="isHandsome" checked="true"> đẹp trai
+        </p>
+    </div>
+    <p>container1</p>
+    <div id="container1">
+        <p> tên <input type="text" snb-key="name" value="Khôi"></p>
+        <p> tuổi <input type="text" snb-key="age" value="23"></p>
+        <p>giới tính </p>
+        <p><input type="radio" name="gender" snb-key="gender" radio-value="MR"
+                checked="true"> nam
+            <input type="radio" name="gender" snb-key="gender" radio-value="MS">
+            nữ
+        </p>
+        <p>
+            <input type="checkbox" snb-key="isHandsome" checked="true"> đẹp trai
+        </p>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            shinobi.mapping.clear('#container');
+
+            var container = document.getElementById('container1');
+            shinobi.mapping.clearElement(container)
+        });
+
+    </script>
 ```
 {% endtab %}
 
@@ -1022,23 +1047,47 @@ Khi muốn chuẩn hóa kiểu dữ liệu của giá trị trước khi gán v�
 </head>
 
 <body>
-    <p id="demo" snb-key="name"></p>
-    <p class="demo1" snb-key="age"></p>
+    <p>container</p>
+    <div id="container">
+        <p> tên <input type="text" snb-key="name" value="Khôi"></p>
+        <p> tuổi <input type="text" snb-key="age" value="23"></p>
+        <p>giới tính </p>
+        <p><input type="radio" name="gender" snb-key="gender" radio-value="MR"
+                checked="true"> nam
+            <input type="radio" name="gender" snb-key="gender" radio-value="MS">
+            nữ
+        </p>
+        <p>
+            <input type="checkbox" snb-key="isHandsome" checked="true"> đẹp trai
+        </p>
+    </div>
+    <p>container1</p>
+    <div id="container1">
+        <p> tên <input type="text" snb-key="name" value="Khôi"></p>
+        <p> tuổi <input type="text" snb-key="age" value="23"></p>
+        <p>giới tính </p>
+        <p><input type="radio" name="gender" snb-key="gender" radio-value="MR"
+                checked="true"> nam
+            <input type="radio" name="gender" snb-key="gender" radio-value="MS">
+            nữ
+        </p>
+        <p>
+            <input type="checkbox" snb-key="isHandsome" checked="true"> đẹp trai
+        </p>
+    </div>
+
     <script>
         document.addEventListener('DOMContentLoaded', () => {
-            var json = {
-                name: 'Khôi',
-                age: 23,
-            };
-            shinobi.mapping.render('#demo', JSON.stringify(json));
-            var container = document.querySelector('demo1');
-            shinobi.mapping.renderElement(container,json);
+            shinobi.mapping.clear('#container');
+
+            var container = document.getElementById('container1');
+            shinobi.mapping.clearElement(container)
         });
 
     </script>
 </body>
 
-</html>ả
+</html>
 ```
 {% endtab %}
 
