@@ -143,8 +143,8 @@ console.log("My car is " + myCar.age() + " years old.")
 
 Khác với JS class, với cách viết này ta phải viết cả thuộc tính và phương thức trong `constructor` 
 
-* Thuộc tính ta dùng this.attributeName
-* Phương thức ta dùng this.methodName
+* Thuộc tính ta dùng `this.attributeName`
+* Phương thức ta dùng `this.methodName`
 
 Ví dụ:
 
