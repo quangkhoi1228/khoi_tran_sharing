@@ -139,3 +139,26 @@ console.log("My car is " + myCar.age() + " years old.")
 //My car is 7 years old.
 ```
 
+### Cách thêm thuộc tính\(attribute\) và phượng thức\(method\)
+
+Khác với JS class, với cách viết này ta phải viết cả thuộc tính và phương thức trong `constructor` 
+
+* Thuộc tính ta dùng this.attributeName
+* Phương thức ta dùng this.methodName
+
+Ví dụ:
+
+```javascript
+var constructor = function(){
+//thuộc tính
+    this.attributeName
+    
+    //phương thức
+    this.methodName = function(param1,param2,...){
+    ...
+    }
+}
+```
+
+
+
