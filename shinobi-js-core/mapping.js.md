@@ -569,7 +569,7 @@ content
 ```
 {% endtab %}
 
-{% tab title="" %}
+{% tab title="kết quả" %}
 ![](../.gitbook/assets/image%20%2810%29.png)
 {% endtab %}
 {% endtabs %}
@@ -672,9 +672,9 @@ Lưu ý:
 {% endtab %}
 {% endtabs %}
 
-hàm `render` và hàm `renderElement` giống nhau cách sử dụng và các cấu hình, chỉ khác nhau input đầu vào của hàm.
+hàm `getValue` và hàm `getValueElement` giống nhau cách sử dụng và các cấu hình, chỉ khác nhau input đầu vào của hàm.
 
-hai hàm này đều có nhiệm vụ đưa dữ liệu dạng JSON lên giao diện cụ thể hơn các cặp key-value của `json` sẽ được đưa vào các thẻ con của phần tử `selector` hoặc `element` khai báo tại input của hàm
+hai hàm này đều có nhiệm vụ lấy dữ liệu dạng JSON từ giao diện cụ thể hơn các cặp key-value của `json` trả về sẽ được lấy từ các thẻ con của phần tử `selector` hoặc `element` khai báo tại input của hàm dựa vào cách khai báo tại các thẻ con.
 
 ### snb-key
 
