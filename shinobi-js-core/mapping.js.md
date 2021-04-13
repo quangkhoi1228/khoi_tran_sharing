@@ -843,55 +843,33 @@ Khi muốn lấy `input` dạng `file` ta cần gán giá trị `image-url` bằ
 <input type="file"  snb-key="file" image-url="file.jpg">
 ```
 
-### 
+### snb-preprocess
 
-### multiple snbKeyValue
-
-Đôi khi ta cần gán nhiều giá trị `value` của `json` vào các thuộc tính khác nhau lên cùng 1 thẻ mà không cần sử dụng `snb-render`, ta sử dụng `multiple snbKeyValue`
+Khi muốn xử lý giá trị của thẻ trước khi gán vào `json` trả về, ta sử dụng hàm snb-preprocess
 
 {% tabs %}
 {% tab title="Cú pháp" %}
-```markup
-<tagname 
-snb-key="rootKey" 
-snb-key-attribute1="keyName1" 
-snb-key-attribute2="keyName2" 
-snb-key-innerhtml="keyName3"
-> 
-content 
-</tagname>
-
+```javascript
+function functionName(snbKeyValue){
+    ...
+}
 ```
 {% endtab %}
 
 {% tab title="code" %}
 ```markup
 <div id="container">
-    <p>key "name":
-        <a snb-key="name" snb-key-title="name" snb-key-alt="age"
-            snb-key-href="myPage">Nội dung không có innerHTML</a>
-    </p>
-
-    <p>
-        <input type="text" snb-key="name" snb-key-name="name"
-            snb-key-placeholder="myPage" style="
-            width: 20rem;
-        ">
-    </p>
-
-    <p>key "name":
-        <a snb-key="name" snb-key-title="name" snb-key-alt="age"
-            snb-key-href="myPage" snb-key-innerhtml="name">Nội dung không có
-            innerHTML</a>
-    </p>
-
-    <p>
-        <input type="text" snb-key="name" snb-key-name="name"
-            snb-key-placeholder="myPage" snb-key-value="name" style="
-            width: 20rem;
-        ">
-    </p>
+    <input type="text" value="20" snb-key="name" snb-preprocess="checkNull">
 </div>
+
+<script>
+    function checkNull(snbKeyValue) {
+        if (snbKeyValue != '') {
+            snbKeyValue = snbKeyValue + ' không rỗng';
+        }
+        return snbKeyValue;
+    }
+</script>
 ```
 {% endtab %}
 
@@ -906,35 +884,95 @@ content
     </script>
     <script
         src="https://www.aladin.finance/static/js/component/mapping.js"></script>
+    <script defer=""
+        src="https://cdn.ckeditor.com/4.14.0/full/ckeditor.js"></script>
+
 </head>
 
 <body>
     <div id="container">
-        <p>key "name": <a snb-key="name" snb-key-title="name" snb-key-alt="age"
-                snb-key-href="myPage">Nội dung không có innerHTML</a></p>
-        <p><input type="text" snb-key="name" snb-key-name="name"
-                snb-key-placeholder="myPage" style="
-                width: 20rem;
-            "></p>
-        <p>key "name": <a snb-key="name" snb-key-title="name" snb-key-alt="age"
-                snb-key-href="myPage" snb-key-innerhtml="name">Nội dung không có
-                innerHTML</a></p>
-        <p><input type="text" snb-key="name" snb-key-name="name"
-                snb-key-placeholder="myPage" snb-key-value="name" style="
-                width: 20rem;
-            "></p>
+        <input type="text" value="20" snb-key="name" snb-preprocess="checkNull">
+    </div>
+
+    <script>
+        function checkNull(snbKeyValue) {
+            if (snbKeyValue != '') {
+                snbKeyValue = snbKeyValue + ' không rỗng';
+            }
+            return snbKeyValue;
+        }
+        document.addEventListener('DOMContentLoaded', () => {
+
+            shinobi.mapping.getValue('#container', function (jsonMapping) {
+                console.log(jsonMapping);
+            });
+
+            var container = document.getElementById('container');
+            shinobi.mapping.getValueElement(container, function (jsonMapping) {
+                console.log(jsonMapping)
+            })
+        });
+
+    </script>
+</body>
+
+</html>
+```
+{% endtab %}
+
+{% tab title="kết quả" %}
+![](../.gitbook/assets/image%20%2816%29.png)
+{% endtab %}
+{% endtabs %}
+
+### snb-datatype
+
+Khi muốn chuẩn hóa kiểu dữ liệu của giá trị trước khi gán vào `json` trả về, ta sử dụng `snb-datatype`
+
+{% tabs %}
+{% tab title="Cú pháp" %}
+```markup
+<tagname snb-key="rootKey" snb-datatype="dataType">content</tagname>
+```
+{% endtab %}
+
+{% tab title="code" %}
+```markup
+<input type="text" value="20" snb-key="name" snb-datatype="number">
+```
+{% endtab %}
+
+{% tab title="ví dụ" %}
+```markup
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script>
+        shinobi = {};
+    </script>
+    <script
+        src="https://www.aladin.finance/static/js/component/mapping.js"></script>
+
+</head>
+
+<body>
+    <div id="container">
+        <input type="text" value="20" snb-key="nameNotConvertDataType">
+        <input type="text" value="20" snb-key="name" snb-datatype="number">
     </div>
 
     <script>
         document.addEventListener('DOMContentLoaded', () => {
 
-            var json = {
-                name: 'Khôi',
-                age: 23,
-                myMoney: 1234567890,
-                myPage: 'https://quangkhoi1228.gitbook.io/'
-            };
-            shinobi.mapping.render('#container', JSON.stringify(json));
+            shinobi.mapping.getValue('#container', function (jsonMapping) {
+                console.log(jsonMapping);
+            });
+
+            var container = document.getElementById('container');
+            shinobi.mapping.getValueElement(container, function (jsonMapping) {
+                console.log(jsonMapping)
+            })
         });
 
     </script>
@@ -945,7 +983,7 @@ content
 {% endtab %}
 
 {% tab title="" %}
-![](../.gitbook/assets/image%20%2810%29.png)
+![](../.gitbook/assets/image%20%2817%29.png)
 {% endtab %}
 {% endtabs %}
 

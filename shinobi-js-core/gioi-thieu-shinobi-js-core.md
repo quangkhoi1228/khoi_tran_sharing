@@ -43,6 +43,16 @@ Ví dụ đơn giản:
 3. Trên thẻ `head` ta khai báo các thư viện cần sử dụng sau phần khai báo biến `shinobi`
 4. Trong thẻ `body` ta khai báo JS thực thi và HTML \(nếu có\) để thực hiện tác vụ
 
+{% hint style="info" %}
+Lưu ý: code thực thi shinobi JS core phải đặt trong đoạn JS sự kiện Dom content loaded
+{% endhint %}
+
+```javascript
+ document.addEventListener('DOMContentLoaded', () => {
+          ...
+});
+```
+
 
 
 
