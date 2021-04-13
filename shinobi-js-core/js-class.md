@@ -151,14 +151,16 @@ Ví dụ:
 ```javascript
 var constructor = function(){
 //thuộc tính
-    this.attributeName
+    this.attributeName = value;
     
     //phương thức
     this.methodName = function(param1,param2,...){
     ...
-    }
+    };
 }
 ```
 
-
+{% hint style="info" %}
+Các component của Shinobi JS code chủ yếu viết bằng cách này
+{% endhint %}
 
