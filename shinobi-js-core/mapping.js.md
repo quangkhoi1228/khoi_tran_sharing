@@ -160,7 +160,7 @@ các thẻ thuộc dạng form như input,select,textarea,...
 {% endtab %}
 
 {% tab title="kết quả" %}
-![](../.gitbook/assets/image%20%285%29.png)
+![](../.gitbook/assets/image%20%286%29.png)
 {% endtab %}
 {% endtabs %}
 
@@ -224,7 +224,7 @@ thuộc tính này dùng để xác định giá trị `value` thuộc `key` nà
 {% endtab %}
 
 {% tab title="kết quả" %}
-![](../.gitbook/assets/image%20%283%29.png)
+![](../.gitbook/assets/image%20%284%29.png)
 {% endtab %}
 {% endtabs %}
 
@@ -299,7 +299,7 @@ Cần thêm util.js để sử dụng thuộc tính này
 {% endtab %}
 
 {% tab title="kết quả" %}
-![](../.gitbook/assets/image%20%287%29.png)
+![](../.gitbook/assets/image%20%288%29.png)
 {% endtab %}
 {% endtabs %}
 
@@ -388,11 +388,73 @@ function dynamicColor(element, snbKeyValue, json) {
 {% endtab %}
 
 {% tab title="kết quả" %}
-![](../.gitbook/assets/image%20%286%29.png)
+![](../.gitbook/assets/image%20%287%29.png)
 {% endtab %}
 {% endtabs %}
 
+### snb-editor-index
 
+khi muốn sử dụng mapping.js để gán hoặc lấy dữ liệu của 1 editor ta thêm thuộc tính snb-editor-index cho thẻ init của editor
+
+{% tabs %}
+{% tab title="Cú pháp" %}
+```markup
+<tagname snb-key="keyname" snb-editor-index="editorIndex"></tagname>
+
+```
+{% endtab %}
+
+{% tab title="code" %}
+```markup
+<div id="editor" snb-key="name" snb-editor-index="0"></div>
+```
+{% endtab %}
+
+{% tab title="ví dụ" %}
+```markup
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script>
+        shinobi = {};
+    </script>
+    <script
+        src="https://www.aladin.finance/static/js/component/mapping.js"></script>
+    <script defer=""
+        src="https://cdn.ckeditor.com/4.14.0/full/ckeditor.js"></script>
+
+</head>
+
+<body>
+    <div id="container">
+        <p>Giá trị của key "name": <span snb-key="name"></span></p>
+        <div id="editor" snb-key="name" snb-editor-index="0"></div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            CKEDITOR.replace('editor');
+
+            var json = {
+                name: 'Khôi',
+                age: 23,
+                myMoney: 1234567890
+            };
+            shinobi.mapping.render('#container', JSON.stringify(json));
+        });
+
+    </script>
+</body>
+
+</html>
+```
+{% endtab %}
+
+{% tab title="kết quả" %}
+![](../.gitbook/assets/image%20%283%29.png)
+{% endtab %}
+{% endtabs %}
 
 
 
