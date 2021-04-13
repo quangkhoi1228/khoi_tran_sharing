@@ -88,6 +88,21 @@ giá trị của phần tử
 'Giá trị'
 ```
 
+### form HTML 
+
+các thẻ thuộc dạng form như input,select,textarea,...
+
+```markup
+<input type="text">
+<select>
+    <option>option1</option>
+    <option>option2</option>
+    <option>option3</option>
+</select>
+<textarea>some text</textarea>
+
+```
+
 ## Gán dữ liệu lên giao diện
 
 ### render/renderElement
@@ -155,7 +170,7 @@ hai hàm này đều có nhiệm vụ đưa dữ liệu dạng JSON lên giao di
 
 ### snb-key
 
-thuộc tính này dùng để xác định giá trị `value` thuộc `key` nào của `json` sẽ được gán vào giao diện
+thuộc tính này dùng để xác định giá trị `value` thuộc `key` nào của `json` sẽ được gán vào giao diện, cụ thể hơn giá trị `value` của key sẽ được thêm vào nội dung thẻ hoặc thẻ được gán giá trị bằng `value` nếu thẻ là form HTML
 
 {% tabs %}
 {% tab title="Cú pháp" %}
@@ -284,7 +299,7 @@ Cần thêm util.js để sử dụng thuộc tính này
 {% endtab %}
 
 {% tab title="kết quả" %}
-![](../.gitbook/assets/image%20%286%29.png)
+![](../.gitbook/assets/image%20%287%29.png)
 {% endtab %}
 {% endtabs %}
 
@@ -294,21 +309,86 @@ Cần thêm util.js để sử dụng thuộc tính này
 
 `snb-render`là một hàm có 3 biến đầu vào `element`, `snbKeyValue`, và `json`
 
+{% hint style="info" %}
+Lưu ý: 
+
+* Khi có `snb-render` giá trị sẽ không tự động được gán vào phần tử
+* khi có`snb-render` trong phần tử sẽ vô hiệu hóa thuộc tính `snb-format`
+{% endhint %}
+
 {% tabs %}
 {% tab title="Cú pháp" %}
 ```javascript
-function(element,snbKeyValue,json){
+function functionName(element,snbKeyValue,json){
     ...
-}function(){
+}
+```
+{% endtab %}
+
+{% tab title="code" %}
+```javascript
+function dynamicColor(element, snbKeyValue, json) {
+    if (snbKeyValue < 40) {
+        element.style.color = 'red';
+    } else {
+        element.style.color = 'green';
+    }
+    element.innerHTML = snbKeyValue;
+};
 ```
 {% endtab %}
 
 {% tab title="ví dụ" %}
-```javascript
-function(element,snbKeyValue,json){
-    
-}
+```markup
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script>
+        shinobi = {};
+    </script>
+    <script
+        src="https://www.aladin.finance/static/js/component/mapping.js"></script>
+    <script
+        src="https://www.aladin.finance/static/js/component/util.js"></script>
+</head>
+
+<body>
+    <div id="container">
+        <p>Giá trị của key "name": <span snb-key="name"></span></p>
+        <p>key "age": <span snb-key="age" snb-render="dynamicColor"></span>
+        </p>
+        <p>key "myMoney": <span snb-key="myMoney" snb-render="dynamicColor"></span>
+        </p>
+    </div>
+
+    <script>
+        function dynamicColor(element, snbKeyValue, json) {
+            if (snbKeyValue < 40) {
+                element.style.color = 'red';
+            } else {
+                element.style.color = 'green';
+            }
+            element.innerHTML = snbKeyValue;
+        };
+        document.addEventListener('DOMContentLoaded', () => {
+            var json = {
+                name: 'Khôi',
+                age: 23,
+                myMoney: 1234567890
+            };
+            shinobi.mapping.render('#container', JSON.stringify(json));
+        });
+
+    </script>
+</body>
+
+</html>
 ```
+{% endtab %}
+
+{% tab title="kết quả" %}
+![](../.gitbook/assets/image%20%286%29.png)
 {% endtab %}
 {% endtabs %}
 
