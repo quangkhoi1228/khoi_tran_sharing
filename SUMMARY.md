@@ -11,4 +11,10 @@
   * [JS class](shinobi-js-core/js-class.md)
   * [GIới thiệu shinobi JS core](shinobi-js-core/gioi-thieu-shinobi-js-core.md)
   * [Mapping.js](shinobi-js-core/mapping.js.md)
+  * [Datalist.js](shinobi-js-core/datalist.js.md)
+  * [Table.js](shinobi-js-core/table.js.md)
+* [Shinobi HTML core](shinobi-html-core/README.md)
+  * [Fragment](shinobi-html-core/fragment.md)
+  * [Template](shinobi-html-core/template.md)
+* [Shinobi mobile core](shinobi-mobile-core.md)
 

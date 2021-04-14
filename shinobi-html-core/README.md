@@ -1,0 +1,2 @@
+# Shinobi HTML core
+
