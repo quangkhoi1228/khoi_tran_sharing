@@ -31,7 +31,7 @@ Bài 1:
 Bộ bài tây gồm có 52 lá, theo luật đánh bài tiến lên nhỏ nhất là 3 bích, lớn nhất là 2 cơ được quy định theo cú pháp sau:
 
 * Thứ tự các lá: A,2,3,4,5,6,7,8,9,10,J,Q,K
-* Thứ tự các chất: co,ro,chuong,bich
+* Các chất: co,ro,chuong,bich
 * 1 lá được quy định theo cú pháp: Thứ tự-chất. vd: A-ro con A rô
 
 {% hint style="info" %}
