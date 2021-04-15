@@ -54,15 +54,5 @@ clone trang [divjoy.com](https://divjoy.com/)
 
 ![](https://lh5.googleusercontent.com/SialK9NgrCyH89iaNJqPDTiI3Lkl1xJ-H0oVDeD9zk2WNGcNsoRyYTzUwkHCwFR7Cmdr9IQI5aWsi9sdaRsTQ65jHT8l6gVRfuTV7f4q-Sfs__gJ0I5uYOe-gClN5ltMlf_F-KHf)
 
-**Bài 2:**
 
-**desktop**
-
-![](../.gitbook/assets/image%20%282%29.png)
-
-**Mobile**
-
-\*\*\*\*
-
-![](../.gitbook/assets/image%20%281%29.png)
 
