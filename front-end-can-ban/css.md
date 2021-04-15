@@ -30,7 +30,7 @@ Một luật CSS bao gồm selector và một khối khai báo
 * Các class trong cùng 1 thẻ được đặt trong thuộc tính class và cách nhau bởi khoảng trắng, chi tiết
 
 ```markup
-<tagname class="class1 class2 classn"> </tagname>
+<tagname class="class1 class2 classn"> nội dung </tagname>
 ```
 
 ## Cách khai báo Selector
