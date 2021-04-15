@@ -6,6 +6,7 @@
   * [CSS](front-end-can-ban/css.md)
   * [Bulma](front-end-can-ban/bulma.md)
   * [JS](front-end-can-ban/js.md)
+  * [Browser devtool](front-end-can-ban/browser-devtool.md)
 * [Shinobi JS core](shinobi-js-core/README.md)
   * [JSON](shinobi-js-core/json.md)
   * [JS class](shinobi-js-core/js-class.md)

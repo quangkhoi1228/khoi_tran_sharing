@@ -520,3 +520,5 @@ function myFunction() {
 
 [chi tiết chạy](https://www.w3schools.com/js/tryit.asp?filename=tryjs_finally_error)
 
+
+
