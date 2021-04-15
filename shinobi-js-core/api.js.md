@@ -57,7 +57,7 @@ shinobi.api.request(url, JSON.stringify(bodyParam), callback);
 {% endtab %}
 
 {% tab title="Kết quả" %}
-![](../.gitbook/assets/image%20%2822%29.png)
+![](../.gitbook/assets/image%20%2823%29.png)
 {% endtab %}
 {% endtabs %}
 
