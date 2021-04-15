@@ -8,6 +8,8 @@ Trình duyệt web có cung cấp một nơi để chỉnh sửa các thao tác 
 
 ## HTML/CSS devtool
 
+### Bài tập
+
 ## JS devtool 
 
 ### Bài tập
