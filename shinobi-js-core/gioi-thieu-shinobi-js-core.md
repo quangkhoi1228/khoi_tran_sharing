@@ -48,30 +48,8 @@ Lưu ý: code thực thi shinobi JS core phải đặt trong đoạn JS sự ki�
 {% endhint %}
 
 ```javascript
- document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', () => {
           ...
 });
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
