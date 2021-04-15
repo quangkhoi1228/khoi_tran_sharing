@@ -27,6 +27,11 @@ Một luật CSS bao gồm selector và một khối khai báo
 * Khối khai báo chứa một hoặc nhiều khai báo cách nhau bởi dấu chấm phẩy
 * Mỗi khai báo bao gồm một thuộc tính CSs và một giá trị cách nhau bởi dấu hai chấm
 * Những định nghĩa Css được cách nhau bởi dấu chấm phẩy, và các khối định nghĩa được bao quanh bởi dấu ngoặc nhọn
+* Các class trong cùng 1 thẻ được đặt trong thuộc tính class và cách nhau bởi khoảng trắng, chi tiết
+
+```markup
+<tagname class="class1 class2 classn"> nội dung </tagname>
+```
 
 ## Cách khai báo Selector
 
@@ -48,7 +53,7 @@ Một luật CSS bao gồm selector và một khối khai báo
 
 `.class1:hover` : css xảy ra khi phần tử chứa `class1` **được rê chuột vào**
 
-I`mg[alt]` : chọn tất cả các thẻ `img` chứa thuộc tính `alt`
+`img[alt]` : chọn tất cả các thẻ `img` chứa thuộc tính `alt`
 
 Xem thêm: [https://www.w3schools.com/cssref/css\_selectors.asp](https://www.w3schools.com/cssref/css_selectors.asp)
 

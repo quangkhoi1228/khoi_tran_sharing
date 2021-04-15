@@ -156,7 +156,7 @@ các thẻ thuộc dạng form như input,select,textarea,...
     </script>
 </body>
 
-</html>ả
+</html>
 ```
 {% endtab %}
 
@@ -165,7 +165,7 @@ các thẻ thuộc dạng form như input,select,textarea,...
 {% endtab %}
 {% endtabs %}
 
-hàm `render` và hàm `renderElement` giống nhau cách sử dụng và các cấu hình, chỉ khác nhau input đầu vào của hàm.
+Cả hàm `render` và hàm `renderElement` giống nhau cách sử dụng và các cấu hình, chỉ khác nhau input đầu vào của hàm.
 
 hai hàm này đều có nhiệm vụ đưa dữ liệu dạng JSON lên giao diện cụ thể hơn các cặp key-value của `json` sẽ được đưa vào các thẻ con của phần tử `selector` hoặc `element` khai báo tại input của hàm
 
