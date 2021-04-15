@@ -22,7 +22,7 @@ Shinobi server trả dữ liệu API có dạng JSON string theo format
 {% endtabs %}
 
 * result: kết quả của API, thành công: success, thất bại: fail
-* content: nội dung của API
+* content: nội dung của API hoặc nội dung khi bị lỗi
 
 ## Api.js là gì?
 
@@ -85,6 +85,13 @@ shinobi.api.request(url, JSON.stringify(bodyParam), callback);
 {% endtab %}
 {% endtabs %}
 
+{% hint style="info" %}
+Khi shinobi server response có result:
+
+* fail: không chạy hàm `callback` mà hiển thị thông báo lỗi theo nội dung trả về
+* success: chạy hàm `callback` với thông số là content của API response
+{% endhint %}
+
 ## Diễn giải 
 
 ### url
@@ -97,5 +104,15 @@ là chuỗi chứa nội dung là JSON chứa body param của request POST
 
 ### callback
 
-là hàm được gọi sau khi dữ liệu được trả về, có tham số đầu vào 
+là hàm được gọi sau khi dữ liệu được trả về, có tham số đầu vào là shinobi server response content khi result = success
+
+{% tabs %}
+{% tab title="Cú pháp callback" %}
+```javascript
+function(responseContent){
+    ...
+}
+```
+{% endtab %}
+{% endtabs %}
 
