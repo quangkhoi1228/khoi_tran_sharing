@@ -18,9 +18,9 @@ Trình duyệt web có cung cấp một nơi để chỉnh sửa các thao tác 
 
 trong chrome devtool có tab `Elements` dùng để xem cấu trúc element của trang và tab Network để xem dữ liệu trao đổi trên trình duyệt
 
-![](../.gitbook/assets/image%20%2822%29.png)
+![](../.gitbook/assets/image%20%2823%29.png)
 
-![](../.gitbook/assets/image%20%2826%29.png)
+![](../.gitbook/assets/image%20%2827%29.png)
 
 ## JS devtool 
 
