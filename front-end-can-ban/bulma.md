@@ -11,14 +11,14 @@ bulma là một open source framework css, bulma cung cấp 1 bộ các quy tắ
 {% hint style="info" %}
 Lưu ý cách đọc:
 
-1. Chạy được file demo Bulma tại mục overview-&gt;start
+1. Chạy được file demo Bulma tại mục **overview-&gt;start**
 2. Đọc lướt qua hết các phần của bulma cung cấp
 3. Quay lại làm các phần bài tập phía dưới dùng bulma và có thể code thêm/đè lại Bulma bằng css trong trang nếu cần
 
-_\*Không học phần cấu hình Bulma dùng sass_ 
+_**\*Không học phần cấu hình Bulma dùng sass**_ ****
 {% endhint %}
 
-
+\*\*\*\*
 
 
 
