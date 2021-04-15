@@ -1,5 +1,8 @@
 {
-    "plugins": ["ace"],
+    "plugins": ["ace","ga"],
     "pluginsConfig": {
+         "ga": {
+            "token": "UA-194448877-1"
+        }
     }
 }
