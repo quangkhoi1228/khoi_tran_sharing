@@ -31,7 +31,7 @@ api.js là một thư viện dùng để gọi dữ liệu từ API, cụ thể 
 {% tabs %}
 {% tab title="Cú pháp" %}
 ```diff
-shinobi.api.request(url,bodyParamString,callback)
+shinobi.api.request(url,bodyParamString,callback,options)
 ```
 {% endtab %}
 
@@ -115,4 +115,20 @@ function(responseContent){
 ```
 {% endtab %}
 {% endtabs %}
+
+### options
+
+| Thuộc tính | Mặc định | diễn giải |
+| :--- | :--- | :--- |
+| responseHandleFunction | null | khai báo hàm này để cấu hình một hàm xử lý khi nhận được response trả về |
+
+```javascript
+function({
+    data: data,
+    url: url,
+    request: param,
+    callback: callback,
+    options: options,
+})
+```
 
