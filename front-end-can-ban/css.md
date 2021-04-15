@@ -365,18 +365,9 @@ Các thư viện dùng để responsive: Bulma, Bootstrap, Tailwind,...
 
 ![](../.gitbook/assets/24.png)
 
- 2, cũng như nút của câu 1 nhưng khi rê chuột vào, nút chuyển sang màu đỏ
+ 2, nút của câu 1 khi rê chuột vào, nút chuyển sang màu đỏ
 
- 3, làm 1 trang web giống hình dưới 
-
-{% hint style="info" %}
-chú ý:
-
-* khoảng cách giữa các dòng
-* không sử dụng 2 class khác nhau để cấu hình header
-{% endhint %}
-
-
+ 3, làm 1 trang web giống hình dưới
 
 ![](../.gitbook/assets/25.png)
 
