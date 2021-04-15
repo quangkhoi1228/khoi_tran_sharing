@@ -53,7 +53,7 @@ Một luật CSS bao gồm selector và một khối khai báo
 
 `.class1:hover` : css xảy ra khi phần tử chứa `class1` **được rê chuột vào**
 
-I`mg[alt]` : chọn tất cả các thẻ `img` chứa thuộc tính `alt`
+`img[alt]` : chọn tất cả các thẻ `img` chứa thuộc tính `alt`
 
 Xem thêm: [https://www.w3schools.com/cssref/css\_selectors.asp](https://www.w3schools.com/cssref/css_selectors.asp)
 
