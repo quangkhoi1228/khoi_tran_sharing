@@ -10,7 +10,7 @@
 * [Shinobi JS core](shinobi-js-core/README.md)
   * [JSON](shinobi-js-core/json.md)
   * [JS class](shinobi-js-core/js-class.md)
-  * [GIới thiệu shinobi JS core](shinobi-js-core/gioi-thieu-shinobi-js-core.md)
+  * [Giới thiệu shinobi JS core](shinobi-js-core/gioi-thieu-shinobi-js-core.md)
   * [Mapping.js](shinobi-js-core/mapping.js.md)
   * [Api.js](shinobi-js-core/api.js.md)
   * [Cacheapi.js](shinobi-js-core/cacheapi.js.md)

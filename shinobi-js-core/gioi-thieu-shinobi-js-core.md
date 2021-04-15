@@ -1,4 +1,4 @@
-# GIới thiệu shinobi JS core
+# Giới thiệu shinobi JS core
 
 ## Shinobi JS core là gì?
 
