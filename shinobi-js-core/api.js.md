@@ -21,7 +21,7 @@ Shinobi server trả dữ liệu API có dạng JSON string theo format
 {% endtab %}
 {% endtabs %}
 
-* result: kết quả của API, thành công : success, thất bại: fail
+* result: kết quả của API, thành công: success, thất bại: fail
 * content: nội dung của API
 
 ## Api.js là gì?
