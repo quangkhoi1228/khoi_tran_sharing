@@ -560,7 +560,17 @@ shinobi.notification.confirm(callback, options);
 {% endtab %}
 {% endtabs %}
 
+Danh sách các thuộc tính `options` 
 
+| Thuộc tính | Giá trị mặc định | Diễn giải |
+| :--- | :--- | :--- |
+| title | Cảnh báo | Tiêu đề  |
+| content | Bạn chắc chắn | Nội dung |
+| yescontent | Xác nhận  | Nội dung nút xác nhận |
+| nocontent | Hủy | Nội dung nút hủy |
+| initfunction | null | Hàm được gọi khi khởi tạo modal, syntax: function\(modalElement\) |
+| ishiddenfooter | false | Có ẩn footer modal hay không |
+| notclosewhenacceft | false | Có ẩn modal khi nhấn nút xác nhận hay không |
 
 {% hint style="info" %}
 Lưu ý: 
@@ -573,7 +583,9 @@ Lưu ý:
 
 ==&gt; modal tự đóng 
 
-Khi nhấn vào nút "Xác nhận" ==&gt; chạy hàm `callback`
+* Nút "Xác nhận" 
+
+==&gt; chạy hàm `callback`
 {% endhint %}
 
 
