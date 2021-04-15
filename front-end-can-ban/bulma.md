@@ -1,16 +1,10 @@
 # Bulma
 
-## **Bulma là gì?**
-
-bulma là một open source framework css, bulma cung cấp 1 bộ các quy tắc để tạo nên giao diện 1 cách nhanh chóng, cách cài đặt và sử dụng có trong tài liệu của bulma theo link dưới.
-
 ## **Đọc document của bulma**
 
 [**https://bulma.io/documentation/**](https://bulma.io/documentation/)
 
 ## **Bài tập**
-
-làm bằng bulma tất cả các bài tập dưới đây
 
 ### **Layout căn bản**
 
