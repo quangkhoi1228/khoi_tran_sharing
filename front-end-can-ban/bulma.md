@@ -6,7 +6,21 @@ bulma là một open source framework css, bulma cung cấp 1 bộ các quy tắ
 
 ## **Đọc document của bulma**
 
-[**https://bulma.io/documentation/**](https://bulma.io/documentation/)
+{% embed url="https://bulma.io/documentation/" %}
+
+{% hint style="info" %}
+Lưu ý cách đọc:
+
+1. Chạy được file demo Bulma tại mục overview-&gt;start
+2. Đọc lướt qua hết các phần của bulma cung cấp
+3. Quay lại làm các phần bài tập phía dưới dùng bulma và có thể code thêm/đè lại Bulma bằng css trong trang nếu cần
+
+_\*Không học phần cấu hình Bulma dùng sass_ 
+{% endhint %}
+
+
+
+
 
 ## **Bài tập**
 
