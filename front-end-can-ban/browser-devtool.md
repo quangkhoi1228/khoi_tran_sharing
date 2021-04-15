@@ -20,7 +20,7 @@ trong chrome devtool có tab `Elements` dùng để xem cấu trúc element củ
 
 ![](../.gitbook/assets/image%20%2821%29.png)
 
-![](../.gitbook/assets/image%20%2823%29.png)
+![](../.gitbook/assets/image%20%2824%29.png)
 
 ## JS devtool 
 
