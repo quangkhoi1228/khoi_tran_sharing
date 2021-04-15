@@ -1,5 +1,29 @@
 # Api.js
 
+## Shinobi server API response
+
+Shinobi server trả dữ liệu API có dạng JSON string theo format 
+
+{% tabs %}
+{% tab title="Cú pháp" %}
+```javascript
+`{
+    result: resultValue,
+    content: contentValue
+}`
+```
+{% endtab %}
+
+{% tab title="Ví dụ" %}
+```
+'{result: "success", content: "null"}'
+```
+{% endtab %}
+{% endtabs %}
+
+* result: kết quả của API, thành công : success, thất bại: fail
+* content: nội dung của API
+
 ## Api.js là gì?
 
 api.js là một thư viện dùng để gọi dữ liệu từ API, cụ thể hơn api.js sẽ tạo 1 request dạng POST đến server và xử lý dữ liệu trả về
