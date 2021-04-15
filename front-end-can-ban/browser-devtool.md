@@ -6,7 +6,5 @@ Trình duyệt web có cung cấp một nơi để chỉnh sửa các thao tác 
 
 {% embed url="https://developer.chrome.com/docs/devtools/" %}
 
-## HTML/CSS devtool
 
-## JS devtool 
 
