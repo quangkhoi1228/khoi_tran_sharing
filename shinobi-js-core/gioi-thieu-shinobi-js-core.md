@@ -79,3 +79,48 @@ Shinobi server trả dữ liệu API có dạng JSON string theo format
 * result: kết quả của API, thành công: success, thất bại: fail
 * content: nội dung của API hoặc nội dung khi bị lỗi
 
+### Dữ liệu dạng findDataList
+
+Nếu 1 Shinobi server API response có nội dung JSON key content theo format:
+
+{% tabs %}
+{% tab title="Only result content key" %}
+```css
+{
+    data: [{…},{…},{…},{…},{…},{…},{…},{…},{…},{…}],//list JSON
+    pageNum: 1,//number
+    pageTotal: 60,//number
+    recordPerPage: 10, //number
+    rowTotal: 598,//number
+}
+```
+{% endtab %}
+
+{% tab title="Full result" %}
+```
+{
+    result : true,
+    content : {
+        data: [{…},{…},{…},{…},{…},{…},{…},{…},{…},{…}],//list JSON
+        pageNum: 1,//number
+        pageTotal: 60,//number
+        recordPerPage: 10, //number
+        rowTotal: 598,//number
+    }    
+}
+```
+{% endtab %}
+{% endtabs %}
+
+Diễn giải:
+
+* `data`: thể hiện danh sách dữ liệu
+* `pageNum`: thể hiện số thứ tự trang 
+* `pageTotal`: thể hiện tổng số trang
+* `recordPerPage`: số dòng mỗi trang
+* `rowTotal`: tổng số dòng dữ liệu
+
+
+
+
+
