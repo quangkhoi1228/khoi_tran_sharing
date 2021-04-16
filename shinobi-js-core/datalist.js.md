@@ -603,7 +603,28 @@ ngoài chức năng render 1 list JSON lên giao diện datalist.js còn có th�
 
 #### initLoadApi
 
+{% tabs %}
+{% tab title="Cú pháp" %}
+```javascript
+datalistObject.initLoadApi(url,request,callback)
+```
+{% endtab %}
 
+{% tab title="Code" %}
+```javascript
+var request = {};
+request.recordPerPage = 3;
+request.pageNum = 1;
+
+datalist1.initLoadApi("/api/coretest/findDataList", request);
+```
+{% endtab %}
+{% endtabs %}
+
+Diễn giải:
+
+* `url`: api lấy dữ liệu có dạng findDataList
+* `request`: JSON cấu hình các thông số của `datalistObject`
 
 
 
