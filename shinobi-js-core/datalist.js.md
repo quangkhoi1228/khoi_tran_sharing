@@ -662,7 +662,25 @@ Ta có thể xóa dữ liệu đang render trên giao diện bằng hàm `clear`
 datalistObject.clear()
 ```
 
+## Các thuộc tính và hàm hỗ trợ
 
+| Diễn giải |  |
+| :--- | :--- |
+| loadingContainer | container chứa loading khi call dữ liệu |
+| url | API gọi dữ liệu |
+| filters | Mảng các filter object đang áp dụng cho datalist |
+| staticfilters | Mảng các filter object được khai báo không thông qua datalistObject |
+| sorts | Mảng các sort object đang áp dụng cho datalist |
+| staticsorts | Mảng các sort object được khai báo không thông qua datalistObject |
+| paramsList | 1 custom key sẽ được thêm vào request khi gọi data API |
+| tableRows | List JSON object data hiện tại của datalistObject |
+| pageNum | Số trang đang hiển thị |
+| recordPerPage | Số phần tử mỗi trang |
+| pageTotal | Tổng số trang tối đa |
+| rowTotal | Tổng số dòng dữ liệu tối đa |
+| tableNode | snb-datalist-node container element |
+| tableContainerNode | Container cha của tableNode |
+| sampleNode | Phần tử con mẫu |
 
 
 
