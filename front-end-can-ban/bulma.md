@@ -26,6 +26,14 @@ _**\*Không học phần cấu hình Bulma dùng sass**_ ****
 
 làm bằng bulma tất cả các bài tập dưới đây
 
+{% hint style="warning" %}
+Lưu ý: Không dùng `Tiles`khuyến khích dùng `Columns` để chia layout
+{% endhint %}
+
+{% hint style="info" %}
+Lưu ý: Layout căn bản chủ yếu làm quen với cách chia hàng và cột 
+{% endhint %}
+
 ### **Layout căn bản**
 
 ![](https://lh3.googleusercontent.com/uEjb8o_y7G6B_M6FXXNKuvbxbPmkSb-M6UXc6RFUehenroGKAFKeMSYfjnP1k10vt_OcbfTjl_U4uBfOAsRgCbHElyoMA7cayrDz913dAM0Dbv0NZCSWXvfoUaEfZwQ4VwzmDjBv)
