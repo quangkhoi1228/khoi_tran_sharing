@@ -4,12 +4,6 @@
 
 api.js là một thư viện dùng để gọi dữ liệu từ API, cụ thể hơn api.js sẽ tạo 1 request dạng POST đến server và xử lý dữ liệu trả về
 
-Xem thêm: **shinobi server response**
-
-{% embed url="https://quangkhoi1228.gitbook.io/guide/shinobi-js-core/gioi-thieu-shinobi-js-core\#shinobi-server-api-response" %}
-
-
-
 {% tabs %}
 {% tab title="Cú pháp" %}
 ```diff
@@ -73,6 +67,12 @@ Khi shinobi server response có result:
 * fail: không chạy hàm `callback` mà hiển thị thông báo lỗi theo nội dung trả về
 * success: chạy hàm `callback` với thông số là content của API response
 {% endhint %}
+
+Xem thêm: **shinobi server response**
+
+{% embed url="https://quangkhoi1228.gitbook.io/guide/shinobi-js-core/gioi-thieu-shinobi-js-core\#shinobi-server-api-response" %}
+
+
 
 ## Diễn giải 
 
