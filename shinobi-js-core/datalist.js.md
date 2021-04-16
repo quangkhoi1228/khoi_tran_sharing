@@ -616,6 +616,14 @@ var request = {};
 request.recordPerPage = 3;
 request.pageNum = 1;
 
+request.filters = [
+    {'colname':'username','operator':': ','value':'831'}
+];
+
+request.sorts = [
+    {"colname":"createddate","value":"desc"}
+]
+
 datalist1.initLoadApi("/api/coretest/findDataList", request);
 ```
 {% endtab %}
@@ -626,6 +634,8 @@ Diễn giải:
 * `url`: api lấy dữ liệu có dạng findDataList
 * `request`: JSON cấu hình các thông số của `datalistObject`
 * `callback`: hàm chạy sau khi render xong dữ liệu 
+
+
 
 
 

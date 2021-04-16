@@ -124,9 +124,34 @@ Diễn giải:
 Sở dĩ cái tên Dữ liệu dạng findDataList vì shinobi server core hỗ trợ hàm findDataList dùng để trả về dữ liệu dạng này
 {% endhint %}
 
+### Filter object
 
+đối với api dạng `findDataList` đôi khi ta cần cấu hình thêm thuộc tính `filters` trong `request` hoặc trong `shinobiComponentObject`.
 
+`filter object`là 1 JSON có cấu trúc như sau:
 
+```css
+{
+    colname : colnameValue,// name,age,...
+    operator: operatorValue,//=,like
+    value: value,//Khôi,23
+}
+```
 
+`filters` là 1 mảng các đối tượng `filter` \(filter object\)
 
+### Sort object
+
+đối với api dạng `findDataList` đôi khi ta cần cấu hình thêm thuộc tính `sorts` trong `request` hoặc trong `shinobiComponentObject`.
+
+`sort object`là 1 JSON có cấu trúc như sau:
+
+```css
+{
+    colname : colnameValue,// name,age,...
+    operator: operatorValue,//asc,desc
+}
+```
+
+`sorts` là 1 mảng các đối tượng `sort` \(sort object\)
 
