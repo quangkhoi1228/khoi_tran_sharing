@@ -578,11 +578,32 @@ datalistObject.renderTable(dataJsonList);
 Lưu ý: pagination chưa có chức năng khi sử dụng `renderTable` nên ta có thể thêm class `is-hidden` vào pagination container để ẩn đi pagination
 {% endhint %}
 
+#### callback
+
+là hàm được gọi sau khi dữ liệu được render xong lên giao diện
+
+```javascript
+function(){
+    ...
+}
+```
+
+#### options
+
+| Thuộc tính | Mặc định | Diễn giải |
+| :--- | :--- | :--- |
+| lazyload | false | Khi bằng `true` dữ liệu được chia ra nhiều lần để đưa lên giao diện |
+| lazyloadSplitDataLength | 20 | số lượng phần tử được đưa vào mỗi lần lazy load lên giao diện |
+| lazySplitDataInterval | 20 | thời gian giữa 2 lần lazy load lên giao diện |
+| insertType | end | khi bằng `start` dữ liệu sẽ được insert vào đầu của danh sách trên giao diện |
+
 ### Render dựa theo API findDataList
 
 ngoài chức năng render 1 list JSON lên giao diện datalist.js còn có thể phối hợp với shinobi server để có thể tạo ra giao diện động có chức năng phân trang đi kèm.
 
 #### initLoadApi
+
+
 
 
 
