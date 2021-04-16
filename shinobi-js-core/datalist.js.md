@@ -141,6 +141,16 @@ các hàm JS gọi ra để thực thi đều có chung khai báo HTML
 #### Bước 1: Thêm JS, CSS vào trang 
 
 {% tabs %}
+{% tab title="JS" %}
+```markup
+<script src="https://naruto.finance/static/js/component/mapping.js"></script>
+<script src="https://naruto.finance/static/js/component/api.js"></script>
+<script src="https://naruto.finance/static/js/component/util.js"></script>
+<script src="https://naruto.finance/static/js/library/all.min.js"></script>
+<script src="https://naruto.finance/static/js/component/datalist.js"></script>
+```
+{% endtab %}
+
 {% tab title="CSS" %}
 ```markup
 <style>
@@ -248,12 +258,6 @@ các hàm JS gọi ra để thực thi đều có chung khai báo HTML
         display: none;
     }
 </style>
-```
-{% endtab %}
-
-{% tab title="JS" %}
-```
-
 ```
 {% endtab %}
 {% endtabs %}
