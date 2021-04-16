@@ -355,9 +355,9 @@ Phải có HTML chung rồi với khởi tạo được hàm shinobi.datalist
 {% tab title="Cú pháp" %}
 ```javascript
 var dataJsonList = [{...},{...},...,{...}];
-var datalistObject = new shinobi.datalist(datalistId);
+var tableObject = new shinobi.table(tableId);
 
-datalistObject.renderTable(dataJsonList,callback,options);
+tableObject.renderTable(colnames, dataJsonList, renders)
 ```
 {% endtab %}
 
@@ -380,9 +380,10 @@ datalistObject.renderTable(dataJsonList,callback,options);
         age: 222,
     },
 ];
-
-var datalistObject = new shinobi.datalist('datalist1');
-datalistObject.renderTable(dataJsonList);
+var colnames = shinobi.tableHelper.getColname('table1');
+var renders = [];
+var tableObject = new shinobi.table('table1');
+tableObject.renderTable(colnames, dataJsonList, renders);
 ```
 {% endtab %}
 
@@ -402,13 +403,13 @@ datalistObject.renderTable(dataJsonList);
     <script
         src="https://naruto.finance/static/js/component/language.js"></script>
     <script
+        src="https://naruto.finance/static/js/component/exportfile.js"></script>
+    <script
         src="https://naruto.finance/static/js/component/mapping.js"></script>
     <script src="https://naruto.finance/static/js/component/api.js"></script>
     <script src="https://naruto.finance/static/js/component/util.js"></script>
     <script src="https://naruto.finance/static/js/library/all.min.js"></script>
-
-    <script
-        src="https://naruto.finance/static/js/component/datalist.js"></script>
+    <script src="https://naruto.finance/static/js/component/table.js"></script>
     <script
         src="https://naruto.finance/static/js/component/initbulma.js"></script>
     <script
@@ -524,26 +525,16 @@ datalistObject.renderTable(dataJsonList);
 
     <div class="hero">
         <div class="hero-body">
-            <div id="datalist1" snb-datalist-node="datalist1"
-                class="columns is-multiline">
-                <div snb-datalist-parent="datalist1" class="column is-4">
-                    <div class="card ">
-                        <div class="card-content">
-                            <div class="content">
-                                <p>
-                                    id <span snb-key="id"></span>
-                                </p>
-                                <p>
-                                    name <span snb-key="name"></span>
-                                </p>
-                                <p>
-                                    age <span snb-key="age"></span>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <table id="table1" class="table is-fullwidth">
+                <thead>
+                    <tr>
+                        <th snb-colname="id">Id</th>
+                        <th snb-colname="name">name</th>
+                        <th snb-colname="age">age</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
             <div class="table-pagination">
                 <div class="columns is-mobile">
                     <div class="column select-record-per-page-container">
@@ -642,9 +633,10 @@ datalistObject.renderTable(dataJsonList);
                     age: 222,
                 },
             ];
-
-            var datalistObject = new shinobi.datalist('datalist1');
-            datalistObject.renderTable(dataJsonList);
+            var colnames = shinobi.tableHelper.getColname('table1');
+            var renders = [];
+            var tableObject = new shinobi.table('table1');
+            tableObject.renderTable(colnames, dataJsonList, renders);
         });
 
     </script>
@@ -655,7 +647,7 @@ datalistObject.renderTable(dataJsonList);
 {% endtab %}
 
 {% tab title="Kết quả" %}
-![](../.gitbook/assets/image%20%2828%29.png)
+![](../.gitbook/assets/image%20%2841%29.png)
 {% endtab %}
 {% endtabs %}
 
