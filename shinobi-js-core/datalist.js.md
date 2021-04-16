@@ -633,10 +633,10 @@ Diễn giải:
 
 * `url`: api lấy dữ liệu có dạng findDataList
 * `request`: JSON cấu hình các thông số của `datalistObject` có các thuộc tính sau:
-  * recordPerPage: số dòng mỗi trang
-  * pageNum: số trang hiện tại
-  * filters: danh sách các [filter object](https://quangkhoi1228.gitbook.io/guide/shinobi-js-core/gioi-thieu-shinobi-js-core#filter-object)
-  * sorts: danh sách các [sort object](https://quangkhoi1228.gitbook.io/guide/shinobi-js-core/gioi-thieu-shinobi-js-core#sort-object)
+  * `recordPerPage`: số dòng mỗi trang
+  * `pageNum`: số trang hiện tại
+  * `filters`: danh sách các [filter object](https://quangkhoi1228.gitbook.io/guide/shinobi-js-core/gioi-thieu-shinobi-js-core#filter-object)
+  * `sorts`: danh sách các [sort object](https://quangkhoi1228.gitbook.io/guide/shinobi-js-core/gioi-thieu-shinobi-js-core#sort-object)
 * `callback`: hàm chạy sau khi render xong dữ liệu 
 
 
