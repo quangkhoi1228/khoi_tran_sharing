@@ -179,9 +179,9 @@ shinobi.cacheapi.clearKey('/api/GuiApi/getTableHeader')
 {% endtab %}
 
 {% tab title="Kết quả" %}
-![](../.gitbook/assets/image%20%2836%29.png)
+![](../.gitbook/assets/image%20%2837%29.png)
 
-![](../.gitbook/assets/image%20%2829%29.png)
+![](../.gitbook/assets/image%20%2833%29.png)
 {% endtab %}
 {% endtabs %}
 
@@ -197,7 +197,7 @@ shinobi.cacheapi.clear();
 {% endtab %}
 
 {% tab title="Kết quả" %}
-![](../.gitbook/assets/image%20%2828%29.png)
+![](../.gitbook/assets/image%20%2829%29.png)
 {% endtab %}
 {% endtabs %}
 
