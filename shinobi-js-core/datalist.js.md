@@ -228,17 +228,47 @@ Diễn giải:
 datalist HTML bao gồm 3 thành phần:
 
 1. Container HTML cha khai báo:
-   1. id: id của container
-   2. snb-datalist-node: id của datalist node
-2. Container HTML con **nằm trong** Container cha khai báo các nội dung sẽ được lặp đi lặp lại, **cấu trúc nội dung sẽ được quy định theo format của mapping.js**
+   1. `id`: id của container
+   2. `snb-datalist-node`: id của datalist node
+2. Container HTML con **nằm trong** Container cha khai báo
+   1. `snb-datalist-parent` bằng với snb-datalist-node của container cha
+   2. các nội dung sẽ được lặp đi lặp lại, **cấu trúc nội dung sẽ được quy định theo format của mapping.js**
 3. Container chứa đoạn HTML **nằm kế dưới Container cha** trong file HTML chứa nội dung phân trang, nội dung được để trong  tab **paginationHTML**
 
 **\*Khi thực thi JS datalist.js container HTML con sẽ được loop dựa theo số lượng dữ liệu và nằm trong container cha**
 {% endhint %}
 
+### Khởi tạo đối tượng datalist
+
+ Để sử dụng các chức năng của datalist.js ta cần phải khởi tạo đối tượng shinobi.datalist bằng cú pháp:
+
+{% tabs %}
+{% tab title="Cú pháp" %}
+```javascript
+var datalistObject = new shinobi.datalist(datalistId)
+```
+{% endtab %}
+
+{% tab title="Ví dụ" %}
+```javascript
+var datalistObject = new shinobi.datalist('datalistId');
+```
+{% endtab %}
+{% endtabs %}
+
+{% hint style="info" %}
+Phải có HTML chung rồi với khởi tạo được hàm shinobi.datalist
+{% endhint %}
 
 
 
+### Render danh sách JSON lên giao diện
+
+ Để render danh sách JSON lên giao diện ta sử dụng hàm  `renderTable`
+
+```javascript
+shinobi.render
+```
 
 
 
