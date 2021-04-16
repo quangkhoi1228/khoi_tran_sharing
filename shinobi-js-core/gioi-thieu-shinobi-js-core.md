@@ -120,6 +120,10 @@ Diễn giải:
 * `recordPerPage`: số dòng mỗi trang
 * `rowTotal`: tổng số dòng dữ liệu
 
+{% hint style="info" %}
+Sở dĩ cái tên Dữ liệu dạng findDataList vì shinobi server core hỗ trợ hàm findDataList dùng để trả về dữ liệu dạng này
+{% endhint %}
+
 
 
 
