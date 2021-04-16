@@ -6,7 +6,17 @@ datalist.js là một thư viện dùng để hiển thị dữ liệu dạng li
 
 ![V&#xED; d&#x1EE5; v&#x1EC1; c&#xE1;c element HTML d&#x1EA1;ng l&#x1EB7;p &#x111;i l&#x1EB7;p l&#x1EA1;i](../.gitbook/assets/image%20%2837%29.png)
 
+## Yêu cầu
 
+* mapping.js
+* api.js
+* util.js
 
+```markup
+<script src="https://naruto.finance/static/js/component/mapping.js"></script>
+<script src="https://naruto.finance/static/js/component/api.js"></script>
+<script src="https://naruto.finance/static/js/component/util.js"></script>
+```
 
+## Cách dùng
 
