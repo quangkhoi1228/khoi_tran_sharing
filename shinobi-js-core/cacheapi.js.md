@@ -73,7 +73,7 @@ Ta thấy gọi cacheapi 2 lần đều trả về dữ liệu nhưng api chỉ 
 
 phía client sẽ tạo 1 biến JS là `shinobi.cacheapi.cache` dạng 1 JSON, khi gọi api lần đầu với cacheapi.js client sẽ tự động lưu kết quả trả về vào biến `shinobi.cacheapi.cache` theo format:
 
-```javascript
+```css
 {
     url_bodyParamString : serverResponse
 }
@@ -144,13 +144,11 @@ shinobi.cacheapi.request(url, JSON.stringify(bodyParam), callback);
 {% endtab %}
 {% endtabs %}
 
-Các thuộc tính options:
+### options
 
-|  |  |
-| :--- | :--- |
-|  |  |
+| Thuộc tính | Mặc định | diễn giải |
+| :--- | :--- | :--- |
+| responseHandleFunction | null | khai báo hàm này để cấu hình một hàm xử lý khi nhận được response trả về |
 
-
-
-
+### 
 
