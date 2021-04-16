@@ -142,7 +142,7 @@ các hàm JS gọi ra để thực thi đều có chung khai báo HTML
 {% tabs %}
 {% tab title="Cú pháp" %}
 ```markup
- <table id="datalistId" >
+ <table id="tableId" >
      <thead>
          <tr>
              <th>...</th>
