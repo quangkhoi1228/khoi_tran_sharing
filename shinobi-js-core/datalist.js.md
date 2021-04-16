@@ -625,6 +625,7 @@ Diễn giải:
 
 * `url`: api lấy dữ liệu có dạng findDataList
 * `request`: JSON cấu hình các thông số của `datalistObject`
+* `callback`: hàm chạy sau khi render xong dữ liệu 
 
 
 
