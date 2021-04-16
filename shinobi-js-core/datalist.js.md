@@ -639,7 +639,28 @@ Diễn giải:
   * `sorts`: danh sách các [sort object](https://quangkhoi1228.gitbook.io/guide/shinobi-js-core/gioi-thieu-shinobi-js-core#sort-object)
 * `callback`: hàm chạy sau khi render xong dữ liệu 
 
+### Load dữ liệu 1 trang cụ thể
 
+Sau khi khởi tạo đối tượng thông qua hàm `initLoadApi` ta có thể sử dụng hàm `reloadApi` để load dữ liệu 1 trang cụ thể lên giao diện
+
+```javascript
+//load data 1 trang cụ thể 
+datalistObject.reloadApi(pageNum)
+
+//chạy hàm sau khi load data xong
+datalistObject.reloadApi(pageNum,callback)
+
+//load lại data trang hiện tại
+datalistObject.reloadApi()
+```
+
+### Xóa dữ liệu của datalist
+
+Ta có thể xóa dữ liệu đang render trên giao diện bằng hàm `clear`
+
+```javascript
+datalistObject.clear()
+```
 
 
 
