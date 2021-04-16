@@ -268,7 +268,7 @@ shinobi.notification.notification.error('error');
 {% endtab %}
 
 {% tab title="Kết quả" %}
-![](../.gitbook/assets/image%20%2833%29.png)
+![](../.gitbook/assets/image%20%2837%29.png)
 {% endtab %}
 {% endtabs %}
 
@@ -554,7 +554,7 @@ shinobi.notification.confirm(callback, options);
 
 **Có options**
 
-![](../.gitbook/assets/image%20%2829%29.png)
+![](../.gitbook/assets/image%20%2835%29.png)
 
 ![](../.gitbook/assets/image%20%2830%29.png)
 {% endtab %}
