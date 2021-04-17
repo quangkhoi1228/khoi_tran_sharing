@@ -27,7 +27,11 @@ _**\*Không học phần cấu hình Bulma dùng sass**_ ****
 làm bằng bulma tất cả các bài tập dưới đây
 
 {% hint style="warning" %}
-Lưu ý: Không dùng `Tiles`khuyến khích dùng `Columns` để chia layout
+Lưu ý: 
+
+* Không dùng `Tiles`khuyến khích dùng `Columns` để chia layout
+* Khoảng trắng không được dùng phần tử HTML có background màu trắng
+* Bài cơ bản ngoại trừ canh vị trí chữ và màu sắc tự do còn lại làm tất cả bằng Bulma
 {% endhint %}
 
 {% hint style="info" %}
