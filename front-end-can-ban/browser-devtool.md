@@ -46,5 +46,9 @@ Input: 1 mảng các lá bài không theo thứ tự bài tiến lên
 Output: 1 mảng các lá bài theo thứ tự bài tiến lên
 {% endhint %}
 
+Bài 2:
 
+Luật như bài 1, nhưng có giao diện cho người dùng nhập input, và xử lý để đưa ra kết quả việc xử lý cho người dùng
+
+![G&#x1EE3;i &#xFD; giao di&#x1EC7;n](../.gitbook/assets/image%20%2842%29.png)
 
