@@ -43,7 +43,7 @@ Trong hệ Aladin có các fragment không thể thiếu như : header, footer
 
 ![](../.gitbook/assets/screenshot-from-2021-04-26-21-43-47.png)
 
-Khi ta import 2 file header và footer vào trong 1 trang web như sau:
+Khi ta import 2 file header.html và footer.html vào trong 1 trang web như sau:
 
 * file html:
 
