@@ -2,6 +2,8 @@
 
 Trong một hệ thống giao diện web \( giao diện aladin\) , các khối html  giống  nhau có thể  lặp đi lặp lại nhiều lần, để tránh việc lặp đi lặp lại nhiều lần, fragment sẽ chứa một khối html sử dụng chung cho các  trang web sử dụng khối html trong fragment, khi này các trang cần khối html trong fragment, chỉ cần thêm fragment vào các trang mà không cần code lại. 
 
+Fragment trong html là một khối html được sử dụng  cho nhiều trang web khác nhau mà có cùng  1 cách hiển thị. Nói cách để tránh việc lặp lại nhiều lần của một đoạn html  người  ta sử dụng fragment.
+
 Trong hệ thống của aladin, toàn bộ các  fragment sẽ được lưu trong folder tên  "fragment"
 
 \(link: /aladin/web/aladin/fragment \);
@@ -58,6 +60,10 @@ Khi ta import 2 file header.html và footer.html vào trong 1 trang web như sau
 ![](../.gitbook/assets/screenshot-from-2021-04-26-21-55-25.png)
 
  
+
+Ví dụ: 
+
+
 
 
 
