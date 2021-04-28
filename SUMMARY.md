@@ -50,4 +50,5 @@
   * [Navigator.dart](shinobi-mobile-core/navigator.dart.md)
   * [Render.dart](shinobi-mobile-core/render.dart.md)
   * [SnbPageLoading.dart](shinobi-mobile-core/snbpageloading.dart.md)
+  * [Deploy mobile](shinobi-mobile-core/deploy-mobile.md)
 
