@@ -4,15 +4,15 @@
 
 table.js là một thư viện dùng để hiển thị dữ liệu dạng list JSON hoặc [dữ liệu dạng findDataList](https://quangkhoi1228.gitbook.io/guide/shinobi-js-core/gioi-thieu-shinobi-js-core#du-lieu-dang-finddatalist) lên giao diện, các dữ liệu này thể hiện trên giao diện theo dạng 1 table\`
 
-![](../.gitbook/assets/image%20%2840%29.png)
+![](<../.gitbook/assets/image (40).png>)
 
 ## Cách dùng
 
 ### Cách khai báo HTML chung
 
-các hàm JS gọi ra để thực thi đều có chung khai báo HTML 
+các hàm JS gọi ra để thực thi đều có chung khai báo HTML&#x20;
 
-#### Bước 1: Thêm JS, CSS vào trang 
+#### Bước 1: Thêm JS, CSS vào trang&#x20;
 
 {% tabs %}
 {% tab title="JS" %}
@@ -235,15 +235,15 @@ datalist HTML bao gồm 3 thành phần:
 
 1. table HTML khai báo:
    1. `id`: id của tableObject
-   2.  thẻ thead bao gồm các thẻ th khai báo các thuộc tính của table
+   2. &#x20;thẻ thead bao gồm các thẻ th khai báo các thuộc tính của table
 2. Container chứa đoạn HTML **nằm kế dưới table** trong file HTML chứa nội dung phân trang, nội dung được để trong  tab **paginationHTML**
 
-**\*Khi thực thi JS table.js các thẻ `tr` con sẽ được loop dựa theo số lượng dữ liệu và nằm trong `tbody`** 
+**\*Khi thực thi JS table.js các thẻ `tr` con sẽ được loop dựa theo số lượng dữ liệu và nằm trong `tbody` **&#x20;
 {% endhint %}
 
 ### Các thuộc tính của thẻ th header
 
-#### snb-colname 
+#### snb-colname&#x20;
 
 thể hiện key nào trong JSON sẽ được đưa vào cột này
 
@@ -325,7 +325,7 @@ snb-preprocess="customFilterInput">Name</th>
 
 ### Khởi tạo đối tượng datalist
 
- Để sử dụng các chức năng của datalist.js ta cần phải khởi tạo đối tượng shinobi.datalist bằng cú pháp:
+&#x20;Để sử dụng các chức năng của datalist.js ta cần phải khởi tạo đối tượng shinobi.datalist bằng cú pháp:
 
 {% tabs %}
 {% tab title="Cú pháp" %}
@@ -349,7 +349,7 @@ Phải có HTML chung rồi với khởi tạo được hàm shinobi.datalist
 
 ### Render danh sách JSON lên giao diện
 
- Để render danh sách JSON lên giao diện ta sử dụng hàm  `renderTable`
+&#x20;Để render danh sách JSON lên giao diện ta sử dụng hàm  `renderTable`
 
 {% tabs %}
 {% tab title="Cú pháp" %}
@@ -647,7 +647,7 @@ tableObject.renderTable(colnames, dataJsonList, renders);
 {% endtab %}
 
 {% tab title="Kết quả" %}
-![](../.gitbook/assets/image%20%2841%29.png)
+![](<../.gitbook/assets/image (41).png>)
 {% endtab %}
 {% endtabs %}
 
@@ -667,12 +667,12 @@ function(){
 
 #### options
 
-| Thuộc tính | Mặc định | Diễn giải |
-| :--- | :--- | :--- |
-| lazyload | false | Khi bằng `true` dữ liệu được chia ra nhiều lần để đưa lên giao diện |
-| lazyloadSplitDataLength | 20 | số lượng phần tử được đưa vào mỗi lần lazy load lên giao diện |
-| lazySplitDataInterval | 20 | thời gian giữa 2 lần lazy load lên giao diện |
-| insertType | end | khi bằng `start` dữ liệu sẽ được insert vào đầu của danh sách trên giao diện |
+| Thuộc tính              | Mặc định | Diễn giải                                                                    |
+| ----------------------- | -------- | ---------------------------------------------------------------------------- |
+| lazyload                | false    | Khi bằng `true` dữ liệu được chia ra nhiều lần để đưa lên giao diện          |
+| lazyloadSplitDataLength | 20       | số lượng phần tử được đưa vào mỗi lần lazy load lên giao diện                |
+| lazySplitDataInterval   | 20       | thời gian giữa 2 lần lazy load lên giao diện                                 |
+| insertType              | end      | khi bằng `start` dữ liệu sẽ được insert vào đầu của danh sách trên giao diện |
 
 ### Render dựa theo API findDataList
 
@@ -714,7 +714,7 @@ Diễn giải:
   * `pageNum`: số trang hiện tại
   * `filters`: danh sách các [filter object](https://quangkhoi1228.gitbook.io/guide/shinobi-js-core/gioi-thieu-shinobi-js-core#filter-object)
   * `sorts`: danh sách các [sort object](https://quangkhoi1228.gitbook.io/guide/shinobi-js-core/gioi-thieu-shinobi-js-core#sort-object)
-* `callback`: hàm chạy sau khi render xong dữ liệu 
+* `callback`: hàm chạy sau khi render xong dữ liệu&#x20;
 
 ### Load dữ liệu 1 trang cụ thể
 
@@ -741,23 +741,21 @@ datalistObject.clear()
 
 ## Các thuộc tính và hàm hỗ trợ
 
-| Diễn giải |  |
-| :--- | :--- |
-| loadingContainer | container chứa loading khi call dữ liệu |
-| url | API gọi dữ liệu |
-| filters | Mảng các filter object đang áp dụng cho datalist |
-| staticfilters | Mảng các filter object được khai báo không thông qua datalistObject |
-| sorts | Mảng các sort object đang áp dụng cho datalist |
-| staticsorts | Mảng các sort object được khai báo không thông qua datalistObject |
-| paramsList | 1 custom key sẽ được thêm vào request khi gọi data API |
-| tableRows | List JSON object data hiện tại của datalistObject |
-| pageNum | Số trang đang hiển thị |
-| recordPerPage | Số phần tử mỗi trang |
-| pageTotal | Tổng số trang tối đa |
-| rowTotal | Tổng số dòng dữ liệu tối đa |
-| tableNode | snb-datalist-node container element |
-| tableContainerNode | Container cha của tableNode |
-| sampleNode | Phần tử con mẫu |
-
-
+| Diễn giải          |                                                                     |
+| ------------------ | ------------------------------------------------------------------- |
+| loadingContainer   | container chứa loading khi call dữ liệu                             |
+| url                | API gọi dữ liệu                                                     |
+| filters            | Mảng các filter object đang áp dụng cho datalist                    |
+| staticfilters      | Mảng các filter object được khai báo không thông qua datalistObject |
+| sorts              | Mảng các sort object đang áp dụng cho datalist                      |
+| staticsorts        | Mảng các sort object được khai báo không thông qua datalistObject   |
+| paramsList         | 1 custom key sẽ được thêm vào request khi gọi data API              |
+| tableRows          | List JSON object data hiện tại của datalistObject                   |
+| pageNum            | Số trang đang hiển thị                                              |
+| recordPerPage      | Số phần tử mỗi trang                                                |
+| pageTotal          | Tổng số trang tối đa                                                |
+| rowTotal           | Tổng số dòng dữ liệu tối đa                                         |
+| tableNode          | snb-datalist-node container element                                 |
+| tableContainerNode | Container cha của tableNode                                         |
+| sampleNode         | Phần tử con mẫu                                                     |
 

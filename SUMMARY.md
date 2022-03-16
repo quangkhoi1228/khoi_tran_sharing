@@ -51,4 +51,6 @@
   * [Render.dart](shinobi-mobile-core/render.dart.md)
   * [SnbPageLoading.dart](shinobi-mobile-core/snbpageloading.dart.md)
   * [Deploy mobile](shinobi-mobile-core/deploy-mobile.md)
-
+* [Shinobi BE core](shinobi-be-core/README.md)
+  * [API](shinobi-be-core/api.md)
+* [Setup Project](setup-project.md)
