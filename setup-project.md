@@ -76,7 +76,7 @@ git pull
 #Already up to date.
 ```
 
-![folder git sau khi pull](<.gitbook/assets/image (53).png>)
+![folder git sau khi pull](<.gitbook/assets/image (58).png>)
 
 ## Setup run server với inteliJ IDEA
 
@@ -84,13 +84,13 @@ git pull
 
 Tại giao diện `intelliJ` click vào nút `Open` sau đó chọn thư mục `cmedweb` nằm trong thư mục `git` để open folder project
 
-![InteliJ IDEA](<.gitbook/assets/image (56).png>)
+![InteliJ IDEA](<.gitbook/assets/image (62).png>)
 
-![folder cmedweb](<.gitbook/assets/image (55).png>)
+![folder cmedweb](<.gitbook/assets/image (60).png>)
 
 `Trust Project` để hoàn tất&#x20;
 
-![](<.gitbook/assets/image (57).png>)
+![](<.gitbook/assets/image (64).png>)
 
 ### Link source đến các project và thư viện liên quan
 
@@ -108,18 +108,45 @@ Trong trường hợp `cmedweb` cần link với:
 
 Chuột phải vào module và chọn `Open Module Settings`
 
-![](<.gitbook/assets/image (52).png>)
+![](<.gitbook/assets/image (54).png>)
 
-![](<.gitbook/assets/image (49).png>)
+![](<.gitbook/assets/image (50).png>)
+
+#### Link source với project
 
 Tại Project Settings -> Modules chọn tab Sources
 
 &#x20;
 
-![](<.gitbook/assets/image (58).png>)
+![](<.gitbook/assets/image (66).png>)
 
 Nhấn vào nút `Add Content Root` sau đó chọn thư mục `src` của các project liên quan để link source
 
-![](<.gitbook/assets/image (54).png>)
+![](<.gitbook/assets/image (59).png>)
 
 Sau khi thêm thành công sẽ có thêm Source Folder được liệt kê nằm dưới, làm lại tương tự với các project khác.
+
+#### Thêm các thư viện
+
+Tại Project Settings -> Modules chọn tab Dependencies
+
+![](<.gitbook/assets/image (67).png>)
+
+Nhấn vào nút `cộng` sau đó chọn `JARs or Directories...` sau đó chọn file để thêm&#x20;
+
+![](<.gitbook/assets/image (57).png>)
+
+![](<.gitbook/assets/image (56).png>)
+
+Sau khi thêm thành công sẽ có thêm file được liệt kê nằm dưới, làm lại tương tự với các thư viện khác.
+
+![](<.gitbook/assets/image (49).png>)
+
+Nhấn apply sau khi thêm đầy đủ các project và thư viện liên quan&#x20;
+
+![](<.gitbook/assets/image (63).png>)
+
+###
+
+### Tạo run config của project
+
