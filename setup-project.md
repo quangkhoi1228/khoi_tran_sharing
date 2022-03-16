@@ -1,8 +1,8 @@
----
-description: Setup project là công việc đầu tiên để làm việc với 1 dự án
----
-
 # Setup Project
+
+{% hint style="warning" %}
+Lưu ý: đây là quy trình setup cho project `cmedweb` nên các bạn lúc thực hiện phải thay đổi tên project cho phù hợp.
+{% endhint %}
 
 ## Tạo cấu trúc thư mục
 
@@ -61,3 +61,65 @@ Resolving deltas: 100% (663/663), done.
 
 Khi clone source thì sẽ tự động clone source tại branch gốc (thường là `master` hoặc `main`). Nhưng đôi khi source chúng ta cần lại ở 1 nhánh khác, ví dụ ở đây là `develop`. Do đó chúng ta cần phải chuyển nhánh sang develop và pull code từ nhánh này.
 
+```bash
+# vào source code và kiểm tra branch hiện tại
+cd cmedweb
+git branch
+#* master
+
+# chuyển nhánh và pull source
+git checkout develop
+#Branch 'develop' set up to track remote branch 'develop' from 'origin'.
+#Switched to a new branch 'develop'
+
+git pull
+#Already up to date.
+```
+
+![folder git sau khi pull](<.gitbook/assets/image (53).png>)
+
+## Setup run server với inteliJ IDEA
+
+### Open folder project
+
+Tại giao diện `intelliJ` click vào nút `Open` sau đó chọn thư mục `cmedweb` nằm trong thư mục `git` để open folder project
+
+![InteliJ IDEA](<.gitbook/assets/image (56).png>)
+
+![folder cmedweb](<.gitbook/assets/image (55).png>)
+
+`Trust Project` để hoàn tất&#x20;
+
+![](<.gitbook/assets/image (57).png>)
+
+### Link source đến các project và thư viện liên quan
+
+Các bạn phải xác định project của mình cần link với các project và thư viện nào?&#x20;
+
+Trong trường hợp `cmedweb` cần link với:
+
+1. **Project**
+   1. shinobicore
+   2. shinobiutil
+2. **Thư viện**
+   1. shinobiserver.jar
+
+#### Các bước thực hiện
+
+Chuột phải vào module và chọn `Open Module Settings`
+
+![](<.gitbook/assets/image (52).png>)
+
+![](<.gitbook/assets/image (49).png>)
+
+Tại Project Settings -> Modules chọn tab Sources
+
+&#x20;
+
+![](<.gitbook/assets/image (58).png>)
+
+Nhấn vào nút `Add Content Root` sau đó chọn thư mục `src` của các project liên quan để link source
+
+![](<.gitbook/assets/image (54).png>)
+
+Sau khi thêm thành công sẽ có thêm Source Folder được liệt kê nằm dưới, làm lại tương tự với các project khác.
