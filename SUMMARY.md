@@ -53,4 +53,5 @@
   * [Deploy mobile](shinobi-mobile-core/deploy-mobile.md)
 * [Shinobi BE core](shinobi-be-core/README.md)
   * [API](shinobi-be-core/api.md)
-* [Setup Project](setup-project.md)
+* [Setup Project](setup-project/README.md)
+  * [Page 1](setup-project/page-1.md)
