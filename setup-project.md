@@ -61,7 +61,7 @@ Resolving deltas: 100% (663/663), done.
 
 Khi clone source thì sẽ tự động clone source tại branch gốc (thường là `master` hoặc `main`). Nhưng đôi khi source chúng ta cần lại ở 1 nhánh khác, ví dụ ở đây là `develop`. Do đó chúng ta cần phải chuyển nhánh sang develop và pull code từ nhánh này.
 
-```bash
+```shell
 # vào source code và kiểm tra branch hiện tại
 cd cmedweb
 git branch
@@ -88,13 +88,13 @@ Tại giao diện `intelliJ` click vào nút `Open` sau đó chọn thư mục `
 
 ![folder cmedweb](<.gitbook/assets/image (60).png>)
 
-`Trust Project` để hoàn tất&#x20;
+`Trust Project` để hoàn tất
 
 ![](<.gitbook/assets/image (64).png>)
 
 ### Link source đến các project và thư viện liên quan
 
-Các bạn phải xác định project của mình cần link với các project và thư viện nào?&#x20;
+Các bạn phải xác định project của mình cần link với các project và thư viện nào?
 
 Trong trường hợp `cmedweb` cần link với:
 
@@ -110,19 +110,17 @@ Chuột phải vào module và chọn `Open Module Settings`
 
 ![](<.gitbook/assets/image (54).png>)
 
-![](<.gitbook/assets/image (50).png>)
+![](<.gitbook/assets/image (50) (1).png>)
 
 #### Link source với project
 
 Tại Project Settings -> Modules chọn tab Sources
 
-&#x20;
-
 ![](<.gitbook/assets/image (66).png>)
 
 Nhấn vào nút `Add Content Root` sau đó chọn thư mục `src` của các project liên quan để link source
 
-![](<.gitbook/assets/image (59).png>)
+![](<.gitbook/assets/image (59) (1).png>)
 
 Sau khi thêm thành công sẽ có thêm Source Folder được liệt kê nằm dưới, làm lại tương tự với các project khác.
 
@@ -132,7 +130,7 @@ Tại Project Settings -> Modules chọn tab Dependencies
 
 ![](<.gitbook/assets/image (67).png>)
 
-Nhấn vào nút `cộng` sau đó chọn `JARs or Directories...` sau đó chọn file để thêm&#x20;
+Nhấn vào nút `cộng` sau đó chọn `JARs or Directories...` sau đó chọn file để thêm
 
 ![](<.gitbook/assets/image (57).png>)
 
@@ -142,7 +140,7 @@ Sau khi thêm thành công sẽ có thêm file được liệt kê nằm dưới
 
 ![](<.gitbook/assets/image (49).png>)
 
-Nhấn apply sau khi thêm đầy đủ các project và thư viện liên quan&#x20;
+Nhấn apply sau khi thêm đầy đủ các project và thư viện liên quan
 
 ![](<.gitbook/assets/image (63).png>)
 
@@ -150,3 +148,26 @@ Nhấn apply sau khi thêm đầy đủ các project và thư viện liên quan&
 
 ### Tạo run config của project
 
+#### Mở panel run config
+
+Tại intelliJ click vào nút `Add Configuration...` để mở panel
+
+![](<.gitbook/assets/image (34).png>)
+
+Chọn `Add new...` và chọn `Application`
+
+![](<.gitbook/assets/image (51).png>)
+
+Bên dưới là các thông  số của run config&#x20;
+
+![](<.gitbook/assets/image (59).png>)
+
+#### Chọn main class
+
+Chọn hàm main của project ở đây là `CmedMain`
+
+![](<.gitbook/assets/image (50).png>)
+
+#### Thêm VM options
+
+VM&#x20;
