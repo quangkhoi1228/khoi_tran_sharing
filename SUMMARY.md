@@ -56,3 +56,5 @@
 * [Setup Project](setup-project.md)
   * [Mô tả chi tiết VM options](setup-project/mo-ta-chi-tiet-vm-options.md)
   * [Một số lỗi thường gặp](setup-project/mot-so-loi-thuong-gap.md)
+  * [Cấu trúc project](setup-project/cau-truc-project.md)
+* [Build resource](build-resource.md)
