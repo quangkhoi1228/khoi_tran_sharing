@@ -55,3 +55,4 @@
   * [API](shinobi-be-core/api.md)
 * [Setup Project](setup-project.md)
   * [Mô tả chi tiết VM options](setup-project/mo-ta-chi-tiet-vm-options.md)
+  * [Một số lỗi thường gặp khi chạy Project](setup-project/mot-so-loi-thuong-gap-khi-chay-project.md)
