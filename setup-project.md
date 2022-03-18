@@ -221,5 +221,5 @@ Trong trường hợp có nhiều hàm main click vào dấu xổ xuống tại 
 ![](<.gitbook/assets/image (59).png>)&#x20;
 
 {% hint style="danger" %}
-Có thể xảy ra lỗi khi chạy `run config`, có thể tham khảo [Một số lỗi thường gặp](setup-project/mot-so-loi-thuong-gap-khi-chay-project.md) khi chạy Project để khăc phục
+Có thể xảy ra lỗi khi chạy `run config`, có thể tham khảo [Một số lỗi thường gặp](setup-project/mot-so-loi-thuong-gap.md) khi chạy Project để khăc phục
 {% endhint %}
