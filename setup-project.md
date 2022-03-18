@@ -76,7 +76,7 @@ git pull
 #Already up to date.
 ```
 
-![folder git sau khi pull](<.gitbook/assets/image (58).png>)
+![folder git sau khi pull](<.gitbook/assets/image (58) (1).png>)
 
 ## Setup run server với inteliJ IDEA
 
@@ -128,7 +128,7 @@ Sau khi thêm thành công sẽ có thêm Source Folder được liệt kê nằ
 
 Tại Project Settings -> Modules chọn tab Dependencies
 
-![](<.gitbook/assets/image (67).png>)
+![](<.gitbook/assets/image (67) (1).png>)
 
 Nhấn vào nút `cộng` sau đó chọn `JARs or Directories...` sau đó chọn file để thêm
 
@@ -152,11 +152,11 @@ Nhấn apply sau khi thêm đầy đủ các project và thư viện liên quan
 
 Tại intelliJ click vào nút `Add Configuration...` để mở panel
 
-![](<.gitbook/assets/image (34).png>)
+![](<.gitbook/assets/image (34) (1).png>)
 
 Chọn `Add new...` và chọn `Application`
 
-![](<.gitbook/assets/image (51).png>)
+![](<.gitbook/assets/image (51) (1).png>)
 
 Bên dưới là các thông  số của run config&#x20;
 
@@ -170,4 +170,43 @@ Chọn hàm main của project ở đây là `CmedMain`
 
 #### Thêm VM options
 
-VM options là các run time argument của project do đó cần phải xác định chính xác trước khi muốn tạo run config, tham khảo thêm tại Mô tả VM options
+VM options là các run time argument của project do đó cần phải xác định chính xác trước khi muốn tạo run config, tham khảo thêm tại [Mô tả chi tiết VM options](setup-project/mo-ta-chi-tiet-vm-options.md)
+
+_Ví dụ VM options của Cmed_&#x20;
+
+```systemd
+-Dconfig=/Volumes/home/Project/cmedweb/git/cmedweb/web.properties   
+-Ds3=/Volumes/home/Project/cmedweb/git/cmedweb/s3.properties   
+-Dwebdir=/Volumes/home/Project/cmedweb/git/cmedweb/web/webdir/   
+-Dlogdbconfig=/Volumes/home/Project/cmedweb/git/cmedweb/logdbconfig.properties   
+-Ddbconfig=/Volumes/home/Project/cmedweb/git/cmedweb/dbconfig.properties   
+-Dcustomconfig=/Volumes/home/Project/cmedweb/git/cmedweb/config.properties   
+-Dorg.owasp.esapi.resources=/Volumes/home/Project/cmedweb/git/cmedweb/web   
+-Dloggerlevel=TRACE   
+-DSTARTWEBSOCKETSERVER=true   
+-DSOCKETSERVERHOST=localhost   
+-DSOCKETSERVERPORT=8090   
+-DISDEVMODE=true   
+-Ddomain=LOCALHOST
+```
+
+Thêm VM options: Tại panel run config click `modify options` chọn `Add VM options`
+
+![](<.gitbook/assets/image (61).png>)
+
+Dán nội dung vào input VM options vừa hiện ra
+
+![](<.gitbook/assets/image (58).png>)
+
+#### Đặt tên run config&#x20;
+
+![](<.gitbook/assets/image (52).png>)
+
+#### Lưu run config
+
+Nhấn nút `Apply` và `Ok` để hoàn tất quá trình&#x20;
+
+Sau khi thành công sẽ có thêm 1 run config xuất hiện trong danh sách run config
+
+![](<.gitbook/assets/image (34).png>)
+
