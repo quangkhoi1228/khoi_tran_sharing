@@ -18,5 +18,8 @@ Khi tải trang, website luôn luôn tải về các resource tĩnh như JS, CSS
 * Chuyển đổi các đoạn code dài thành các đoạn code ngắn hơn nhưng có cùng tác dụng
 * Phân code các module code nhỏ hơn và chỉ load những module cần thiết cho trang
 
+## Setup build resource
 
+_Xem thêm_ [_cấu trúc project_](setup-project/cau-truc-project.md) _thư mục `static` để hiểu rõ các folder trước khi vào mục này_
 
+__
