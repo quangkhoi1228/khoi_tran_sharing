@@ -58,3 +58,5 @@
   * [Một số lỗi thường gặp](setup-project/mot-so-loi-thuong-gap.md)
   * [Cấu trúc project](setup-project/cau-truc-project.md)
 * [Build resource](build-resource.md)
+* [Import](import/README.md)
+  * [deploy doc](import/deploy-doc.md)
