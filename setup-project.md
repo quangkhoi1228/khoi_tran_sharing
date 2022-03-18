@@ -120,7 +120,7 @@ Tại Project Settings -> Modules chọn tab Sources
 
 Nhấn vào nút `Add Content Root` sau đó chọn thư mục `src` của các project liên quan để link source
 
-![](<.gitbook/assets/image (59) (1).png>)
+![](<.gitbook/assets/image (59) (1) (1).png>)
 
 Sau khi thêm thành công sẽ có thêm Source Folder được liệt kê nằm dưới, làm lại tương tự với các project khác.
 
@@ -160,7 +160,7 @@ Chọn `Add new...` và chọn `Application`
 
 Bên dưới là các thông  số của run config&#x20;
 
-![](<.gitbook/assets/image (59).png>)
+![](<.gitbook/assets/image (59) (1).png>)
 
 #### Chọn main class
 
@@ -192,7 +192,7 @@ _Ví dụ VM options của Cmed_&#x20;
 
 Thêm VM options: Tại panel run config click `modify options` chọn `Add VM options`
 
-![](<.gitbook/assets/image (61).png>)
+![](<.gitbook/assets/image (61) (1).png>)
 
 Dán nội dung vào input VM options vừa hiện ra
 
@@ -210,3 +210,16 @@ Sau khi thành công sẽ có thêm 1 run config xuất hiện trong danh sách 
 
 ![](<.gitbook/assets/image (34).png>)
 
+### Chạy project
+
+click nút mũi tên kế bên `run config` đang chọn để chạy nó
+
+![](<.gitbook/assets/image (61).png>)
+
+Trong trường hợp có nhiều hàm main click vào dấu xổ xuống tại `run config` hiện tại sau đó chọn `run config` tương ứng để chạy
+
+![](<.gitbook/assets/image (59).png>)&#x20;
+
+{% hint style="danger" %}
+Có thể xảy ra lỗi khi chạy `run config`, có thể tham khảo Một số lỗi thường gặp khi chạy Project để khăc phục
+{% endhint %}
