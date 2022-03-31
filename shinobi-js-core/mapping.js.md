@@ -88,7 +88,7 @@ giá trị của phần tử
 'Giá trị'
 ```
 
-### form HTML 
+### form HTML
 
 các thẻ thuộc dạng form như input,select,textarea,...
 
@@ -100,10 +100,73 @@ các thẻ thuộc dạng form như input,select,textarea,...
     <option>option3</option>
 </select>
 <textarea>some text</textarea>
-
 ```
 
 ## Gán dữ liệu lên giao diện
+
+### Bước 1&#x20;
+
+Khởi tạo đoạn script sau trong file html
+
+```
+<script>
+   document.addEventListener('DOMContentLoaded', function() {
+       shinobi.demorender.build();
+   });
+</script>
+```
+
+### Bước 2
+
+Khởi tạo file js tương ứng, với cấu trúc như sau
+
+```
+// Some code
+shinobi.demorender = {
+   build: function() {
+       // functions
+   },
+}
+```
+
+### Bước 3
+
+Dữ liệu đầu vào là một jsonString, tương ứng với mỗi key trong Json String là một thuộc tính snb-key trong mỗi elements
+
+```
+// Some code
+<div id="container" class="container">
+    <input type="text" class="input" snb-key="a">
+    <input type="text" class="input" snb-key="b">
+    <input type="text" class="input" snb-key="c">
+</div>
+```
+
+```
+// Some code
+shinobi.demorender = {
+   build: function() {
+       // functions
+       getInfo();
+   },
+   getInfo: function() {
+       var data = {
+           a: "quoc hoang",
+           b: "kim hoang",
+           c: "truong thinh",
+       }
+   },
+}
+```
+
+### Bước 4
+
+Sử dụng câu lệnh sau thuộc shinobi để mapping, “#container” là id của element cha chứa các elements con (các thuộc tính snb-key thuộc các elements con này)
+
+```
+// Some code
+shinobi.mapping.render('#container', JSON.stringify(data));
+```
 
 ### render/renderElement
 
@@ -161,7 +224,7 @@ các thẻ thuộc dạng form như input,select,textarea,...
 {% endtab %}
 
 {% tab title="kết quả" %}
-![](../.gitbook/assets/image%20%286%29.png)
+![](<../.gitbook/assets/image (6).png>)
 {% endtab %}
 {% endtabs %}
 
@@ -225,7 +288,7 @@ thuộc tính này dùng để xác định giá trị `value` thuộc `key` nà
 {% endtab %}
 
 {% tab title="kết quả" %}
-![](../.gitbook/assets/image%20%284%29.png)
+![](<../.gitbook/assets/image (4).png>)
 {% endtab %}
 {% endtabs %}
 
@@ -234,7 +297,7 @@ Các trường hợp gán giá trị:
 
 * Với thẻ HTML bình thường: value sẽ gán làm innerHTML của thẻ
 * Với thẻ form HTML:
-  * input \(dựa vào thuộc tính `type` của input\)
+  * input (dựa vào thuộc tính `type` của input)
     * checkbox: giá trị gán vào thuộc tính `checked`
     * radio: nếu `value` khớp với thuộc tính `radio-value` thì thuộc tính `checked=true` và ngược lại
     * còn lại gán vào thuộc tính `value` của thẻ
@@ -313,7 +376,7 @@ Cần thêm util.js để sử dụng thuộc tính này
 {% endtab %}
 
 {% tab title="kết quả" %}
-![](../.gitbook/assets/image%20%2812%29.png)
+![](<../.gitbook/assets/image (12).png>)
 {% endtab %}
 {% endtabs %}
 
@@ -324,7 +387,7 @@ Cần thêm util.js để sử dụng thuộc tính này
 `snb-render`là một hàm có 3 biến đầu vào `element`, `snbKeyValue`, và `json`
 
 {% hint style="info" %}
-Lưu ý: 
+Lưu ý:
 
 * Khi có `snb-render` giá trị sẽ không tự động được gán vào phần tử
 * khi có`snb-render` trong phần tử sẽ vô hiệu hóa thuộc tính `snb-format`
@@ -402,7 +465,7 @@ function dynamicColor(element, snbKeyValue, json) {
 {% endtab %}
 
 {% tab title="kết quả" %}
-![](../.gitbook/assets/image%20%2811%29.png)
+![](<../.gitbook/assets/image (11).png>)
 {% endtab %}
 {% endtabs %}
 
@@ -414,7 +477,6 @@ khi muốn sử dụng mapping.js để gán hoặc lấy dữ liệu của 1 ed
 {% tab title="Cú pháp" %}
 ```markup
 <tagname snb-key="keyname" snb-editor-index="editorIndex"></tagname>
-
 ```
 {% endtab %}
 
@@ -466,7 +528,7 @@ khi muốn sử dụng mapping.js để gán hoặc lấy dữ liệu của 1 ed
 {% endtab %}
 
 {% tab title="kết quả" %}
-![](../.gitbook/assets/image%20%283%29.png)
+![](<../.gitbook/assets/image (3).png>)
 {% endtab %}
 {% endtabs %}
 
@@ -485,7 +547,6 @@ snb-key-innerhtml="keyName3"
 > 
 content 
 </tagname>
-
 ```
 {% endtab %}
 
@@ -570,7 +631,7 @@ content
 {% endtab %}
 
 {% tab title="kết quả" %}
-![](../.gitbook/assets/image%20%2810%29.png)
+![](<../.gitbook/assets/image (10).png>)
 {% endtab %}
 {% endtabs %}
 
@@ -582,8 +643,6 @@ Lưu ý:
 * Luôn cần khai báo thuộc tính mồi `snb-key="keyName"`
 * mapping.js không tự thêm giá trị của `snb-key`, muốn thêm giá trị html ta khai báo `snb-key-html="keyName"` và `snb-key-value="keyName"` nếu muốn thêm giá trị `value` cho các thẻ form HTML
 {% endhint %}
-
-
 
 ## Lấy dữ liệu từ giao diện
 
@@ -670,7 +729,7 @@ Lưu ý:
 {% endtab %}
 
 {% tab title="kết quả" %}
-![](../.gitbook/assets/image%20%287%29.png)
+![](<../.gitbook/assets/image (7).png>)
 {% endtab %}
 {% endtabs %}
 
@@ -680,11 +739,11 @@ hai hàm này đều có nhiệm vụ lấy dữ liệu dạng JSON từ giao di
 
 Mặc định mapping.js chỉ lấy giá trị của các form HTML, nếu muốn lấy thêm giá trị của các thẻ HTML thường, có thể tham khảo bảng các thuộc tính `options` sau đây
 
-| Thuộc tính | Mặc định | Diễn giải |
-| :--- | :--- | :--- |
-| getHtml | false | Khi bằng `true` lấy giá trị cả các phần tử HTML thường, `key`: `snb-key` của phần tử, `value`: innerHTML của thẻ |
-| getText | false | Khi bằng `true` lấy giá trị cả các phần tử HTML thường, `key`: `snb-key` của phần tử, `value`: innerText của thẻ |
-| checkEmpty | false | Khi bằng `true` nếu thẻ form HTML lấy giá trị chưa có giá trị, phần tử sẽ bị hightlight đỏ theo các class Bulma |
+| Thuộc tính | Mặc định | Diễn giải                                                                                                        |
+| ---------- | -------- | ---------------------------------------------------------------------------------------------------------------- |
+| getHtml    | false    | Khi bằng `true` lấy giá trị cả các phần tử HTML thường, `key`: `snb-key` của phần tử, `value`: innerHTML của thẻ |
+| getText    | false    | Khi bằng `true` lấy giá trị cả các phần tử HTML thường, `key`: `snb-key` của phần tử, `value`: innerText của thẻ |
+| checkEmpty | false    | Khi bằng `true` nếu thẻ form HTML lấy giá trị chưa có giá trị, phần tử sẽ bị hightlight đỏ theo các class Bulma  |
 
 ### snb-key
 
@@ -743,7 +802,7 @@ thuộc tính này dùng để xác định phần tử con này có thể đư�
 {% endtab %}
 
 {% tab title="kết quả" %}
-![](../.gitbook/assets/image%20%2814%29.png)
+![](<../.gitbook/assets/image (14).png>)
 {% endtab %}
 {% endtabs %}
 
@@ -813,7 +872,7 @@ khi muốn sử dụng mapping.js để lấy dữ liệu của 1 editor ta thê
 {% endtab %}
 
 {% tab title="kết quả" %}
-![](../.gitbook/assets/image%20%2813%29.png)
+![](<../.gitbook/assets/image (13).png>)
 {% endtab %}
 {% endtabs %}
 
@@ -835,7 +894,7 @@ Khi muốn lấy giá trị từ `input` kiểu `radio`ta cần gán giá trị 
 
 ### image-url
 
-Khi muốn lấy `input` dạng `file` ta cần gán giá trị `image-url` bằng `value` 
+Khi muốn lấy `input` dạng `file` ta cần gán giá trị `image-url` bằng `value`
 
 ```markup
 <input type="file"  snb-key="file" image-url="file.jpg">
@@ -919,7 +978,7 @@ function functionName(snbKeyValue){
 {% endtab %}
 
 {% tab title="kết quả" %}
-![](../.gitbook/assets/image%20%2816%29.png)
+![](<../.gitbook/assets/image (16).png>)
 {% endtab %}
 {% endtabs %}
 
@@ -981,7 +1040,7 @@ Khi muốn chuẩn hóa kiểu dữ liệu của giá trị trước khi gán v�
 {% endtab %}
 
 {% tab title="" %}
-![](../.gitbook/assets/image%20%2817%29.png)
+![](<../.gitbook/assets/image (17).png>)
 {% endtab %}
 {% endtabs %}
 
@@ -1092,7 +1151,7 @@ Khi muốn chuẩn hóa kiểu dữ liệu của giá trị trước khi gán v�
 {% endtab %}
 
 {% tab title="kết quả" %}
-![](../.gitbook/assets/image%20%286%29.png)
+![](<../.gitbook/assets/image (6).png>)
 {% endtab %}
 {% endtabs %}
 
@@ -1156,7 +1215,7 @@ thuộc tính này dùng để xác định giá trị `value` thuộc `key` nà
 {% endtab %}
 
 {% tab title="kết quả" %}
-![](../.gitbook/assets/image%20%284%29.png)
+![](<../.gitbook/assets/image (4).png>)
 {% endtab %}
 {% endtabs %}
 
@@ -1165,7 +1224,7 @@ Các trường hợp gán giá trị:
 
 * Với thẻ HTML bình thường: value sẽ gán làm innerHTML của thẻ
 * Với thẻ form HTML:
-  * input \(dựa vào thuộc tính `type` của input\)
+  * input (dựa vào thuộc tính `type` của input)
     * checkbox: giá trị gán vào thuộc tính `checked`
     * radio: nếu `value` khớp với thuộc tính `radio-value` thì thuộc tính `checked=true` và ngược lại
     * còn lại gán vào thuộc tính `value` của thẻ
@@ -1175,17 +1234,9 @@ Các trường hợp gán giá trị:
 
 ### snb-format
 
-
-
-
-
-
-
-
-
 ## Các hàm hỗ trợ
 
-### render \(selector, jsonString\)
+### render (selector, jsonString)
 
 Đưa dữ liệu lên giao diện
 
@@ -1193,7 +1244,7 @@ Các trường hợp gán giá trị:
 shinobi.mapping.render(selector,jsonString)
 ```
 
-### renderElement\(element,json\)
+### renderElement(element,json)
 
 Đưa dữ liệu lên giao diện
 
@@ -1201,7 +1252,7 @@ shinobi.mapping.render(selector,jsonString)
 shinobi.mapping.renderElement(element,json)
 ```
 
-### renderSelector\(element,json,snbKey\)
+### renderSelector(element,json,snbKey)
 
 Đưa dữ liệu vài phần tử
 
@@ -1209,7 +1260,7 @@ shinobi.mapping.renderElement(element,json)
 shinobi.mapping.renderSelector(element,json,snbKey)
 ```
 
-### getValue\(selector,callback,options\)
+### getValue(selector,callback,options)
 
 Lấy dữ liệu có thể có trong tập con của phần tử và trả về dữ liệu dạng JSON
 
@@ -1217,7 +1268,7 @@ Lấy dữ liệu có thể có trong tập con của phần tử và trả về
 shinobi.mapping.getValue(selector,callback,options)
 ```
 
-### getValueElement\(element,callback,options\)
+### getValueElement(element,callback,options)
 
 Lấy dữ liệu có thể có trong tập con của phần tử và trả về dữ liệu dạng JSON
 
@@ -1225,7 +1276,7 @@ Lấy dữ liệu có thể có trong tập con của phần tử và trả về
 shinobi.mapping.getValueElement(element,callback,options)
 ```
 
-### handleOptionMapping\(element,snbKeyValue,options\)
+### handleOptionMapping(element,snbKeyValue,options)
 
 áp dụng các thay đổi lên phần tử dựa theo các `options` được khai báo
 
@@ -1233,7 +1284,7 @@ shinobi.mapping.getValueElement(element,callback,options)
 shinobi.mapping.handleOptionMapping(element,snbKeyValue,options)
 ```
 
-### getValueMappingNormalTag\(element,options\)
+### getValueMappingNormalTag(element,options)
 
 lấy giá trị của element HTML
 
@@ -1241,7 +1292,7 @@ lấy giá trị của element HTML
 shinobi.mapping.getValueMappingNormalTag(element,options)
 ```
 
-### replaceFormWithLabel\(selector\)
+### replaceFormWithLabel(selector)
 
 đổi các phần tử con của phần tử `selector` từ form HTML thành dạng text HTML
 
@@ -1249,7 +1300,7 @@ shinobi.mapping.getValueMappingNormalTag(element,options)
 shinobi.mapping.replaceFormWithLabel(selector)
 ```
 
-### replaceFormWithLabelElement\(element\)
+### replaceFormWithLabelElement(element)
 
 đổi các phần tử con của phần tử `element` từ form HTML thành dạng text HTML
 
@@ -1257,7 +1308,7 @@ shinobi.mapping.replaceFormWithLabel(selector)
 shinobi.mapping.replaceFormWithLabelElement(element)
 ```
 
-### replaceFormWithLabelSnbKey\(element\)
+### replaceFormWithLabelSnbKey(element)
 
 đổi phần tử form HTML thành dạng text HTML
 
@@ -1265,7 +1316,7 @@ shinobi.mapping.replaceFormWithLabelElement(element)
 shinobi.mapping.replaceFormWithLabelSnbKey(element)
 ```
 
-### checkPreProcess\(element,options\)
+### checkPreProcess(element,options)
 
 biến đổi dữ liệu trả về tùy vào các thuộc tính `options`
 
@@ -1273,7 +1324,7 @@ biến đổi dữ liệu trả về tùy vào các thuộc tính `options`
 shinobi.mapping.checkPreProcess(element,options)
 ```
 
-### getValueShinobiEditor\(element,options\)
+### getValueShinobiEditor(element,options)
 
 lấy dữ liệu từ phần tử dạng editor dựa vào các thuộc tính `options`
 
@@ -1281,7 +1332,7 @@ lấy dữ liệu từ phần tử dạng editor dựa vào các thuộc tính `
 shinobi.mapping.getValueShinobiEditor(element,options)
 ```
 
-### clear\(selector,callback,options\)
+### clear(selector,callback,options)
 
 xóa dữ liệu các phần tử có chứa snbKey dựa vào các cấu hình `options`
 
@@ -1289,15 +1340,10 @@ xóa dữ liệu các phần tử có chứa snbKey dựa vào các cấu hình 
 shinobi.mapping.clear(selector,callback,options)
 ```
 
-### clearElement\(element,callback,options\)
+### clearElement(element,callback,options)
 
 xóa dữ liệu các phần tử có chứa snbKey dựa vào các cấu hình `options`
 
 ```javascript
 shinobi.mapping.clearElement(element,callback,options)
 ```
-
-
-
-
-
