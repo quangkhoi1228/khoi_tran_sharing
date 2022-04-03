@@ -59,5 +59,6 @@
   * [Cấu trúc project](setup-project/cau-truc-project.md)
 * [Create new project form old project](create-new-project-form-old-project.md)
 * [Build resource](build-resource.md)
+* [Link source](link-source.md)
 * [Import](import/README.md)
   * [deploy doc](import/deploy-doc.md)
