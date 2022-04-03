@@ -57,6 +57,7 @@
   * [Mô tả chi tiết VM options](setup-project/mo-ta-chi-tiet-vm-options.md)
   * [Một số lỗi thường gặp](setup-project/mot-so-loi-thuong-gap.md)
   * [Cấu trúc project](setup-project/cau-truc-project.md)
+* [Create new project form old project](create-new-project-form-old-project.md)
 * [Build resource](build-resource.md)
 * [Import](import/README.md)
   * [deploy doc](import/deploy-doc.md)
