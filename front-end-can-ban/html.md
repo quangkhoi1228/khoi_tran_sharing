@@ -1,6 +1,6 @@
 # HTML
 
-## HTML là gì? <a id="html-la-gi"></a>
+## HTML là gì? <a href="#html-la-gi" id="html-la-gi"></a>
 
 * HTML là viết tắt của Hyper Text Markup Language
 * HTML là ngôn ngữ đánh dấu tiêu chuẩn để tạo các trang Web
@@ -9,7 +9,7 @@
 * Các phần tử HTML cho trình duyệt biết cách hiển thị nội dung
 * Các phần tử HTML gắn nhãn các phần nội dung như "đây là một tiêu đề", "đây là một đoạn văn", "đây là một liên kết", v.v.
 
-### Ví dụ HTML đơn giản <a id="vi-du-html-don-gian"></a>
+### Ví dụ HTML đơn giản <a href="#vi-du-html-don-gian" id="vi-du-html-don-gian"></a>
 
 ```markup
 ‌<!DOCTYPE html>
@@ -30,7 +30,7 @@
 * `<!DOCTYPE html>` chỉ ra rằng tài liệu này là một tài liệu HTML5
 * `<html>` là phần tử gốc của một trang HTML
 * `<head>` chứa thông tin meta về trang HTML
-* `<title>` chỉ định tiêu đề cho trang HTML \(được hiển thị trong thanh tiêu đề của trình duyệt hoặc trong tab của trang\)
+* `<title>` chỉ định tiêu đề cho trang HTML (được hiển thị trong thanh tiêu đề của trình duyệt hoặc trong tab của trang)
 * `<body>` xác định nội dung của tài liệu và là vùng chứa tất cả nội dung hiển thị, chẳng hạn như tiêu đề, đoạn văn, hình ảnh, siêu liên kết, bảng, danh sách, v.v.
 * `<h1>` xác định một tiêu đề lớn
 * `<p>` xác định một đoạn văn
@@ -41,7 +41,7 @@ Kết quả:‌
 
 ![](https://gblobscdn.gitbook.com/assets%2Fwelcome-to-my-site%2F-MXvWNSrLk9ygm1zzKIA%2F-MXvX7GhQ1ufeIzGHPLq%2F0.png?alt=media)
 
-### Phần tử HTML là gì? <a id="phan-tu-html-la-gi"></a>
+### Phần tử HTML(Thẻ HTML) là gì? <a href="#phan-tu-html-la-gi" id="phan-tu-html-la-gi"></a>
 
 Phần tử HTML được xác định bởi thẻ bắt đầu, một số nội dung và thẻ kết thúc:
 
@@ -56,9 +56,9 @@ Phần tử HTML là tất cả mọi thứ từ thẻ bắt đầu đến thẻ
 <p> Đoạn văn </p>‌
 ```
 
-Lưu ý: Một số phần tử HTML không có nội dung \(như phần tử `<br>`\). Các phần tử này được gọi là phần tử rỗng. Các phần tử trống không có thẻ kết thúc!‌
+Lưu ý: Một số phần tử HTML không có nội dung (như phần tử `<br>`). Các phần tử này được gọi là phần tử rỗng. Các phần tử trống không có thẻ kết thúc!‌
 
-## Các thẻ HTML căn bản <a id="cac-the-html-can-ban"></a>
+## Các thẻ HTML căn bản <a href="#cac-the-html-can-ban" id="cac-the-html-can-ban"></a>
 
 `<h1>` đến `<h6>`: tiêu đề‌
 
@@ -66,11 +66,11 @@ Lưu ý: Một số phần tử HTML không có nội dung \(như phần tử `<
 
 `<a>`: đường dẫn‌
 
-\*Chi tiết các thẻ: [https://htmlreference.io/](https://htmlreference.io/)​‌
+\*Chi tiết các thẻ: [https://htmlreference.io/](https://htmlreference.io)​‌
 
 \*Các thẻ HTML không phân biệt hoa thường `<H1>` giống với `<h1>` nhưng khuyến khích viết chữ thường‌
 
-## Thuộc tính HTML <a id="thuoc-tinh-html"></a>
+## Thuộc tính HTML <a href="#thuoc-tinh-html" id="thuoc-tinh-html"></a>
 
 * Tất cả các phần tử HTML có thể có các thuộc tính
 * Các thuộc tính cung cấp thông tin bổ sung về các phần tử
@@ -86,9 +86,9 @@ Ví dụ:‌
 * Thuộc tính style được sử dụng để thêm phong cách cho một yếu tố, chẳng hạn như màu sắc, font chữ, kích thước, và nhiều hơn nữa
 * Thuộc tính lang của `<html>` tuyên bố ngôn ngữ của trang web
 
-\*Chi tiết: [https://www.w3schools.com/tags/ref\_attributes.asp](https://www.w3schools.com/tags/ref_attributes.asp)​‌
+\*Chi tiết: [https://www.w3schools.com/tags/ref\_attributes.asp](https://www.w3schools.com/tags/ref\_attributes.asp)​‌
 
-### HTML styles <a id="html-styles"></a>
+### HTML styles <a href="#html-styles" id="html-styles"></a>
 
 Style là thuộc tính HTML được sử dụng để thêm kiểu vào một phần tử, chẳng hạn như màu sắc, phông chữ, kích thước, v.v.‌
 
@@ -113,7 +113,7 @@ Ví dụ:
 
 ![](https://gblobscdn.gitbook.com/assets%2Fwelcome-to-my-site%2F-MXvWNSrLk9ygm1zzKIA%2F-MXvX7GimvGV1q5eQaXL%2F1.png?alt=media)
 
-### HTML Css <a id="html-css"></a>
+### HTML Css <a href="#html-css" id="html-css"></a>
 
 * CSS là viết tắt của Cascading Style Sheets.
 * CSS tiết kiệm rất nhiều công việc. Nó có thể kiểm soát bố cục của nhiều trang web cùng một lúc.
@@ -149,7 +149,7 @@ Ví dụ:
 </html>
 ```
 
-### HTML JavaScript <a id="html-javascript"></a>
+### HTML JavaScript <a href="#html-javascript" id="html-javascript"></a>
 
 JavaScript làm cho các trang HTML trở nên động và tương tác hơn.‌
 
@@ -169,55 +169,22 @@ Ví dụ:
 </html>
 ```
 
-## HTML Layout <a id="html-layout"></a>
+## HTML Layout <a href="#html-layout" id="html-layout"></a>
 
 Trang web thường hiển thị nội dung theo nhiều phần và mỗi phần có nhiều cột‌
 
-![](https://gblobscdn.gitbook.com/assets%2Fwelcome-to-my-site%2F-MXvWNSrLk9ygm1zzKIA%2F-MXvX7GlAbXJ8w3E_D9G%2F4.png?alt=media)
+![](https://gblobscdn.gitbook.com/assets%2Fwelcome-to-my-site%2F-MXvWNSrLk9ygm1zzKIA%2F-MXvX7GlAbXJ8w3E\_D9G%2F4.png?alt=media)
 
-### Phần tử HTML layout <a id="phan-tu-html-layout"></a>
+### Phần tử HTML layout <a href="#phan-tu-html-layout" id="phan-tu-html-layout"></a>
 
 HTML có 1 vài phần tử ngữ nghĩa để định nghĩa sự khác nhau giữa các phần trong trang web
 
-![HTML5 Semantic Elements](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2Fwelcome-to-my-site%2F-MXvWNSrLk9ygm1zzKIA%2F-MXvX7Gmxi_3wgIzX-NW%2F5.gif?generation=1618053992301174&alt=media)
+![HTML5 Semantic Elements](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2Fwelcome-to-my-site%2F-MXvWNSrLk9ygm1zzKIA%2F-MXvX7Gmxi\_3wgIzX-NW%2F5.gif?generation=1618053992301174\&alt=media)
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">
-        <ul>
-          <li><code>&lt;header&gt;</code> - &#x111;&#x1ECB;nh ngh&#x129;a m&#x1ED9;t
-            header cho m&#x1ED9;t trang ho&#x1EB7;c m&#x1ED9;t ph&#x1EA7;n</li>
-          <li><code>&lt;nav&gt;</code> - &#x110;&#x1ECB;nh ngh&#x129;a m&#x1ED9;t b&#x1ED9;
-            c&#xE1;c &#x111;&#x1B0;&#x1EDD;ng d&#x1EAB;n &#x111;i&#x1EC1;u h&#x1B0;&#x1EDB;ng</li>
-          <li><code>&lt;section&gt;</code> - &#x111;&#x1ECB;nh ngh&#x129;a m&#x1ED9;t
-            ph&#x1EA7;n c&#x1EE7;a v&#x103;n b&#x1EA3;n</li>
-          <li><code>&lt;article&gt;</code> - &#x111;&#x1ECB;nh ngh&#x129;a m&#x1ED9;t
-            ph&#x1EA7;n t&#x1EED; &#x111;&#x1ED9;c l&#x1EAD;p ho&#x1EB7;c ph&#x1EA7;n
-            t&#x1EED; ch&#x1EE9;a n&#x1ED9;i dung</li>
-          <li><code>&lt;aside&gt;</code> - &#x110;&#x1ECB;nh ngh&#x129;a n&#x1ED9;i dung
-            n&#x1EB1;m ngo&#xE0;i n&#x1ED9;i dung ch&#xED;nh(nh&#x1B0; l&#xE0; m&#x1ED9;t
-            thanh b&#xEA;n - sidebar )</li>
-          <li><code>&lt;footer&gt;</code> - &#x111;&#x1ECB;nh ngh&#x129;a ph&#x1EA7;n
-            ch&#xE2;n c&#x1EE7;a trang ho&#x1EB7;c m&#x1ED9;t ph&#x1EA7;n c&#x1EE7;a
-            trang</li>
-          <li><code>&lt;details&gt;</code> - &#x111;&#x1ECB;nh ngh&#x129;a m&#x1ED9;t
-            ph&#x1EA7;n n&#x1ED9;i dung chi ti&#x1EBF;t, ng&#x1B0;&#x1EDD;i d&#xF9;ng
-            c&#xF3; th&#x1EC3; m&#x1EDF; ho&#x1EB7;c &#x111;&#xF3;ng t&#xF9;y nhu c&#x1EA7;u</li>
-          <li><code>&lt;summary&gt;</code> - &#x111;&#x1ECB;nh ngh&#x129;a ph&#x1EA7;n
-            &#x111;&#x1EA7;u c&#x1EE7;a th&#x1EBB; <code>&lt;details&gt;</code>
-          </li>
-        </ul>
-        <p>C&#xF3; th&#x1EC3; xem th&#xEA;m c&#xE1;c th&#x1EBB; kh&#xE1;c t&#x1EA1;i
-          &#x111;&#xE2;y <a href="https://www.w3schools.com/html/html5_semantic_elements.asp">HTML Semantics</a>
-        </p>
-      </th>
-    </tr>
-  </thead>
-  <tbody></tbody>
-</table>
+| <ul><li><code>&#x3C;header></code> - định nghĩa một header cho một trang hoặc một phần</li><li><code>&#x3C;nav></code> - Định nghĩa một bộ các đường dẫn điều hướng</li><li><code>&#x3C;section></code> - định nghĩa một phần của văn bản</li><li><code>&#x3C;article></code> - định nghĩa một phần tử độc lập hoặc phần tử chứa nội dung</li><li><code>&#x3C;aside></code> - Định nghĩa nội dung nằm ngoài nội dung chính(như là một thanh bên - sidebar )</li><li><code>&#x3C;footer></code> - định nghĩa phần chân của trang hoặc một phần của trang</li><li><code>&#x3C;details></code> - định nghĩa một phần nội dung chi tiết, người dùng có thể mở hoặc đóng tùy nhu cầu</li><li><code>&#x3C;summary></code> - định nghĩa phần đầu của thẻ <code>&#x3C;details></code></li></ul><p>Có thể xem thêm các thẻ khác tại đây <a href="https://www.w3schools.com/html/html5_semantic_elements.asp">HTML Semantics</a></p> |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
-### Kỹ thuật chia Layout <a id="ky-thuat-chia-layout"></a>
+### Kỹ thuật chia Layout <a href="#ky-thuat-chia-layout" id="ky-thuat-chia-layout"></a>
 
 Có 4 kỹ thuật chính để tạo layout có nhiều cột, mỗi cách đều có ưu và nhược điểm khác nhau:‌
 
@@ -226,19 +193,19 @@ Có 4 kỹ thuật chính để tạo layout có nhiều cột, mỗi cách đ�
 * CSS flexbox
 * CSS grid
 
-## HTML Responsive <a id="html-responsive"></a>
+## HTML Responsive <a href="#html-responsive" id="html-responsive"></a>
 
 Responsive web design nói về việc tạo một trang web nhìn ổn trên mọi thiết bị‌
 
 Một trang web thiết kế responsive sẽ tự động điều chỉnh cho các màn hình hay các khung nhìn khác nhau.‌
 
-trang web thiết kế responsive sử dụng HTML và CSS để tự động chỉnh kích thước, ẩn, co lại hoặc phóng to các phần tử trong trang để trang web nhìn ổn trên tất cả thiết bị\(máy tính, máy tính bảng hoặc điện thoại\)
+trang web thiết kế responsive sử dụng HTML và CSS để tự động chỉnh kích thước, ẩn, co lại hoặc phóng to các phần tử trong trang để trang web nhìn ổn trên tất cả thiết bị(máy tính, máy tính bảng hoặc điện thoại)
 
-![](https://gblobscdn.gitbook.com/assets%2Fwelcome-to-my-site%2F-MXvWNSrLk9ygm1zzKIA%2F-MXvX7GnKec9asHVp9_G%2F6.jpeg?alt=media)
+![](https://gblobscdn.gitbook.com/assets%2Fwelcome-to-my-site%2F-MXvWNSrLk9ygm1zzKIA%2F-MXvX7GnKec9asHVp9\_G%2F6.jpeg?alt=media)
 
 ## Responsive Web Design‌
 
-### Set viewport - Khung nhìn <a id="set-viewport-khung-nhin"></a>
+### Set viewport - Khung nhìn <a href="#set-viewport-khung-nhin" id="set-viewport-khung-nhin"></a>
 
 ```markup
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -256,7 +223,7 @@ Có set viewport
 
 ![](https://gblobscdn.gitbook.com/assets%2Fwelcome-to-my-site%2F-MXvWNSrLk9ygm1zzKIA%2F-MXvX7GpbNkQnx4VCIh5%2F8.png?alt=media)‌
 
-### Các đơn vị <a id="cac-don-vi"></a>
+### Các đơn vị <a href="#cac-don-vi" id="cac-don-vi"></a>
 
 Cách code responsive đơn giản nhất là code theo các đơn vị tương đối:‌
 
@@ -271,7 +238,7 @@ Các đơn vị tuyệt đối:‌
 * px: bằng 1 điểm ảnh pixel màn hình
 * pt: bằng 1 point: 1inch = 72 point
 
-### Media Queries <a id="media-queries"></a>
+### Media Queries <a href="#media-queries" id="media-queries"></a>
 
 Một cách chặt chẽ và chi tiết hơn là sử dụng media query để code css theo từng width cụ thể:
 
@@ -307,7 +274,7 @@ Một cách chặt chẽ và chi tiết hơn là sử dụng media query để c
 
 Các thư viện dùng để responsive: Bulma, Bootstrap, Tailwind,...‌
 
-## Bài tập <a id="bai-tap"></a>
+## Bài tập <a href="#bai-tap" id="bai-tap"></a>
 
 Bài 1: code giao diện
 
@@ -321,9 +288,8 @@ Bài 2: Code giao diện cho desktop và mobile
 
 ![](https://gblobscdn.gitbook.com/assets%2Fwelcome-to-my-site%2F-MXvWNSrLk9ygm1zzKIA%2F-MXvX7Gre0ICUaLP3S7S%2F10.png?alt=media)
 
-Bài 3: code giao diện\(chỉ có hình của 1 chiếc lá bên trái chứ không hình chiếc lá bên phải\)‌
+Bài 3: code giao diện(chỉ có hình của 1 chiếc lá bên trái chứ không hình chiếc lá bên phải)‌
 
 ​
 
-![](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2Fwelcome-to-my-site%2F-MXvWNSrLk9ygm1zzKIA%2F-MXvX7GsSR-R2cYQ7VMU%2F11.png?generation=1618053992337288&alt=media)
-
+![](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2Fwelcome-to-my-site%2F-MXvWNSrLk9ygm1zzKIA%2F-MXvX7GsSR-R2cYQ7VMU%2F11.png?generation=1618053992337288\&alt=media)
