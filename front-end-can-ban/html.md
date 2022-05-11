@@ -3,11 +3,40 @@
 ## HTML là gì? <a href="#html-la-gi" id="html-la-gi"></a>
 
 * HTML là viết tắt của Hyper Text Markup Language
-* HTML là ngôn ngữ đánh dấu tiêu chuẩn để tạo các trang Web
-* HTML mô tả cấu trúc của một trang Web
+* HTML là ngôn ngữ đánh dấu tiêu chuẩn để tạo ra các trang Web
 * HTML bao gồm một loạt các phần tử
 * Các phần tử HTML cho trình duyệt biết cách hiển thị nội dung
 * Các phần tử HTML gắn nhãn các phần nội dung như "đây là một tiêu đề", "đây là một đoạn văn", "đây là một liên kết", v.v.
+* HTML mô tả cấu trúc của một trang Web
+
+### Phần tử HTML(Thẻ HTML) là gì? <a href="#phan-tu-html-la-gi" id="phan-tu-html-la-gi"></a>
+
+Phần tử HTML được xác định bởi thẻ bắt đầu, một số nội dung và thẻ kết thúc:
+
+```markup
+<tagname> Nội dung </tagname>
+```
+
+Phần tử HTML là tất cả mọi thứ từ thẻ bắt đầu đến thẻ kết thúc:
+
+```markup
+<h1> Tiêu đề </h1>
+<p> Đoạn văn </p>‌
+```
+
+Lưu ý: Một số phần tử HTML không có nội dung (như phần tử `<br>`). Các phần tử này được gọi là phần tử rỗng. Các phần tử trống không có thẻ kết thúc!‌
+
+## Các thẻ HTML căn bản <a href="#cac-the-html-can-ban" id="cac-the-html-can-ban"></a>
+
+`<h1>` đến `<h6>`: tiêu đề‌
+
+`<p>`: đoạn văn bản‌
+
+`<a>`: đường dẫn‌
+
+\*Chi tiết các thẻ: [https://htmlreference.io/](https://htmlreference.io)​‌
+
+\*Các thẻ HTML không phân biệt hoa thường `<H1>` giống với `<h1>` nhưng khuyến khích viết chữ thường‌
 
 ### Ví dụ HTML đơn giản <a href="#vi-du-html-don-gian" id="vi-du-html-don-gian"></a>
 
@@ -40,35 +69,6 @@
 Kết quả:‌
 
 ![](https://gblobscdn.gitbook.com/assets%2Fwelcome-to-my-site%2F-MXvWNSrLk9ygm1zzKIA%2F-MXvX7GhQ1ufeIzGHPLq%2F0.png?alt=media)
-
-### Phần tử HTML(Thẻ HTML) là gì? <a href="#phan-tu-html-la-gi" id="phan-tu-html-la-gi"></a>
-
-Phần tử HTML được xác định bởi thẻ bắt đầu, một số nội dung và thẻ kết thúc:
-
-```markup
-<tagname> Nội dung </tagname>
-```
-
-Phần tử HTML là tất cả mọi thứ từ thẻ bắt đầu đến thẻ kết thúc:
-
-```markup
-<h1> Tiêu đề </h1>
-<p> Đoạn văn </p>‌
-```
-
-Lưu ý: Một số phần tử HTML không có nội dung (như phần tử `<br>`). Các phần tử này được gọi là phần tử rỗng. Các phần tử trống không có thẻ kết thúc!‌
-
-## Các thẻ HTML căn bản <a href="#cac-the-html-can-ban" id="cac-the-html-can-ban"></a>
-
-`<h1>` đến `<h6>`: tiêu đề‌
-
-`<p>`: đoạn văn bản‌
-
-`<a>`: đường dẫn‌
-
-\*Chi tiết các thẻ: [https://htmlreference.io/](https://htmlreference.io)​‌
-
-\*Các thẻ HTML không phân biệt hoa thường `<H1>` giống với `<h1>` nhưng khuyến khích viết chữ thường‌
 
 ## Thuộc tính HTML <a href="#thuoc-tinh-html" id="thuoc-tinh-html"></a>
 
