@@ -1,6 +1,153 @@
 # HTML
 
-​‌
+## HTML là gì? <a href="#html-la-gi" id="html-la-gi"></a>
+
+* HTML là viết tắt của Hyper Text Markup Language
+* HTML là ngôn ngữ đánh dấu tiêu chuẩn để tạo ra các trang Web
+* HTML bao gồm một loạt các phần tử
+* Các phần tử HTML cho trình duyệt biết cách hiển thị nội dung
+* Các phần tử HTML gắn nhãn các phần nội dung như "đây là một tiêu đề", "đây là một đoạn văn", "đây là một liên kết", v.v.
+* HTML mô tả cấu trúc của một trang Web
+
+## Phần tử HTML(Thẻ HTML) là gì? <a href="#phan-tu-html-la-gi" id="phan-tu-html-la-gi"></a>
+
+Phần tử HTML được xác định bởi thẻ bắt đầu, một số nội dung và thẻ kết thúc:
+
+```markup
+<tagname> Nội dung </tagname>
+```
+
+Phần tử HTML là tất cả mọi thứ từ thẻ bắt đầu đến thẻ kết thúc:
+
+```markup
+<h1> Tiêu đề </h1>
+<p> Đoạn văn </p>‌
+```
+
+Lưu ý: Một số phần tử HTML không có nội dung (như phần tử `<br>`). Các phần tử này được gọi là phần tử rỗng. Các phần tử trống không có thẻ kết thúc!‌
+
+### Các thẻ HTML căn bản <a href="#cac-the-html-can-ban" id="cac-the-html-can-ban"></a>
+
+`<h1>` đến `<h6>`: tiêu đề‌
+
+`<p>`: đoạn văn bản‌
+
+`<a>`: đường dẫn‌
+
+\*Chi tiết các thẻ: [https://htmlreference.io/](https://htmlreference.io)​‌
+
+\*Các thẻ HTML không phân biệt hoa thường `<H1>` giống với `<h1>` nhưng khuyến khích viết chữ thường‌
+
+## Ví dụ HTML đơn giản <a href="#vi-du-html-don-gian" id="vi-du-html-don-gian"></a>
+
+```markup
+‌<!DOCTYPE html>
+<html>​
+
+<head>
+    <title>Page Title</title>
+</head>​
+
+<body>
+    <h1>This is a Heading</h1>
+    <p>This is a paragraph.</p>
+</body>​
+
+</html>
+```
+
+* `<!DOCTYPE html>` chỉ ra rằng tài liệu này là một tài liệu HTML5
+* `<html>` là phần tử gốc của một trang HTML
+* `<head>` chứa thông tin meta về trang HTML
+* `<title>` chỉ định tiêu đề cho trang HTML (được hiển thị trong thanh tiêu đề của trình duyệt hoặc trong tab của trang)
+* `<body>` xác định nội dung của tài liệu và là vùng chứa tất cả nội dung hiển thị, chẳng hạn như tiêu đề, đoạn văn, hình ảnh, siêu liên kết, bảng, danh sách, v.v.
+* `<h1>` xác định một tiêu đề lớn
+* `<p>` xác định một đoạn văn
+
+‌
+
+Kết quả:‌
+
+![](https://gblobscdn.gitbook.com/assets%2Fwelcome-to-my-site%2F-MXvWNSrLk9ygm1zzKIA%2F-MXvX7GhQ1ufeIzGHPLq%2F0.png?alt=media)
+
+## Thuộc tính HTML <a href="#thuoc-tinh-html" id="thuoc-tinh-html"></a>
+
+* Tất cả các phần tử HTML có thể có các thuộc tính
+* Các thuộc tính cung cấp thông tin bổ sung về các phần tử
+* Các thuộc tính luôn được chỉ định trong thẻ bắt đầu
+* Các thuộc tính thường có trong các cặp tên / giá trị như: name = "value"
+
+Ví dụ:‌
+
+* Thuộc tính href của `<a>` quy định cụ thể các URL của trang liên kết đi vào
+* Thuộc tính src của `<img>` quy định cụ thể đường dẫn đến hình ảnh sẽ được hiển thị
+* Thuộc tính width và height cung cấp thông tin kích thước cho hình ảnh `<img>`
+* Thuộc tính alt của `<img>` cung cấp một văn bản thay thế cho hình ảnh
+* Thuộc tính style được sử dụng để thêm phong cách cho một yếu tố, chẳng hạn như màu sắc, font chữ, kích thước, và nhiều hơn nữa
+* Thuộc tính lang của `<html>` tuyên bố ngôn ngữ của trang web
+
+\*Chi tiết: [https://www.w3schools.com/tags/ref\_attributes.asp](https://www.w3schools.com/tags/ref\_attributes.asp)​‌
+
+### HTML styles <a href="#html-styles" id="html-styles"></a>
+
+Style là thuộc tính HTML được sử dụng để thêm kiểu vào một phần tử, chẳng hạn như màu sắc, phông chữ, kích thước, v.v.‌
+
+Cú pháp:
+
+```markup
+ <tagname style="property:value;">
+```
+
+Property là 1 CSS property‌
+
+Value là 1 Css value‌
+
+Ví dụ:
+
+```markup
+<h1 style="background-color:powderblue;">This is a heading</h1>
+<p style="background-color:tomato;">This is a paragraph.</p>
+```
+
+‌
+
+![](https://gblobscdn.gitbook.com/assets%2Fwelcome-to-my-site%2F-MXvWNSrLk9ygm1zzKIA%2F-MXvX7GimvGV1q5eQaXL%2F1.png?alt=media)
+
+### HTML CSS <a href="#html-css" id="html-css"></a>
+
+* CSS là viết tắt của Cascading Style Sheets.
+* CSS tiết kiệm rất nhiều công việc. Nó có thể kiểm soát bố cục của nhiều trang web cùng một lúc.
+* Tìm hiểu chi tiết hơn tại phần Css
+
+Ví dụ:
+
+```markup
+‌<!DOCTYPE html>
+<html>​
+
+<head>
+    <style>
+        body {
+            background-color: powderblue;
+        }
+
+        ​ h1 {
+            color: blue;
+        }
+
+        ​ p {
+            color: red;
+        }
+    </style>
+</head>​
+
+<body>
+    <h1>This is a heading</h1>
+    <p>This is a paragraph.</p>
+</body>​
+
+</html>
+```
 
 ### HTML JavaScript <a href="#html-javascript" id="html-javascript"></a>
 
