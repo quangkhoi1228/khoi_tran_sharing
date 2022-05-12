@@ -1,8 +1,14 @@
+---
+description: >-
+  Trong bài này chúng ta sẽ tìm hiểu cách thay đổi hiển thị của phần tử trong
+  trang bằng thuộc tính style của thẻ HTML
+---
+
 # HTML Styles
 
 ## HTML styles là gì? <a href="#html-styles" id="html-styles"></a>
 
-Style là thuộc tính HTML được sử dụng để thêm kiểu vào một phần tử, chẳng hạn như màu sắc, phông chữ, kích thước, v.v.‌
+`style` là thuộc tính HTML được sử dụng để thêm kiểu vào một phần tử, chẳng hạn như màu sắc, phông chữ, kích thước, v.v.‌
 
 Cú pháp:
 
@@ -10,9 +16,9 @@ Cú pháp:
  <tagname style="property:value;">
 ```
 
-Property là 1 CSS property‌
+`Property` là 1 `CSS property‌`
 
-Value là 1 Css value‌
+`Value` là 1 `Css value‌`
 
 Ví dụ:
 
