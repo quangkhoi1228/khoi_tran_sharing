@@ -5,6 +5,7 @@
   * [HTML](front-end-can-ban/html.md)
     * [Khái niệm/Thẻ/Cấu trúc](front-end-can-ban/html/khai-niem-the-cau-truc.md)
     * [Thuộc tính thẻ HTML](front-end-can-ban/html/thuoc-tinh-the-html.md)
+    * [HTML Styles](front-end-can-ban/html/html-styles.md)
   * [CSS](front-end-can-ban/css.md)
   * [Bulma](front-end-can-ban/bulma.md)
   * [JS](front-end-can-ban/js.md)
