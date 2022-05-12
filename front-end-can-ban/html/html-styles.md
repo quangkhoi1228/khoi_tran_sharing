@@ -1,8 +1,14 @@
+---
+description: >-
+  Trong bài này chúng ta sẽ tìm hiểu cách thay đổi hiển thị của phần tử trong
+  trang bằng thuộc tính style của thẻ HTML
+---
+
 # HTML Styles
 
 ## HTML styles là gì? <a href="#html-styles" id="html-styles"></a>
 
-Style là thuộc tính HTML được sử dụng để thêm kiểu vào một phần tử, chẳng hạn như màu sắc, phông chữ, kích thước, v.v.‌
+`style` là thuộc tính HTML được sử dụng để thêm kiểu vào một phần tử, chẳng hạn như màu sắc, phông chữ, kích thước, v.v.‌
 
 Cú pháp:
 
@@ -10,9 +16,9 @@ Cú pháp:
  <tagname style="property:value;">
 ```
 
-Property là 1 CSS property‌
+`Property` là 1 `CSS property‌`
 
-Value là 1 Css value‌
+`Value` là 1 `Css value‌`
 
 Ví dụ:
 
@@ -25,40 +31,50 @@ Ví dụ:
 
 ![](https://gblobscdn.gitbook.com/assets%2Fwelcome-to-my-site%2F-MXvWNSrLk9ygm1zzKIA%2F-MXvX7GimvGV1q5eQaXL%2F1.png?alt=media)
 
-### HTML CSS <a href="#html-css" id="html-css"></a>
+## Một số thuộc tính cơ bản <a href="#html-javascript" id="html-javascript"></a>
 
-* CSS là viết tắt của Cascading Style Sheets.
-* CSS tiết kiệm rất nhiều công việc. Nó có thể kiểm soát bố cục của nhiều trang web cùng một lúc.
-* Tìm hiểu chi tiết hơn tại phần Css
+### Màu nền
 
-Ví dụ:
+Thuộc tính `background-color` định nghĩa màu nền của một phần tử
 
 ```markup
-‌<!DOCTYPE html>
-<html>​
+<body style="background-color:powderblue;">
 
-<head>
-    <style>
-        body {
-            background-color: powderblue;
-        }
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
 
-        ​ h1 {
-            color: blue;
-        }
-
-        ​ p {
-            color: red;
-        }
-    </style>
-</head>​
-
-<body>
-    <h1>This is a heading</h1>
-    <p>This is a paragraph.</p>
-</body>​
-
-</html>
+</body>
 ```
 
-### &#x20;<a href="#html-javascript" id="html-javascript"></a>
+### Màu chữ
+
+Thuộc tính `color` quy định màu chữ của một phần tử
+
+```markup
+<h1 style="color:blue;">This is a heading</h1>
+<p style="color:red;">This is a paragraph.</p>
+```
+
+### Font chữ
+
+Thuộc tính `font-family` quy định font chữ của phần tử
+
+```markup
+<h1 style="font-family:verdana;">This is a heading</h1>
+<p style="font-family:courier;">This is a paragraph.</p>
+```
+
+### Kích cỡ chữ
+
+Thuộc tính `font-size` quy định kích cỡ chữ của phần tử
+
+```markup
+<h1 style="font-size:300%;">This is a heading</h1>
+<p style="font-size:160%;">This is a paragraph.</p>
+```
+
+
+
+{% hint style="info" %}
+Chi tiết các thuộc tính tham khảo thêm ở đây: [https://cssreference.io/](https://cssreference.io)
+{% endhint %}

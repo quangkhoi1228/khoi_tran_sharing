@@ -6,7 +6,7 @@ Lưu ý: đây là quy trình setup cho project `cmedweb` nên các bạn lúc t
 
 ## Tạo cấu trúc thư mục
 
-![](<.gitbook/assets/image (48) (1).png>)
+![](<.gitbook/assets/image (48) (1) (1).png>)
 
 Thư mục chứa project có cấu trúc thư mục như trên.
 
@@ -55,7 +55,7 @@ Receiving objects: 100% (1485/1485), 45.49 MiB | 10.69 MiB/s, done.
 Resolving deltas: 100% (663/663), done.
 ```
 
-![Thư mục git sau khi clone project thành công](<.gitbook/assets/image (48).png>)
+![Thư mục git sau khi clone project thành công](<.gitbook/assets/image (48) (1).png>)
 
 ### Chuyển branch
 
@@ -76,7 +76,7 @@ git pull
 #Already up to date.
 ```
 
-![folder git sau khi pull](<.gitbook/assets/image (58) (1).png>)
+![folder git sau khi pull](<.gitbook/assets/image (58) (1) (1).png>)
 
 ## Setup run server với inteliJ IDEA
 
@@ -196,11 +196,11 @@ Thêm VM options: Tại panel run config click `modify options` chọn `Add VM o
 
 Dán nội dung vào input VM options vừa hiện ra
 
-![](<.gitbook/assets/image (58).png>)
+![](<.gitbook/assets/image (58) (1).png>)
 
 #### Đặt tên run config&#x20;
 
-![](<.gitbook/assets/image (52).png>)
+![](<.gitbook/assets/image (52) (1).png>)
 
 #### Lưu run config
 
