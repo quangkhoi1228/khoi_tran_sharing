@@ -11,11 +11,11 @@ description: >-
 * Tất cả các phần tử HTML có thể **có nhiều thuộc tính**
 * Các thuộc tính **cung cấp thông tin bổ sung** về các phần tử
 * Các thuộc tính luôn được c**hỉ định trong thẻ bắt đầu**
-* Các thuộc tính thường có trong các cặp tên / giá trị như: **name = "value"**
+* Các thuộc tính được quy định bằng các cặp tên / giá trị như: **name = "value"**
 
 ## Thuộc tính href
 
-thuộc tính `href` của `<a>` quy định cụ thể URL của trang liên kết đi vào
+thuộc tính `href` của `<a>` quy định cụ thể URL của trang liên kết đi vào khi click vào thẻ
 
 ```markup
 <a href="https://quangkhoi1228.gitbook.io/">Quangkhoi1228</a>
