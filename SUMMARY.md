@@ -2,9 +2,9 @@
 
 * [Giới thiệu](README.md)
 * [Front End căn bản](front-end-can-ban/README.md)
-  * [HTML](front-end-can-ban/html/README.md)
+  * [HTML](front-end-can-ban/html.md)
     * [Khái niệm/Thẻ/Cấu trúc](front-end-can-ban/html/khai-niem-the-cau-truc.md)
-    * [Thẻ Inline và thẻ Block](front-end-can-ban/html/the-inline-va-the-block.md)
+    * [Thuộc tính thẻ HTML](front-end-can-ban/html/thuoc-tinh-the-html.md)
   * [CSS](front-end-can-ban/css.md)
   * [Bulma](front-end-can-ban/bulma.md)
   * [JS](front-end-can-ban/js.md)

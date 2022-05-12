@@ -1,22 +1,6 @@
 # HTML
 
-## Thuộc tính HTML <a href="#thuoc-tinh-html" id="thuoc-tinh-html"></a>
-
-* Tất cả các phần tử HTML có thể có các thuộc tính
-* Các thuộc tính cung cấp thông tin bổ sung về các phần tử
-* Các thuộc tính luôn được chỉ định trong thẻ bắt đầu
-* Các thuộc tính thường có trong các cặp tên / giá trị như: name = "value"
-
-Ví dụ:‌
-
-* Thuộc tính href của `<a>` quy định cụ thể các URL của trang liên kết đi vào
-* Thuộc tính src của `<img>` quy định cụ thể đường dẫn đến hình ảnh sẽ được hiển thị
-* Thuộc tính width và height cung cấp thông tin kích thước cho hình ảnh `<img>`
-* Thuộc tính alt của `<img>` cung cấp một văn bản thay thế cho hình ảnh
-* Thuộc tính style được sử dụng để thêm phong cách cho một yếu tố, chẳng hạn như màu sắc, font chữ, kích thước, và nhiều hơn nữa
-* Thuộc tính lang của `<html>` tuyên bố ngôn ngữ của trang web
-
-\*Chi tiết: [https://www.w3schools.com/tags/ref\_attributes.asp](https://www.w3schools.com/tags/ref\_attributes.asp)​‌
+​‌
 
 ### HTML styles <a href="#html-styles" id="html-styles"></a>
 
