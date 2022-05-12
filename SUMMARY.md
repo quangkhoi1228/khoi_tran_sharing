@@ -7,6 +7,7 @@
     * [Thuộc tính HTML](front-end-can-ban/html/thuoc-tinh-html.md)
     * [Comment trong HTML](front-end-can-ban/html/comment-trong-html.md)
     * [HTML Styles](front-end-can-ban/html/html-styles.md)
+    * [HTML CSS](front-end-can-ban/html/html-css.md)
   * [CSS](front-end-can-ban/css.md)
   * [Bulma](front-end-can-ban/bulma.md)
   * [JS](front-end-can-ban/js.md)
