@@ -4,7 +4,7 @@ description: >-
   quen với một số thuộc tính cơ bản
 ---
 
-# Thuộc tính thẻ HTML
+# Thuộc tính HTML
 
 ## Thuộc tính HTML là gì? <a href="#thuoc-tinh-html" id="thuoc-tinh-html"></a>
 

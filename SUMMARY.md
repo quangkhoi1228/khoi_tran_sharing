@@ -4,7 +4,7 @@
 * [Front End căn bản](front-end-can-ban/README.md)
   * [HTML](front-end-can-ban/html.md)
     * [Khái niệm/Thẻ/Cấu trúc](front-end-can-ban/html/khai-niem-the-cau-truc.md)
-    * [Thuộc tính thẻ HTML](front-end-can-ban/html/thuoc-tinh-the-html.md)
+    * [Thuộc tính HTML](front-end-can-ban/html/thuoc-tinh-html.md)
     * [HTML Styles](front-end-can-ban/html/html-styles.md)
   * [CSS](front-end-can-ban/css.md)
   * [Bulma](front-end-can-ban/bulma.md)
