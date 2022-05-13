@@ -40,4 +40,4 @@ project_name
 
 Hình ảnh
 
-![](<../.gitbook/assets/image (67).png>)
+![](<../.gitbook/assets/image (67) (1).png>)

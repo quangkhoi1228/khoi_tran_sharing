@@ -116,7 +116,7 @@ Chuột phải vào module và chọn `Open Module Settings`
 
 Tại Project Settings -> Modules chọn tab Sources
 
-![](<.gitbook/assets/image (66).png>)
+![](<.gitbook/assets/image (66) (1).png>)
 
 Nhấn vào nút `Add Content Root` sau đó chọn thư mục `src` của các project liên quan để link source
 
@@ -128,7 +128,7 @@ Sau khi thêm thành công sẽ có thêm Source Folder được liệt kê nằ
 
 Tại Project Settings -> Modules chọn tab Dependencies
 
-![](<.gitbook/assets/image (67) (1) (1).png>)
+![](<.gitbook/assets/image (67) (1) (1) (1).png>)
 
 Nhấn vào nút `cộng` sau đó chọn `JARs or Directories...` sau đó chọn file để thêm
 
