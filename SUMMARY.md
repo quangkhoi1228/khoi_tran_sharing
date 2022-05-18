@@ -11,6 +11,7 @@
     * [HTML CSS](front-end-can-ban/html/html-css.md)
     * [Bài tập CSS](front-end-can-ban/html/bai-tap-css.md)
     * [HTML JavaScript](front-end-can-ban/html/html-javascript.md)
+    * [Id trong HTML](front-end-can-ban/html/id-trong-html.md)
     * [HTML Layout](front-end-can-ban/html/html-layout.md)
     * [HTML Responsive](front-end-can-ban/html/html-responsive.md)
     * [Bài tập](front-end-can-ban/html/bai-tap.md)
