@@ -6,10 +6,16 @@ description: >-
 
 # Phần tử Inline và Block
 
+## Thuộc tính display
+
+Thuộc tính `display` là **một thuộc tính của CSS quy định cách mà phần tử đó thể hiện trên giao diện** như thế nào.
+
+Thuộc tính `display` là một thuộc tính quan trọng của CSS **giúp cho việc phân bổ bố cục trang web một cách dễ dàng hơn**
+
 ## Tổng quan
 
 * Mỗi phần tử HTML đều có giá trị của thuộc tính `display` mặc định **tuỳ vào loại phần tử đó là** gì?&#x20;
-* Có 2 giá trị hiện tại là: `Block` và `Inline`
+* Có 2 giá trị mặc định hiện tại là: `Block` và `Inline`
 
 ## Phần tử Block
 
