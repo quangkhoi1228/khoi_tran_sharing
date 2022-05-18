@@ -4,9 +4,9 @@ description: >-
   trang bằng thuộc tính style của thẻ HTML
 ---
 
-# HTML Styles
+# HTML Style
 
-## HTML styles là gì? <a href="#html-styles" id="html-styles"></a>
+## HTML style là gì? <a href="#html-styles" id="html-styles"></a>
 
 `style` là thuộc tính HTML được sử dụng để thêm kiểu vào một phần tử, chẳng hạn như màu sắc, phông chữ, kích thước, v.v.‌
 
