@@ -8,7 +8,7 @@ description: >-
 
 ## HTML style là gì? <a href="#html-styles" id="html-styles"></a>
 
-`style` là thuộc tính HTML được sử dụng để thêm kiểu vào một phần tử, chẳng hạn như màu sắc, phông chữ, kích thước, v.v.‌
+`style` là thuộc tính của HTML được sử dụng để trang trí một phần tử, chẳng hạn như màu sắc, phông chữ, kích thước của phần tử đó.
 
 Cú pháp:
 

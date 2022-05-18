@@ -6,7 +6,7 @@
     * [Khái niệm/Thẻ/Cấu trúc](front-end-can-ban/html/khai-niem-the-cau-truc.md)
     * [Thuộc tính HTML](front-end-can-ban/html/thuoc-tinh-html.md)
     * [Comment trong HTML](front-end-can-ban/html/comment-trong-html.md)
-    * [HTML Style](front-end-can-ban/html/html-style.md)
+    * [HTML Style](front-end-can-ban/html/html-styles.md)
     * [Phần tử Inline và Block](front-end-can-ban/html/phan-tu-inline-va-block.md)
     * [HTML CSS](front-end-can-ban/html/html-css.md)
     * [Bài tập CSS](front-end-can-ban/html/bai-tap-css.md)
