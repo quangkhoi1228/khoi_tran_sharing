@@ -84,7 +84,7 @@ git pull
 
 Tại giao diện `intelliJ` click vào nút `Open` sau đó chọn thư mục `cmedweb` nằm trong thư mục `git` để open folder project (thư mục chứa src)
 
-![InteliJ IDEA](<.gitbook/assets/image (62).png>)
+![InteliJ IDEA](<.gitbook/assets/image (62) (1).png>)
 
 ![folder cmedweb](<.gitbook/assets/image (60).png>)
 
@@ -108,7 +108,7 @@ Trong trường hợp `cmedweb` cần link với:
 
 Chuột phải vào module và chọn `Open Module Settings`
 
-![](<.gitbook/assets/image (54).png>)
+![](<.gitbook/assets/image (54) (1).png>)
 
 ![](<.gitbook/assets/image (50) (1).png>)
 

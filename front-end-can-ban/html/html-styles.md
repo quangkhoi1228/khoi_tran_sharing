@@ -76,5 +76,5 @@ Thuộc tính `font-size` quy định kích cỡ chữ của phần tử
 
 
 {% hint style="info" %}
-Chi tiết các thuộc tính tham khảo thêm ở đây: [https://cssreference.io/](https://cssreference.io)
+Chi tiết các thuộc tính tham khảo thêm ở đây: [https://cssreference.io/](https://cssreference.io/)
 {% endhint %}

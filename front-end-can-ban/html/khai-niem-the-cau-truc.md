@@ -8,10 +8,10 @@ description: >-
 
 ## HTML là gì? <a href="#html-la-gi" id="html-la-gi"></a>
 
-* HTML viết tắt của Hyper Text Markup Language
-* HTML là ngôn ngữ tiêu chuẩn để tạo ra giao diện của trang web
-* HTML mô tả cấu trúc của một trang Web bằng cách gắn nhãn các phần nội dung như "đây là một tiêu đề", "đây là một đoạn văn", "đây là một liên kết", v.v.
-* Các phần tử HTML có cách hiển thị trên giao diện khác nhau do đó giúp cho trình duyệt hiểu cách hiển thị nội dung trên giao diện
+* **HTML** **viết tắt của Hyper Text Markup Language**
+* HTML là **ngôn ngữ tiêu chuẩn để tạo ra giao diện của trang web**
+* HTML **mô tả cấu trúc của một trang Web** bằng cách gắn nhãn các phần nội dung như "đây là một tiêu đề", "đây là một đoạn văn", "đây là một liên kết", v.v.
+* Các **phần tử HTML có cách hiển thị trên giao diện khác nhau** do đó giúp cho trình duyệt hiểu cách hiển thị nội dung trên giao diện
 
 ## Phần tử HTML(Thẻ HTML) là gì? <a href="#phan-tu-html-la-gi" id="phan-tu-html-la-gi"></a>
 
@@ -38,7 +38,7 @@ Lưu ý: Một số phần tử HTML không có nội dung (như phần tử `<b
 
 `<a>`: đường dẫn‌
 
-\*Chi tiết các thẻ: [https://htmlreference.io/](https://htmlreference.io)​‌
+\*Chi tiết các thẻ: [https://htmlreference.io/](https://htmlreference.io/)​‌
 
 \*Các thẻ HTML không phân biệt hoa thường `<H1>` giống với `<h1>` nhưng khuyến khích viết chữ thường‌
 
