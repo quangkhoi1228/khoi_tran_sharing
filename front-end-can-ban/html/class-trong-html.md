@@ -136,6 +136,6 @@ trong ví dụ này chúng ta sẽ lấy ra các phần tử có `class` là **c
 * Thuộc tính `class` được sử dụng để **định nghĩa** một hay nhiều class cho phần tử HTML
 * `class` được **CSS** sử dụng để **áp dụng style cho nhiều phần tử**&#x20;
 * `class` được **JS** sử dụng để **chọn ra các phần tử** thông qua hàm `document.getElementsByClassName(className)`
-* class có thể được sử dụng **cho mọi phần tử**
-* class **phân biệt hoa thường**
+* `class` có thể được sử dụng **cho mọi phần tử**
+* `class` **phân biệt hoa thường**
 * **Nhiều phần tử khác nhau** có thể **dùng chung một class**
