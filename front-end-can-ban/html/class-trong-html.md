@@ -1,14 +1,14 @@
 ---
 description: >-
-  Trong bài này chúng ta sẽ tìm hiểu về thuộc tính id trong HTML, cách khai báo
-  và các cách sử dụng của id
+  Trong bài này chúng ta sẽ tìm hiểu về thuộc tính class trong HTML, cách khai
+  báo và các cách sử dụng của class
 ---
 
 # Class trong HTML
 
 ## Tổng quan
 
-`class` là một thuộc tính của HTML được sử dụng để **định nghĩa một lớp** cho phần tử HTML&#x20;
+`class` là một thuộc tính của HTML được sử dụng để **định nghĩa một lớp(class)** cho phần tử HTML&#x20;
 
 **Nhiều phần tử HTML** có thể **có chung class với nhau**
 
