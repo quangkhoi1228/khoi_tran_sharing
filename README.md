@@ -1,6 +1,3 @@
-# Giới thiệu
+# Front End căn bản
 
-## Thắc mắc&#x20;
-
-[Gửi mail nội dung thắc mắc cho tôi](mailto:quangkhoi1228@gmail.com?subject=\[Guide%20gitbook]%20Tôi%20có%20thắc%20mắc\&body=Chào%20Khôi,%20...)
-
+Khoá Front End căn bản được diễn giải dưới dạng video tại [youtube/quangkhoi1228](https://www.youtube.com/channel/UCAeGyJO0zhIKOqiLbOpHhbA)

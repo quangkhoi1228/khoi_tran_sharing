@@ -1,7 +1,6 @@
 # Table of contents
 
-* [Giới thiệu](README.md)
-* [Front End căn bản](front-end-can-ban/README.md)
+* [Front End căn bản](README.md)
   * [HTML](front-end-can-ban/html.md)
     * [Khái niệm/Thẻ/Cấu trúc](front-end-can-ban/html/khai-niem-the-cau-truc.md)
     * [Thuộc tính HTML](front-end-can-ban/html/thuoc-tinh-html.md)
