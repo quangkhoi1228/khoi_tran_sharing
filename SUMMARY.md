@@ -67,6 +67,8 @@
   * [Deploy mobile](shinobi-mobile-core/deploy-mobile.md)
 * [Shinobi BE core](shinobi-be-core/README.md)
   * [API](shinobi-be-core/api.md)
+  * [Phân quyền user](shinobi-be-core/phan-quyen-user/README.md)
+    * [Page 3](shinobi-be-core/phan-quyen-user/page-3.md)
 * [Setup Project](setup-project.md)
   * [Mô tả chi tiết VM options](setup-project/mo-ta-chi-tiet-vm-options.md)
   * [Một số lỗi thường gặp](setup-project/mot-so-loi-thuong-gap.md)
