@@ -76,7 +76,7 @@ git pull
 #Already up to date.
 ```
 
-![folder git sau khi pull](<.gitbook/assets/image (58) (1) (1).png>)
+![folder git sau khi pull](<.gitbook/assets/image (58) (1) (1) (1).png>)
 
 ## Setup run server với inteliJ IDEA
 
@@ -116,7 +116,7 @@ Chuột phải vào module và chọn `Open Module Settings`
 
 Tại Project Settings -> Modules chọn tab Sources
 
-![](<.gitbook/assets/image (66) (1).png>)
+![](<.gitbook/assets/image (66) (1) (1).png>)
 
 Nhấn vào nút `Add Content Root` sau đó chọn thư mục `src` của các project liên quan để link source
 
@@ -134,7 +134,7 @@ Nhấn vào nút `cộng` sau đó chọn `JARs or Directories...` sau đó ch�
 
 ![](<.gitbook/assets/image (57).png>)
 
-![](<.gitbook/assets/image (56).png>)
+![](<.gitbook/assets/image (56) (1).png>)
 
 Sau khi thêm thành công sẽ có thêm file được liệt kê nằm dưới, làm lại tương tự với các thư viện khác.
 
@@ -196,7 +196,7 @@ Thêm VM options: Tại panel run config click `modify options` chọn `Add VM o
 
 Dán nội dung vào input VM options vừa hiện ra
 
-![](<.gitbook/assets/image (58) (1).png>)
+![](<.gitbook/assets/image (58) (1) (1).png>)
 
 #### Đặt tên run config&#x20;
 

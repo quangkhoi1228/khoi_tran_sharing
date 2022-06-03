@@ -57,5 +57,5 @@ Tại thẻ `head` của trang chúng ta tạo thẻ `style` để chứa các k
 
 Kết quả:&#x20;
 
-![Kết quả](<../../.gitbook/assets/image (66).png>)
+![Kết quả](<../../.gitbook/assets/image (66) (1).png>)
 

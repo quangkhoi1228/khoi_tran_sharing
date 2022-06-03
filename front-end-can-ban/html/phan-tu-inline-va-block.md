@@ -34,7 +34,7 @@ Hai phần tử phổ biến nhất là `<p>` and `<div>`
 
 &#x20;Một số phần tử Block khác:
 
-![Các thẻ HTML Block](<../../.gitbook/assets/image (68).png>)
+![Các thẻ HTML Block](<../../.gitbook/assets/image (68) (1).png>)
 
 ## Phần tử Inline
 
@@ -42,7 +42,7 @@ Phần tử `Inline` **không tạo dòng mới** và chỉ lấy số lượng 
 
 Thẻ `Inline` hay gặp là thẻ `<span>`
 
-![](<../../.gitbook/assets/image (58).png>)
+![](<../../.gitbook/assets/image (58) (1).png>)
 
 ```markup
 <span>Hello World</span>
