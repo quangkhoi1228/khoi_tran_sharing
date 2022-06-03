@@ -86,7 +86,7 @@ Tại giao diện `intelliJ` click vào nút `Open` sau đó chọn thư mục `
 
 ![InteliJ IDEA](<.gitbook/assets/image (62) (1).png>)
 
-![folder cmedweb](<.gitbook/assets/image (60).png>)
+![folder cmedweb](<.gitbook/assets/image (60) (1).png>)
 
 `Trust Project` để hoàn tất
 
@@ -120,7 +120,7 @@ Tại Project Settings -> Modules chọn tab Sources
 
 Nhấn vào nút `Add Content Root` sau đó chọn thư mục `src` của các project liên quan để link source
 
-![](<.gitbook/assets/image (59) (1) (1).png>)
+![](<.gitbook/assets/image (59) (1) (1) (1).png>)
 
 Sau khi thêm thành công sẽ có thêm Source Folder được liệt kê nằm dưới, làm lại tương tự với các project khác.
 
@@ -160,7 +160,7 @@ Chọn `Add new...` và chọn `Application`
 
 Bên dưới là các thông  số của run config&#x20;
 
-![](<.gitbook/assets/image (59) (1).png>)
+![](<.gitbook/assets/image (59) (1) (1).png>)
 
 #### Chọn main class
 
@@ -218,7 +218,7 @@ click nút mũi tên kế bên `run config` đang chọn để chạy nó
 
 Trong trường hợp có nhiều hàm main click vào dấu xổ xuống tại `run config` hiện tại sau đó chọn `run config` tương ứng để chạy
 
-![](<.gitbook/assets/image (59).png>)&#x20;
+![](<.gitbook/assets/image (59) (1).png>)&#x20;
 
 {% hint style="danger" %}
 Có thể xảy ra lỗi khi chạy `run config`, có thể tham khảo [Một số lỗi thường gặp](setup-project/mot-so-loi-thuong-gap.md) khi chạy Project để khăc phục
