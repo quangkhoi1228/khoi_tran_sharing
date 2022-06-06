@@ -52,7 +52,7 @@ The content of the document......
 
 **Kết quả:**
 
-****![](<../.gitbook/assets/image (70).png>)
+****![](<../../.gitbook/assets/image (70).png>)
 
 ## Thẻ \<style>
 

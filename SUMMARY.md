@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Lời nói đầu](README.md)
-* [HTML](<README (1).md>)
+* [HTML](README.md)
   * [Khái niệm/Thẻ/Cấu trúc](html/khai-niem-the-cau-truc.md)
   * [Thuộc tính HTML](html/thuoc-tinh-html.md)
   * [Comment trong HTML](html/comment-trong-html.md)

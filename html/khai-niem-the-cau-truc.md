@@ -6,8 +6,6 @@ description: >-
 
 # Khái niệm/Thẻ/Cấu trúc
 
-
-
 ## HTML là gì? <a href="#html-la-gi" id="html-la-gi"></a>
 
 * **HTML** **viết tắt của Hyper Text Markup Language**

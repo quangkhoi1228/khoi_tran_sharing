@@ -25,7 +25,7 @@ Phần tử `Block` luôn luôn **chiếm hết chiều dài khả dụng** tứ
 
 Hai phần tử phổ biến nhất là `<p>` and `<div>`
 
-![](<../.gitbook/assets/image (69).png>)
+![](<../../.gitbook/assets/image (69).png>)
 
 ```markup
 <p>Hello World</p>
@@ -34,7 +34,7 @@ Hai phần tử phổ biến nhất là `<p>` and `<div>`
 
 &#x20;Một số phần tử Block khác:
 
-![Các thẻ HTML Block](<../.gitbook/assets/image (68) (1).png>)
+![Các thẻ HTML Block](<../../.gitbook/assets/image (68) (1).png>)
 
 ## Phần tử Inline
 
@@ -42,7 +42,7 @@ Phần tử `Inline` **không tạo dòng mới** và chỉ lấy số lượng 
 
 Thẻ `Inline` hay gặp là thẻ `<span>`
 
-![](<../.gitbook/assets/image (58) (1).png>)
+![](<../../.gitbook/assets/image (58) (1).png>)
 
 ```markup
 <span>Hello World</span>
@@ -50,7 +50,7 @@ Thẻ `Inline` hay gặp là thẻ `<span>`
 
 Đây là 1 số thẻ Inline:
 
-![](<../.gitbook/assets/image (52).png>)
+![](<../../.gitbook/assets/image (52).png>)
 
 {% hint style="info" %}
 Lưu ý: Phần tử `Inline` không thể chứa phần tử `Block`
