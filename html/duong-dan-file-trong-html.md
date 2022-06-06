@@ -8,17 +8,17 @@ description: >-
 
 ## Đường dẫn file là gì?
 
-1. Đường dẫn trong HTML dùng để mô tả/trỏ đến vị trí của file trong cấu trúc web.&#x20;
-2. Một số loại file mà đường dẫn hay trỏ đến:
+1. **Đường dẫn trong HTML** dùng để **mô tả/trỏ đến vị trí của file trong cấu trúc web.**&#x20;
+2. **Một số loại file** mà đường dẫn hay trỏ đến:
    * Trang web
    * Hình ảnh
    * File CSS/JS
    * ...
-3. Thường có 2 dạng đường dẫn là đường dẫn tương đối và đường dẫn tuyệt đối
+3. Thường có 2 dạng đường dẫn là **đường dẫn tương đối** và **đường dẫn tuyệt đối**
 
 ## Đường dẫn tuyệt đối(Absolute path)
 
-Đường dẫn tuyệt đối là một URL đầy đủ của file&#x20;
+**Đường dẫn tuyệt đối** là một **URL đầy đủ của file**&#x20;
 
 ```markup
 <img src="https://www.w3schools.com/images/picture.jpg" alt="Mountain">
@@ -30,7 +30,7 @@ description: >-
 
 ## Đường dẫn tương đối(Relative path)
 
-Đường dẫn tương đối mô tả vị trí của file đích bằng cách chỉ ra mối liên hệ của nó so với file hiện tại. &#x20;
+**Đường dẫn tương đối** mô tả vị trí của file đích bằng cách **chỉ ra mối liên hệ của nó so với file hiện tại.** &#x20;
 
 Cụ thể như sau:
 
