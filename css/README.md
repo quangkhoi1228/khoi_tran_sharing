@@ -11,17 +11,17 @@ Ví dụ:
 
 \-Không có CSS:
 
-![](<../../.gitbook/assets/0 (1).png>)
+![](<../.gitbook/assets/0 (1).png>)
 
 \-Có CSS
 
-![](../../.gitbook/assets/1.png)
+![](../.gitbook/assets/1.png)
 
 ## Cú pháp
 
 Một luật CSS bao gồm selector và một khối khai báo
 
-![](../../.gitbook/assets/2.png)
+![](../.gitbook/assets/2.png)
 
 * Selector chỉ ra phần tử HTML muốn chỉnh style
 * Khối khai báo chứa một hoặc nhiều khai báo cách nhau bởi dấu chấm phẩy
@@ -63,7 +63,7 @@ Xem thêm: [https://www.w3schools.com/cssref/css\_selectors.asp](https://www.w3s
 
 * Cách thêm trược tiếp vào thẻ sẽ bỏ qua định danh của thẻ
 * chỉ thẻ được thêm css vào mới có các tính năng trong css đó
-* Cách thêm:![](<../../.gitbook/assets/3 (1).png>)
+* Cách thêm:![](<../.gitbook/assets/3 (1).png>)
 
 ### Cách 2: thêm vào trong file html dưới dạng 1 thẻ style (embed):
 
@@ -71,14 +71,14 @@ Xem thêm: [https://www.w3schools.com/cssref/css\_selectors.asp](https://www.w3s
 * ví dụ
 *
 
-![](../../.gitbook/assets/4.png)
+![](../.gitbook/assets/4.png)
 
 ### Cách 3: Thêm dưới dạng 1 file có đuôi .css (linked)
 
 * trong file \*.css sẽ là danh sách các selector có các thuộc tính và giá trị
 * Thông thường sẽ thêm vào bên trong thẻ head của file .htm
 * cách thêm:
-* ![](../../.gitbook/assets/5.png)
+* ![](../.gitbook/assets/5.png)
 * với href là đường dẫn đến file .css cần thêm
 
 ### Độ ưu tiên của các selector trong css
@@ -88,35 +88,35 @@ Xem thêm: [https://www.w3schools.com/cssref/css\_selectors.asp](https://www.w3s
 * Khi các CSS của bạn đã được sắp xếp theo một cách trật tự, nhưng bạn vẫn muốn một thuộc tính css nào đó tác động đến đối tượng và vượt qua các css được ưu tiên hơn thì bạn cần sử dụng thêm một thuộc tính để đánh dấu rằng thuộc tính đó phải được ưu tiên sử dụng trước, mặc dù nó được sắp xếp ở mức ưu tiên thấp hơn.
 * Thuộc tính để đánh dấu tầm quan trọng trong css đó là: !important
 
-![](../../.gitbook/assets/6.png)
+![](../.gitbook/assets/6.png)
 
 ### Ví dụ cơ bản:
 
-#### ![](../../.gitbook/assets/7.png)
+#### ![](../.gitbook/assets/7.png)
 
 Ta có 1 thẻ như hình, và mong muốn màu nền của thẻ này là màu đỏ, ta có thể sử dụng cách sau:
 
 cách 1:
 
-![](../../.gitbook/assets/8.png)
+![](../.gitbook/assets/8.png)
 
 Dịch nghĩa: Tất cả các thẻ p sẽ có nền là màu đỏ
 
 cách 2:
 
-![](<../../.gitbook/assets/10 (2).png>)
+![](../.gitbook/assets/10.png)
 
 Dịch nghĩa : Tất cả các class tên demo-class sẽ có nền màu đỏ
 
 cách 3:
 
-![](../../.gitbook/assets/10.png)
+![](<../.gitbook/assets/10 (2).png>)
 
 Dịch: id có tên demo-class sẽ có nền màu đỏ
 
 Ta sẽ được kết quả như sau:
 
-![](../../.gitbook/assets/11.png)
+![](../.gitbook/assets/11.png)
 
 ## Các thuộc tính thường được sử dụng và diễn giải:
 
@@ -140,7 +140,7 @@ Trong Css, khái niệm “box model” được sử dụng để nói về b�
 
 Css box model là bản chất của việc các thuộc tính Css bao quanh mỗi phần tử HTML bao gồm: margin,border,padding và nội dung(content) của phần tử như hình sau:
 
-![](../../.gitbook/assets/12.png)
+![](../.gitbook/assets/12.png)
 
 Cách các thuộc tính bao quanh 1 đối phần tử HTML
 
@@ -190,7 +190,7 @@ Gồm 2 loại đơn vị là đơn vị tương đối và đơn vị tuyệt �
 
 Giống như các thẻ \<span>, \<em>, \<b> , các text trong thẻ sẽ xuống dòng khi quá giới hạn chiều dài nhưng không làm mất luồng của dòng chứa phần tử
 
-![](../../.gitbook/assets/13.png)
+![](../.gitbook/assets/13.png)
 
 Inline không chấp nhận thuộc tính height, width nhưng có padding, margin
 
@@ -198,13 +198,13 @@ Inline không chấp nhận thuộc tính height, width nhưng có padding, marg
 
 Khá giống với Inline, vẫn sẽ tuân thủ quy tắc luồng của chữ, khác khi các chữ trong dòng sẽ không tách nhau khi vượt giới hạn chiều dài và chấp nhận thuộc tính width, height
 
-![](../../.gitbook/assets/14.png)
+![](../.gitbook/assets/14.png)
 
 ### Block
 
 Một số phần tử được gán giá trị block mặc định, thường là các phần tử chứa các phần tử khác như \<div>, \<section>, \<ul> hoặc các “blocks” như \<p> and \<h1>. Các phần tử có giá trị Block không nằm theo luồng của dòng mà sẽ cố gắng chiếm chiều ngang tối đa có thể nếu không được set width cụ thể
 
-![block](../../.gitbook/assets/15.png)
+![block](../.gitbook/assets/15.png)
 
 ### None
 
@@ -216,7 +216,7 @@ thẻ \<script> sử dụng display: none; làm thuộc tính display mặc đ�
 
 display: flex khác với các loại khác nó không quy định cách hiển thị của chính nó mà quy định cách sắp xếp của các phần tử con 1 cách linh hoạt, cách sử dụng thông thường là các phần tử con sẽ có thuộc tính width, khi các phần tử con quá chiều dài khung màn hình của dòng đó sẽ tự động xuống dòng chứ không overflow-x
 
-![](../../.gitbook/assets/16.png)
+![](../.gitbook/assets/16.png)
 
 ## Position
 
@@ -228,7 +228,7 @@ Thẻ HTML mặc định position là static
 
 Phần tử có position: static; sẽ không bị ảnh hưởng bởi các thuộc tính top, right,bottom,left và tuân theo luồng sắp xếp mặc định của trang
 
-![](../../.gitbook/assets/17.png)
+![](../.gitbook/assets/17.png)
 
 ### Relative
 
@@ -238,7 +238,7 @@ Phần tử có position: relative; xác định vị trí mới dựa vào vị
 
 Setting the top, right, bottom, and left properties of a relatively-positioned element will cause it to be adjusted away from its normal position. Other content will not be adjusted to fit into any gap left by the element.
 
-![](../../.gitbook/assets/18.png)
+![](../.gitbook/assets/18.png)
 
 ### Fixed
 
@@ -246,13 +246,13 @@ Phần tử có position: fixed; cũng sử dụng thuộc tính top,right,botto
 
 Một phần tử fixed không để lại khoảng trống tại vị trí đặt phần tử trên trang
 
-![](../../.gitbook/assets/19.png)
+![](../.gitbook/assets/19.png)
 
 ### Absolute
 
 Phần tử có position: absolute; phụ thuộc vào phần tử tổ tiên(cha, ông, cố) được quy định position khác static gần nhất thay vì dựa vào viewport như fixed, nếu không có phần tử tổ tiên phù hợp thì phần tử sẽ lấy phần tư body của trang để đối chiếu và di chuyển khi scroll trang.
 
-![](../../.gitbook/assets/20.png)
+![](../.gitbook/assets/20.png)
 
 ### Sticky
 
@@ -264,7 +264,7 @@ X vị trí hiện tại -- root vị trí được quy định
 
 ⇒ X < root: static
 
-![](../../.gitbook/assets/21.gif)
+![](../.gitbook/assets/21.gif)
 
 ### z-index
 
@@ -276,13 +276,13 @@ Các phần tử chồng chéo lên nhau theo thứ tự được quy định b�
 
 !important trong CSS được sử dụng để thêm sự quan trọng của 1 thuộc tính hơn so với bình thường, nếu sử dụng !important sẽ đè **tất cả** các khai báo trước định nghĩa style của của phần tử
 
-![](../../.gitbook/assets/22.png)
+![](../.gitbook/assets/22.png)
 
 ### Đè !important
 
 Có 1 cách duy nhất để đè !important là thêm !important vào rule css có selector ngang hoặc mạnh hơn trong source code, điều này gây ra những sự nhầm lẫn và debug sẽ khó hơn rất nhiều
 
-![](../../.gitbook/assets/23.png)
+![](../.gitbook/assets/23.png)
 
 ⇒ hãy cân nhắc khi sử dụng !important
 
@@ -294,7 +294,7 @@ Một trang web thiết kế responsive sẽ tự động điều chỉnh cho c�
 
 trang web thiết kế responsive sử dụng HTML và CSS để tự động chỉnh kích thước, ẩn, co lại hoặc phóng to các phần tử trong trang để trang web nhìn ổn trên tất cả thiết bị(máy tính, máy tính bảng hoặc điện thoại)
 
-![Responsive Web Design](<../../.gitbook/assets/26 (1).jpeg>)
+![Responsive Web Design](../.gitbook/assets/26.jpeg)
 
 ### Set viewport - Khung nhìn
 
@@ -308,11 +308,11 @@ Ví dụ:
 
 Không có set viewport
 
-![](<../../.gitbook/assets/7 (1).png>)
+![](<../.gitbook/assets/7 (1) (1).png>)
 
 Có set viewport
 
-![](<../../.gitbook/assets/8 (1).png>)
+![](<../.gitbook/assets/8 (1) (1).png>)
 
 ### Các đơn vị
 
@@ -369,7 +369,7 @@ Các thư viện dùng để responsive: Bulma, Bootstrap, Tailwind,...
 
 1,Tạo ra 1 nút(button) tương tự như hình:
 
-![](../../.gitbook/assets/24.png)
+![](../.gitbook/assets/24.png)
 
 2, cũng như nút của câu 1 nhưng khi rê chuột vào, nút chuyển sang màu đỏ
 
@@ -382,6 +382,6 @@ chú ý:
 * không sử dụng 2 class khác nhau để cấu hình header
 {% endhint %}
 
-![](../../.gitbook/assets/25.png)
+![](../.gitbook/assets/25.png)
 
 ##

@@ -2,7 +2,7 @@
 
 ## Build android và IOS build
 
-### Kiểm tra version 
+### Kiểm tra version
 
 Kiểm tra version trong file `pubspec.yaml` và tăng version nếu cần
 
@@ -10,9 +10,9 @@ Kiểm tra version trong file `pubspec.yaml` và tăng version nếu cần
 version: 2021.04.162+162
 ```
 
-### Kiểm tra global config 
+### Kiểm tra global config
 
-Kiểm tra và chuyển `mode` trong file `GlobalConfig.dart` sang `aladin` 
+Kiểm tra và chuyển `mode` trong file `GlobalConfig.dart` sang `aladin`
 
 ```dart
   static String mode = 'aladin';
@@ -32,23 +32,20 @@ sh deploy_build.sh
 
 Mở Xcode và chọn aladin mobile project
 
-![](../.gitbook/assets/image%20%2846%29.png)
+![](<../.gitbook/assets/image (46).png>)
 
 ### Archive app
 
 Bước 1: Chọn `Runner` chuyển target sang `Any IOS Device`
 
-![](../.gitbook/assets/image%20%2847%29.png)
+![](<../.gitbook/assets/image (43).png>)
 
-Bước 2: Chọn `product` ==&gt; `Archive`
+Bước 2: Chọn `product` ==> `Archive`
 
-![](../.gitbook/assets/image%20%2844%29.png)
+![](<../.gitbook/assets/image (45).png>)
 
-### Validate app\(optional\)
-
-
+### Validate app(optional)
 
 ### Distribute app
 
-## 
-
+##
