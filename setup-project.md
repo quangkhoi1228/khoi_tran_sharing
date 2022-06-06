@@ -132,9 +132,9 @@ Tại Project Settings -> Modules chọn tab Dependencies
 
 Nhấn vào nút `cộng` sau đó chọn `JARs or Directories...` sau đó chọn file để thêm
 
-![](<.gitbook/assets/image (51) (1) (1).png>)
+![](<.gitbook/assets/image (57).png>)
 
-![](<.gitbook/assets/image (55) (1) (1) (1).png>)
+![](<.gitbook/assets/image (55) (1).png>)
 
 Sau khi thêm thành công sẽ có thêm file được liệt kê nằm dưới, làm lại tương tự với các thư viện khác.
 
@@ -208,7 +208,7 @@ Nhấn nút `Apply` và `Ok` để hoàn tất quá trình&#x20;
 
 Sau khi thành công sẽ có thêm 1 run config xuất hiện trong danh sách run config
 
-![](<.gitbook/assets/image (51) (2).png>)
+![](<.gitbook/assets/image (34).png>)
 
 ### Chạy project
 
