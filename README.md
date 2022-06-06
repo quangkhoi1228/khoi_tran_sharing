@@ -19,11 +19,13 @@ Hy vọng qua tài liệu mình ghi chú ở đây có thể giúp các bạn c�
 {% hint style="info" %}
 Toàn bộ các nội dung ở đây đều được dựa trên kinh nghiệm cá nhân của mình và tham khảo một số các nguồn khác như [w3schools](https://www.w3schools.com/default.asp) và [developer.mozilla.org](https://developer.mozilla.org/en-US/).&#x20;
 
-Do đó nếu có góp ý về nội dung cũng như cách trình bày. Vui lòng gửi thông tin giúp mình theo thông tin liên hệ phía dưới
+Do đó nếu có góp ý về nội dung cũng như cách trình bày. Vui lòng gửi thông tin giúp mình theo [thông tin liên hệ](./#lien-he) phía dưới
 {% endhint %}
 
 ## Liên hệ
 
-Vui lòng liên hệ mình qua thông tin sau:
+Nếu có bất kỳ góp ý hay thắc mắc nào hoặc chỉ đơn giản là "Say hi!!!" vui lòng liên hệ mình qua thông tin sau:
 
 * Email:[ quangkhoi1228@gmail.com](mailto:quangkhoi1228@gmail.com)
+
+Mình sẽ liên hệ lại với bạn trong thời gian sớm nhất có thể.&#x20;

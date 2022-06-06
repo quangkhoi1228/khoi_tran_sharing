@@ -1,4 +1,4 @@
-# Create new project from old project
+# Create new project form old project
 
 > &#x20;Sau là quy trình tạo một project mới từ project có sẵn trên **Intellij**, ví dụ được mô phỏng dưới đây dưa trên project tradingsystemweb, người đọc lưu ý đổi tên project cho phù hợp.
 
