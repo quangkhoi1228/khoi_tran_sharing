@@ -13,6 +13,7 @@
   * [Class trong HTML](html/class-trong-html.md)
   * [Head trong HTML](html/head-trong-html.md)
   * [Đường dẫn file trong HTML](html/duong-dan-file-trong-html.md)
+  * [Liên kết(link) trong HTML](html/lien-ket-link-trong-html.md)
   * [HTML Layout](html/html-layout.md)
   * [HTML Responsive](html/html-responsive.md)
   * [Bài tập](html/bai-tap.md)
