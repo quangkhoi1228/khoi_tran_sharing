@@ -4,9 +4,9 @@ description: >-
   chúng
 ---
 
-# Đường dẫn trong HTML
+# Đường dẫn file trong HTML
 
-## Đường dẫn là gì?
+## Đường dẫn file là gì?
 
 1. Đường dẫn trong HTML dùng để mô tả/trỏ đến vị trí của file trong cấu trúc web.&#x20;
 2. Một số loại file mà đường dẫn hay trỏ đến:
