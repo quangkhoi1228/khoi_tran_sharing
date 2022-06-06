@@ -21,7 +21,7 @@ Trong bài này chỉ sử mang mục đích giới thiệu khái quát về CSS
 
 **Một luật CSS** bao gồm **selector** và **một khối khai báo**
 
-![](../../.gitbook/assets/2.png)
+![](../.gitbook/assets/2.png)
 
 * **Selector** chỉ ra **phần tử HTML muốn chỉnh style**
 * **Khối khai báo** chứa **một hoặc nhiều khai báo** cách nhau bởi **dấu chấm phẩy(;)**
@@ -57,5 +57,5 @@ Tại thẻ `head` của trang chúng ta tạo thẻ `style` để chứa các k
 
 Kết quả:&#x20;
 
-![Kết quả](<../../.gitbook/assets/image (66) (1).png>)
+![Kết quả](<../.gitbook/assets/image (66) (1).png>)
 

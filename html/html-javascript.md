@@ -46,7 +46,7 @@ Trong ví dụ trên chúng ta có một thẻ `button` chứa cụm từ _hello
 
 **Kết quả:**
 
-****![](<../../.gitbook/assets/image (62).png>)
+****![](<../.gitbook/assets/image (62).png>)
 
 Giả sử chúng ta muốn chữ trong nút chuyển thành _Hello JavaScript!_ thì chúng ta thêm đoạn code vào như sau:
 
@@ -62,7 +62,7 @@ Giả sử chúng ta muốn chữ trong nút chuyển thành _Hello JavaScript!_
 * Để chọn một phần tử HTML chúng ta thường dùng `document.getElementById` để chọn phần tử theo thuộc tính `id` của phần tử
 * Để thay đổi nội dung của thẻ được chọn chúng ta sử dụng hàm `innerHTML  = nội dung mới`&#x20;
 
-![](<../../.gitbook/assets/image (55).png>)
+![](<../.gitbook/assets/image (55).png>)
 
 **Full code:**
 
