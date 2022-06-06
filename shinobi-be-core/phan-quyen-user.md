@@ -39,6 +39,8 @@ Một số thông tin quan trọng của user(tbuser):
 | password      | mật khẩu (dùng để đăng nhập)           | string       | passworduser1 |
 | isvalidated   | trạng thái có được đăng nhập hay không | boolean      | true          |
 
+#### Minh hoạ
+
 ![](<../.gitbook/assets/image (68).png>)
 
 ### Group
@@ -52,6 +54,8 @@ Một số thông tin quan trọng của group(tbgroup):
 | id               | mã id tự sinh của group | number       | 1       |
 | groupname        | tên group               | string       | group1  |
 | groupdescription | mô tả                   | string       | mô tả 1 |
+
+#### Minh hoạ
 
 ![](<../.gitbook/assets/image (58).png>)
 
@@ -69,6 +73,8 @@ Một số thông tin quan trọng của user group(tbusergroup):
 | groupname  | tên group - trùng với groupname của group       | string       | group1 |
 | username   | username - trùng với cột username của tài khoản | string       | user1  |
 
+#### Minh hoạ
+
 ![](<../.gitbook/assets/image (59).png>)
 
 ### Role
@@ -83,6 +89,8 @@ Một số thông tin quan trọng của group(tbgroup):
 | groupname   | tên group                        | string       | group1 |
 | resourceurl | url                              | string       | /api/1 |
 | roletype    | quy định được hay không được vào | allow/deny   | allow  |
+
+#### Minh hoạ
 
 ![](<../.gitbook/assets/image (60).png>)
 
