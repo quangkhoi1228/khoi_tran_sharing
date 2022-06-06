@@ -1,6 +1,7 @@
 # Table of contents
 
-* [HTML](README.md)
+* [Lời nói đầu](README.md)
+* [HTML](<README (1).md>)
   * [Khái niệm/Thẻ/Cấu trúc](html/khai-niem-the-cau-truc.md)
   * [Thuộc tính HTML](html/thuoc-tinh-html.md)
   * [Comment trong HTML](html/comment-trong-html.md)
@@ -26,7 +27,7 @@
   * [Mô tả chi tiết VM options](setup-project/mo-ta-chi-tiet-vm-options.md)
   * [Một số lỗi thường gặp](setup-project/mot-so-loi-thuong-gap.md)
   * [Cấu trúc project](setup-project/cau-truc-project.md)
-  * [Create new project from old project](setup-project/create-new-project-from-old-project.md)
+  * [Create new project from old project](create-new-project-form-old-project.md)
 * [Shinobi JS core](shinobi-js-core/README.md)
   * [JSON](shinobi-js-core/json.md)
   * [JS class](shinobi-js-core/js-class.md)
