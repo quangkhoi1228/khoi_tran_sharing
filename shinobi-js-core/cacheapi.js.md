@@ -2,9 +2,9 @@
 
 ## Lý do sử dụng cacheapi.js?
 
-Mỗi khi gọi 1 API bằng api.js server phải đi xử lý và tốn tài nguyên và tốn thời gian để chờ server trả về dữ liệu, nhưng không phải dữ liệu nào cũng thay đổi theo thời gian thực nên đối với dữ liệu dạng này ta có thể lưu\(cache\) lại phía client để giảm tải cho server mà vẫn đảm bảo dữ liệu phía client được đúng và không tốn thời gian chờ khi gọi API.
+Mỗi khi gọi 1 API bằng api.js server phải đi xử lý và tốn tài nguyên và tốn thời gian để chờ server trả về dữ liệu, nhưng không phải dữ liệu nào cũng thay đổi theo thời gian thực nên đối với dữ liệu dạng này ta có thể lưu(cache) lại phía client để giảm tải cho server mà vẫn đảm bảo dữ liệu phía client được đúng và không tốn thời gian chờ khi gọi API.
 
-==&gt; **Lúc đó cacheapi.js ra đời để giải quyết vấn đề này**
+\==> **Lúc đó cacheapi.js ra đời để giải quyết vấn đề này**
 
 {% tabs %}
 {% tab title="Cú pháp" %}
@@ -59,9 +59,9 @@ shinobi.cacheapi.request(url, JSON.stringify(bodyParam), callback);
 {% endtab %}
 
 {% tab title="Kết quả" %}
-![](../.gitbook/assets/image%20%2831%29.png)
+![](<../.gitbook/assets/image (31).png>)
 
-![](../.gitbook/assets/image%20%2832%29.png)
+![](<../.gitbook/assets/image (20).png>)
 {% endtab %}
 {% endtabs %}
 
@@ -142,18 +142,18 @@ shinobi.cacheapi.request(url, JSON.stringify(bodyParam), callback);
 {% endtab %}
 
 {% tab title="Kết quả" %}
-![](../.gitbook/assets/image%20%2831%29.png)
+![](<../.gitbook/assets/image (31).png>)
 
-![](../.gitbook/assets/image%20%2832%29.png)
+![](<../.gitbook/assets/image (20).png>)
 {% endtab %}
 {% endtabs %}
 
 #### options
 
-| Thuộc tính | Mặc định | diễn giải |
-| :--- | :--- | :--- |
-| responseHandleFunction | null | khai báo hàm này để cấu hình một hàm xử lý khi nhận được response trả về trong trường hợp key chưa có dữ liệu |
-| cacheExpired | null | đặt thời gian cache tối đa của dữ liệu,  sau thời gian này **dữ liệu cache** **của key** sẽ bị xóa  |
+| Thuộc tính             | Mặc định | diễn giải                                                                                                     |
+| ---------------------- | -------- | ------------------------------------------------------------------------------------------------------------- |
+| responseHandleFunction | null     | khai báo hàm này để cấu hình một hàm xử lý khi nhận được response trả về trong trường hợp key chưa có dữ liệu |
+| cacheExpired           | null     | đặt thời gian cache tối đa của dữ liệu, sau thời gian này **dữ liệu cache** **của key** sẽ bị xóa             |
 
 ### Xóa dữ liệu của key
 
@@ -179,9 +179,9 @@ shinobi.cacheapi.clearKey('/api/GuiApi/getTableHeader')
 {% endtab %}
 
 {% tab title="Kết quả" %}
-![](../.gitbook/assets/image%20%2837%29.png)
+![](<../.gitbook/assets/image (37).png>)
 
-![](../.gitbook/assets/image%20%2833%29.png)
+![](<../.gitbook/assets/image (33).png>)
 {% endtab %}
 {% endtabs %}
 
@@ -197,7 +197,6 @@ shinobi.cacheapi.clear();
 {% endtab %}
 
 {% tab title="Kết quả" %}
-![](../.gitbook/assets/image%20%2829%29.png)
+![](<../.gitbook/assets/image (29).png>)
 {% endtab %}
 {% endtabs %}
-

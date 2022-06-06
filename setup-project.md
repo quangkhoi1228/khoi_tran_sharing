@@ -134,7 +134,7 @@ Nhấn vào nút `cộng` sau đó chọn `JARs or Directories...` sau đó ch�
 
 ![](<.gitbook/assets/image (57).png>)
 
-![](<.gitbook/assets/image (56) (1).png>)
+![](<.gitbook/assets/image (55) (1).png>)
 
 Sau khi thêm thành công sẽ có thêm file được liệt kê nằm dưới, làm lại tương tự với các thư viện khác.
 
