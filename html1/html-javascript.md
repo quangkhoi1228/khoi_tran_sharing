@@ -62,7 +62,7 @@ Giả sử chúng ta muốn chữ trong nút chuyển thành _Hello JavaScript!_
 * Để chọn một phần tử HTML chúng ta thường dùng `document.getElementById` để chọn phần tử theo thuộc tính `id` của phần tử
 * Để thay đổi nội dung của thẻ được chọn chúng ta sử dụng hàm `innerHTML = nội dung mới`
 
-![](<../.gitbook/assets/image (54).png>)
+![](<../.gitbook/assets/image (55).png>)
 
 **Full code:**
 

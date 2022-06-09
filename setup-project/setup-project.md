@@ -6,9 +6,11 @@ Lưu ý: đây là quy trình setup cho project `cmedweb` nên các bạn lúc t
 
 ## Tạo cấu trúc thư mục
 
-![](<.gitbook/assets/image (48) (1) (1).png>)
+![](<../.gitbook/assets/image (48) (1) (1).png>)
 
 Thư mục chứa project có cấu trúc thư mục như trên.
+
+
 
 {% hint style="info" %}
 Trong đó:
@@ -55,7 +57,7 @@ Receiving objects: 100% (1485/1485), 45.49 MiB | 10.69 MiB/s, done.
 Resolving deltas: 100% (663/663), done.
 ```
 
-![Thư mục git sau khi clone project thành công](<.gitbook/assets/image (48) (1).png>)
+![Thư mục git sau khi clone project thành công](<../.gitbook/assets/image (48) (1).png>)
 
 ### Chuyển branch
 
@@ -76,7 +78,7 @@ git pull
 #Already up to date.
 ```
 
-![folder git sau khi pull](<.gitbook/assets/image (58) (1) (1) (1).png>)
+![folder git sau khi pull](<../.gitbook/assets/image (58) (1) (1) (1).png>)
 
 ## Setup run server với inteliJ IDEA
 
@@ -84,13 +86,13 @@ git pull
 
 Tại giao diện `intelliJ` click vào nút `Open` sau đó chọn thư mục `cmedweb` nằm trong thư mục `git` để open folder project (thư mục chứa src)
 
-![InteliJ IDEA](<.gitbook/assets/image (62) (1).png>)
+![InteliJ IDEA](<../.gitbook/assets/image (62) (1).png>)
 
-![folder cmedweb](<.gitbook/assets/image (60) (1).png>)
+![folder cmedweb](<../.gitbook/assets/image (60) (1).png>)
 
 `Trust Project` để hoàn tất
 
-![](<.gitbook/assets/image (64).png>)
+![](<../.gitbook/assets/image (64).png>)
 
 ### Link source đến các project và thư viện liên quan
 
@@ -108,19 +110,19 @@ Trong trường hợp `cmedweb` cần link với:
 
 Chuột phải vào module và chọn `Open Module Settings`
 
-![](<.gitbook/assets/image (54) (1).png>)
+![](<../.gitbook/assets/image (54) (1).png>)
 
-![](<.gitbook/assets/image (50) (1).png>)
+![](<../.gitbook/assets/image (50) (1).png>)
 
 #### Link source với project
 
 Tại Project Settings -> Modules chọn tab Sources
 
-![](<.gitbook/assets/image (66) (1) (1).png>)
+![](<../.gitbook/assets/image (66) (1) (1).png>)
 
 Nhấn vào nút `Add Content Root` sau đó chọn thư mục `src` của các project liên quan để link source
 
-![](<.gitbook/assets/image (59) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (59) (1) (1) (1).png>)
 
 Sau khi thêm thành công sẽ có thêm Source Folder được liệt kê nằm dưới, làm lại tương tự với các project khác.
 
@@ -128,21 +130,21 @@ Sau khi thêm thành công sẽ có thêm Source Folder được liệt kê nằ
 
 Tại Project Settings -> Modules chọn tab Dependencies
 
-![](<.gitbook/assets/image (67) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (67) (1) (1) (1).png>)
 
 Nhấn vào nút `cộng` sau đó chọn `JARs or Directories...` sau đó chọn file để thêm
 
-![](<.gitbook/assets/image (57).png>)
+![](<../.gitbook/assets/image (51) (1) (1).png>)
 
-![](<.gitbook/assets/image (55) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (55) (1) (1) (1) (1) (1).png>)
 
 Sau khi thêm thành công sẽ có thêm file được liệt kê nằm dưới, làm lại tương tự với các thư viện khác.
 
-![](<.gitbook/assets/image (49).png>)
+![](<../.gitbook/assets/image (49).png>)
 
 Nhấn apply sau khi thêm đầy đủ các project và thư viện liên quan
 
-![](<.gitbook/assets/image (63).png>)
+![](<../.gitbook/assets/image (63).png>)
 
 ###
 
@@ -152,25 +154,25 @@ Nhấn apply sau khi thêm đầy đủ các project và thư viện liên quan
 
 Tại intelliJ click vào nút `Add Configuration...` để mở panel
 
-![](<.gitbook/assets/image (34) (1).png>)
+![](<../.gitbook/assets/image (34) (1).png>)
 
 Chọn `Add new...` và chọn `Application`
 
-![](<.gitbook/assets/image (51) (1).png>)
+![](<../.gitbook/assets/image (51) (1).png>)
 
 Bên dưới là các thông  số của run config&#x20;
 
-![](<.gitbook/assets/image (59) (1) (1).png>)
+![](<../.gitbook/assets/image (59) (1) (1).png>)
 
 #### Chọn main class
 
 Chọn hàm main của project ở đây là `CmedMain`
 
-![](<.gitbook/assets/image (50).png>)
+![](<../.gitbook/assets/image (50).png>)
 
 #### Thêm VM options
 
-VM options là các run time argument của project do đó cần phải xác định chính xác trước khi muốn tạo run config, tham khảo thêm tại [Mô tả chi tiết VM options](setup-project/mo-ta-chi-tiet-vm-options.md)
+VM options là các run time argument của project do đó cần phải xác định chính xác trước khi muốn tạo run config, tham khảo thêm tại [Mô tả chi tiết VM options](mo-ta-chi-tiet-vm-options.md)
 
 _Ví dụ VM options của Cmed_&#x20;
 
@@ -192,15 +194,15 @@ _Ví dụ VM options của Cmed_&#x20;
 
 Thêm VM options: Tại panel run config click `modify options` chọn `Add VM options`
 
-![](<.gitbook/assets/image (61) (1).png>)
+![](<../.gitbook/assets/image (61) (1).png>)
 
 Dán nội dung vào input VM options vừa hiện ra
 
-![](<.gitbook/assets/image (58) (1) (1).png>)
+![](<../.gitbook/assets/image (58) (1) (1).png>)
 
 #### Đặt tên run config&#x20;
 
-![](<.gitbook/assets/image (52) (1).png>)
+![](<../.gitbook/assets/image (52) (1).png>)
 
 #### Lưu run config
 
@@ -208,18 +210,18 @@ Nhấn nút `Apply` và `Ok` để hoàn tất quá trình&#x20;
 
 Sau khi thành công sẽ có thêm 1 run config xuất hiện trong danh sách run config
 
-![](<.gitbook/assets/image (34) (2).png>)
+![](<../.gitbook/assets/image (34) (2) (1).png>)
 
 ### Chạy project
 
 click nút mũi tên kế bên `run config` đang chọn để chạy nó
 
-![](<.gitbook/assets/image (61).png>)
+![](<../.gitbook/assets/image (61).png>)
 
 Trong trường hợp có nhiều hàm main click vào dấu xổ xuống tại `run config` hiện tại sau đó chọn `run config` tương ứng để chạy
 
-![](<.gitbook/assets/image (59) (1).png>)&#x20;
+![](<../.gitbook/assets/image (59) (1).png>)&#x20;
 
 {% hint style="danger" %}
-Có thể xảy ra lỗi khi chạy `run config`, có thể tham khảo [Một số lỗi thường gặp](setup-project/mot-so-loi-thuong-gap.md) khi chạy Project để khăc phục
+Có thể xảy ra lỗi khi chạy `run config`, có thể tham khảo [Một số lỗi thường gặp](mot-so-loi-thuong-gap.md) khi chạy Project để khăc phục
 {% endhint %}
