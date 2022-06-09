@@ -6,7 +6,7 @@
 
 
 
-![](<.gitbook/assets/Screenshot from 2022-04-03 16-33-40 (1).png>)
+![](<.gitbook/assets/Screenshot from 2022-04-03 16-33-40.png>)
 
 Có thể sử dụng copy paste thông thường để tạo projetc mới&#x20;
 
@@ -30,7 +30,7 @@ Do copy thành project mới tuy nhiên project vẫn có sự connect lên gitl
 
 Do thư mục .git là thư mục ẩn, tick vào ô _**Show Hidden Files**_ như trên hình để hiện các thư mục ẩn, sau đó xóa thư mục .git như hình dưới.
 
-![](<.gitbook/assets/Screenshot from 2022-04-03 17-12-36.png>)
+![](<.gitbook/assets/Screenshot from 2022-04-03 17-12-36 (1).png>)
 
 ### Bước 5: Import folder chứa source project vào intellij
 

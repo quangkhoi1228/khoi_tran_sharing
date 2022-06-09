@@ -38,11 +38,11 @@ Mở Xcode và chọn aladin mobile project
 
 Bước 1: Chọn `Runner` chuyển target sang `Any IOS Device`
 
-![](<../.gitbook/assets/image (43).png>)
+![](<../.gitbook/assets/image (47).png>)
 
 Bước 2: Chọn `product` ==> `Archive`
 
-![](<../.gitbook/assets/image (45).png>)
+![](<../.gitbook/assets/image (44).png>)
 
 ### Validate app(optional)
 

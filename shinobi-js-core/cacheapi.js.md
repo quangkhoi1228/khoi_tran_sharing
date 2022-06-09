@@ -61,7 +61,7 @@ shinobi.cacheapi.request(url, JSON.stringify(bodyParam), callback);
 {% tab title="Kết quả" %}
 ![](<../.gitbook/assets/image (31).png>)
 
-![](<../.gitbook/assets/image (20) (1) (1).png>)
+![](<../.gitbook/assets/image (20) (1) (1) (1).png>)
 {% endtab %}
 {% endtabs %}
 
@@ -144,7 +144,7 @@ shinobi.cacheapi.request(url, JSON.stringify(bodyParam), callback);
 {% tab title="Kết quả" %}
 ![](<../.gitbook/assets/image (31).png>)
 
-![](<../.gitbook/assets/image (20) (1) (1).png>)
+![](<../.gitbook/assets/image (20) (1) (1) (1).png>)
 {% endtab %}
 {% endtabs %}
 

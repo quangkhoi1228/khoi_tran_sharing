@@ -24,7 +24,7 @@ Có nhiều cách để sử dụng JS trong trang. Trong bài này sử dụng 
 
 ### Thẻ \<script> trong HTML
 
-Thẻ `<script>` trong HTML được sử dụng để **định nghĩa một đoạn mã JS** trong trang. Nó có thể **chứa các đoạn code JS** hoặc **trỏ đến 1 file JS** qua thuộc tính `src`.&#x20;
+Thẻ `<script>` trong HTML được sử dụng để **định nghĩa một đoạn mã JS** trong trang. Nó có thể **chứa các đoạn code JS** hoặc **trỏ đến 1 file JS** qua thuộc tính `src`.
 
 ```markup
 <script>
@@ -42,11 +42,11 @@ Thẻ `<script>` trong HTML được sử dụng để **định nghĩa một đ
 <button id="demo">Hello World!!!</button>
 ```
 
-Trong ví dụ trên chúng ta có một thẻ `button` chứa cụm từ _hello world!!!_.&#x20;
+Trong ví dụ trên chúng ta có một thẻ `button` chứa cụm từ _hello world!!!_.
 
 **Kết quả:**
 
-****![](<../../.gitbook/assets/image (62).png>)
+\*\*\*\*![](<../.gitbook/assets/image (62).png>)
 
 Giả sử chúng ta muốn chữ trong nút chuyển thành _Hello JavaScript!_ thì chúng ta thêm đoạn code vào như sau:
 
@@ -60,9 +60,9 @@ Giả sử chúng ta muốn chữ trong nút chuyển thành _Hello JavaScript!_
 
 * Thẻ `<script>` định nghĩa ra các đoạn code JS được thực thi trong trang
 * Để chọn một phần tử HTML chúng ta thường dùng `document.getElementById` để chọn phần tử theo thuộc tính `id` của phần tử
-* Để thay đổi nội dung của thẻ được chọn chúng ta sử dụng hàm `innerHTML  = nội dung mới`&#x20;
+* Để thay đổi nội dung của thẻ được chọn chúng ta sử dụng hàm `innerHTML = nội dung mới`
 
-![](<../../.gitbook/assets/image (55).png>)
+![](<../.gitbook/assets/image (54).png>)
 
 **Full code:**
 

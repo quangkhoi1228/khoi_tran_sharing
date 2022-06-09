@@ -104,13 +104,13 @@ Dịch nghĩa: Tất cả các thẻ p sẽ có nền là màu đỏ
 
 cách 2:
 
-![](../.gitbook/assets/10.png)
+![](<../.gitbook/assets/10 (2).png>)
 
 Dịch nghĩa : Tất cả các class tên demo-class sẽ có nền màu đỏ
 
 cách 3:
 
-![](<../.gitbook/assets/10 (2).png>)
+![](../.gitbook/assets/10.png)
 
 Dịch: id có tên demo-class sẽ có nền màu đỏ
 
@@ -294,7 +294,7 @@ Một trang web thiết kế responsive sẽ tự động điều chỉnh cho c�
 
 trang web thiết kế responsive sử dụng HTML và CSS để tự động chỉnh kích thước, ẩn, co lại hoặc phóng to các phần tử trong trang để trang web nhìn ổn trên tất cả thiết bị(máy tính, máy tính bảng hoặc điện thoại)
 
-![Responsive Web Design](../.gitbook/assets/26.jpeg)
+![Responsive Web Design](<../.gitbook/assets/26 (1).jpeg>)
 
 ### Set viewport - Khung nhìn
 
@@ -308,11 +308,11 @@ Ví dụ:
 
 Không có set viewport
 
-![](<../.gitbook/assets/7 (1) (1).png>)
+![](<../.gitbook/assets/7 (1).png>)
 
 Có set viewport
 
-![](<../.gitbook/assets/8 (1) (1).png>)
+![](<../.gitbook/assets/8 (1).png>)
 
 ### Các đơn vị
 
