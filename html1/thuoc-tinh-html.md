@@ -66,6 +66,4 @@ Thuộc tính lang của `<html>` tuyên bố ngôn ngữ của trang web
 </html>
 ```
 
-
-
 \*Xem thêm chi tiết các thuộc tính của HTML tại đây: [https://www.w3schools.com/tags/ref\_attributes.asp](https://www.w3schools.com/tags/ref\_attributes.asp)

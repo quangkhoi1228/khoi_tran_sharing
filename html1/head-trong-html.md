@@ -52,11 +52,11 @@ The content of the document......
 
 **Kết quả:**
 
-****![](<../../.gitbook/assets/image (70).png>)
+\*\*\*\*![](<../.gitbook/assets/image (70).png>)
 
 ## Thẻ \<style>
 
-Thẻ `<style>` là thẻ dùng để **định nghĩa các luật CSS** trong trang&#x20;
+Thẻ `<style>` là thẻ dùng để **định nghĩa các luật CSS** trong trang
 
 ```markup
 <style>
@@ -92,7 +92,7 @@ Thẻ `<meta>` cung cấp các thông tin **metadata** **của trang** như tác
 <meta charset="UTF-8">
 ```
 
-### Định nghĩa từ khoá tìm kiếm&#x20;
+### Định nghĩa từ khoá tìm kiếm
 
 ```markup
 <meta name="keywords" content="HTML, CSS, JavaScript">
@@ -153,4 +153,3 @@ Tham khảo JS
 * Thẻ `<link>` **quy định đường dẫn đến file CSS** của trang
 * Thẻ `<meta>` **định nghĩa các thông tin** như mô tả, tác giả, viewport của trang
 * thẻ `<script>` **định nghĩa các JS được thực thi trên trang**
-

@@ -73,8 +73,6 @@ Thuộc tính `font-size` quy định kích cỡ chữ của phần tử
 <p style="font-size:160%;">This is a paragraph.</p>
 ```
 
-
-
 {% hint style="info" %}
 Chi tiết các thuộc tính tham khảo thêm ở đây: [https://cssreference.io/](https://cssreference.io/)
 {% endhint %}

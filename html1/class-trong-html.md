@@ -8,11 +8,11 @@ description: >-
 
 ## Tổng quan
 
-`class` là một thuộc tính của HTML được sử dụng để **định nghĩa một lớp(class)** cho phần tử HTML&#x20;
+`class` là một thuộc tính của HTML được sử dụng để **định nghĩa một lớp(class)** cho phần tử HTML
 
 **Nhiều phần tử HTML** có thể **có chung class với nhau**
 
-Thuộc tính `class` thường được dùng để **trỏ đến một khai báo CSS** của class hoặc **JS có thể truy xuất nhiều phần tử HTML** có **chứa cùng class**.&#x20;
+Thuộc tính `class` thường được dùng để **trỏ đến một khai báo CSS** của class hoặc **JS có thể truy xuất nhiều phần tử HTML** có **chứa cùng class**.
 
 ## Cách khai báo
 
@@ -36,9 +36,9 @@ Khai báo tên **class** có **phân biệt hoa thường**
 
 ### Cú pháp
 
-Chúng ta sử dụng dấu chấm **. + tên class** để **xác định** các phần tử bị **ảnh hưởng bởi class**&#x20;
+Chúng ta sử dụng dấu chấm **. + tên class** để **xác định** các phần tử bị **ảnh hưởng bởi class**
 
-Các cặp thuộc tính CSS sẽ được **đặt trong dấu {}** và để **kế sau cú pháp khai báo class**&#x20;
+Các cặp thuộc tính CSS sẽ được **đặt trong dấu {}** và để **kế sau cú pháp khai báo class**
 
 ```css
 .class-name {
@@ -134,7 +134,7 @@ trong ví dụ này chúng ta sẽ lấy ra các phần tử có `class` là **c
 ## Tổng kết
 
 * Thuộc tính `class` được sử dụng để **định nghĩa** một hay nhiều class cho phần tử HTML
-* `class` được **CSS** sử dụng để **áp dụng style cho nhiều phần tử**&#x20;
+* `class` được **CSS** sử dụng để **áp dụng style cho nhiều phần tử**
 * `class` được **JS** sử dụng để **chọn ra các phần tử** thông qua hàm `document.getElementsByClassName(className)`
 * `class` có thể được sử dụng **cho mọi phần tử**
 * `class` **phân biệt hoa thường**

@@ -8,7 +8,7 @@ description: >-
 
 ## Đường dẫn file là gì?
 
-1. **Đường dẫn trong HTML** dùng để **mô tả/trỏ đến vị trí của file trong cấu trúc web.**&#x20;
+1. **Đường dẫn trong HTML** dùng để **mô tả/trỏ đến vị trí của file trong cấu trúc web.**
 2. **Một số loại file** mà đường dẫn hay trỏ đến:
    * Trang web
    * Hình ảnh
@@ -18,7 +18,7 @@ description: >-
 
 ## Đường dẫn tuyệt đối(Absolute path)
 
-**Đường dẫn tuyệt đối** là một **URL đầy đủ của file**&#x20;
+**Đường dẫn tuyệt đối** là một **URL đầy đủ của file**
 
 ```markup
 <img src="https://www.w3schools.com/images/picture.jpg" alt="Mountain">
@@ -30,7 +30,7 @@ description: >-
 
 ## Đường dẫn tương đối(Relative path)
 
-**Đường dẫn tương đối** mô tả vị trí của file đích bằng cách **chỉ ra mối liên hệ của nó so với file hiện tại.** &#x20;
+**Đường dẫn tương đối** mô tả vị trí của file đích bằng cách **chỉ ra mối liên hệ của nó so với file hiện tại.**
 
 Cụ thể như sau:
 
@@ -40,7 +40,7 @@ Cụ thể như sau:
 <img src="/images/picture.jpg" alt="Mountain">
 ```
 
-#### File đích nằm trong thư mục mà thư mục đó  nằm cùng thư mục với file hiện tại
+#### File đích nằm trong thư mục mà thư mục đó nằm cùng thư mục với file hiện tại
 
 ```markup
 <img src="images/picture.jpg" alt="Mountain">
@@ -53,7 +53,7 @@ Cụ thể như sau:
 ```
 
 {% hint style="info" %}
-Đường dẫn tương đối thường được sử dụng vì:&#x20;
+Đường dẫn tương đối thường được sử dụng vì:
 
 * Cách viết đôi khi ngắn hơn so với cách viết đường dẫn tuyệt đối
 * Tạo ra các trang web động hơn vì không phải hardcode domain của trang web

@@ -8,7 +8,7 @@ description: >-
 
 ## Tổng quan
 
-`id` là **thuộc tính của HTML** được sử dụng để **định nghĩa một mã id duy nhất** cho **một phần tử** **HTML**&#x20;
+`id` là **thuộc tính của HTML** được sử dụng để **định nghĩa một mã id duy nhất** cho **một phần tử** **HTML**
 
 **Không thể** định nghĩa **hai phần tử HTML** có **cùng id** trong **một văn bản HTML**
 
@@ -96,7 +96,7 @@ Trong ví dụ này chúng ta có 2 thẻ `h1` nhưng chỉ có thẻ `h1` có g
 ```
 
 {% hint style="info" %}
-Khi click vào link ta sẽ thấy trang mới mở sẽ được nhảy xuống đúng vị trí của phần tử chứa `id`&#x20;
+Khi click vào link ta sẽ thấy trang mới mở sẽ được nhảy xuống đúng vị trí của phần tử chứa `id`
 {% endhint %}
 
 ## Sử dụng JavaScript với id
@@ -129,6 +129,6 @@ Trong ví dụ này chúng ta sẽ thay đổi nội dung của phần tử có 
 * Thuộc tính `id` được sử dụng để **định nghĩa** một mã `id` cho phần tử HTML
 * `id` **phân biệt hoa thường**, **không được bắt đầu bằng số** và **chứa khoảng trắng**
 * Trong một văn bản **không được có 2 phần tử khai báo cùng id** do giá trị của **id là duy nhất**
-* `id` được sử dụng bởi **CSS**  để **tuỳ chỉnh hiển thị phần tử**
+* `id` được sử dụng bởi **CSS** để **tuỳ chỉnh hiển thị phần tử**
 * `id` cũng được **sử dụng để làm bookmark** cho nội dung trang
 * **JS** có thể chọn phần tử HTML bằng hàm `document.getElementById()`

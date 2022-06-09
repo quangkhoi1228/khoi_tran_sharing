@@ -38,7 +38,7 @@ Với comment chúng ta **có thể ghi chú** để **giải thích** hoặc **
 <!-- Remember to add more information here -->
 ```
 
-### Ẩn nội dung&#x20;
+### Ẩn nội dung
 
 Với comment chúng ta cũng có thể **ẩn các đoạn code** hiện không được sử dụng hoặc được tạm bỏ qua trong quá trình chạy code.
 
@@ -66,4 +66,3 @@ Chúng ta cũng có thể **ẩn một phần nội dung** bên trong thẻ như
 ```markup
 <p>This <!-- great text --> is a paragraph.</p>
 ```
-

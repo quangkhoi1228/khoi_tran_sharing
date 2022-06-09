@@ -20,6 +20,6 @@ Khi tải trang, website luôn luôn tải về các resource tĩnh như JS, CSS
 
 ## Setup build resource
 
-_Xem thêm_ [_cấu trúc project_](setup-project/cau-truc-project.md) _thư mục `static` để hiểu rõ các folder trước khi vào mục này_
+_Xem thêm_ [_cấu trúc project_](cau-truc-project.md) _thư mục `static` để hiểu rõ các folder trước khi vào mục này_
 
 __
