@@ -1,3 +1,7 @@
+---
+description: json
+---
+
 # JSON
 
 ## JSON là gì?
@@ -25,7 +29,7 @@ JSON là chuỗi và server chỉ có thể trả về dữ liệu dạng chuỗ
 
 JSON rất nhẹ và có tính dễ hiểu cao hơn so với các kiểu dữ liệu khác
 
-JSON được JS xây dựng các hàm xử lý đi kèm rất mạnh 
+JSON được JS xây dựng các hàm xử lý đi kèm rất mạnh
 
 ## Kiểu dữ liệu hợp lệ của JSON
 
@@ -33,13 +37,13 @@ JSON chấp nhận 1 trong các kiểu dữ liệu dưới đây:
 
 * a string
 * a number
-* an object \(JSON object\)
+* an object (JSON object)
 * an array
 * a boolean
 * _null_
 
 {% hint style="info" %}
-Lưu ý: JSON có thể gán giá trị là 1 hàm\(function\) nhưng khi sử dụng hàm JSON.stringify, JSON.parse giá trị chứa hàm sẽ mất 
+Lưu ý: JSON có thể gán giá trị là 1 hàm(function) nhưng khi sử dụng hàm JSON.stringify, JSON.parse giá trị chứa hàm sẽ mất
 {% endhint %}
 
 Ví dụ:
@@ -78,7 +82,7 @@ var json = {
 
 ## Các thao tác liên quan
 
-### Cú pháp truy xuất giá trị chung 
+### Cú pháp truy xuất giá trị chung
 
 ```javascript
 var json = {
@@ -220,7 +224,7 @@ console.log(json)
 //{name: "Khôi", age: "23", gender: "MR"}
 ```
 
-### Gán hàm\(function\) vào JSON
+### Gán hàm(function) vào JSON
 
 Hàm không được chấp nhận trong JSON, nhưng nếu cần chứa hàm hãy viết nó sang dạng String và parse lại hàm sau.
 
@@ -233,7 +237,7 @@ console.log(obj.name + ", " + obj.age());
 ```
 
 {% hint style="info" %}
-Hàm eval dùng để thực thi 1 đoạn code JS 
+Hàm eval dùng để thực thi 1 đoạn code JS
 {% endhint %}
 
 Cú pháp:
@@ -241,4 +245,3 @@ Cú pháp:
 ```javascript
 eval(statement)(parameter)
 ```
-
