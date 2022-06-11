@@ -104,7 +104,7 @@ các thẻ thuộc dạng form như input,select,textarea,...
 
 ## Gán dữ liệu lên giao diện
 
-### Bước 1&#x20;
+### Bước 1
 
 Khởi tạo đoạn script sau trong file html
 
@@ -528,7 +528,7 @@ khi muốn sử dụng mapping.js để gán hoặc lấy dữ liệu của 1 ed
 {% endtab %}
 
 {% tab title="kết quả" %}
-![](<../.gitbook/assets/image (3).png>)
+![](<../.gitbook/assets/image (3) (1).png>)
 {% endtab %}
 {% endtabs %}
 
@@ -631,7 +631,7 @@ content
 {% endtab %}
 
 {% tab title="kết quả" %}
-![](<../.gitbook/assets/image (10).png>)
+![](<../.gitbook/assets/image (10) (1).png>)
 {% endtab %}
 {% endtabs %}
 
