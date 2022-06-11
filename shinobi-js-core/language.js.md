@@ -26,24 +26,24 @@ Sau khi đã có code cho thanh lựa chọn, ta tiếp tục với code của n
 ```html
 <div>
     <b snb-lang="PAGECODE_WELCOMECONTENT">
-        Xin chào bạn! Tôi là nội dụng của trang
+        Xin chào bạn! Tôi là nội dụng của trang.
     </b>
 </div>
 ```
 
-Khi đã có 2 yêu cầu trên, trang của bạn sẽ có giao diện giống với hình bên dưới
+Khi đã có 2 yêu cầu trên, trang của bạn sẽ có giao diện tương tự với hình bên dưới
 
 ![Hình gợi ý code cho Language.js](<../.gitbook/assets/Screenshot from 2022-06-11 15-03-45 (1).png>)
 
 ## Thiết lập ngôn ngữ
 
-Chúng ta sẽ cấu hình ngôn ngữ cho nội dung hệ thống vừa đặt bằng cách Chọn "System" trong trang Admin System, sau đó chọn "Resourcebundle".
+Chúng ta sẽ cấu hình ngôn ngữ cho nội dung hệ thống vừa đặt bằng cách Chọn "System" trong trang hệ thống Admin, sau đó chọn "Resourcebundle".
 
-![Thanh menu của hệ Admin System](<../.gitbook/assets/image (1).png>)
+![Thanh menu của hệ thống Admin](<../.gitbook/assets/image (1).png>)
 
 Một hệ thống bảng sẽ hiển thị như sau
 
-![Hệ thống bảng Resourcebundle hệ thống Admin System](<../.gitbook/assets/image (9).png>)
+![Hệ thống bảng Resourcebundle hệ thống Admin](<../.gitbook/assets/image (9).png>)
 
 Điền đầy đủ thông tin với các dữ liệu như sau:
 
