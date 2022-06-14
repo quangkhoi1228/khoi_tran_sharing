@@ -4,7 +4,9 @@
 
 Initbulma.js là một File Javascript có chức năng để gán các yêu cầu của người sử dụng vào một chức năng nào đó của Bulma, hoặc những chức năng người dùng tự thêm vào liên quan đến Bulma
 
-#### Chức năng từ thư viện B
+## Cách thiết l
+
+#### Các chức năng từ thư viện Bulma
 
 Ví dụ về cách thêm tuỳ chỉnh vào chức năng của thư viện Bulma (Thư viện bulmaCalender):
 
@@ -20,7 +22,7 @@ if (typeof bulmaCalendar == 'function') {
 }
 ```
 
-#### Chức năng người dùng thiết lập
+#### Các chức năng người dùng thiết lập
 
 Ví dụ về tính năng tuỳ chỉnh của người dùng (Hàm lấy tên miền của trang):
 
@@ -30,7 +32,7 @@ getPathNameAppendSearch : function () {
 },
 ```
 
-#### Cách sử dụng thư viện
+## Cách sử&#x20;
 
 Với các tính năng từ thư viện Bulma, người dùng chỉ cần gọi theo cú pháp đã code sẵn trước đó
 
