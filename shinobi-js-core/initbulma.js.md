@@ -13,8 +13,6 @@ var selector = '[type="date"]:not(.is-init-bulma-false)';
 
 var options = {
     dateFormat: 'DD/MM/YYYY',
-    displayMode: 'dialog',
-    closeOnOverlayClick: false,
 };
 
 if (typeof bulmaCalendar == 'function') {
