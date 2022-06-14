@@ -6,7 +6,7 @@ Initbulma.js là một File Javascript có chức năng để gán các yêu c�
 
 #### Chức năng từ thư viện B
 
-Ví dụ về cách thêm tuỳ chỉnh vào chức năng c thư viện Bulma (Thư viện bulmaCalender):
+Ví dụ về cách thêm tuỳ chỉnh vào chức năng của thư viện Bulma (Thư viện bulmaCalender):
 
 ```javascript
 var selector = '[type="date"]:not(.is-init-bulma-false)';
