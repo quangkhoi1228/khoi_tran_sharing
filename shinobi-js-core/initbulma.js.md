@@ -4,7 +4,7 @@
 
 Initbulma.js là một File Javascript có chức năng để gán các yêu cầu của người sử dụng vào một chức năng nào đó của Bulma, hoặc những chức năng người dùng tự thêm vào liên quan đến Bulma
 
-## Cách thiết l
+## Cách thiết lập
 
 #### Các chức năng từ thư viện Bulma
 
@@ -32,7 +32,7 @@ getPathNameAppendSearch : function () {
 },
 ```
 
-## Cách sử&#x20;
+## Cách sử dụng
 
 Với các tính năng từ thư viện Bulma, người dùng chỉ cần gọi theo cú pháp đã code sẵn trước đó
 
