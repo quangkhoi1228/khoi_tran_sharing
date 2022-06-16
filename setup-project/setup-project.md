@@ -10,8 +10,6 @@ Lưu ý: đây là quy trình setup cho project `cmedweb` nên các bạn lúc t
 
 Thư mục chứa project có cấu trúc thư mục như trên.
 
-
-
 {% hint style="info" %}
 Trong đó:
 
@@ -136,7 +134,7 @@ Nhấn vào nút `cộng` sau đó chọn `JARs or Directories...` sau đó ch�
 
 ![](<../.gitbook/assets/image (51) (1) (1).png>)
 
-![](<../.gitbook/assets/image (55) (1) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (55) (1) (1) (1) (1) (1) (2).png>)
 
 Sau khi thêm thành công sẽ có thêm file được liệt kê nằm dưới, làm lại tương tự với các thư viện khác.
 
@@ -160,7 +158,7 @@ Chọn `Add new...` và chọn `Application`
 
 ![](<../.gitbook/assets/image (51) (1).png>)
 
-Bên dưới là các thông  số của run config&#x20;
+Bên dưới là các thông số của run config
 
 ![](<../.gitbook/assets/image (59) (1) (1).png>)
 
@@ -174,7 +172,7 @@ Chọn hàm main của project ở đây là `CmedMain`
 
 VM options là các run time argument của project do đó cần phải xác định chính xác trước khi muốn tạo run config, tham khảo thêm tại [Mô tả chi tiết VM options](mo-ta-chi-tiet-vm-options.md)
 
-_Ví dụ VM options của Cmed_&#x20;
+_Ví dụ VM options của Cmed_
 
 ```systemd
 -Dconfig=/Volumes/home/Project/cmedweb/git/cmedweb/web.properties   
@@ -200,17 +198,17 @@ Dán nội dung vào input VM options vừa hiện ra
 
 ![](<../.gitbook/assets/image (58) (1) (1).png>)
 
-#### Đặt tên run config&#x20;
+#### Đặt tên run config
 
 ![](<../.gitbook/assets/image (52) (1).png>)
 
 #### Lưu run config
 
-Nhấn nút `Apply` và `Ok` để hoàn tất quá trình&#x20;
+Nhấn nút `Apply` và `Ok` để hoàn tất quá trình
 
 Sau khi thành công sẽ có thêm 1 run config xuất hiện trong danh sách run config
 
-![](<../.gitbook/assets/image (34) (2) (1).png>)
+![](<../.gitbook/assets/image (34) (2) (1) (1).png>)
 
 ### Chạy project
 
@@ -220,7 +218,7 @@ click nút mũi tên kế bên `run config` đang chọn để chạy nó
 
 Trong trường hợp có nhiều hàm main click vào dấu xổ xuống tại `run config` hiện tại sau đó chọn `run config` tương ứng để chạy
 
-![](<../.gitbook/assets/image (59) (1).png>)&#x20;
+![](<../.gitbook/assets/image (59) (1).png>)
 
 {% hint style="danger" %}
 Có thể xảy ra lỗi khi chạy `run config`, có thể tham khảo [Một số lỗi thường gặp](mot-so-loi-thuong-gap.md) khi chạy Project để khăc phục

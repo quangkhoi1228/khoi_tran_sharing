@@ -224,7 +224,7 @@ shinobi.mapping.render('#container', JSON.stringify(data));
 {% endtab %}
 
 {% tab title="kết quả" %}
-![](<../.gitbook/assets/image (8).png>)
+![](<../.gitbook/assets/image (8) (1).png>)
 {% endtab %}
 {% endtabs %}
 
@@ -1151,7 +1151,7 @@ Khi muốn chuẩn hóa kiểu dữ liệu của giá trị trước khi gán v�
 {% endtab %}
 
 {% tab title="kết quả" %}
-![](<../.gitbook/assets/image (8).png>)
+![](<../.gitbook/assets/image (8) (1).png>)
 {% endtab %}
 {% endtabs %}
 
