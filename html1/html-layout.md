@@ -1,3 +1,9 @@
+---
+description: >-
+  Trong bài này chúng ta sẽ tìm hiểu về HTML layout, các cách để thực hiện HTML
+  layout và cách sử dụng chúng.
+---
+
 # HTML Layout
 
 ## HTML Layout <a href="#html-layout" id="html-layout"></a>
@@ -75,7 +81,13 @@ Hiện nay có một số CSS framework được sử dụng phổ biến như:
 
 Float layout được hiểu là việc chúng ta sử dụng thuộc tính float của CSS để quy định phần tử thể hiện trên trang.&#x20;
 
-Thuộc tính float rất đơn giản để học, các bạn chỉ cần nắm rõ quy tắc sử dụng thuộc tính float và clear được. Tuy nhiên, khi phần tử sử dụng thuộc tính float vẫn bị ảnh hưởng bởi nội dung của thẻ do đó có thể ảnh hưởng đến sự linh hoạt của bố cục trang.
+Ưu điểm:
+
+* Thuộc tính float rất đơn giản để học, các bạn chỉ cần nắm rõ quy tắc sử dụng thuộc tính float và clear được.&#x20;
+
+Nhược điểm:
+
+* khi phần tử sử dụng thuộc tính float vẫn bị ảnh hưởng bởi nội dung của thẻ do đó có thể ảnh hưởng đến sự linh hoạt của bố cục trang.
 
 ### Cách sử dụng
 
@@ -203,5 +215,12 @@ footer {
 
 CSS flexbox layout được hiểu là chúng ta sử dụng thuộc tính CSS để có thể đoán trước được cách các phần tử thể hiện trên trang và chúng sẽ bị ảnh hưởng bởi kích thước màn hình từ đó chúng ta có thể xây dựng các trang web.&#x20;
 
+### Cách sử dụng
 
+{% hint style="info" %}
+CSS flexbox là một phần rất lớn do đó các bạn nên tham khảo phần CSS về flexbox để hiểu rõ hơn
+{% endhint %}
 
+## CSS grid layout
+
+CSS grid layout là một kĩ&#x20;
