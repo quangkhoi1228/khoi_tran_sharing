@@ -8,7 +8,7 @@ description: >-
 
 ## HTML Layout <a href="#html-layout" id="html-layout"></a>
 
-HTML layout là một thuật ngữ nói về việc bố cục các phần tử HTML được sắp xếp trong trang. Trong  trang web thường hiển thị nội dung theo nhiều phần và mỗi phần có nhiều cột‌.&#x20;
+**HTML layout** là một thuật ngữ nói về việc **bố cục các phần tử HTML được sắp xếp trong trang**. Trong  **trang web thường hiển thị** nội dung **theo nhiều phần và mỗi phần có nhiều cột‌.**&#x20;
 
 Ví dụ về trang youtube được bố trí theo hàng và cột
 
@@ -16,20 +16,20 @@ Ví dụ về trang youtube được bố trí theo hàng và cột
 
 ## Phần tử HTML layout <a href="#phan-tu-html-layout" id="phan-tu-html-layout"></a>
 
-HTML có 1 vài phần tử ngữ nghĩa dùng để định nghĩa sự khác nhau giữa các phần trong trang web
+**HTML** có 1 vài **phần tử ngữ nghĩa** dùng để **định nghĩa sự khác nhau** giữa các **phần trong trang web**
 
 ![](<../.gitbook/assets/image (2).png>)
 
 Trong đó:
 
-* `<header>` - định nghĩa một header cho một trang hoặc một phần
-* `<nav>` - Định nghĩa một bộ các đường dẫn điều hướng
-* `<section>` - định nghĩa một phần của văn bản
-* `<article>` - định nghĩa một phần tử độc lập hoặc phần tử chứa nội dung
-* `<aside>` - Định nghĩa nội dung nằm ngoài nội dung chính(như là một thanh bên - sidebar )
-* `<footer>` - định nghĩa phần chân của trang hoặc một phần của trang
-* `<details>` - định nghĩa một phần nội dung chi tiết, người dùng có thể mở hoặc đóng tùy nhu cầu
-* `<summary>` - định nghĩa phần đầu của thẻ `<details>`
+* `<header>` - định nghĩa một **header cho một trang** hoặc một **phần**
+* `<nav>` - Định nghĩa một **bộ các đường dẫn điều hướng**
+* `<section>` - định nghĩa **một phần của văn bản**
+* `<article>` - định nghĩa **một phần tử độc lập** hoặc **phần tử chứa nội dung**
+* `<aside>` - Định nghĩa **nội dung nằm ngoài nội dung chính**(như là một thanh bên - sidebar )
+* `<footer>` - định nghĩa **phần chân của trang** hoặc **một phần của trang**
+* `<details>` - định nghĩa một phần **nội dung chi tiết**, người dùng **có thể mở hoặc đóng tùy nhu cầu**
+* `<summary>` - định nghĩa **phần đầu** của thẻ `<details>`
 
 Có thể xem thêm các thẻ khác tại đây [HTML Semantics](https://www.w3schools.com/html/html5\_semantic\_elements.asp)
 
@@ -48,18 +48,18 @@ Có 4 kỹ thuật chính để tạo layout có nhiều cột, mỗi cách đ�
 
 ### CSS framework là gì?
 
-CSS framework dùng để chỉ các bộ CSS được định nghĩa sẵn cung cấp các tính năng như định nghĩa các component như nút, tiêu đề, header, card,... hoặc cung cấp tính năng responsive. Chúng được đưa vào thành một hoặc nhiều file CSS - được gọi là CSS framework.
+**CSS framework** dùng để chỉ c**ác bộ CSS được định nghĩa sẵn cung cấp các tính năng** như định nghĩa các component như nút, tiêu đề, header, card,... hoặc cung cấp tính năng responsive. Chúng **được đưa vào thành một hoặc nhiều file CSS** - được gọi là **CSS framework**.
 
 Khi sử dụng CSS framework chúng ta chỉ đơn giản là gọi ra các CSS được định nghĩa sẳn và sử dụng từ đó dẫn đến tốc độ phát triển giao diện của chúng ta sẽ tăng lên.
 
-Ưu điểm:&#x20;
+**Ưu điểm:**&#x20;
 
 * Tốc độ phát triển nhanh hơn do các tính năng đã được viết sẵn
 * Hạn chế code lặp lại&#x20;
 * Các framework đã được đông đảo developer sử dụng nên hạn chế các lỗi phát sinh
 * Chức năng ngày càng được phát triển nhiều hơn
 
-Nhược điểm:
+**Nhược điểm:**
 
 * Framework thường có kích thước lớn dẫn đến việc trang bị nặng hơn khi load
 * Muốn thành thạo framework thì cần rất nhiều thời gian
@@ -79,15 +79,15 @@ Hiện nay có một số CSS framework được sử dụng phổ biến như:
 
 ### Float layout là gì?
 
-Float layout được hiểu là việc chúng ta sử dụng thuộc tính float của CSS để quy định phần tử thể hiện trên trang.&#x20;
+**Float layout** được hiểu là việc chúng ta **sử dụng thuộc tính `float` của CSS** để **quy định phần tử thể hiện trên trang.**&#x20;
 
-Ưu điểm:
+**Ưu điểm:**
 
-* Thuộc tính float rất đơn giản để học, các bạn chỉ cần nắm rõ quy tắc sử dụng thuộc tính float và clear được.&#x20;
+* Thuộc tính `float` rất đơn giản để học, các bạn chỉ cần nắm rõ quy tắc sử dụng thuộc tính `float` và `clear` được.&#x20;
 
-Nhược điểm:
+**Nhược điểm:**
 
-* khi phần tử sử dụng thuộc tính float vẫn bị ảnh hưởng bởi nội dung của thẻ do đó có thể ảnh hưởng đến sự linh hoạt của bố cục trang.
+* khi phần tử sử dụng thuộc tính `float` vẫn bị ảnh hưởng bởi nội dung của thẻ do đó có thể ảnh hưởng đến sự linh hoạt của bố cục trang.
 
 ### Cách sử dụng
 
@@ -95,9 +95,9 @@ Nhược điểm:
 Các bạn tham khảo thêm phần CSS float và CSS clear để hiểu rõ hơn phần này.
 {% endhint %}
 
-Thuộc tính float của CSS có nhiệm vụ dồn các phần tử được gán thuộc tính float sang bên trái hay phải dựa theo value được cấu hình là left hay right
+Thuộc tính `float` của CSS có nhiệm vụ **dồn các phần tử được gán thuộc tính** `float` **sang bên trái hay phải dựa theo `value` được cấu hình là `left` hay `right`**
 
-Ví dụ:&#x20;
+**Ví dụ:**&#x20;
 
 ```markup
 <!DOCTYPE html>
@@ -207,13 +207,13 @@ footer {
 
 ![](<../.gitbook/assets/image (3).png>)
 
-Ở đây các phần \<nav> và \<article> được dồn sang trái vì có thuộc tính float: left
+Ở đây các phần `<nav>` và `<article>` được dồn sang trái vì có thuộc tính `float: left`
 
 ## CSS flexbox layout
 
 ### CSS flexbox layout là gì?
 
-CSS flexbox layout được hiểu là chúng ta sử dụng thuộc tính CSS để có thể đoán trước được cách các phần tử thể hiện trên trang và chúng sẽ bị ảnh hưởng bởi kích thước màn hình từ đó chúng ta có thể xây dựng các trang web.&#x20;
+`CSS flexbox layout` được hiểu là chúng ta sử dụng thuộc tính CSS để có thể đoán trước được cách các phần tử thể hiện trên trang và chúng sẽ bị ảnh hưởng bởi kích thước màn hình từ đó chúng ta có thể xây dựng các trang web.&#x20;
 
 ### Cách sử dụng
 
@@ -225,7 +225,7 @@ CSS flexbox là một phần rất lớn do đó các bạn nên tham khảo ph�
 
 ### CSS grid layout là gì?
 
-CSS grid layout là một kĩ thuật dựa trên việc chia trang web thành các hàng và cột từ đó chúng ta có thể chia bố cục cột cách rõ ràng mà không cần dùng đến thuộc tính float hay position.
+**CSS grid layout** là một kĩ thuật dựa trên việc **chia trang web thành các hàng và cột** từ đó chúng ta có thể chia bố cục cột cách rõ ràng mà **không cần dùng đến thuộc tính** `float` **hay** `position`.
 
 ### Cách sử dụng
 
