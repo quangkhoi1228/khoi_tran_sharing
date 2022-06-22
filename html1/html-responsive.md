@@ -1,3 +1,9 @@
+---
+description: >-
+  Trong bài này chúng ta sẽ tìm hiểu về HTML responsive và cách code website
+  responsive
+---
+
 # HTML Responsive
 
 ## HTML Responsive <a href="#html-responsive" id="html-responsive"></a>
