@@ -46,7 +46,7 @@ Trong ví dụ trên chúng ta có một thẻ `button` chứa cụm từ _hello
 
 **Kết quả:**
 
-\*\*\*\*![](<../.gitbook/assets/image (62).png>)
+![](<../.gitbook/assets/image (62).png>)
 
 Giả sử chúng ta muốn chữ trong nút chuyển thành _Hello JavaScript!_ thì chúng ta thêm đoạn code vào như sau:
 
