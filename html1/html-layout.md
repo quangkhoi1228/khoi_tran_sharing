@@ -223,4 +223,12 @@ CSS flexbox là một phần rất lớn do đó các bạn nên tham khảo ph�
 
 ## CSS grid layout
 
-CSS grid layout là một kĩ&#x20;
+### CSS grid layout là gì?
+
+CSS grid layout là một kĩ thuật dựa trên việc chia trang web thành các hàng và cột từ đó chúng ta có thể chia bố cục cột cách rõ ràng mà không cần dùng đến thuộc tính float hay position.
+
+### Cách sử dụng
+
+{% hint style="info" %}
+CSS grid là một phần rất lớn do đó các bạn nên tham khảo phần CSS về grid để hiểu rõ hơn
+{% endhint %}
