@@ -52,16 +52,18 @@ Có 4 kỹ thuật chính để tạo layout có nhiều cột, mỗi cách đ�
 
 Khi sử dụng CSS framework chúng ta chỉ đơn giản là gọi ra các CSS được định nghĩa sẳn và sử dụng từ đó dẫn đến tốc độ phát triển giao diện của chúng ta sẽ tăng lên.
 
-#### **Ưu điểm:**&#x20;
+#### Ưu điểm
 
-* Tốc độ phát triển nhanh hơn do các tính năng đã được viết sẵn
+Tốc độ phát triển nhanh hơn do các tính năng đã được viết sẵn
+
 * Hạn chế code lặp lại&#x20;
 * Các framework đã được đông đảo developer sử dụng nên hạn chế các lỗi phát sinh
 * Chức năng ngày càng được phát triển nhiều hơn
 
-#### **Nhược điểm:**
+#### Nhược điểm
 
-* Framework thường có kích thước lớn dẫn đến việc trang bị nặng hơn khi load
+Framework thường có kích thước lớn dẫn đến việc trang bị nặng hơn khi load
+
 * Muốn thành thạo framework thì cần rất nhiều thời gian
 * Các framework đều có quy tắc lõi nhất định do đó không thể sửa đổi
 
@@ -81,11 +83,11 @@ Hiện nay có một số CSS framework được sử dụng phổ biến như:
 
 **Float layout** được hiểu là việc chúng ta **sử dụng thuộc tính `float` của CSS** để **quy định phần tử thể hiện trên trang.**&#x20;
 
-#### **Ưu điểm:**
+#### Ưu điểm
 
 * Thuộc tính `float` rất đơn giản để học, các bạn chỉ cần nắm rõ quy tắc sử dụng thuộc tính `float` và `clear` được.&#x20;
 
-#### **Nhược điểm:**
+#### Nhược điểm
 
 * khi phần tử sử dụng thuộc tính `float` vẫn bị ảnh hưởng bởi nội dung của thẻ do đó có thể ảnh hưởng đến sự linh hoạt của bố cục trang.
 
