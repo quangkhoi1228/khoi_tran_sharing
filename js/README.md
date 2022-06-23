@@ -1,3 +1,7 @@
+---
+description: JS
+---
+
 # JS
 
 ## JS là gì?
@@ -10,9 +14,9 @@ JavaScript rất dễ để học
 
 ## Thêm JS vào trang
 
-Tham khảo HTML javascript: [Cách thêm JavaScript](https://app.gitbook.com/@quangkhoi1228/s/front-end-guide/~/drafts/-MY3PD3alRQ69Ywet0ra/front-end-can-ban/html#html-javascript)
+Tham khảo HTML javascript: [Cách thêm JavaScript](https://app.gitbook.com/@quangkhoi1228/s/front-end-guide/\~/drafts/-MY3PD3alRQ69Ywet0ra/front-end-can-ban/html#html-javascript)
 
-## Biến\(variables\)
+## Biến(variables)
 
 biến được khai báo bằng từ khóa `var`
 
@@ -42,13 +46,13 @@ var carName;
 //Volvo
 ```
 
-### 
+###
 
-### Sử dụng **let** và **const** \(ES6\)
+### Sử dụng **let** và **const** (ES6)
 
-Trước 2015 để khai báo biến trong JS chỉ có duy nhất từ khóa `var` 
+Trước 2015 để khai báo biến trong JS chỉ có duy nhất từ khóa `var`
 
-Từ [JavaScript \(ES6\)](https://www.w3schools.com/js/js_es6.asp) phiên bản 2015 JS chấp nhận từ khóa `const`  để khai báo 1 biến không thể khai báo lại và `let` để hạn chế phạm vi hoạt động của biến.
+Từ [JavaScript (ES6)](https://www.w3schools.com/js/js\_es6.asp) phiên bản 2015 JS chấp nhận từ khóa `const` để khai báo 1 biến không thể khai báo lại và `let` để hạn chế phạm vi hoạt động của biến.
 
 ### Kiểu dữ liệu
 
@@ -80,7 +84,7 @@ var lastName = "Johnson";                      // String
 var x = {firstName:"John", lastName:"Doe"};   //object
 ```
 
-## Hàm\(Function\)
+## Hàm(Function)
 
 Một hàm JS là một khối code được thiết kế để thực thi 1 tác vụ nào đó
 
@@ -101,7 +105,7 @@ function myFunction(p1, p2) {
 
 ### return giá trị
 
-Khi hàm thực thi tới từ khóa `return`  hàm sẽ dừng và trả giá trị về cho nơi gọi nó
+Khi hàm thực thi tới từ khóa `return` hàm sẽ dừng và trả giá trị về cho nơi gọi nó
 
 ```javascript
 var x = myFunction(4, 3);   // Function is called, return value will end up in x
@@ -112,13 +116,13 @@ function myFunction(a, b) {
 //12
 ```
 
-## Đối tượng\(Object\)
+## Đối tượng(Object)
 
-Object trong JS được định nghĩa theo cấu trúc JSON tìm hiểu thêm [tại đây](https://app.gitbook.com/@quangkhoi1228/s/front-end-guide/~/drafts/-MY3kpB8BWsP7tWZQ1b8/shinobi-js-core/cac-khai-niem/json)
+Object trong JS được định nghĩa theo cấu trúc JSON tìm hiểu thêm [tại đây](https://app.gitbook.com/@quangkhoi1228/s/front-end-guide/\~/drafts/-MY3kpB8BWsP7tWZQ1b8/shinobi-js-core/cac-khai-niem/json)
 
-## Sự kiện\(Event\)
+## Sự kiện(Event)
 
-Sự kiện trong JS có thể là 1 thứ gì đó trình duyệt web hoặc người dùng vừa thực hiện như: 
+Sự kiện trong JS có thể là 1 thứ gì đó trình duyệt web hoặc người dùng vừa thực hiện như:
 
 * Trang tải xong
 * Người dùng thao tác với phần tử trong trang
@@ -134,18 +138,18 @@ Ví dụ:
 
 Một số sự kiện
 
-| Sự kiện | Diễn giải |
-| :--- | :--- |
-| onchange | Một phần tử HTML vừa thay đổi |
-| onclick | Người dùng click vào phần tử |
-| onmouseover | Người dùng rê chuột vào phần tử |
-| onmouseout | Người dùng rê chuột ra khỏi phần tử |
-| onkeydown | Người dùng nhấn 1 nút |
-| onload | Trình duyệt web load xong trang |
+| Sự kiện     | Diễn giải                           |
+| ----------- | ----------------------------------- |
+| onchange    | Một phần tử HTML vừa thay đổi       |
+| onclick     | Người dùng click vào phần tử        |
+| onmouseover | Người dùng rê chuột vào phần tử     |
+| onmouseout  | Người dùng rê chuột ra khỏi phần tử |
+| onkeydown   | Người dùng nhấn 1 nút               |
+| onload      | Trình duyệt web load xong trang     |
 
-Xem thêm  các sự kiện [tại đây](https://www.w3schools.com/jsref/dom_obj_event.asp)
+Xem thêm các sự kiện [tại đây](https://www.w3schools.com/jsref/dom\_obj\_event.asp)
 
-## Điều kiện\(Condition\)
+## Điều kiện(Condition)
 
 ### Câu lệnh if
 
@@ -168,7 +172,7 @@ if (hour < 18) {
 
 ### Câu lệnh else
 
-Dùng câu lệnh `else`  để xác định khối code thực thi nếu điều kiện bằng `false`
+Dùng câu lệnh `else` để xác định khối code thực thi nếu điều kiện bằng `false`
 
 ```javascript
 if (condition) {
@@ -236,9 +240,9 @@ switch(expression) {
 #### Cách hoạt động
 
 * Biểu thức `switch` được đánh giá 1 lần
-* Giá trị của biểu thức sẽ được so sánh với giá trị của mỗi `case` 
+* Giá trị của biểu thức sẽ được so sánh với giá trị của mỗi `case`
 * Nếu khớp, khối code liên kết với `case` đó sẽ được thực thi
-* Nếu không có trường hợp nào khớp, khối code `default` sẽ được thực thi 
+* Nếu không có trường hợp nào khớp, khối code `default` sẽ được thực thi
 
 Ví dụ:
 
@@ -279,16 +283,16 @@ switch (new Date().getDay()) {
 #### Từ khóa `default`
 
 * Từ khóa `default` định nghĩa khối code thực thi khi không có trường hợp nào khớp với giá trị của điều kiện
-* Không nhất thiết phải đặt `default` cuối cùng của `switch`nhưng lúc đó phải có `break` trong khối code `default` 
+* Không nhất thiết phải đặt `default` cuối cùng của `switch`nhưng lúc đó phải có `break` trong khối code `default`
 
-## Vòng lặp\(Loop\)
+## Vòng lặp(Loop)
 
 Ta thường dùng vòng lặp nếu cần thực thi khối code lại nhiều lần nhưng chỉ khác thông số đầu vào.
 
 Trong JS ta có các kiểu lặp phổ biến sau:
 
-* `for` -  lặp lại một khối code với số lần lặp xác định trước
-* `for/in` - lặp qua các thuộc tính\(properties\) của 1 đối tượng\(object\)
+* `for` - lặp lại một khối code với số lần lặp xác định trước
+* `for/in` - lặp qua các thuộc tính(properties) của 1 đối tượng(object)
 * `for/of` - lặp qua các giá trị của đối tượng có thể lặp lại
 * `while` - lặp qua một khối code khi điều kiện bằng `true`
 * `do/while` - lặp qua một khối code khi điều kiện bằng `true`
@@ -301,11 +305,11 @@ for (statement 1; statement 2; statement 3) {
 }
 ```
 
-**Statement 1** được thực thi \(1 lần\) trước khi thực thi khối code
+**Statement 1** được thực thi (1 lần) trước khi thực thi khối code
 
 **Statement 2** định nghĩa điều kiện cho việc thực thi khối code
 
-**Statement 3** được thực thi\(mỗi lần\) sau khi khối code được thực hiện xong
+**Statement 3** được thực thi(mỗi lần) sau khi khối code được thực hiện xong
 
 Ví dụ:
 
@@ -381,7 +385,7 @@ console.log(txt)
 //45 4 9 16 25 
 ```
 
-### Vòng lặp for/of 
+### Vòng lặp for/of
 
 Vòng lăp for/of có thể duyệt qua các phần tử của một đối tượng có thể lặp lại như Arrays, Strings, Maps, NodeLists, vân vân
 
@@ -461,7 +465,7 @@ Mệnh đề `try` sẽ cố thực thi để tìm ra lỗi trong khối code
 
 Mệnh đề `catch` sẽ giúp xử lý lỗi
 
-Mệnh đề `throw` giúp tùy chỉnh lỗi 
+Mệnh đề `throw` giúp tùy chỉnh lỗi
 
 Mệnh đề `finally` giúp thực thi code sau khi try và catch bất kể kết quả là gì
 
@@ -515,10 +519,6 @@ function myFunction() {
 
 </body>
 </html>
-
 ```
 
-[chi tiết chạy](https://www.w3schools.com/js/tryit.asp?filename=tryjs_finally_error)
-
-
-
+[chi tiết chạy](https://www.w3schools.com/js/tryit.asp?filename=tryjs\_finally\_error)

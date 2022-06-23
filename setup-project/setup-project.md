@@ -1,3 +1,7 @@
+---
+description: setup project
+---
+
 # Setup Project
 
 {% hint style="warning" %}
