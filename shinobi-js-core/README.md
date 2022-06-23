@@ -1,2 +1,0 @@
-# Shinobi JS core
-

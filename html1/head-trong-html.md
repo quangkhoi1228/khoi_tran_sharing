@@ -79,7 +79,7 @@ Thẻ `<link>` là thẻ dùng để **khai báo 1 file CSS của trang**
 ```
 
 {% hint style="info" %}
-Tham khảo phần [CSS](../css/)
+Tham khảo phần [CSS](broken-reference)
 {% endhint %}
 
 ## Thẻ \<meta>

@@ -1,2 +1,0 @@
-# Shinobi BE core
-

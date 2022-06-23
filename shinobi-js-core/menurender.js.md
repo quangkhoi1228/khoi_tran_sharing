@@ -1,2 +1,0 @@
-# Menurender.js
-

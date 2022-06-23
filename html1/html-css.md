@@ -14,7 +14,7 @@ description: >-
 * Danh sách các style có thể được **lưu trong nhiều file CSS**
 
 {% hint style="info" %}
-Trong bài này chỉ sử mang mục đích giới thiệu khái quát về CSS. Để tìm hiểu kĩ hơn phần này các bạn vui lòng tham khảo tại phần CSS [tại đây](../css/)
+Trong bài này chỉ sử mang mục đích giới thiệu khái quát về CSS. Để tìm hiểu kĩ hơn phần này các bạn vui lòng tham khảo tại phần CSS [tại đây](broken-reference)
 {% endhint %}
 
 ## Cách viết các luật CSS (CSS rule)
