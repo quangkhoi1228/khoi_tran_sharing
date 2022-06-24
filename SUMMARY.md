@@ -2,7 +2,7 @@
 
 * [Lời nói đầu](README.md)
 * [HTML](html1/README.md)
-  * [Khái niệm/Thẻ/Cấu trúc](html1/khai-niem-the-cau-truc.md)
+  * [Giới thiệu HTML](html1/khai-niem-the-cau-truc.md)
   * [Thuộc tính HTML](html1/thuoc-tinh-html.md)
   * [Comment trong HTML](html1/comment-trong-html.md)
   * [HTML Style](html1/html-style.md)
