@@ -28,13 +28,13 @@ Nó sẽ hướng dẫn trình duyệt cách kiểm soát chiều và việc đi
 
 Ví dụ:‌
 
-Không có set viewport
+**Không có set viewport**
 
-![](https://gblobscdn.gitbook.com/assets%2Fwelcome-to-my-site%2F-MXvWNSrLk9ygm1zzKIA%2F-MXvX7GoDS7aeCfm1ODR%2F7.png?alt=media)‌
+****![](https://gblobscdn.gitbook.com/assets%2Fwelcome-to-my-site%2F-MXvWNSrLk9ygm1zzKIA%2F-MXvX7GoDS7aeCfm1ODR%2F7.png?alt=media)‌
 
-Có set viewport
+**Có set viewport**
 
-![](https://gblobscdn.gitbook.com/assets%2Fwelcome-to-my-site%2F-MXvWNSrLk9ygm1zzKIA%2F-MXvX7GpbNkQnx4VCIh5%2F8.png?alt=media)‌
+****![](https://gblobscdn.gitbook.com/assets%2Fwelcome-to-my-site%2F-MXvWNSrLk9ygm1zzKIA%2F-MXvX7GpbNkQnx4VCIh5%2F8.png?alt=media)‌
 
 ## Các đơn vị <a href="#cac-don-vi" id="cac-don-vi"></a>
 
