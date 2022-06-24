@@ -8,7 +8,7 @@ description: Trong phần này chúng ta sẽ tìm hiểu về khái niệm CSS 
 
 * **CSS** là viết tắt của **Cascading Style Sheets**
 * CSS **mô tả cách phần tử HTML thể hiện** **trên giao diện** như thế nào?
-* CSS **** giúp chúng ta **tiết kiệm thời gian vì có thể tái sử dụng lại CSS cho nhiều trang khác nhau**.
+* CSS giúp chúng ta **tiết kiệm thời gian vì có thể tái sử dụng lại CSS cho nhiều trang khác nhau**.
 
 ### Ví dụ
 
