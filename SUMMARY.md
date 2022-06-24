@@ -20,3 +20,4 @@
   * [Bài tập Responsive](html1/bai-tap.md)
 * [CSS](css/README.md)
   * [Giới thiệu CSS](css/gioi-thieu-css.md)
+  * [CSS Selector](css/css-selector.md)

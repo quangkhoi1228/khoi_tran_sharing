@@ -18,7 +18,7 @@ Ví dụ về trang youtube được bố trí theo hàng và cột
 
 **HTML** có 1 vài **phần tử ngữ nghĩa** dùng để **định nghĩa sự khác nhau** giữa các **phần trong trang web**
 
-![](<../.gitbook/assets/image (2).png>)
+![](<../.gitbook/assets/image (2) (2).png>)
 
 Trong đó:
 

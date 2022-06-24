@@ -10,23 +10,15 @@ description: Trong phần này chúng ta sẽ tìm hiểu về khái niệm CSS 
 * CSS **mô tả cách phần tử HTML thể hiện** **trên giao diện** như thế nào?
 * CSS giúp chúng ta **tiết kiệm thời gian vì có thể tái sử dụng lại CSS cho nhiều trang khác nhau**.
 
-### Ví dụ
+## Ví dụ
 
-```css
-body {
-  background-color: lightblue;
-}
+### Không có CSS
 
-h1 {
-  color: white;
-  text-align: center;
-}
+![](<../.gitbook/assets/image (2).png>)
 
-p {
-  font-family: verdana;
-  font-size: 20px;
-}
-```
+### Có CSS
+
+![](<../.gitbook/assets/image (32).png>)
 
 ## Vì sao nên sử dụng CSS?
 
@@ -43,3 +35,19 @@ CSS cho phép chúng ta **cấu hình cách hiển thị phần tử HTML tuỳ 
 CSS có thể lưu trong nhiều file .css và các file này có thể được **sử dụng cho nhiều trang khác nhau** do đó tiết kiệm được nhiều thời gian và công sức làm việc.
 
 Điều đó cũng có nghĩa là chúng ta chỉ cần **chỉnh sửa một file duy nhất** để có thể **thay đổi cách thể hiện của nhiều trang web khác nhau.**
+
+## Cú pháp CSS
+
+Một luật CSS bao gồm selector và một khối khai báo
+
+![](../.gitbook/assets/2.png)
+
+* Selector chỉ ra phần tử HTML muốn chỉnh style
+* Khối khai báo chứa một hoặc nhiều khai báo cách nhau bởi dấu chấm phẩy
+* Mỗi khai báo bao gồm một thuộc tính CSs và một giá trị cách nhau bởi dấu hai chấm
+* Những định nghĩa Css được cách nhau bởi dấu chấm phẩy, và các khối định nghĩa được bao quanh bởi dấu ngoặc nhọn
+* Các class trong cùng 1 thẻ được đặt trong thuộc tính class và cách nhau bởi khoảng trắng, chi tiết
+
+```markup
+<tagname class="class1 class2 classn"> nội dung </tagname>
+```
