@@ -17,4 +17,4 @@
   * [Liên kết(link) trong HTML](html1/lien-ket-link-trong-html.md)
   * [HTML Layout](html1/html-layout.md)
   * [HTML Responsive](html1/html-responsive.md)
-  * [Bài tập](html1/bai-tap.md)
+  * [Bài tập Responsive](html1/bai-tap.md)
