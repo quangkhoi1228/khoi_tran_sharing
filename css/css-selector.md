@@ -37,3 +37,40 @@ Chúng ta có thể chia CSS selector thành 5 loại chính:
 
 Xem thêm: [https://www.w3schools.com/cssref/css\_selectors.asp](https://www.w3schools.com/cssref/css\_selectors.asp)
 
+## Thứ tự ưu tiên của selector
+
+{% hint style="info" %}
+Trong trường hợp 1 phần tử HTML bị ảnh hưởng bởi nhiều khai báo CSS thì khai báo CSS nào khai báo rõ ràng hơn sẽ được áp dụng
+{% endhint %}
+
+Ví dụ:
+
+```markup
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      h2 {
+        color: red; /* Set text color to red */
+      }
+      
+      div h2 {
+        color: blue;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <div>
+      <h2>My Heading</h2>
+    </div>
+    <!-- These paragraphs will be red -->
+    <p>Hello World!</p>
+    <p>This paragraph is styled with CSS.</p>
+    <p>CSS comments are not shown in the output.</p>
+  
+  </body>
+</html>
+```
+
+Thẻ `<h2>` sẽ có màu `blue` vì khai báo rõ ràng hơn
