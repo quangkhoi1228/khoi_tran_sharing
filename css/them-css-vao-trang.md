@@ -103,3 +103,72 @@ h1 {
 ```
 
 ![](<../.gitbook/assets/image (20).png>)
+
+## Lưu ý thứ tự khai báo
+
+### Khái niệm
+
+Thứ tự khai báo của của Internal CSS và External CSS khá quan trọng trong việc CSS nào sẽ được khai báo.
+
+{% hint style="info" %}
+Trong trang nếu CSS của Internal CSS/External CSS nào được khai báo sau thì khai báo đó được áp dụng trong trang
+{% endhint %}
+
+### Ví dụ
+
+file: mystyle.css
+
+```css
+h1 {
+  color: navy;
+}
+```
+
+Internal CSS
+
+```css
+h1 {
+  color: orange;   
+}
+```
+
+#### Internal CSS khai báo sau External CSS
+
+```markup
+<head>
+  <link rel="stylesheet" type="text/css" href="mystyle.css">
+  <style>
+    h1 {
+      color: orange;
+    }
+  </style>
+</head>
+```
+
+Kết quả là \<h1> có màu orange
+
+![](<../.gitbook/assets/image (3).png>)
+
+#### External CSS khai báo sau Internal CSS
+
+```markup
+<head>
+  <style>
+    h1 {
+      color: orange;
+    }
+  </style>
+  <link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+```
+
+
+
+Kết quả là \<h1> có màu navy
+
+![](<../.gitbook/assets/image (34).png>)
+
+## Thứ tự ưu tiên
+
+Trong trường hợp trang có nhiều cách khai báo CSS trong trang thì thứ tự ưu tiên sẽ có quy định như sau:
+
