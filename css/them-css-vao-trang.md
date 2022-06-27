@@ -28,6 +28,8 @@ Inline CSS được sử dụng để thêm CSS cho một thẻ HTML  bằng cá
 </html>
 ```
 
+![](<../.gitbook/assets/image (32).png>)
+
 ## Internal CSS(CSS nội bộ)
 
 Internal CSS(CSS nội bộ) được sử dụng để thêm CSS vào một trang cụ thể. Tất cả các khai báo CSS được đặt trong thẻ \<style> và thẻ \<style> này được đặt trong thẻ \<head> của trang.
@@ -55,3 +57,9 @@ Internal CSS(CSS nội bộ) được sử dụng để thêm CSS vào một tra
 </body>
 </html>
 ```
+
+![](<../.gitbook/assets/image (20).png>)
+
+## External CSS(Thêm file .css)
+
+External CSS được hiểu là chúng ta sẽ tạo các file .css chứa các khai báo CSS sau đó import các file này vào trang cần&#x20;

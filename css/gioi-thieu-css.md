@@ -18,7 +18,7 @@ description: Trong phần này chúng ta sẽ tìm hiểu về khái niệm CSS 
 
 ### Có CSS
 
-![](<../.gitbook/assets/image (32).png>)
+![](<../.gitbook/assets/image (32) (1).png>)
 
 ## Vì sao nên sử dụng CSS?
 
