@@ -4,7 +4,7 @@ description: >-
   HTML là gì? và cấu trúc của một file HTML như thế nào?
 ---
 
-# Khái niệm/Thẻ/Cấu trúc
+# Giới thiệu HTML
 
 ## HTML là gì? <a href="#html-la-gi" id="html-la-gi"></a>
 
