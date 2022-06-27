@@ -108,15 +108,15 @@ h1 {
 
 ### Khái niệm
 
-Thứ tự khai báo của của Internal CSS và External CSS khá quan trọng trong việc CSS nào sẽ được khai báo.
+Thứ tự khai báo của của **Internal CSS** và **External CSS** khá quan trọng trong việc CSS nào sẽ được khai báo.
 
 {% hint style="info" %}
-Trong trang nếu CSS của Internal CSS/External CSS nào được khai báo sau thì khai báo đó được áp dụng trong trang
+Trong trang nếu CSS của **Internal CSS/External CSS** nào **được khai báo sau** thì khai báo đó được áp dụng trong trang
 {% endhint %}
 
 ### Ví dụ
 
-file: mystyle.css
+file: **mystyle.css**
 
 ```css
 h1 {
@@ -124,7 +124,7 @@ h1 {
 }
 ```
 
-Internal CSS
+**Internal CSS**
 
 ```css
 h1 {
@@ -145,7 +145,7 @@ h1 {
 </head>
 ```
 
-Kết quả là \<h1> có màu orange
+Kết quả là `<h1>` có màu `orange`
 
 ![](<../.gitbook/assets/image (3).png>)
 
@@ -164,19 +164,19 @@ Kết quả là \<h1> có màu orange
 
 
 
-Kết quả là \<h1> có màu navy
+Kết quả là `<h1>` có màu `navy`
 
 ![](<../.gitbook/assets/image (34).png>)
 
 ## Thứ tự ưu tiên
 
-Trong trường hợp trang có nhiều cách khai báo CSS cho cùng một selector trong trang thì thứ tự ưu tiên sẽ có quy định như sau:
+Trong trường hợp trang có nhiều cách khai báo CSS cho cùng một `selector` trong trang thì thứ tự ưu tiên sẽ có quy định như sau:
 
 1. Inline CSS
 2. Internal CSS/External CSS
 3. CSS mặc định của Browser
 
 {% hint style="info" %}
-CSS inline sẽ có độ ưu tiên cao nhất ==> CSS Internal hoặc CSS external nằm trong \<head> ==> CSS mặc định của trình duyệt
+**CSS inline** sẽ có độ ưu tiên cao nhất ==> **CSS Internal** hoặc **CSS external** nằm trong `<head>` ==> CSS mặc định của trình duyệt
 {% endhint %}
 
