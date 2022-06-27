@@ -170,5 +170,13 @@ Kết quả là \<h1> có màu navy
 
 ## Thứ tự ưu tiên
 
-Trong trường hợp trang có nhiều cách khai báo CSS trong trang thì thứ tự ưu tiên sẽ có quy định như sau:
+Trong trường hợp trang có nhiều cách khai báo CSS cho cùng một selector trong trang thì thứ tự ưu tiên sẽ có quy định như sau:
+
+1. Inline CSS
+2. Internal CSS/External CSS
+3. CSS mặc định của Browser
+
+{% hint style="info" %}
+CSS inline sẽ có độ ưu tiên cao nhất ==> CSS Internal hoặc CSS external nằm trong \<head> ==> CSS mặc định của trình duyệt
+{% endhint %}
 
