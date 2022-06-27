@@ -58,7 +58,7 @@ Internal CSS(CSS nội bộ) được sử dụng để thêm CSS vào một tra
 </html>
 ```
 
-![](<../.gitbook/assets/image (20).png>)
+![](<../.gitbook/assets/image (20) (1).png>)
 
 ## External CSS(Thêm file .css)
 
@@ -98,3 +98,4 @@ h1 {
 </html>
 ```
 
+![](<../.gitbook/assets/image (20).png>)
