@@ -62,4 +62,39 @@ Internal CSS(CSS nội bộ) được sử dụng để thêm CSS vào một tra
 
 ## External CSS(Thêm file .css)
 
-External CSS được hiểu là chúng ta sẽ tạo các file .css chứa các khai báo CSS sau đó import các file này vào trang cần&#x20;
+External CSS được hiểu là chúng ta sẽ tạo các file .css chứa các khai báo CSS sau đó import các file này vào trang cần áp dụng. Điều này cho phép chúng ta chỉ cần chỉnh sửa 1 chỗ duy nhất (file .css) để thay đổi ở nhiều trang.
+
+### Cách sử dụng
+
+Đầu tiên chúng ta phải tại file .css để chứa các luật CSS
+
+file mystyle.css
+
+```css
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  color: navy;
+  margin-left: 20px;
+}
+```
+
+Để thêm file .css vào trang chúng ta sẽ sử dụng thẻ \<link> và đặt thẻ này vào thẻ \<head> của trang
+
+```markup
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="mystyle.css">
+    </head>
+    <body>
+    
+        <h1>This is a heading</h1>
+        <p>This is a paragraph.</p>
+        
+    </body>
+</html>
+```
+
