@@ -1,20 +1,24 @@
+---
+description: Trong trang này chúng ta sẽ tìm hiểu về các cách thêm CSS vào trang.
+---
+
 # Thêm CSS vào trang
 
 ## Tổng quan
 
 CSS được tạo ra để hỗ trợ HTML do đó khi trình duyệt đọc đến phần khai báo CSS, trình duyệt sẽ format lại cách thể hiện của trang dựa vào phần CSS đó.&#x20;
 
-Có 3 cách để thêm CSS vào trang cụ thể như sau:
+**Có 3 cách để thêm CSS vào trang cụ thể như sau:**
 
 ## Inline CSS (thêm trực tiếp vào thẻ)
 
-Inline CSS là cách khai báo CSS giống cách khai báo giá trị của thuộc tính style của HTML
+**Inline CSS** là cách khai báo CSS **giống cách khai báo giá trị của thuộc tính style của HTML**
 
 {% hint style="info" %}
 các bạn có thể tham khảo thêm [tại đây](../html1/html-css.md)
 {% endhint %}
 
-Inline CSS được sử dụng để thêm CSS cho một thẻ HTML  bằng cách thêm thuộc tính style cho thẻ đó và giá trị chính là các cặp `property: value` ngăn cách bởi dấu chấm phẩy (;) thể hiện CSS muốn thêm.
+**Inline CSS** được sử dụng để thêm CSS cho một thẻ HTML  bằng cách **thêm thuộc tính style cho thẻ** đó và **giá trị chính là các cặp** `property: value` **ngăn cách bởi dấu chấm phẩy (;)** thể hiện CSS muốn thêm.
 
 ```markup
 <!DOCTYPE html>
@@ -32,7 +36,7 @@ Inline CSS được sử dụng để thêm CSS cho một thẻ HTML  bằng cá
 
 ## Internal CSS(CSS nội bộ)
 
-Internal CSS(CSS nội bộ) được sử dụng để thêm CSS vào một trang cụ thể. Tất cả các khai báo CSS được đặt trong thẻ \<style> và thẻ \<style> này được đặt trong thẻ \<head> của trang.
+**Internal CSS(CSS nội bộ)** được sử dụng để thêm CSS vào một trang cụ thể. Tất cả các khai báo CSS được đặt trong thẻ `<style>` và thẻ `<style>` này được đặt trong thẻ `<head>` của trang.
 
 ```markup
 <!DOCTYPE html>
@@ -62,13 +66,13 @@ Internal CSS(CSS nội bộ) được sử dụng để thêm CSS vào một tra
 
 ## External CSS(Thêm file .css)
 
-External CSS được hiểu là chúng ta sẽ tạo các file .css chứa các khai báo CSS sau đó import các file này vào trang cần áp dụng. Điều này cho phép chúng ta chỉ cần chỉnh sửa 1 chỗ duy nhất (file .css) để thay đổi ở nhiều trang.
+**External CSS** được hiểu là chúng ta sẽ tạo các file `.css` chứa các khai báo CSS sau đó import các file này vào trang cần áp dụng. Điều này cho phép chúng ta chỉ cần chỉnh sửa 1 chỗ duy nhất (file `.css`) để thay đổi ở nhiều trang.
 
 ### Cách sử dụng
 
-Đầu tiên chúng ta phải tại file .css để chứa các luật CSS
+Đầu tiên chúng ta phải tại file `.css` để chứa các luật CSS
 
-file mystyle.css
+file **mystyle.css**
 
 ```css
 body {
@@ -81,7 +85,7 @@ h1 {
 }
 ```
 
-Để thêm file .css vào trang chúng ta sẽ sử dụng thẻ \<link> và đặt thẻ này vào thẻ \<head> của trang
+Để thêm file `.css` vào trang chúng ta sẽ sử dụng thẻ `<link>` và đặt thẻ này vào thẻ `<head>` của trang
 
 ```markup
 <!DOCTYPE html>
