@@ -7,4 +7,5 @@ HTML được ví như anh thợ xây có thể xây được bộ khung của t
 ## Yêu cầu
 
 1. Làm quen với máy tính và có trải nghiệm qua các trang web theo hướng người dùng
-2. Hiểu biết cơ bản về HTML (tham khảo thêm [tại đây](../html1/))
+2. Cài đặt các công cụ lập trình CSS (tham khảo tại đây)
+3. Hiểu biết cơ bản về HTML (tham khảo thêm [tại đây](../html1/))
