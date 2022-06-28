@@ -32,7 +32,7 @@ các bạn có thể tham khảo thêm [tại đây](../html1/html-css.md)
 </html>
 ```
 
-![](<../.gitbook/assets/image (32).png>)
+![](<../.gitbook/assets/image (32) (1).png>)
 
 ## Internal CSS(CSS nội bộ)
 
@@ -62,7 +62,7 @@ các bạn có thể tham khảo thêm [tại đây](../html1/html-css.md)
 </html>
 ```
 
-![](<../.gitbook/assets/image (20) (1).png>)
+![](<../.gitbook/assets/image (20) (1) (1).png>)
 
 ## External CSS(Thêm file .css)
 
@@ -102,7 +102,7 @@ h1 {
 </html>
 ```
 
-![](<../.gitbook/assets/image (20).png>)
+![](<../.gitbook/assets/image (20) (1).png>)
 
 ## Lưu ý thứ tự khai báo
 
@@ -166,7 +166,7 @@ Kết quả là `<h1>` có màu `orange`
 
 Kết quả là `<h1>` có màu `navy`
 
-![](<../.gitbook/assets/image (34).png>)
+![](<../.gitbook/assets/image (34) (2).png>)
 
 ## Thứ tự ưu tiên
 

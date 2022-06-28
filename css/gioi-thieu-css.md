@@ -14,11 +14,11 @@ description: Trong phần này chúng ta sẽ tìm hiểu về khái niệm CSS 
 
 ### Không có CSS
 
-![](<../.gitbook/assets/image (2).png>)
+![](<../.gitbook/assets/image (2) (2).png>)
 
 ### Có CSS
 
-![](<../.gitbook/assets/image (32) (1).png>)
+![](<../.gitbook/assets/image (32) (1) (1).png>)
 
 ## Vì sao nên sử dụng CSS?
 
