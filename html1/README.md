@@ -10,4 +10,4 @@ Hy vọng qua phần này các bạn có thể hiểu HTML và áp dụng vào c
 
 ## Yêu cầu
 
-1. Ứng dụng hỗ trợ lập trình như: VSCode, Sublime Text,...
+1. [Công cụ lập trình](../huong-dan-khac/cong-cu-lap-trinh/)
