@@ -22,6 +22,7 @@
   * [Giới thiệu CSS](css/gioi-thieu-css.md)
   * [CSS Selector](css/css-selector.md)
   * [Thêm CSS vào trang](css/them-css-vao-trang.md)
+  * [Comment trong CSS](css/comment-trong-css.md)
 * [Hướng dẫn khác](huong-dan-khac/README.md)
   * [Công cụ lập trình](huong-dan-khac/cong-cu-lap-trinh/README.md)
     * [Visual Studio Code](huong-dan-khac/cong-cu-lap-trinh/visual-studio-code.md)
