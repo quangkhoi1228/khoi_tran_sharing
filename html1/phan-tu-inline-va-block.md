@@ -34,7 +34,7 @@ Hai phần tử phổ biến nhất là `<p>` and `<div>`
 
 Một số phần tử Block khác:
 
-![Các thẻ HTML Block](<../.gitbook/assets/image (68) (1).png>)
+![Các thẻ HTML Block](<../.gitbook/assets/image (68) (1) (1).png>)
 
 ## Phần tử Inline
 

@@ -62,7 +62,7 @@ các bạn có thể tham khảo thêm [tại đây](../html1/html-css.md)
 </html>
 ```
 
-![](<../.gitbook/assets/image (20) (1) (1).png>)
+![](<../.gitbook/assets/image (20) (1) (1) (1).png>)
 
 ## External CSS(Thêm file .css)
 
@@ -102,7 +102,7 @@ h1 {
 </html>
 ```
 
-![](<../.gitbook/assets/image (20) (1).png>)
+![](<../.gitbook/assets/image (20) (1) (1).png>)
 
 ## Lưu ý thứ tự khai báo
 
