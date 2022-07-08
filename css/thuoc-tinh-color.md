@@ -45,7 +45,7 @@ Trong CSS chúng ta có thể sử dụng tên của màu sắc để quy địn
 Tham khảo danh sách các tên màu hợp lệ [tại đây](https://www.w3schools.com/colors/colors\_names.asp)
 {% endhint %}
 
-### Sử dụng RGB
+### Giá trị RGB
 
 #### Tổng quan&#x20;
 
@@ -106,3 +106,4 @@ Giá trị alpha nằm trong khoảng 0 và 1:
 ```
 
 ![](<../.gitbook/assets/image (51).png>)
+
