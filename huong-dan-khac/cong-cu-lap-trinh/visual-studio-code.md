@@ -24,7 +24,7 @@ Truy cập [trang chủ VSCode](https://code.visualstudio.com/)
 
 Tải về bằng cách click vào nút **Download** hoặc **chọn hệ điều hành muốn tải**
 
-![](<../../.gitbook/assets/image (34).png>)
+![](<../../.gitbook/assets/image (34) (2).png>)
 
 ### Cài đặt
 

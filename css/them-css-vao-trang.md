@@ -166,7 +166,7 @@ Kết quả là `<h1>` có màu `orange`
 
 Kết quả là `<h1>` có màu `navy`
 
-![](<../.gitbook/assets/image (34) (2).png>)
+![](<../.gitbook/assets/image (34) (2) (2).png>)
 
 ## Thứ tự ưu tiên
 
