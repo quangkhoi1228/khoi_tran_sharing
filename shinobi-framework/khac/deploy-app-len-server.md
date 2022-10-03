@@ -22,6 +22,8 @@ Web app shinobi(WAS) khi chạy trên IDE là một ứng dụng Java sử dụn
 
 <figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
+****
+
 Trong ảnh trên chia thành các nhóm chính sau:
 
 1. athenaweb.jar: File web app nén dưới dạng java archive file
