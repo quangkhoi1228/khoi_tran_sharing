@@ -43,3 +43,9 @@ Trong ảnh trên chia thành các nhóm chính sau:
 
 
 
+![](../../.gitbook/assets/image.png)
+
+
+
+
+
