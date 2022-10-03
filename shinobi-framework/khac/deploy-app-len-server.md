@@ -41,7 +41,7 @@ Trong ảnh trên chia thành các nhóm chính sau:
 
 
 
-
+![](<../../.gitbook/assets/image (2).png>)
 
 ![](<../../.gitbook/assets/image (1).png>)
 
