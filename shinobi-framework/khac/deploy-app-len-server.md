@@ -20,7 +20,7 @@ Web app shinobi(WAS) khi chạy trên IDE là một ứng dụng Java sử dụn
 
 **Ví dụ về các file có trên server khi deploy WAS (athena website)**
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption><p>Ví dụ về các file có trên server khi deploy WAS</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 Trong ảnh trên chia thành các nhóm chính sau:
 
@@ -29,6 +29,15 @@ Trong ảnh trên chia thành các nhóm chính sau:
 3. athena.tar.gz: File này là file tạm lúc copy file lên server(không tham gia quá trình chạy app)
 4. Các file config: web.properties, s3.properties, dbconfig.properties,...
 5. web/: Thư mục chứa phần giao diện của web app (phần này có hay không tuỳ thuộc vào web app có sử dụng giao diện hay không)
+
+## Quy trình Deploy
+
+### Yêu cầu
+
+1. Java JDK portable. Download [tại đây](https://drive.google.com/file/d/14THaCJBWqbnYYSiNORPwF0vlE1dNUXBS/view?usp=sharing)
+2.
+
+### Chạy web app bằng eclipse
 
 
 
