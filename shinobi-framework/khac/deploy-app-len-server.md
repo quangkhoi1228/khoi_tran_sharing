@@ -30,14 +30,16 @@ Trong ảnh trên chia thành các nhóm chính sau:
 4. Các file config: web.properties, s3.properties, dbconfig.properties,...
 5. web/: Thư mục chứa phần giao diện của web app (phần này có hay không tuỳ thuộc vào web app có sử dụng giao diện hay không)
 
-## Quy trình Deploy
+## Hướng dẫn Deploy
 
 ### Yêu cầu
 
 1. Java JDK portable. Download [tại đây](https://drive.google.com/file/d/14THaCJBWqbnYYSiNORPwF0vlE1dNUXBS/view?usp=sharing)
-2.
+2. Eclipse&#x20;
 
-### Chạy web app bằng eclipse
+### Quy trình deploy
+
+
 
 
 
