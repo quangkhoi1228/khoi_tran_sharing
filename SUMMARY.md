@@ -28,5 +28,6 @@
   * [Khác](shinobi-framework/khac/README.md)
     * [Deploy app lên server](shinobi-framework/khac/deploy-app-len-server.md)
 * [Hướng dẫn khác](huong-dan-khac/README.md)
+  * [Cấu hình OpenVPN](huong-dan-khac/cau-hinh-openvpn.md)
   * [Công cụ lập trình](huong-dan-khac/cong-cu-lap-trinh/README.md)
     * [Visual Studio Code](huong-dan-khac/cong-cu-lap-trinh/visual-studio-code.md)
