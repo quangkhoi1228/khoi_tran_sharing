@@ -26,6 +26,7 @@
   * [Thuộc tính color](css/thuoc-tinh-color.md)
 * [Shinobi Framework](shinobi-framework/README.md)
   * [Khác](shinobi-framework/khac/README.md)
+    * [Deploy mobile app lên store](shinobi-framework/khac/deploy-mobile-app-len-store.md)
     * [Deploy app lên server](shinobi-framework/khac/deploy-app-len-server.md)
 * [Hướng dẫn khác](huong-dan-khac/README.md)
   * [Cấu hình OpenVPN](huong-dan-khac/cau-hinh-openvpn.md)
