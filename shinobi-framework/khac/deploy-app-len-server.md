@@ -72,32 +72,6 @@ Tạo folder `deploy` để chứa các file phục vụ mục đích deploy. Th
 
 <figure><img src="https://lh4.googleusercontent.com/9HwIQOUjZsm2fFZDV8OfwtltNmWF7lakBDqzUXc8RSHSS1E08sAi_IH1yj-5L1KU-TP9h2xENqUnD___bVX23pfXExPD5Vlee_pBb1nZo_MKw1NY7lW7uyY9n0vQT3tuet8oYNn0m7SWAyC6nyP08TpCkLyPfq_8GQrAsZN7HU8KwQi9UzPwMrBf" alt=""><figcaption></figcaption></figure>
 
-get ssh keygen
-
-cd %user%/.ssh cat id\_rsa.pub thêm host vào /etc/hosts
-
-ssh
-
-Setup project trên server
-
-B1: tạo thư mục ‘project name’ trên server ssh username@server mkdir projectname B2: copy các file liên quan lên ‘project name’ .jar, thư mục chứa các file jar, .properties file exit cd /project/deploy scp build\_projectname.xml username@server:path/folderproject scp projectname.jar username@server:path/folderproject scp -r projectname\_lib username@server:path/folderproject
-
-scp ../**.properties username@server:path/folderproject ... scp ../**.properties username@server:path/folderproject
-
-lưu ý: path/folderproject là đường dẫn tuyệt đối đến folder vừa tạo ở bước 1 scp -r để copy folder /\*\*.properties là đường dẫn đến các file cần thiết .properties
-
-B3: Tạo file deploy\_projectname.sh trong local computer ant -f build\_cbv.xml
-
-scp cbv.jar shinobiweb@cbvuat:/home/shinobiweb/cbv/
-
-cd ../git/cbv/web/optimize chmod +x ./buildresource.sh ./buildresource.sh cd ../ tar cjvf webdir.tar.bz2 webdir echo 'extract done' scp webdir.tar.bz2 shinobiweb@cbvuat:/home/shinobiweb/cbv/ #scp ../dbamailconfig.properties shinobiweb@cbvuat:/home/shinobiweb/cbv/ #scp ../dbconfig.properties shinobiweb@cbvuat:/home/shinobiweb/cbv/ #scp ../logdbconfig.properties shinobiweb@cbvuat:/home/shinobiweb/cbv/ scp ../s3.properties shinobiweb@cbvuat:/home/shinobiweb/cbv/ scp ../web.properties shinobiweb@cbvuat:/home/shinobiweb/cbv/
-
-rm webdir.tar.bz2 ssh shinobiweb@cbvuat 'sh deploy\_stockmobile.sh' &
-
-B4: Tạo file deploy\_projectname.sh trên server
-
-cd stockmobile rm -r shinobicore tar xjvf shinobicore.tar.bz2 ps -ef | grep "stockmobile.jar" | awk '{print $2}' | xargs kill cd ../jdk-11.0.5+10/bin ./java -Xshareclasses -XX:SharedCacheHardLimit=1024m -Xscmx300m -XX:+IdleTuningGcOnIdle -Xtune:virtualized -Xquickstart -Xgc:concurrentScavenge -server -Xmx6g -Xms6g -XX:SurvivorRatio=8 -XX:NewSize=256m -XX:MaxNewSize=256m -jar -Djdk.nio.maxCachedBufferSize=262144 -DHAZELCAST\_CLUSTER\_IPS=localhost -DIS\_STARTUP\_SERVICE\_ENABLED=false -Dconfig=/home/gbsofts/stockmobile/web.properties -Ddbconfig=/home/gbsofts/stockmobile/db.properties -Ds3=/home/gbsofts/stockmobile/s3.properties -Dlogdbconfig=/home/gbsofts/stockmobile/logdb.properties -Dwebdir=/home/gbsofts/stockmobile/shinobicore/ -Dlogname=shinobitrade1.log /home/gbsofts/stockmobile/stockmobile.jar &
-
 
 
 ####
