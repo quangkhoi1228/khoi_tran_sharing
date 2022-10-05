@@ -72,11 +72,3 @@ Tạo folder `deploy` để chứa các file phục vụ mục đích deploy. Th
 
 <figure><img src="https://lh4.googleusercontent.com/9HwIQOUjZsm2fFZDV8OfwtltNmWF7lakBDqzUXc8RSHSS1E08sAi_IH1yj-5L1KU-TP9h2xENqUnD___bVX23pfXExPD5Vlee_pBb1nZo_MKw1NY7lW7uyY9n0vQT3tuet8oYNn0m7SWAyC6nyP08TpCkLyPfq_8GQrAsZN7HU8KwQi9UzPwMrBf" alt=""><figcaption></figcaption></figure>
 
-
-
-####
-
-
-
-
-
