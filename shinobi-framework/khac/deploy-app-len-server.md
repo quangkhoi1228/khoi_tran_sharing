@@ -20,11 +20,7 @@ Web app shinobi(WAS) khi chạy trên IDE là một ứng dụng Java sử dụn
 
 **Ví dụ về các file có trên server khi deploy WAS (athena website)**
 
-
-
-
-
-
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 Trong ảnh trên chia thành các nhóm chính sau:
 
@@ -40,6 +36,7 @@ Trong ảnh trên chia thành các nhóm chính sau:
 
 1. Java JDK portable. Download [tại đây](https://drive.google.com/file/d/14THaCJBWqbnYYSiNORPwF0vlE1dNUXBS/view?usp=sharing)
 2. Eclipse&#x20;
+3. Chạy được Project trên Eclipse
 
 ### Quy trình deploy
 
@@ -48,6 +45,10 @@ Trong ảnh trên chia thành các nhóm chính sau:
 ![](<../../.gitbook/assets/image (2).png>)
 
 ![](<../../.gitbook/assets/image (1).png>)
+
+
+
+####
 
 
 
