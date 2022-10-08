@@ -4,3 +4,4 @@ description: Trong bài này chúng ta sẽ tìm hiểu về Bash/Shell Script l
 
 # Giới thiệu Bash/Shell Script
 
+## Các khái niệm
