@@ -24,6 +24,8 @@
   * [Thêm CSS vào trang](css/them-css-vao-trang.md)
   * [Comment trong CSS](css/comment-trong-css.md)
   * [Thuộc tính color](css/thuoc-tinh-color.md)
+* [Bash](bash/README.md)
+  * [Giới thiệu Bash/Shell Script](bash/gioi-thieu-bash-shell-script.md)
 * [Shinobi Framework](shinobi-framework/README.md)
   * [Khác](shinobi-framework/khac/README.md)
     * [Deploy mobile app lên store](shinobi-framework/khac/deploy-mobile-app-len-store.md)
