@@ -13,3 +13,7 @@ Tuy chỉ đóng vai trò trong một số lĩnh vực nhỏ như DevOps hoặc 
 {% hint style="info" %}
 Tuy nhiên đối với các bạn xài Window có thể sử dụng SubUbuntu để thay thế
 {% endhint %}
+
+{% hint style="info" %}
+Trong toàn bộ series này mình sử dụng VS Code để thực hành. Các bạn có thể tải theo hướng dẫn [tại đây](../huong-dan-khac/cong-cu-lap-trinh/visual-studio-code.md)
+{% endhint %}
