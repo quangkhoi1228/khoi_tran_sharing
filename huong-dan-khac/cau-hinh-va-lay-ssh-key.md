@@ -42,3 +42,12 @@ cat ~/.ssh/id_rsa.pub
 Đây là câu lệnh cho vị trí lưu SSH key là mặc định trong trường hợp thay đổi đường dẫn lúc khởi tạo chúng ta phải thay đổi đường dẫn đến file id\_ras.pub cho phù hợp
 {% endhint %}
 
+## Cấu hình SSH key trên server
+
+### Lấy SSH key tại máy tính
+
+Dựa theo hướng dẫn[ tại đây](cau-hinh-va-lay-ssh-key.md#lay-ssh-key) để lấy SSH key
+
+### Cấu hình SSH key trên server
+
+1. Chỉnh sửa file authorized\_key trên server

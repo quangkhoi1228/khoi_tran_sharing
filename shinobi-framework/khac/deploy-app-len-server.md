@@ -20,7 +20,7 @@ Web app shinobi(WAS) khi chạy trên IDE là một ứng dụng Java sử dụn
 
 **Ví dụ về các file có trên server khi deploy WAS (athena website)**
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 Trong ảnh trên chia thành các nhóm chính sau:
 
