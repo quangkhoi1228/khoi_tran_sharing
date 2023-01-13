@@ -19,6 +19,14 @@ Thuộc tính Background dùng để cấu hình hình nền cho các phần t�
 
 Thuộc tính background-color quy định màu nền của một phần tử.
 
+### Cú pháp
+
+```css
+background-color: value;
+```
+
+### Ví dụ
+
 ```css
 body {
   background-color: red;
@@ -41,13 +49,21 @@ Thuộc tính background-image quy định màu nền của một phần tử b�
 
 Mặc định ảnh nền sẽ lặp lại để làm sao bao phủ toàn bộ phần tử.
 
+### Cú pháp
+
+```css
+background-image: url(image-url);
+```
+
+### Ví dụ
+
 ```css
 body {
   background-image: url("paper.gif");
 }
 ```
 
-<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (11) (2).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Khi sử dụng hình ảnh làm hình nền thì nên tránh các ảnh nền làm rối nội dung của trang
@@ -56,6 +72,14 @@ Khi sử dụng hình ảnh làm hình nền thì nên tránh các ảnh nền l
 <figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 ## Background-repeat
+
+### Cú pháp
+
+```css
+background-repeat: value;
+```
+
+### Bài toán
 
 Mặc định background-image sẽ tự động lặp lại theo chiều ngang và chiều dọc để có thể bao phủ được hết phần tử tuy nhiên trong một vài trường hợp ảnh nền chỉ được lặp lại theo 1 trong 2 chiều vì chiều còn lại đã đủ kích thước gây ra kết quả chúng ta không mong muốn lắm như ảnh dưới.
 
@@ -149,3 +173,33 @@ body {
 
 <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
+## Background-position
+
+Thuộc tính background-position dùng để quy định vị trí của ảnh nền.
+
+### Cú pháp
+
+```css
+background-position: value;
+```
+
+### Ví dụ
+
+```css
+body {
+  background-image: url("img_tree.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+```
+
+![](<../.gitbook/assets/image (11).png>)
+
+### Giá trị
+
+| Giá trị                                                                                                                                    | Mô tả                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| ------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| <p>left top<br>left center<br>left bottom<br>right top<br>right center<br>right bottom<br>center top<br>center center<br>center bottom</p> | <p>Chúng ta có thể sử dụng tên để đặt giá trị.</p><p></p><p>Nếu có duy nhất một giá trị, giá trị còn lại mặc định là center </p>                                                                                                                                                                                                                                                                                                                                                                             |
+| _x% y%_                                                                                                                                    | <p>Chúng ta có thể dùng đơn vị % để gán giá trị.</p><p></p><p>Giá trị đầu tiên là vị trí theo trục x và giá trị thứ 2 là theo trục y.</p><ul><li>Góc top left là 0% 0% </li><li>Góc right bottom là 100% 100%</li><li>Nếu chỉ có 1 giá trị thì giá trị còn lại mặc định là 50%</li><li>Mặc định giá trị là 0% 0%</li></ul>                                                                                                                                                                                   |
+| _xpos ypos_                                                                                                                                | <p>Chúng ta có thể sử dụng đơn vị tuyệt đối để làm giá trị </p><p></p><p>Giá trị đầu tiên là vị trí theo trục x và giá trị thứ 2 là theo trục y.</p><ul><li>Góc top left là 0 0</li><li>Đơn vị  có thể là px hoặc bất cứ <a href="https://app.gitbook.com/s/-MC5-BglfKHq4hM84twh/~/changes/hgI8rSryYsZI6EeXv0xS/css/don-vi-do-unit-trong-css">đơn vị hợp lệ</a> nào.</li><li>Nếu chỉ có 1 giá trị thì giá trị còn lại mặc định là 50%</li><li>Bạn có thể phối hợp % và giá trị tuyệt đối với nhau.</li></ul> |
+|                                                                                                                                            |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
