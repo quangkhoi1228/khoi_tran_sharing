@@ -14,7 +14,7 @@ description: Trong phần này chúng ta sẽ tìm hiểu về khái niệm CSS 
 
 ### Không có CSS
 
-![](<../.gitbook/assets/image (2) (2).png>)
+![](<../.gitbook/assets/image (2) (2) (2).png>)
 
 ### Có CSS
 

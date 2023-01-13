@@ -1,0 +1,151 @@
+---
+description: Trong bài này chúng ta sẽ tìm hiểu về các thuộc tính liên quan đến background
+---
+
+# CSS Background
+
+{% hint style="info" %}
+Thuộc tính Background dùng để cấu hình hình nền cho các phần tử trong trang. Trong bài này chúng ta sẽ học các thuộc tính sau:
+
+* `background-color`
+* `background-image`
+* `background-repeat`
+* `background-attachment`
+* `background-position`
+* `background` (shorthand property)
+{% endhint %}
+
+## Background-color
+
+Thuộc tính background-color quy định màu nền của một phần tử.
+
+```css
+body {
+  background-color: red;
+}
+```
+
+<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="info" %}
+Giá trị của background-color là các [Màu sắc trong CSS](mau-sac-trong-css.md)
+{% endhint %}
+
+{% hint style="info" %}
+background-color bị ảnh hưởng bởi [opacity](https://app.gitbook.com/s/-MC5-BglfKHq4hM84twh/\~/changes/PH4IuTiLOf69YLLByT9o/css/css-opacity)
+{% endhint %}
+
+## Background-image
+
+Thuộc tính background-image quy định màu nền của một phần tử bằng một hình ảnh.
+
+Mặc định ảnh nền sẽ lặp lại để làm sao bao phủ toàn bộ phần tử.
+
+```css
+body {
+  background-image: url("paper.gif");
+}
+```
+
+<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="info" %}
+Khi sử dụng hình ảnh làm hình nền thì nên tránh các ảnh nền làm rối nội dung của trang
+{% endhint %}
+
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
+## Background-repeat
+
+Mặc định background-image sẽ tự động lặp lại theo chiều ngang và chiều dọc để có thể bao phủ được hết phần tử tuy nhiên trong một vài trường hợp ảnh nền chỉ được lặp lại theo 1 trong 2 chiều vì chiều còn lại đã đủ kích thước gây ra kết quả chúng ta không mong muốn lắm như ảnh dưới.
+
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+
+Trong trường hợp này nếu ảnh có thể lặp lại theo chiều ngang có thể sẽ ổn hơn, lúc này ta sẽ dùng background-repeat: repeat-x; để thực hiện yêu cầu này.
+
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+### Repeat
+
+Giá trị background-repeat: repeat; là giá trị mặc định, giá trị này sẽ làm cho hình nền lặp lại theo cả chiều ngang và dọc.
+
+```css
+body {
+  background-image: url("img_tree.png");
+  background-repeat: repeat;
+}
+```
+
+<figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+
+### No-repeat
+
+Giá trị background-repeat: no-repeat; sẽ làm cho hình nền sẽ hiển thị 1 lần và không lặp lại theo huống nào cả.
+
+```css
+body {
+  background-image: url("img_tree.png");
+  background-repeat: no-repeat;
+}
+```
+
+<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+
+### Repeat-x
+
+Giá trị background-repeat: repeat-x; sẽ làm cho hình nền lặp lại theo cả chiều ngang (trục x).
+
+```css
+body {
+  background-image: url("img_tree.png");
+  background-repeat: repeat-x;
+}
+```
+
+<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+
+### Repeat-y
+
+Giá trị background-repeat: repeat-y;  sẽ làm cho hình nền lặp lại theo cả chiều dọc (trục y).
+
+```css
+body {
+  background-image: url("img_tree.png");
+  background-repeat: repeat-y;
+}
+```
+
+<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+
+### Space
+
+Giá trị background-repeat: space;  cũng khá giống với repeat được liệt kê như sau:
+
+* Giống:
+  * Cả repeat và space đều lặp theo 2 chiều.
+* Khác:
+  * Space sẽ cố gắng lặp nhiều nhất có thể nhưng sẽ không làm cho hình bị mất&#x20;
+  * Sau khi cố gắng xong thì khoảng trắng sẽ được chia đều giữa các hình nền được lặp
+
+```css
+body {
+  background-image: url("img_tree.png");
+  background-repeat: space;
+}
+```
+
+<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+
+### Round
+
+Giá trị background-repeat: round;  cũng khá giống với space về việc ảnh nền sẽ không bị cắt nhưng khác space ở chỗ ảnh nền khi round sẽ bị kéo dài, thu nhỏ để không còn khoảng trống nào.
+
+```css
+body {
+  background-image: url("img_tree.png");
+  background-repeat: round;
+}
+```
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+

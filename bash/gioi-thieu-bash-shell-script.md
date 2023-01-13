@@ -51,7 +51,7 @@ Trong series này chúng ta sẽ sử dụng Terminal tích hợp trong VS Code 
 
 Tại giao diện chúng ta vào Menu bar --> Terminal --> New Terminal để mở một cửa sở terminal mới
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (2).png" alt=""><figcaption></figcaption></figure>
 
 ### Mở bằng phím tắt&#x20;
 
@@ -59,4 +59,4 @@ Dùng tổ hợp phím `` control + ` ``  trên MacOS để mở terminal mới&
 
 ### Kết quả
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>

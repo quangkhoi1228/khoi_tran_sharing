@@ -128,7 +128,7 @@ Màu có **giá trị HEX** cũng **khá giống với màu RGB** về việc m�
 * Ký tự 4,5 thể hiện màu green
 * Ký tự 6,7 thể hiện màu blue
 
-![](<../.gitbook/assets/image (4).png>)![](<../.gitbook/assets/image (1).png>)
+![](<../.gitbook/assets/image (4) (1).png>)![](<../.gitbook/assets/image (1) (2).png>)
 
 {% hint style="info" %}
 Để thể hiện **màu đen** ta dùng giá trị `00` --> `#000000`
@@ -186,7 +186,7 @@ Trong đó:
 
 Các bạn có thể tham khảo hình sau để dễ hình dung hơn:
 
-![](../.gitbook/assets/image.png)
+![](<../.gitbook/assets/image (13).png>)
 
 #### Ví dụ:
 
@@ -209,5 +209,5 @@ Giá trị Alpha có giá trị từ 0 --> 1
 * Với 1 là màu không có độ trong suốt nào
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (2).png" alt=""><figcaption></figcaption></figure>
 
