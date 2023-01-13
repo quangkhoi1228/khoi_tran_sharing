@@ -59,4 +59,4 @@ Dùng tổ hợp phím `` control + ` ``  trên MacOS để mở terminal mới&
 
 ### Kết quả
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>

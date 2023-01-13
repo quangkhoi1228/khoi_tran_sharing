@@ -147,7 +147,7 @@ h1 {
 
 Kết quả là `<h1>` có màu `orange`
 
-![](<../.gitbook/assets/image (3).png>)
+![](<../.gitbook/assets/image (3) (2).png>)
 
 #### External CSS khai báo sau Internal CSS
 
