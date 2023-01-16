@@ -69,7 +69,7 @@ body {
 Khi sử dụng **hình ảnh làm hình nền** thì nên **tránh** các ảnh nền **có màu sắc làm rối nội dung** của trang
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (3).png" alt=""><figcaption></figcaption></figure>
 
 ## Background-repeat
 
@@ -87,7 +87,7 @@ Mặc định `background-image` sẽ tự động lặp lại theo chiều ngan
 
 Trong trường hợp này nếu ảnh có thể lặp lại theo chiều ngang có thể sẽ ổn hơn, lúc này ta sẽ dùng `background-repeat: repeat-x;` để thực hiện yêu cầu này.
 
-<figure><img src="../.gitbook/assets/image (1) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (3).png" alt=""><figcaption></figcaption></figure>
 
 ### Repeat
 
@@ -139,7 +139,7 @@ body {
 }
 ```
 
-<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Space
 
@@ -158,7 +158,7 @@ body {
 }
 ```
 
-<figure><img src="../.gitbook/assets/image (5) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 ### Round
 
@@ -171,7 +171,7 @@ body {
 }
 ```
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 ## Background-position
 
