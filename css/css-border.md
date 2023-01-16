@@ -87,7 +87,7 @@ border-width: top right-left bottom;
 
 Giá trị của border-width có thể là tất cả các giá trị có [đơn vị hợp lệ](don-vi-do-unit-trong-css.md) hoặc giá trị cấu hình trước: thin, medium, và thick
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (4).png" alt=""><figcaption></figcaption></figure>
 
 ## Border-color
 
@@ -131,5 +131,31 @@ Giá trị của border-color là [các màu hợp lệ](mau-sac-trong-css.md)
 
 <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-## Border-color
+## Border sides
 
+Như chúng ta đã biết 1 phần tử sẽ có 4 cạnh và các khai báo phía trên của border-style, border-width, border-color đều có cú pháp để khai báo từng giá trị của cạnh nhưng nếu chỉ khai báo 1 cạnh thì các cú pháp trên đều chưa đáp ứng được.&#x20;
+
+Do đó border sides ra đời cho phép chúng ta khai báo các thuộc tính của border cho một cạnh cụ thể, chi tiết như sau:&#x20;
+
+### Cú pháp
+
+```css
+border-top-style: $style-value; // border top style
+border-right-style: $style-value; // border right style
+border-bottom-style: $style-value; // border bottom style
+border-left-style: $style-value; // border left style
+
+border-top-width: $width-value; // border top width
+border-right-width: $width-value; // border right width
+border-bottom-width: $width-value; // border bottom width
+border-left-width: $width-value; // border left width
+
+border-top-color: $color-value; // border top color
+border-right-color: $color-value; // border right color
+border-bottom-color: $color-value; // border bottom color
+border-left-color: $color-value; // border left color
+```
+
+### Ví dụ
+
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
