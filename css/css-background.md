@@ -10,8 +10,8 @@ description: Trong bài này chúng ta sẽ tìm hiểu về các thuộc tính 
 * `background-color`
 * `background-image`
 * `background-repeat`
-* `background-attachment`
 * `background-position`
+* `background-attachment`
 * `background` (shorthand property)
 {% endhint %}
 
