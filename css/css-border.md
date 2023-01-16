@@ -188,3 +188,21 @@ border-left: border-width border-style border-color; // left
 ### Ví dụ
 
 <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+## Rounded border(bo góc)
+
+Khi muốn bo tròn border chúng ta sẽ sử dụng border-radius để thao tác
+
+### Cú pháp
+
+```css
+border-radius: value;
+```
+
+{% hint style="info" %}
+Border-radius sử dụng các [đơn vị hợp lệ](don-vi-do-unit-trong-css.md) để làm giá trị
+{% endhint %}
+
+{% hint style="info" %}
+khi muốn bo tròn luôn ta set giá trị border-radius: 9999px;
+{% endhint %}
