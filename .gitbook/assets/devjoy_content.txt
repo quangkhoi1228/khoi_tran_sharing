@@ -1,0 +1,160 @@
+See what's newPricing
+Divjoy
+The  React codebase generator
+Use our easy web-based tool to create the perfect codebase for your next project.
+12,739  codebases created
+📺 How it works video
+  Choose your stack
+Divjoy handles all the integration details. From routing to React hooks, you'll have everything you need to build something great.
+UI Kit
+
+Bulma
+
+Bulma is a CSS framework based on Flexbox and used by over 200,000 developers. It has nice default styling and is easy to customize.
+Framework
+
+React App
+
+You get a modern React app powered by the official Create React App, including development server, build scripts, and React Router.
+Authentication
+
+Firebase Auth
+
+Firebase Auth provides an end-to-end identity solution, supporting email and password accounts, Google, Facebook, and more.
+Database
+
+Cloud Firestore
+
+Cloud Firestore is a flexible, scalable NoSQL cloud database to store and sync data for client and server-side development.
+Payments
+
+Stripe
+
+Subscription payments powered by Stripe. You'll get everything you need to take payments, including webhooks and customer portal integration.
+Hosting
+
+Vercel
+
+Vercel is the easiest way to deploy websites and serverless functions. Your codebase and server endpoints will be optimized for this host.
+ 
+and
+  Choose your template
+Divjoy gives you all the UI you need. Landing page, authentication, pricing, forms, account settings, payments, billing, and dashboard w/ live data. All responsive and perfectly integrated with your chosen stack ✨
+
+Joy Template
+Joy
+Web app that highlights product features and includes pages for about, contact, pricing, faq, signup, account settings, and more.
+
+Light Template
+Light
+Alternate product template with all the pages you need, including fully functioning authentication and account settings.
+
+Blank Canvas
+Create your own using our editor and library of pre-built sections. Easily adjust component props and styles.
+     Select a template above to preview and customize     
+Buy
+$149
+USD
+Pay once. Get lifetime access.
+Email address
+or
+
+Buying for your team? View team pricing
+🚀  Unlimited projects
+Use Divjoy for as many projects as you like. You get access to all future integrations, templates, and our members-only community.
+
+😊  Save yourself a month of development time
+We handle all the annoying details so you can focus on building your product. Customers tell us we save them about a month of dev time per project.
+
+⚛️  High-quality React code
+We give you a high-quality React codebase, perfectly integrated with your chosen stack, and a custom readme to walk you through setup and deployment.
+
+💫  14-day money back guarantee
+If you're not satisfied just let us know and we'll send your money right back. We're here to make your life easier, not harder.
+
+What people are saying ❤️
+We have thousands of happy customers. Here's what a few have to say.
+“The code divjoy generates is really beautiful and easy to understand. It makes a wonderful starting point for building a moderately complex app.”
+David Singleton
+David Singleton
+CTO, Stripe
+“Divjoy has saved me so much time, it's pretty crazy the amount of value I got for what I paid. I've used code generators before that output straight up useless code, but Divjoy actually creates clean code that I would have been proud to write myself.”
+Luke Barwikowski
+Luke Barwikowski
+Founder, Push Labs
+“Divjoy is an absolute pleasure to use! The drag-and-drop interface and rich component library makes it super easy to create beautiful and functional React apps literally within minutes. I could not recommend it enough.”
+Ivan Von Christ
+Ivan Von Christ
+Visual designer
+Who is Divjoy for?
+Developers who want to move fast. Divjoy sets you up with an entire React codebase and UI in minutes. You save yourself a month of development time and can get right to work on the features that make your web app unique.
+How does this work?
+Choose your stack and template above and we’ll let you customize in our built-in editor. Tweak styles, add pages, and drag in new sections from our visual component library. When you’re ready to move to code you can download your codebase or one-click export to CodeSandbox.
+  Showcase
+Check out what people are building with Divjoy
+
+Picture of undefined site
+tabExtend
+Tab management made easy
+
+Picture of undefined site
+How Hot Will It Get?
+Get an overview of futuristic climate scenarios.
+
+Picture of undefined site
+JR Roofing
+Roofing services for your home or business.
+
+Picture of undefined site
+Native Forms
+Build forms, surveys and polls for React Native apps.
+
+Picture of undefined site
+Skip the Post
+Send your postal mail online.
+
+Picture of undefined site
+Hype Docs
+Beat imposter syndrome by focusing on your wins.
+
+Picture of undefined site
+SheetUI
+Transform Your Google Sheets Into Beautiful Pages
+
+Picture of undefined site
+Founder's Journal
+A journal designed to help you work better.
+
+Picture of undefined site
+Destined for x
+Empowering underrepresented students.
+Browse all
+A friendly community  👩🏽‍💻 👨‍💻💬 🍻
+Members get access to our private Discord community. Drop by to share what you're working on, ask questions, and take part in fun monthly events.
+Logo
+Helping thousands of React devs build and ship faster
+
+Divjoy 2.0 - React codebase & UI generator | Product Hunt
+© 2021 Divjoy
+
+Product
+
+Pricing
+Mission
+Showcase
+Launch
+Affiliates
+License
+Resources
+
+Docs
+Changelog
+Roadmap
+Community
+Support
+Social
+
+TwitterTwitter
+FacebookFacebook
+FacebookLinkedin
+DiscordDiscord
