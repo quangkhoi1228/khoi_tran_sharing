@@ -81,7 +81,7 @@ Việc gán giá trị cho trục x và 2 chiều của trục y hay gặp ở c
 border-width: top right-left bottom;
 ```
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (3).png" alt=""><figcaption></figcaption></figure>
 
 ### Giá trị
 
@@ -129,7 +129,7 @@ border-width: top right-left bottom;
 
 Giá trị của border-color là [các màu hợp lệ](mau-sac-trong-css.md)
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 ## Border sides
 
@@ -158,4 +158,33 @@ border-left-color: $color-value; // border left color
 
 ### Ví dụ
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+
+## CSS Shorthand border
+
+Shorthand border là cú pháp viết tắt giúp cho chúng ta cấu hình border-style, border-width, border-color trong cùng 1 dòng code
+
+### Cú pháp
+
+```css
+border: border-width border-style border-color;
+```
+
+{% hint style="info" %}
+Trong cú pháp này chỉ có border-style là bắt buộc còn lại chúng ta có thể bỏ qua miễn sao theo đúng thứ tự là được
+{% endhint %}
+
+### Shorthand border với border sides
+
+Chúng ta có cú pháp shortand border cho 1 cạnh như sau:
+
+```css
+border-top: border-width border-style border-color; // top
+border-right: border-width border-style border-color; // right
+border-bottom: border-width border-style border-color; // bottom
+border-left: border-width border-style border-color; // left
+```
+
+### Ví dụ
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
