@@ -214,7 +214,7 @@ Trong một vài trường hợp nội dung dài thì trình duyệt sẽ xuất
 background-attachment: value;
 ```
 
-### background-attachment: scroll
+### Scroll
 
 ```css
 background-attachment: scroll;
@@ -224,7 +224,7 @@ Giá trị mặc định, ảnh nền sẽ cuộn theo nội dung
 
 <figure><img src="../.gitbook/assets/postion-attachment-scroll.gif" alt=""><figcaption></figcaption></figure>
 
-### position-attachment: fixed
+### Fixed
 
 ```css
 background-attachment: fixed;
