@@ -204,5 +204,5 @@ border-radius: value;
 {% endhint %}
 
 {% hint style="info" %}
-khi muốn bo tròn luôn ta set giá trị `border-radius: 9999px;`
+khi muốn bo tròn luôn ta sẽ gán giá trị `border-radius: 9999px;`
 {% endhint %}
