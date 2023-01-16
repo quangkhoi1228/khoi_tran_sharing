@@ -37,7 +37,7 @@ Một phẩn tử có 4 cạnh do đó chúng ta có thể khai báo từng cạ
 border-style: top right bottom left;
 ```
 
-<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10) (2).png" alt=""><figcaption></figcaption></figure>
 
 Để dễ hình dung hơn các bạn có thể xem hình dưới khi có kết hợp với **color** và **width**:
 
@@ -158,7 +158,7 @@ border-left-color: $color-value; // border left color
 
 ### Ví dụ
 
-<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 ## CSS Shorthand border
 
@@ -187,7 +187,7 @@ border-left: border-width border-style border-color; // left
 
 ### Ví dụ
 
-<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Rounded border(bo góc)
 

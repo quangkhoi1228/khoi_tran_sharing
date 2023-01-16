@@ -10,6 +10,10 @@ description: >-
 
 Margin dùng để tạo một khoảng cách bao xung quanh phần tử tính từ border, hiểu đơn giản margin là khoảng cách lề của phần tử
 
+{% hint style="info" %}
+Margin sử dụng tất cả các giá trị có [đơn vị hợp lệ](don-vi-do-unit-trong-css.md)
+{% endhint %}
+
 ### Cú pháp&#x20;
 
 Với CSS chúng ta có thể cấu hình margin cho từng cạnh hoặc có thể tuỳ chỉnh tất cả cùng lúc bằng cú pháp shorthand
@@ -29,7 +33,7 @@ margin: top right bottom left;
 
 ### Ví dụ
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 
 ### Margin: auto
 
@@ -41,7 +45,7 @@ Khoảng cách sẽ chia đều bên trái và bên phải của phần tử
 margin: auto;
 ```
 
-<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 ### Margin: inherit
 
@@ -49,7 +53,7 @@ Khi gán giá trị margin: inherit phần tử sẽ thừa hưởng giá trị 
 
 Trong ví dụ này class ex1 có margin-left 100px giống với thẻ div(thẻ cha của ex1)
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 
 ### Margin Collapse
 
@@ -61,4 +65,33 @@ Trường hợp này chỉ xảy ra cho trường hợp top-bottom chứ không 
 
 Ở đây chúng ta thấy h1 có margin-bottom: 50px còn h2 có margin-top: 20px. Lúc này cả 2 sẽ cách nhau 1 khoảng bằng 50px(phần màu vàng) chứ không phải bằng 70px hoặc bằng 20px ==> trường hợp này chính là Margin collapse.
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+## CSS Padding
+
+Padding dùng để tạo 1 khoảng cách nằm giữa nội dung và border của phần tử. Nói cách khác padding chính là khoảng cách biên của phần tử.
+
+{% hint style="info" %}
+Padding sử dụng tất cả các giá trị có [đơn vị hợp lệ](don-vi-do-unit-trong-css.md)
+{% endhint %}
+
+### Cú pháp&#x20;
+
+Với CSS chúng ta có thể cấu hình padding cho từng cạnh hoặc có thể tuỳ chỉnh tất cả cùng lúc bằng cú pháp shorthand
+
+```css
+padding-top: value;
+padding-bottom: value;
+padding-right: value;
+padding-left: value;
+
+# shorthand
+padding: all-side-value; 
+padding: top-bottom right-left;
+padding: top left-right bottom;
+padding: top right bottom left;
+```
+
+### Ví dụ
+
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
