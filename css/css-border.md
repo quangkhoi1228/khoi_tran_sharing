@@ -41,7 +41,7 @@ border-style: top right bottom left;
 
 Để dễ hình dung hơn các bạn có thể xem hình dưới khi có kết hợp với color và width:
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (3).png" alt=""><figcaption></figcaption></figure>
 
 ## Border-width
 
@@ -75,7 +75,7 @@ border-width: top-bottom right-left;
 
 #### Gán giá trị trục x và tuỳ chỉnh trục 2 chiều của trục y
 
-Việc gán giá trị cho trục x và 2 chiều của trục y hay gặp ở các trường hợp style cho các card có chiều top, bottom và left-right khác nhau\\
+Việc gán giá trị cho trục x và 2 chiều của trục y hay gặp ở các trường hợp style cho các card có chiều top, bottom và left-right khác nhau
 
 ```css
 border-width: top right-left bottom;
@@ -89,10 +89,47 @@ Giá trị của border-width có thể là tất cả các giá trị có [đơ
 
 <figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
+## Border-color
 
+Thuộc tính border-color dùng để quy định màu sắc của 4 cạnh border.
 
+### Cú pháp
 
+#### Gán giá trị color cho cả 4 góc&#x20;
 
+Đây là cú pháp cơ bản nhất khi bạn muốn gán một giá trị border-color áp dụng cho cả 4 cạnh, khi đó ta đưa vào cho border-color một giá trị duy nhất.
 
+```css
+border-color: value;
+```
+
+#### Gán giá trị theo từng cạnh
+
+Trong trường hợp chúng ta muốn gán giá trị khác nhau cho từng cạnh cụ thể thì ta sẽ đưa từng giá trị theo cú pháp sau
+
+```css
+border-color: top right bottom left;
+```
+
+#### Gán giá trị theo trục
+
+Trong trường hợp chúng ta muốn gán giá trị theo trục x hoặc y, chúng ta sẽ khai báo 2 giá trị
+
+```css
+border-color: top-bottom right-left;
+```
+
+#### Gán giá trị trục x và tuỳ chỉnh trục 2 chiều của trục y
+
+```css
+border-width: top right-left bottom;
+```
+
+### Giá trị
+
+Giá trị của border-color là [các màu hợp lệ](mau-sac-trong-css.md)
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 ## Border-color
+

@@ -190,7 +190,7 @@ Các bạn có thể tham khảo hình sau để dễ hình dung hơn:
 
 #### Ví dụ:
 
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Giá trị HSLA
 

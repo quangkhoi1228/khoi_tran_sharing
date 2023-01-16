@@ -87,7 +87,7 @@ Mặc định `background-image` sẽ tự động lặp lại theo chiều ngan
 
 Trong trường hợp này nếu ảnh có thể lặp lại theo chiều ngang có thể sẽ ổn hơn, lúc này ta sẽ dùng `background-repeat: repeat-x;` để thực hiện yêu cầu này.
 
-<figure><img src="../.gitbook/assets/image (1) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Repeat
 
@@ -171,7 +171,7 @@ body {
 }
 ```
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 ## Background-position
 
