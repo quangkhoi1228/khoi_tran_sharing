@@ -233,3 +233,45 @@ background-attachment: fixed;
 Background sẽ đứng yên khi cuộn nội dung
 
 <figure><img src="../.gitbook/assets/posiotion-attachment-fixed.gif" alt=""><figcaption></figcaption></figure>
+
+## Background shorthand&#x20;
+
+Cú pháp **shorthand** hay viết tắt giúp chúng ta **viết nhiều cấu hình về background** cho một phần tử cùng lúc **thay vì chúng ta viết từng thuộc tính riêng biệt**.&#x20;
+
+### Ví dụ
+
+Thay vì viết
+
+```css
+body {
+  background-color: #ffffff;
+  background-image: url("img_tree.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+```
+
+Chúng ta có thể viết tắt như sau:
+
+```css
+body {
+  background: #ffffff url("img_tree.png") no-repeat right top;
+}
+```
+
+### Cú pháp
+
+{% code overflow="wrap" %}
+```css
+background: background-color background-image background-repeat 
+    background-attachment background-position;
+```
+{% endcode %}
+
+{% hint style="info" %}
+Chúng ta có thể viết thiếu giá trị cho một vài thuộc tính miễn là theo đúng thứ tự được quy định theo cú pháp
+{% endhint %}
+
+{% hint style="info" %}
+Thuộc tính `background-attachment` sẽ không áp dụng được trong cú pháp shorthand
+{% endhint %}
