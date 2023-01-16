@@ -203,3 +203,33 @@ body {
 | _x% y%_                                                                                                                                    | <p>Chúng ta có thể dùng đơn vị % để gán giá trị.</p><p></p><p>Giá trị đầu tiên là vị trí theo trục x và giá trị thứ 2 là theo trục y.</p><ul><li>Góc top left là 0% 0% </li><li>Góc right bottom là 100% 100%</li><li>Nếu chỉ có 1 giá trị thì giá trị còn lại mặc định là 50%</li><li>Mặc định giá trị là 0% 0%</li></ul>                                                                                                                                                                                   |
 | _xpos ypos_                                                                                                                                | <p>Chúng ta có thể sử dụng đơn vị tuyệt đối để làm giá trị </p><p></p><p>Giá trị đầu tiên là vị trí theo trục x và giá trị thứ 2 là theo trục y.</p><ul><li>Góc top left là 0 0</li><li>Đơn vị  có thể là px hoặc bất cứ <a href="https://app.gitbook.com/s/-MC5-BglfKHq4hM84twh/~/changes/hgI8rSryYsZI6EeXv0xS/css/don-vi-do-unit-trong-css">đơn vị hợp lệ</a> nào.</li><li>Nếu chỉ có 1 giá trị thì giá trị còn lại mặc định là 50%</li><li>Bạn có thể phối hợp % và giá trị tuyệt đối với nhau.</li></ul> |
 |                                                                                                                                            |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+
+## Background-attachment
+
+Trong một vài trường hợp nội dung dài thì trình duyệt sẽ xuất hiện một thanh cuộn, lúc này mặc định ảnh nền sẽ tự động chạy theo nội dung khi cuộn. Để giữ cho ảnh nền đứng yên khi cuộn lúc này chúng ta dùng thuộc tính background-attachment dùng để quy định background sẽ cuộn theo nội dung hay sẽ đứng yên khi nội dung di chuyển.
+
+### Cú pháp
+
+```css
+background-attachment: value;
+```
+
+### background-attachment: scroll
+
+```css
+background-attachment: scroll;
+```
+
+Giá trị mặc định, ảnh nền sẽ cuộn theo nội dung
+
+<figure><img src="../.gitbook/assets/postion-attachment-scroll.gif" alt=""><figcaption></figcaption></figure>
+
+### position-attachment: fixed
+
+```css
+background-attachment: fixed;
+```
+
+Background sẽ đứng yên khi cuộn nội dung
+
+<figure><img src="../.gitbook/assets/posiotion-attachment-fixed.gif" alt=""><figcaption></figcaption></figure>
