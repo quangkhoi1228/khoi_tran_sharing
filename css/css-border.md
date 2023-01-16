@@ -29,11 +29,19 @@ border-style: value;
 | none    | Phần tử sẽ không có đường viền                                                                                                                                                                                                                     |
 | hidden  | Giống none nhưng thường sẽ được dùng cho table                                                                                                                                                                                                     |
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+### Mix border-style
+
+Một phẩn tử có 4 cạnh do đó chúng ta có thể khai báo từng cạnh một kiểu border theo cú pháp sau:
+
+```css
+border-style: top right bottom left;
+```
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 Để dễ hình dung hơn các bạn có thể xem hình dưới khi có kết hợp với color và width:
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Border-width
 

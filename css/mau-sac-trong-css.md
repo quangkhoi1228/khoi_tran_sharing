@@ -128,7 +128,7 @@ Màu có **giá trị HEX** cũng **khá giống với màu RGB** về việc m�
 * Ký tự 4,5 thể hiện màu green
 * Ký tự 6,7 thể hiện màu blue
 
-![](<../.gitbook/assets/image (4) (1).png>)![](<../.gitbook/assets/image (1) (2).png>)
+![](<../.gitbook/assets/image (4) (1).png>)![](<../.gitbook/assets/image (1) (2) (2).png>)
 
 {% hint style="info" %}
 Để thể hiện **màu đen** ta dùng giá trị `00` --> `#000000`
