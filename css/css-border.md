@@ -187,7 +187,7 @@ border-left: border-width border-style border-color; // left
 
 ### Ví dụ
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
 ## Rounded border(bo góc)
 
