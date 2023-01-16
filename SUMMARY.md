@@ -25,6 +25,7 @@
   * [Comment trong CSS](css/comment-trong-css.md)
   * [Màu sắc trong CSS](css/mau-sac-trong-css.md)
   * [CSS Background](css/css-background.md)
+  * [CSS Border](css/css-border.md)
   * [CSS Opacity](css/css-opacity.md)
   * [Đơn vị đo (Unit) trong CSS](css/don-vi-do-unit-trong-css.md)
 * [Bulma CSS](bulma-css.md)
