@@ -27,6 +27,7 @@
   * [CSS Background](css/css-background.md)
   * [CSS Border](css/css-border.md)
   * [CSS Spacing](css/css-spacing.md)
+  * [CSS Width/Height](css/css-width-height.md)
   * [CSS Opacity](css/css-opacity.md)
   * [Đơn vị đo (Unit) trong CSS](css/don-vi-do-unit-trong-css.md)
 * [Bulma CSS](bulma-css.md)
