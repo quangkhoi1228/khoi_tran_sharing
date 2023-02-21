@@ -65,7 +65,7 @@ Trường hợp này chỉ xảy ra cho trường hợp top-bottom chứ không 
 
 Ở đây chúng ta thấy `h1` có `margin-bottom: 50px` còn `h2` có `margin-top: 20px`. Lúc này cả 2 sẽ cách nhau 1 khoảng bằng `50px`(phần màu vàng) chứ không phải bằng `70px` hoặc bằng `20px` ==> trường hợp này chính là **Margin collapse**.
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
 
 ## CSS Padding
 
@@ -94,4 +94,4 @@ padding: top right bottom left;
 
 ### Ví dụ
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (3).png" alt=""><figcaption></figcaption></figure>

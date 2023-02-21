@@ -44,6 +44,8 @@
   * [Khác](shinobi-framework/khac/README.md)
     * [Deploy mobile app lên store](shinobi-framework/khac/deploy-mobile-app-len-store.md)
     * [Deploy app lên server](shinobi-framework/khac/deploy-app-len-server.md)
+* [Wordpress](wordpress/README.md)
+  * [Deploy with ubuntu](wordpress/deploy-with-ubuntu.md)
 * [Hướng dẫn khác](huong-dan-khac/README.md)
   * [Cấu hình OpenVPN](huong-dan-khac/cau-hinh-openvpn.md)
   * [Cấu hình và lấy SSH key](huong-dan-khac/cau-hinh-va-lay-ssh-key.md)
