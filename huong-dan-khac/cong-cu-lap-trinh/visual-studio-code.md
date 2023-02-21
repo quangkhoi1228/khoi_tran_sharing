@@ -18,7 +18,7 @@ description: Trong phần này chúng ta sẽ tìm hiểu về Visual Studio Cod
 
 Truy cập [trang chủ VSCode](https://code.visualstudio.com/)
 
-![](<../../.gitbook/assets/image (6) (2).png>)
+![](<../../.gitbook/assets/image (6) (2) (1).png>)
 
 ### Tải về
 

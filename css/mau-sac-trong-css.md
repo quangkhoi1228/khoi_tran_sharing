@@ -186,7 +186,7 @@ Trong đó:
 
 Các bạn có thể tham khảo hình sau để dễ hình dung hơn:
 
-![](<../.gitbook/assets/image (13) (2).png>)
+![](<../.gitbook/assets/image (13) (1).png>)
 
 #### Ví dụ:
 
