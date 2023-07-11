@@ -102,7 +102,7 @@ h1 {
 </html>
 ```
 
-![](<../.gitbook/assets/image (20) (1) (1).png>)
+![](<../.gitbook/assets/image (20) (1) (1) (2).png>)
 
 ## Lưu ý thứ tự khai báo
 

@@ -67,7 +67,7 @@ Một số lưu ý khi sử dụng RGB:
 <h2 style="background-color:rgb(106, 90, 205);">rgb(106, 90, 205)</h2>
 ```
 
-![](<../.gitbook/assets/image (20).png>)
+![](<../.gitbook/assets/image (20) (1).png>)
 
 ### Giá trị RGBA
 

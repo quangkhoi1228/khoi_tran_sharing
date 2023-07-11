@@ -38,6 +38,8 @@
   * [Giới thiệu ReactJS](reactjs/gioi-thieu-reactjs.md)
   * [Ôn lại Export và Import](javascript/export-va-import.md)
   * [Tạo dự án ReactJS mới](reactjs/tao-du-an-reactjs-moi.md)
+  * [ReactJS Component](reactjs/reactjs-component.md)
+  * [Tương tác trong React](reactjs/tuong-tac-trong-react.md)
   * [UseState](reactjs/usestate.md)
 * [NextJS](nextjs/README.md)
   * [Tạo dự án NextJS mới](nextjs/tao-du-an-nextjs-moi.md)
