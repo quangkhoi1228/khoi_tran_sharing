@@ -64,7 +64,11 @@ Component trong react là một function bình thường trong JS tuy nhiên đ�
 
 ### 2. Thêm nội dung component
 
-Nội dung của một component bao gồm 2 phần chính là giao diện và tương tác của component. Đối với giao diện bởi thì chúng ta sẽ sử dụng cú pháp có tên là JSX. JSX có cách viết khá giống cách viết của HTML.&#x20;
+Nội dung của một component bao gồm 2 phần chính là giao diện và tương tác của component. Đối với giao diện bởi thì chúng ta sẽ sử dụng cú pháp có tên là JSX. JSX có cách viết khá giống cách viết của HTML.
+
+{% hint style="info" %}
+JSX là một cú pháp đặc biệt cho phép chúng ta viết code markup trong React, tuy nhiên khi ra thực tế thì JSX sẽ được biên dịch ra code HTML, CSS, JS thuần để trình duyệt web có thể đọc và xử lý được. Các bạn có thể tham khảo thêm JSX [tại đây](https://app.gitbook.com/s/-MC5-BglfKHq4hM84twh/\~/changes/384/reactjs/reactjs-jsx)
+{% endhint %}
 
 Và từ khoá return sẽ giúp chúng ta trả về giá trị cần trả. Chúng ta có thể ghi tất cả nội dung trong 1 dòng duy nhất như hình dưới.
 
