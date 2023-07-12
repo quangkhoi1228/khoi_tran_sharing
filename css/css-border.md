@@ -70,7 +70,7 @@ Việc gán giá trị cho trục x và 2 chiều của trục y hay gặp ở c
 border-width: top right-left bottom;
 ```
 
-<figure><img src="../.gitbook/assets/image (4) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Giá trị
 
@@ -118,7 +118,7 @@ border-width: top right-left bottom;
 
 Giá trị của `border-color` là [các màu hợp lệ](mau-sac-trong-css.md)
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (3).png" alt=""><figcaption></figcaption></figure>
 
 ## Border sides
 

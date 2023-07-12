@@ -34,17 +34,18 @@ React component là một hàm JS sẽ trả về markup của UI và bao gồm 
 Ví dụ 1 component đơn giản:
 
 ```jsx
-export default function Profile() {
+export default function HelloMessage() {
   return (
-    <img
-      src="https://i.imgur.com/MK3eW3Am.jpg"
-      alt="Katherine Johnson"
-    />
+    <article>
+      <h1>Hello World!</h1>
+      <p>This is my first ReactJS component</p>
+      <hr />
+    </article>
   )
 }
 ```
 
-<figure><img src="../.gitbook/assets/image (20).png" alt="" width="375"><figcaption></figcaption></figure>
+![](<../.gitbook/assets/image (4).png>)
 
 ## Cách tạo 1 component trong React
 
@@ -53,10 +54,10 @@ export default function Profile() {
 Đầu tiên chúng ta cần phải định nghĩa một function bởi vì trong React các component là một function.
 
 ```jsx
-function Profile() { }
+function HelloMessage() { }
 ```
 
-Trong ví dụ trên chúng ta khởi tạo 1 hàm có tên là Profile để định nghĩa component Profile
+Trong ví dụ trên chúng ta khởi tạo 1 hàm có tên là HelloMessage để định nghĩa component HelloMessage
 
 {% hint style="warning" %}
 Component trong react là một function bình thường trong JS tuy nhiên để xác định đây là một component thì chúng ta bắt buộc phải viết hoa chữ cái đầu của hàm để chúng có thể hoạt động được
@@ -73,17 +74,19 @@ JSX là một cú pháp đặc biệt cho phép chúng ta viết code markup tro
 Và từ khoá return sẽ giúp chúng ta trả về giá trị cần trả. Chúng ta có thể ghi tất cả nội dung trong 1 dòng duy nhất như hình dưới.
 
 ```jsx
-return <img src="https://i.imgur.com/MK3eW3As.jpg" alt="Katherine Johnson" />;
+return <h1>Hello World!</h1>
 ```
 
 Tuy nhiên nếu code của chúng ta nhiều dòng chúng ta nên wrap chúng trong cặp dấu ngoặc tròn `()`
 
 ```jsx
 return (
-  <div>
-    <img src="https://i.imgur.com/MK3eW3As.jpg" alt="Katherine Johnson" />
-  </div>
-);
+    <article>
+      <h1>Hello World!</h1>
+      <p>This is my first ReactJS component</p>
+      <hr />
+    </article>
+  )
 ```
 
 {% hint style="info" %}
@@ -95,12 +98,13 @@ Về cách thêm tương tác cho component ReactJS chúng ta sẽ được họ
 Sau khi chúng ta đã code xong nội dung của component chúng ta cần export component ra ngoài để sử dụng bằng từ khoá export default
 
 ```jsx
-export default function Profile() {
+export default function HelloMessage() {
   return (
-    <img
-      src="https://i.imgur.com/MK3eW3Am.jpg"
-      alt="Katherine Johnson"
-    />
+    <article>
+      <h1>Hello World!</h1>
+      <p>This is my first ReactJS component</p>
+      <hr />
+    </article>
   )
 }
 ```
@@ -111,4 +115,53 @@ Từ khoá export default này có sẵn trong JS chứ không phải là cú ph
 
 ## Sử dụng Component
 
-Sau khi bạn đã định nghĩa component của mình (Profile). Bạn có thể lồng nó vào trong các component khác.&#x20;
+Sau khi bạn đã định nghĩa component . Bạn có thể lồng nó vào trong các component khác.&#x20;
+
+Ví dụ trong trường hợp chúng ta đã định nghĩa component HelloMessage. Và chúng ta mong muốn có một component tổng hợp lại thì chúng ta có thể lồng component này trong component tổng.
+
+{% hint style="info" %}
+Để dễ dàng quản lý thì chúng ta nên tách component thành 1 file riêng sau đó import vào trong file mà chúng ta mong muốn sử dụng component đó.
+{% endhint %}
+
+file HelloMessage.js
+
+```jsx
+export default function HelloMessage() {
+  return (
+    <article>
+      <h1>Hello World!</h1>
+      <p>This is my first ReactJS component</p>
+      <hr />
+    </article>
+  )
+}
+```
+
+file Class01.js
+
+```jsx
+import HelloMessage from "./components/HelloMessage";
+
+export default function Class01() {
+  return (
+    <>
+      <HelloMessage />
+      <HelloMessage />
+      <HelloMessage />
+    </>
+  );
+}
+```
+
+![](<../.gitbook/assets/image (3).png>)
+
+## Tóm tắt
+
+* React cho phép bạn tạo các component, các phần tử giao diện người dùng có thể tái sử dụng cho ứng dụng của bạn.
+* Trong ứng dụng React, mọi phần của giao diện người dùng đều là component
+* Các React component là các hàm JavaScript thông thường, ngoại trừ:
+  1. Tên của nó luôn bắt đầu bằng một chữ in hoa
+  2. Chúng trả lại JSX.
+
+
+
