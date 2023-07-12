@@ -39,6 +39,7 @@
   * [Ôn lại Export và Import](javascript/export-va-import.md)
   * [Tạo dự án ReactJS mới](reactjs/tao-du-an-reactjs-moi.md)
   * [ReactJS Component](reactjs/reactjs-component.md)
+  * [Import/Export conponent](reactjs/import-export-conponent.md)
   * [ReactJS JSX](reactjs/reactjs-jsx.md)
   * [Page 1](reactjs/page-1.md)
   * [Tương tác trong React](reactjs/tuong-tac-trong-react.md)

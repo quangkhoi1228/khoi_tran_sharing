@@ -120,7 +120,7 @@ Sau khi bạn đã định nghĩa component . Bạn có thể lồng nó vào tr
 Ví dụ trong trường hợp chúng ta đã định nghĩa component HelloMessage. Và chúng ta mong muốn có một component tổng hợp lại thì chúng ta có thể lồng component này trong component tổng.
 
 {% hint style="info" %}
-Để dễ dàng quản lý thì chúng ta nên tách component thành 1 file riêng sau đó import vào trong file mà chúng ta mong muốn sử dụng component đó.
+Để dễ dàng quản lý thì chúng ta nên tách component thành 1 file riêng sau đó import vào trong file mà chúng ta mong muốn sử dụng component đó. Tham khảo thêm [tại đây](https://app.gitbook.com/s/-MC5-BglfKHq4hM84twh/\~/changes/386/reactjs/import-export-conponent)
 {% endhint %}
 
 file HelloMessage.js
