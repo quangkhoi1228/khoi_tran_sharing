@@ -2,7 +2,6 @@
 
 ## HTML là gì? <a href="#html-la-gi" id="html-la-gi"></a>
 
-* **HTML** **viết tắt của Hyper Text Markup Language**
-* HTML là **ngôn ngữ tiêu chuẩn để tạo ra giao diện của trang web**
-* HTML **mô tả cấu trúc của một trang Web** bằng cách gắn nhãn các phần nội dung như "đây là một tiêu đề", "đây là một đoạn văn", "đây là một liên kết", v.v.
-* Các **phần tử HTML có cách hiển thị trên giao diện khác nhau** do đó giúp cho trình duyệt hiểu cách hiển thị nội dung trên giao diện
+**HTML** là viết tắt của **HyperText Markup Language** (Ngôn ngữ Đánh dấu Siêu văn bản). Đây là một ngôn ngữ lập trình dùng để tạo và cấu trúc nội dung của trang web. HTML sử dụng các thẻ và các phần tử để xác định các thành phần của trang web, chẳng hạn như tiêu đề, đoạn văn bản, hình ảnh, liên kết, bảng, biểu đồ và nhiều nội dung khác.
+
+Các trang web được hiển thị trong trình duyệt web dựa trên mã HTML. Khi trình duyệt nhận được mã HTML, nó sẽ hiểu cấu trúc và cách bố trí của trang web và hiển thị nội dung theo đúng yêu cầu.
