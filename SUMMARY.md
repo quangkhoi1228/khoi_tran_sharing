@@ -2,7 +2,10 @@
 
 * [Lời nói đầu](README.md)
 * [HTML](html1/README.md)
-  * [Giới thiệu HTML](html1/khai-niem-the-cau-truc.md)
+  * [HTML là gì?](html/html-la-gi.md)
+  * [Phần tử HTML](html/phan-tu-html.md)
+  * [Cấu trúc file HTML cơ bản](html/cau-truc-file-html-co-ban.md)
+  * [Các thẻ HTML thông dụng](html1/khai-niem-the-cau-truc.md)
   * [Thuộc tính HTML](html1/thuoc-tinh-html.md)
   * [Comment trong HTML](html1/comment-trong-html.md)
   * [HTML Style](html1/html-style.md)
