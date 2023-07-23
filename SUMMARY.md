@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Về trang chủ](http://127.0.0.1:5000/s/-MC5-BglfKHq4hM84twh/)
+* [Về trang chủ](https://quangkhoi1228.com)
 * [Lời nói đầu](README.md)
 * [HTML](html1/README.md)
   * [HTML là gì?](html/html-la-gi.md)
