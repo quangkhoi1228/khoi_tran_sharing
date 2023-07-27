@@ -20,7 +20,7 @@ Phần tử HTML là tất cả mọi thứ từ thẻ bắt đầu đến thẻ
 ```markup
 ```
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 
 

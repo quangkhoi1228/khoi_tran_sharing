@@ -34,7 +34,7 @@ Sau khi cài ok chúng ta có thể truy cập đường dẫn để xem kết q
 https://ip-address
 ```
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Install MySql
 

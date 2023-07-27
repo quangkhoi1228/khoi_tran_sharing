@@ -3,8 +3,6 @@
 * [Về trang chủ](https://quangkhoi1228.com)
 * [Lời nói đầu](README.md)
 * [HTML](html1/README.md)
-  * [Yêu cầu](html/yeu-cau/README.md)
-    * [Cài đặt VSCode](huong-dan-khac/cong-cu-lap-trinh/visual-studio-code.md)
   * [HTML là gì?](html/html-la-gi.md)
   * [Phần tử HTML](html/phan-tu-html.md)
   * [Cấu trúc file HTML cơ bản](html/cau-truc-file-html-co-ban.md)
