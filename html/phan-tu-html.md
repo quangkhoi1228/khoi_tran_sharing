@@ -15,4 +15,18 @@ Phần tử HTML là tất cả mọi thứ từ thẻ bắt đầu đến thẻ
 <p> Đoạn văn </p>‌
 ```
 
-Lưu ý: Một số phần tử HTML không có nội dung (như phần tử `<br>`). Các phần tử này được gọi là phần tử rỗng hay phần tử trống. phần tử trống không có thẻ kết thúc!‌
+### Phân tách một phần tử
+
+```markup
+```
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+
+
+## Phần tử HTML lồng nhau
+
+{% hint style="info" %}
+Một số phần tử HTML không có nội dung (như phần tử `<br>`). Các phần tử này được gọi là phần tử rỗng hay phần tử trống. phần tử trống không có thẻ kết thúc
+{% endhint %}
+
