@@ -1,5 +1,9 @@
 # Project: CV online
 
+* Tools
+  * VS Code
+  * Live server
+  * Github Account
 * HTML
   * HTML là gì?
   * HTML tag
