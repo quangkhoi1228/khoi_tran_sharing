@@ -62,3 +62,4 @@
   * [Cấu hình và lấy SSH key](huong-dan-khac/cau-hinh-va-lay-ssh-key.md)
   * [Công cụ lập trình](huong-dan-khac/cong-cu-lap-trinh/README.md)
     * [Visual Studio Code](huong-dan-khac/cong-cu-lap-trinh/visual-studio-code.md)
+* [Project: CV online](project-cv-online.md)
