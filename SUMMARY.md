@@ -23,7 +23,6 @@
   * [HTML Layout](html1/html-layout.md)
   * [HTML Responsive](html1/html-responsive.md)
   * [Project: Online Cover Letter](html/project-online-cover-letter.md)
-  * [Bài tập Responsive](html1/bai-tap.md)
 * [CSS](css/README.md)
   * [Giới thiệu CSS](css/gioi-thieu-css.md)
   * [CSS Selector](css/css-selector.md)
