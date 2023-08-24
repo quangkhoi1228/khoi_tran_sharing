@@ -108,3 +108,16 @@ Thẻ `<b>` được sử dụng để làm đậm (bold) văn bản. Nó thư�
 {% hint style="info" %}
 việc sử dụng các thẻ `<i>`, `<u>`, và `<b>` để định dạng văn bản cơ bản đã trở nên lỗi thời. Thay vào đó, người ta thường sử dụng CSS để kiểm soát định dạng văn bản và giao diện của trang web. CSS cho phép bạn tùy chỉnh kiểu dáng, màu sắc và các thuộc tính khác của văn bản một cách linh hoạt hơn mà không cần sử dụng các thẻ định dạng trực tiếp trong HTML.
 {% endhint %}
+
+### **\<address>**
+
+Thẻ `<address>` được sử dụng để bao bọc thông tin liên hệ hoặc chi tiết địa chỉ của tác giả hoặc người liên quan đến nội dung trang web. Trình duyệt thường hiển thị nội dung trong thẻ này với kiểu chữ nghiêng mặc định, nhưng bạn có thể sử dụng CSS để tùy chỉnh kiểu dáng của nó.
+
+```markup
+<address>
+  Name<br>
+  Street Address<br>
+  City, State Zip<br>
+  Email: <a href="mailto:email@example.com">email@example.com</a>
+</address>
+```
