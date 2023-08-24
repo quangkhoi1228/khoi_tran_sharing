@@ -15,7 +15,7 @@ Phần tử HTML là tất cả mọi thứ từ thẻ bắt đầu đến thẻ
 <p> Đoạn văn </p>‌
 ```
 
-### Phân tách một phần tử
+### Phân tích chi tiết một phần tử HTML
 
 <figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
