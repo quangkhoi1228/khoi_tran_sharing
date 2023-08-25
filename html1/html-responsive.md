@@ -54,39 +54,3 @@ Ví dụ:‌
 {% hint style="info" %}
 Cách code responsive đơn giản nhất là code theo đơn vị tương đối
 {% endhint %}
-
-## Media Queries <a href="#media-queries" id="media-queries"></a>
-
-Một cách chặt chẽ và chi tiết hơn là sử dụng media query để code css theo từng width cụ thể:
-
-```markup
-‌<style>
-    .left,
-    .right {
-        float: left;
-        width: 20%;
-        /* The width is 20%, by default */
-    }
-
-    ​ .main {
-        float: left;
-        width: 60%;
-        /* The width is 60%, by default */
-    }
-
-    ​
-
-    /* Use a media query to add a breakpoint at 800px: */
-    @media screen and (max-width: 800px) {
-
-        ​ .left,
-        .main,
-        .right {
-            width: 100%;
-            /* The width is 100%, when the viewport is 800px or smaller */
-        }
-    }
-</style>
-```
-
-Các thư viện dùng để responsive: Bulma, Bootstrap, Tailwind,...‌
