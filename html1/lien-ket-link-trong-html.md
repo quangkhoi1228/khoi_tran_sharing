@@ -42,7 +42,7 @@ Thuộc tính `target` **quy định nơi mở trang đích** của liên kết.
 ## Đường dẫn tương đối và tuyệt đối
 
 {% hint style="info" %}
-Xem thêm tại phần [Đường dẫn file trong HTML](duong-dan-file-trong-html.md)
+Xem thêm tại phần [Đường dẫn file trong HTML](../huong-dan-khac/duong-dan-file-trong-html.md)
 {% endhint %}
 
 ## Gửi email bằng link

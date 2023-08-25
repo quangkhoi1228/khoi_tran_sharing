@@ -52,35 +52,7 @@ The content of the document......
 
 **Kết quả:**
 
-\*\*\*\*![](<../.gitbook/assets/image (70).png>)
-
-## Thẻ \<style>
-
-Thẻ `<style>` là thẻ dùng để **định nghĩa các luật CSS** trong trang
-
-```markup
-<style>
-  body {background-color: powderblue;}
-  h1 {color: red;}
-  p {color: blue;}
-</style>
-```
-
-{% hint style="info" %}
-Tham khảo [HTML CSS](broken-reference)
-{% endhint %}
-
-## Thẻ \<link>
-
-Thẻ `<link>` là thẻ dùng để **khai báo 1 file CSS của trang**
-
-```markup
-<link rel="stylesheet" href="mystyle.css">
-```
-
-{% hint style="info" %}
-Tham khảo phần [CSS](broken-reference)
-{% endhint %}
+![](<../.gitbook/assets/image (70).png>)
 
 ## Thẻ \<meta>
 
@@ -110,12 +82,6 @@ Thẻ `<meta>` cung cấp các thông tin **metadata** **của trang** như tác
 <meta name="author" content="John Doe">
 ```
 
-### Reload trang mỗi 30 giây
-
-```markup
-<meta http-equiv="refresh" content="30">
-```
-
 ### Cấu hình viewport của trang trên nhiều thiết bị
 
 ```markup
@@ -127,29 +93,3 @@ Thẻ `<meta>` cung cấp các thông tin **metadata** **của trang** như tác
 ```markup
 <link rel="icon" href="favicon.ico" type="image/x-icon">
 ```
-
-## Thẻ \<script>
-
-Thẻ `<script>` dùng để **định nghĩa đoạn code JS chạy phía giao diện người dùng**
-
-```markup
-<script>
-function myFunction() {
-  document.getElementById("demo").innerHTML = "Hello JavaScript!";
-}
-</script>
-```
-
-{% hint style="info" %}
-Tham khảo JS
-{% endhint %}
-
-## Tổng kết
-
-* Thẻ `<head>` **định nghĩa phần head của trang** nằm **trong thẻ `<html>`** và **trước thẻ `<body>`**
-* Nội dung thẻ `<head>` sẽ **không thể hiện lên giao diện** nhưng **chứa các thông tin bổ sung về trang**
-* Thẻ `<title>` **định nghĩa tiêu đề trang**
-* Thẻ `<style>` **quy định thuộc tính CSS của trang**
-* Thẻ `<link>` **quy định đường dẫn đến file CSS** của trang
-* Thẻ `<meta>` **định nghĩa các thông tin** như mô tả, tác giả, viewport của trang
-* thẻ `<script>` **định nghĩa các JS được thực thi trên trang**
