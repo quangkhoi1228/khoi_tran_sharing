@@ -67,7 +67,7 @@ Thẻ `<style>` là thẻ dùng để **định nghĩa các luật CSS** trong t
 ```
 
 {% hint style="info" %}
-Tham khảo [HTML CSS](html-css.md)
+Tham khảo [HTML CSS](broken-reference)
 {% endhint %}
 
 ## Thẻ \<link>

@@ -18,52 +18,5 @@ description: >-
 thuộc tính `href` của `<a>` quy định cụ thể URL của trang liên kết đi vào khi click vào thẻ
 
 ```markup
-<a href="https://quangkhoi1228.gitbook.io/">Quangkhoi1228</a>
+<a href="https://quangkhoi1228.com/">Quangkhoi1228</a>
 ```
-
-## Thuộc tính src
-
-Thuộc tính `src` của `<img>` quy định cụ thể đường dẫn đến hình ảnh sẽ được hiển thị
-
-```markup
-<img src="img_girl.jpg">
-```
-
-## Thuộc tính width và height
-
-Thuộc tính `width` và `height` cung cấp thông tin kích thước cho hình ảnh `<img>`
-
-```markup
-<img src="img_girl.jpg" width="500" height="600">
-```
-
-## Thuộc tính alt
-
-Thuộc tính `alt` của `<img>` cung cấp một văn bản thay thế cho hình ảnh trong trường hợp không tải được ảnh hoặc những người sử dụng không thể nhìn màn hình cùng có thể biết vị trí này thể hiện gì.
-
-```markup
-<img src="img_girl.jpg" alt="Girl with a jacket">
-```
-
-## Thuộc tính style
-
-Thuộc tính `style` được sử dụng để thêm phong cách cho một yếu tố, chẳng hạn như màu sắc, font chữ, kích thước, và nhiều hơn nữa
-
-```markup
-<p style="color:red;">This is a red paragraph.</p>
-```
-
-## Thuộc tính lang
-
-Thuộc tính lang của `<html>` tuyên bố ngôn ngữ của trang web
-
-```markup
-<!DOCTYPE html>
-<html lang="en">
-<body>
-...
-</body>
-</html>
-```
-
-\*Xem thêm chi tiết các thuộc tính của HTML tại đây: [https://www.w3schools.com/tags/ref\_attributes.asp](https://www.w3schools.com/tags/ref\_attributes.asp)

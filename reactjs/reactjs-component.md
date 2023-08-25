@@ -153,7 +153,7 @@ export default function Class01() {
 }
 ```
 
-![](<../.gitbook/assets/image (3).png>)
+![](<../.gitbook/assets/image (3) (4).png>)
 
 ## Tóm tắt
 

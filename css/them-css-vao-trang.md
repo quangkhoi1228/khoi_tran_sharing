@@ -15,7 +15,7 @@ CSS được tạo ra để hỗ trợ HTML do đó khi trình duyệt đọc đ
 **Inline CSS** là cách khai báo CSS **giống cách khai báo giá trị của thuộc tính style của HTML**
 
 {% hint style="info" %}
-các bạn có thể tham khảo thêm [tại đây](../html1/html-css.md)
+các bạn có thể tham khảo thêm [tại đây](broken-reference)
 {% endhint %}
 
 **Inline CSS** được sử dụng để thêm CSS cho một thẻ HTML  bằng cách **thêm thuộc tính style cho thẻ** đó và **giá trị chính là các cặp** `property: value` **ngăn cách bởi dấu chấm phẩy (;)** thể hiện CSS muốn thêm.
