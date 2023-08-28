@@ -44,6 +44,8 @@
   * [Page 1](reactjs/page-1.md)
   * [Tương tác trong React](reactjs/tuong-tac-trong-react.md)
   * [UseState](reactjs/usestate.md)
+  * [UseRef](reactjs/useref.md)
+  * [UseImperativeHandle](reactjs/useimperativehandle.md)
 * [NextJS](nextjs/README.md)
   * [Tạo dự án NextJS mới](nextjs/tao-du-an-nextjs-moi.md)
 * [Git](git/README.md)
