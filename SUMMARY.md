@@ -53,6 +53,7 @@
 * [Bash](bash/README.md)
   * [Giới thiệu Bash/Shell Script](bash/gioi-thieu-bash-shell-script.md)
 * [Wordpress](wordpress/README.md)
+  * [Thêm custom routes](wordpress/them-custom-routes.md)
   * [Deploy with ubuntu](wordpress/deploy-with-ubuntu.md)
 * [GitBook](gitbook/README.md)
   * [Custom domain with CloudFlare](gitbook/custom-domain-with-cloudflare.md)
