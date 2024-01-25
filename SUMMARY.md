@@ -64,4 +64,5 @@
   * [Công cụ lập trình](huong-dan-khac/cong-cu-lap-trinh/README.md)
     * [Visual Studio Code](huong-dan-khac/cong-cu-lap-trinh/visual-studio-code.md)
   * [Đường dẫn file trong HTML](huong-dan-khac/duong-dan-file-trong-html.md)
+  * [CI/CD github action](huong-dan-khac/ci-cd-github-action.md)
 * [Project: CV online](project-cv-online.md)
