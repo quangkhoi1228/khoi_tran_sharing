@@ -58,10 +58,10 @@ Xem thêm tại phần [Đường dẫn file trong HTML](../huong-dan-khac/duong
 Chúng ta có thể gọi đến một số nếu có chức năng đó trên thiết bị bằng cách sử dụng `tel:` trong `href`
 
 ```markup
-<a href="tel:09987655433">Send email</a>
+<a href="tel:09987655433">Gọi điện</a>
 ```
 
-## Tạo Link bằng JS
+## Advanced: Tạo Link bằng JS
 
 Chúng ta có thể tạo một Link cho một HTML element bất kỳ bằng cách thêm sự kiện `onclick` và hàm `window.location.href="url"`
 
