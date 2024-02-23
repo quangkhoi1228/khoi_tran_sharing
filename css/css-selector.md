@@ -24,6 +24,12 @@ Chúng ta có thể chia CSS selector thành 5 loại chính:
 
 ## Cách khai báo selector
 
+{% hint style="info" %}
+[https://flukeout.github.io/](https://flukeout.github.io/)
+
+CSS dinner game
+{% endhint %}
+
 * `.class1` : chọn tất cả phần tử chứa `class1`
 * `.class1.class2` : chọn tất cả phần tử chứa cả `class1` và `class2`
 * `.class1 .class2` : chọn tất cả phần tử chứa `class2` và phần tử đó nằm trong phần tử chứa `class1`
