@@ -74,7 +74,7 @@ border-width: top right-left bottom;
 
 ### Giá trị
 
-Giá trị của `border-width` có thể là tất cả các giá trị có [đơn vị hợp lệ](don-vi-do-unit-trong-css.md) hoặc giá trị cấu hình trước: `thin`, `medium`, và `thick`
+Giá trị của `border-width` có thể là tất cả các giá trị có [đơn vị hợp lệ](broken-reference) hoặc giá trị cấu hình trước: `thin`, `medium`, và `thick`
 
 <figure><img src="../.gitbook/assets/image (2) (4).png" alt=""><figcaption></figcaption></figure>
 
@@ -189,7 +189,7 @@ border-radius: value;
 ```
 
 {% hint style="info" %}
-`Border-radius` sử dụng các [đơn vị hợp lệ](don-vi-do-unit-trong-css.md) để làm giá trị
+`Border-radius` sử dụng các [đơn vị hợp lệ](broken-reference) để làm giá trị
 {% endhint %}
 
 {% hint style="info" %}

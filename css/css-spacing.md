@@ -11,7 +11,7 @@ description: >-
 **Margin** dùng để **tạo một khoảng cách bao xung quanh phần tử tính từ border**, hiểu đơn giản `margin` **là khoảng cách lề** của phần tử
 
 {% hint style="info" %}
-**Margin** sử dụng tất cả các giá trị có [đơn vị hợp lệ](don-vi-do-unit-trong-css.md)
+**Margin** sử dụng tất cả các giá trị có [đơn vị hợp lệ](broken-reference)
 {% endhint %}
 
 ### Cú pháp&#x20;
@@ -72,7 +72,7 @@ Trường hợp này chỉ xảy ra cho trường hợp top-bottom chứ không 
 **Padding** dùng để tạo **1 khoảng cách nằm giữa nội dung và border** của phần tử. Nói cách khác `padding` chính **là khoảng cách biên** của phần tử.
 
 {% hint style="info" %}
-`Padding` sử dụng tất cả các giá trị có [đơn vị hợp lệ](don-vi-do-unit-trong-css.md)
+`Padding` sử dụng tất cả các giá trị có [đơn vị hợp lệ](broken-reference)
 {% endhint %}
 
 ### Cú pháp&#x20;
