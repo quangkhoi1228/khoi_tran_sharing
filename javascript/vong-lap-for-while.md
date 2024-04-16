@@ -40,7 +40,7 @@ while (i < 5) {
 ## IV. Bài Tập Thực Hành
 
 1. Viết một chương trình sử dụng vòng lặp `for` để in ra các số từ 1 đến 10.
-2. Viết một chương trình sử dụng vòng lặp `while` để in ra bảng nhân của một số cụ thể.
+2. Viết một chương trình sử dụng vòng lặp `while` để in ra kết quả tổng của các số từ 1 đến 10.
 3. Viết một chương trình sử dụng vòng lặp `for` để tính tổng của các số từ 1 đến 100.
 
 ## V. Tài Liệu Tham Khảo
