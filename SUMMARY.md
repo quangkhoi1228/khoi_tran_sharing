@@ -2,6 +2,8 @@
 
 * [Về trang chủ](https://quangkhoi1228.com)
 * [Lời nói đầu](README.md)
+* [Web-102: Nhập môn lập trình web](web-102-nhap-mon-lap-trinh-web/README.md)
+  * [Giáo trình](web-102-nhap-mon-lap-trinh-web/giao-trinh.md)
 * [HTML](html1/README.md)
   * [HTML là gì?](html/html-la-gi.md)
   * [Phần tử HTML](html/phan-tu-html.md)
@@ -39,6 +41,7 @@
   * [Câu lệnh điều kiện](javascript/cau-lenh-dieu-kien.md)
   * [Vòng lặp For / While](javascript/vong-lap-for-while.md)
   * [Hàm (Function)](javascript/ham-function.md)
+  * [Chức năng tìm kiếm với JS và DOM](javascript/chuc-nang-tim-kiem-voi-js-va-dom.md)
   * [Export và Import](javascript/export-va-import.md)
 * [ReactJS](reactjs/README.md)
   * [Giới thiệu ReactJS](reactjs/gioi-thieu-reactjs.md)
