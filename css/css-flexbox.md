@@ -6,6 +6,10 @@ CSS Flexible Box Layout (hay còn gọi là Flexbox) là một công cụ mạnh
 
 ## **Các thuộc tính cơ bản của Flexbox**
 
+{% hint style="info" %}
+Game Froggy CSS: [https://flexboxfroggy.com/](https://flexboxfroggy.com/)
+{% endhint %}
+
 #### 1. `display: flex;`
 
 Thuộc tính `display: flex;` biến một container thành một flex container và các phần tử con bên trong sẽ trở thành các flex item. Điều này cho phép bạn sử dụng các thuộc tính Flexbox khác để điều chỉnh bố cục.
