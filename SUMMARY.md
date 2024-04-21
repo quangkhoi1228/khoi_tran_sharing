@@ -30,6 +30,7 @@
   * [CSS Background](css/css-background.md)
   * [CSS Border](css/css-border.md)
   * [CSS Spacing](css/css-spacing.md)
+  * [CSS Flexbox](css/css-flexbox.md)
   * [HTML Layout](css/html-layout.md)
 * [Web design and wireframe](web-design-and-wireframe.md)
 * [JavaScript](javascript/README.md)
