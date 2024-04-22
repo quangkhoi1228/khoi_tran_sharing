@@ -2,8 +2,8 @@
 
 ## Nội dung
 
-{% content-ref url="../css/comment-trong-css.md" %}
-[comment-trong-css.md](../css/comment-trong-css.md)
+{% content-ref url="../html1/comment-trong-html.md" %}
+[comment-trong-html.md](../html1/comment-trong-html.md)
 {% endcontent-ref %}
 
 {% content-ref url="../html1/khai-niem-the-cau-truc.md" %}
