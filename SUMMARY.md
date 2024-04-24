@@ -19,6 +19,7 @@
   * [Review 201 Course](102-intro-to-web-development/review-201-course.md)
 * [201: Frontend Development](201-frontend-development/README.md)
   * [Class 01](201-frontend-development/class-01.md)
+  * [Class 02](201-frontend-development/class-02.md)
 * [HTML](html1/README.md)
   * [Cài đặt công cụ cơ bản](html/cai-dat-cong-cu-co-ban.md)
   * [HTML là gì?](html/html-la-gi.md)
