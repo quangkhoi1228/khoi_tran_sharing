@@ -1,4 +1,4 @@
-# Class 01
+# Class 01: Ôn tập HTML
 
 ## Nội dung
 
@@ -39,3 +39,9 @@ Trong repo vừa tạo ở bài trước tạo:
 1. Folder "class01"
 2. File "index.html" trong thư mục "class01"
 3. Tạo nội dung HTML trong file index để hiển thị ra màn hình "Hello 201 class"
+
+### Bài 3: Làm lại bài Project
+
+{% content-ref url="../project-cv-online.md" %}
+[project-cv-online.md](../project-cv-online.md)
+{% endcontent-ref %}
