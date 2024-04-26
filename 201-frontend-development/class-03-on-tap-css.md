@@ -28,6 +28,6 @@
 
 ### Bài 2: Xem trước bài sau
 
-{% content-ref url="class-04-on-tap-js.md" %}
-[class-04-on-tap-js.md](class-04-on-tap-js.md)
+{% content-ref url="class-08-on-tap-js.md" %}
+[class-08-on-tap-js.md](class-08-on-tap-js.md)
 {% endcontent-ref %}

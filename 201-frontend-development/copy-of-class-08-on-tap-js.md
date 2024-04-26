@@ -1,4 +1,4 @@
-# Class 04: Ôn tập JS
+# Copy of Class 08: Ôn tập JS
 
 ## Nội dung
 
@@ -20,9 +20,5 @@
 
 ## Bài tập
 
-### Bài 1: Làm lại bài Search Function
-
-{% content-ref url="../102-intro-to-web-development/class-09-js-search-function.md" %}
-[class-09-js-search-function.md](../102-intro-to-web-development/class-09-js-search-function.md)
-{% endcontent-ref %}
+### Bài 1: Làm lại bài Search Function cho Project
 

@@ -110,7 +110,7 @@ export default function HelloMessage() {
 ```
 
 {% hint style="info" %}
-Từ khoá export default này có sẵn trong JS chứ không phải là cú pháp của React. Các bạn có thể đọc thêm [ở đây](../javascript/export-va-import.md)
+Từ khoá export default này có sẵn trong JS chứ không phải là cú pháp của React. Các bạn có thể đọc thêm [ở đây](broken-reference)
 {% endhint %}
 
 ## Sử dụng Component
