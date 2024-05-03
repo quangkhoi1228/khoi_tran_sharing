@@ -1,13 +1,13 @@
-# Class 09: JS: Mảng, Đối tượng, Pair programming
+# Class 11: JS: DOM, UI Rendering
 
 ## Nội dung
 
-{% content-ref url="../javascript/js-mang.md" %}
-[js-mang.md](../javascript/js-mang.md)
+{% content-ref url="../javascript/js-dom.md" %}
+[js-dom.md](../javascript/js-dom.md)
 {% endcontent-ref %}
 
-{% content-ref url="../javascript/js-doi-tuong.md" %}
-[js-doi-tuong.md](../javascript/js-doi-tuong.md)
+{% content-ref url="../javascript/js-dom-rendering.md" %}
+[js-dom-rendering.md](../javascript/js-dom-rendering.md)
 {% endcontent-ref %}
 
 ## Soft skills
