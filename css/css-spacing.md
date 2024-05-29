@@ -45,7 +45,7 @@ Khoảng cách sẽ chia đều bên trái và bên phải của phần tử
 margin: auto;
 ```
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (3).png" alt=""><figcaption></figcaption></figure>
 
 ### Margin: inherit
 

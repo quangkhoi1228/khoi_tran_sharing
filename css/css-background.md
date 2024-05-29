@@ -69,7 +69,7 @@ body {
 Khi sử dụng **hình ảnh làm hình nền** thì nên **tránh** các ảnh nền **có màu sắc làm rối nội dung** của trang
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/image (2) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (3) (2).png" alt=""><figcaption></figcaption></figure>
 
 ## Background-repeat
 
