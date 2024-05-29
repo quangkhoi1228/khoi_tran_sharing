@@ -41,7 +41,7 @@
   * [Class 09: Java Method](foundation-of-java/class-09-java-method.md)
   * [Class 10: Review 2](foundation-of-java/class-10-review-2.md)
   * [Class 11: Final Exam](foundation-of-java/class-11-final-exam.md)
-  * [Review OOP with Java](foundation-of-java/review-oop-with-java.md)
+  * [Review "OOP with Java"](foundation-of-java/review-oop-with-java.md)
 * [OOP with java](oop-with-java.md)
 * [HTML](html1/README.md)
   * [Cài đặt công cụ cơ bản](html/cai-dat-cong-cu-co-ban.md)
