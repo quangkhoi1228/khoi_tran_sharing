@@ -116,6 +116,8 @@
   * [Java Class method](java/java-class-method.md)
   * [Java Constructor](java/java-constructor.md)
   * [Java Modifier](java/java-modifier.md)
+  * [Java Tính đóng gói](java/java-tinh-dong-goi.md)
+  * [Java Package](java/java-package.md)
 * [Soft skills](soft-skills/README.md)
   * [Pair Programming](soft-skills/pair-programming.md)
 * [Web design and wireframe](web-design-and-wireframe.md)
