@@ -16,7 +16,7 @@ Java là một ngôn ngữ lập trình bậc cao, mạnh mẽ và bảo mật c
 
 Java Virtual Machine (JVM) là một thành phần cốt lõi của nền tảng Java, chịu trách nhiệm thực thi các chương trình Java. JVM tạo ra một môi trường chạy cho mã bytecode Java, đảm bảo rằng chương trình Java có thể chạy trên bất kỳ hệ điều hành nào mà không cần thay đổi mã nguồn.
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 ## Cài đặt và cấu hình môi trường phát triển Java
 

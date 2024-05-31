@@ -2,7 +2,7 @@
 
 Trong lập trình Java, việc hiểu rõ về JVM, JRE, và JDK là rất quan trọng. Đây là những thành phần cơ bản và cần thiết để phát triển và chạy ứng dụng Java. Chúng ta sẽ cùng tìm hiểu chi tiết từng khái niệm, cũng như mối quan hệ giữa chúng.
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### JVM (Java Virtual Machine)
 
