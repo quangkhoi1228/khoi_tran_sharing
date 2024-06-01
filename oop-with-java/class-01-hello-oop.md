@@ -1,4 +1,4 @@
-# Class 01: Khai giảng
+# Class 01: Hello OOP
 
 ## Nội dung
 
@@ -10,7 +10,9 @@
 [java-oop.md](../java/java-oop.md)
 {% endcontent-ref %}
 
-
+{% content-ref url="../java/java-class-va-object.md" %}
+[java-class-va-object.md](../java/java-class-va-object.md)
+{% endcontent-ref %}
 
 
 
