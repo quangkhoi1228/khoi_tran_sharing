@@ -4,12 +4,12 @@
 
 ### Review kiến thức CSS level 102&#x20;
 
-{% content-ref url="../intro-to-web-development/class-05-hello-css.md" %}
-[class-05-hello-css.md](../intro-to-web-development/class-05-hello-css.md)
+{% content-ref url="../nhap-mon-lap-trinh-web/class-05-hello-css.md" %}
+[class-05-hello-css.md](../nhap-mon-lap-trinh-web/class-05-hello-css.md)
 {% endcontent-ref %}
 
-{% content-ref url="../intro-to-web-development/class-06-css-flexbox-layout.md" %}
-[class-06-css-flexbox-layout.md](../intro-to-web-development/class-06-css-flexbox-layout.md)
+{% content-ref url="../nhap-mon-lap-trinh-web/class-06-css-flexbox-layout.md" %}
+[class-06-css-flexbox-layout.md](../nhap-mon-lap-trinh-web/class-06-css-flexbox-layout.md)
 {% endcontent-ref %}
 
 

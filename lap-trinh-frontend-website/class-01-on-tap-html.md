@@ -8,20 +8,20 @@
 
 ### Review kiến thức HTML level 102
 
-{% content-ref url="../intro-to-web-development/class-01-hello-html.md" %}
-[class-01-hello-html.md](../intro-to-web-development/class-01-hello-html.md)
+{% content-ref url="../nhap-mon-lap-trinh-web/class-01-hello-html.md" %}
+[class-01-hello-html.md](../nhap-mon-lap-trinh-web/class-01-hello-html.md)
 {% endcontent-ref %}
 
-{% content-ref url="../intro-to-web-development/class-02-html-comment-text-formatting-attribute-link.md" %}
-[class-02-html-comment-text-formatting-attribute-link.md](../intro-to-web-development/class-02-html-comment-text-formatting-attribute-link.md)
+{% content-ref url="../nhap-mon-lap-trinh-web/class-02-html-comment-text-formatting-attribute-link.md" %}
+[class-02-html-comment-text-formatting-attribute-link.md](../nhap-mon-lap-trinh-web/class-02-html-comment-text-formatting-attribute-link.md)
 {% endcontent-ref %}
 
-{% content-ref url="../intro-to-web-development/class-03-html-style-inline-block-element-image.md" %}
-[class-03-html-style-inline-block-element-image.md](../intro-to-web-development/class-03-html-style-inline-block-element-image.md)
+{% content-ref url="../nhap-mon-lap-trinh-web/class-03-html-style-inline-block-element-image.md" %}
+[class-03-html-style-inline-block-element-image.md](../nhap-mon-lap-trinh-web/class-03-html-style-inline-block-element-image.md)
 {% endcontent-ref %}
 
-{% content-ref url="../intro-to-web-development/class-04-html-list-table-responsive.md" %}
-[class-04-html-list-table-responsive.md](../intro-to-web-development/class-04-html-list-table-responsive.md)
+{% content-ref url="../nhap-mon-lap-trinh-web/class-04-html-list-table-responsive.md" %}
+[class-04-html-list-table-responsive.md](../nhap-mon-lap-trinh-web/class-04-html-list-table-responsive.md)
 {% endcontent-ref %}
 
 ## Bài tập
