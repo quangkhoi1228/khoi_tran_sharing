@@ -97,11 +97,6 @@ boolean isTrue;
 
 ### Bài Tập Thực Hành
 
-1. Khai báo và khởi tạo các biến với các kiểu dữ liệu cơ bản.
-2. Viết chương trình in ra các giá trị của biến sau khi khởi tạo.
-3. Tạo một mảng số nguyên và in ra các giá trị của mảng.
-4. Gán lại giá trị cho các biến đã khai báo và in ra các giá trị mới.
-
 #### Bài Tập 1: Khai báo và Khởi tạo Biến
 
 Khai báo các biến sau và khởi tạo chúng với các giá trị tương ứng:
@@ -111,13 +106,9 @@ Khai báo các biến sau và khởi tạo chúng với các giá trị tương 
 * Một biến ký tự `kyTuDauTien` với giá trị 'H'.
 * Một biến boolean `laSinhVien` với giá trị true.
 
-#### Bài Tập 2: In ra Giá trị của Biến
+<details>
 
-Viết chương trình in ra giá trị của các biến đã khai báo và khởi tạo ở bài tập 1.
-
-### Giải Pháp
-
-#### Giải Pháp Bài Tập 1
+<summary>Bài giải</summary>
 
 ```java
 public class Main {
@@ -130,7 +121,17 @@ public class Main {
 }
 ```
 
-#### Giải Pháp Bài Tập 2
+
+
+</details>
+
+#### Bài Tập 2: In ra Giá trị của Biến
+
+Viết chương trình in ra giá trị của các biến đã khai báo và khởi tạo ở bài tập 1.
+
+<details>
+
+<summary>Bài giải</summary>
 
 ```java
 public class Main {
@@ -147,6 +148,10 @@ public class Main {
     }
 }
 ```
+
+
+
+</details>
 
 ### Kết Luận
 
