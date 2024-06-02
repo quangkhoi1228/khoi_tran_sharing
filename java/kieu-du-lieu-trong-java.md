@@ -44,14 +44,14 @@ public class KieuDuLieu {
 
 Java hỗ trợ chuyển đổi kiểu dữ liệu ngầm định và tường minh giữa các kiểu dữ liệu.
 
-{% hint style="success" %}
+{% hint style="info" %}
 Trong Java, có hai loại casting:
 
-1. Widening Casting (tự động) - chuyển đổi từ kiểu dữ liệu nhỏ hơn sang kiểu dữ liệu lớn hơn:&#x20;
+1. **Widening Casting (tự động):** chuyển đổi từ kiểu dữ liệu nhỏ hơn sang kiểu dữ liệu lớn hơn:&#x20;
 
 `byte` -> `short` -> `char` -> `int` -> `long` -> `float` -> `double`
 
-1. Narrowing Casting (thủ công) - chuyển đổi từ kiểu dữ liệu lớn hơn sang kiểu dữ liệu nhỏ hơn:
+2. **Narrowing Casting (thủ công):** chuyển đổi từ kiểu dữ liệu lớn hơn sang kiểu dữ liệu nhỏ hơn:
 
 &#x20;`double` -> `float` -> `long` -> `int` -> `char` -> `short` -> `byte`
 {% endhint %}
@@ -97,13 +97,9 @@ public class ChuyenDoiKieuDuLieuTuongMinh {
 
 Khai báo các biến với các kiểu dữ liệu nguyên thủy và khởi tạo chúng với các giá trị tùy ý.
 
-#### Bài Tập 2: Chuyển Đổi Kiểu Dữ Liệu
+<details>
 
-Viết chương trình thực hiện chuyển đổi ngầm định từ `int` sang `double` và chuyển đổi tường minh từ `double` sang `int`.
-
-### Giải Pháp
-
-#### Giải Pháp Bài Tập 1
+<summary>Bài giải</summary>
 
 ```java
 public class KieuDuLieuNguyenThuy {
@@ -131,7 +127,17 @@ public class KieuDuLieuNguyenThuy {
 }
 ```
 
-#### Giải Pháp Bài Tập 2
+
+
+</details>
+
+#### Bài Tập 2: Chuyển Đổi Kiểu Dữ Liệu
+
+Viết chương trình thực hiện chuyển đổi ngầm định từ `int` sang `double` và chuyển đổi tường minh từ `double` sang `int`.
+
+<details>
+
+<summary>Bài giải</summary>
 
 ```java
 public class ChuyenDoiKieu {
@@ -149,6 +155,10 @@ public class ChuyenDoiKieu {
     }
 }
 ```
+
+
+
+</details>
 
 ### Kết Luận
 
