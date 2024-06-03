@@ -12,6 +12,10 @@ description: >-
 1. Truy cập trang web của JetBrains tại [https://www.jetbrains.com/idea/](https://www.jetbrains.com/idea/).
 2. Nhấp vào nút "Download" để tải xuống phiên bản IntelliJ IDEA phù hợp với hệ điều hành của bạn.
 
+{% hint style="warning" %}
+Nên cài bản Community Edition (Miễn phí)
+{% endhint %}
+
 #### Lựa chọn phiên bản
 
 JetBrains cung cấp hai phiên bản IntelliJ IDEA:
