@@ -33,7 +33,7 @@ Sau khi cài đặt JDK, bạn cần cấu hình biến môi trường `JAVA_HOM
 Mở cửa sổ dòng lệnh và nhập lệnh sau để kiểm tra phiên bản Java đã cài đặt:
 
 ```bash
-java -version
+java --version
 ```
 
 Nếu cài đặt thành công, bạn sẽ thấy thông tin về phiên bản Java đã cài đặt.
