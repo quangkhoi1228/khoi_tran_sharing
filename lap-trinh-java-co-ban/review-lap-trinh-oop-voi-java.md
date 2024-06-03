@@ -1,11 +1,5 @@
-# Review OOP with Java
+# Review "Lập trình OOP với Java"
 
-## Nội dung
-
-&#x20;
-
-
-
-## Bài tập
-
-1. &#x20;
+{% content-ref url="../lap-trinh-oop-voi-java/" %}
+[lap-trinh-oop-voi-java](../lap-trinh-oop-voi-java/)
+{% endcontent-ref %}

@@ -2,10 +2,5 @@
 
 ## Nội dung
 
-&#x20;
+&#x20;Giải đáp thắc mắc của học viên
 
-
-
-## Bài tập
-
-1. &#x20;
