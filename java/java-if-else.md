@@ -64,8 +64,13 @@ Trong ví dụ trên, nếu age lớn hơn hoặc bằng 18, biến status sẽ 
 
 ## **Bài tập thực hành:**
 
-1. Viết một chương trình Java để kiểm tra xem một số nguyên có là số chẵn hay không và in ra thông báo tương ứng.
-2. Viết một chương trình Java để kiểm tra xem một năm là năm nhuận hay không và in ra thông báo tương ứng.
+1. Viết một chương trình Java để kiểm tra xem một năm là năm nhuận hay không và in ra thông báo tương ứng.
+
+{% hint style="info" %}
+Cách tính năm nhuận:
+
+Cách tính năm nhuận Dương lịch như sau: bạn lấy số năm đem chia cho 4, nếu kết quả chia hết cho 4 thì năm nó là năm nhuận. Với những năm tròn thế kỷ có 2 số 00 ở cuối thì lấy số năm chi cho 400, nếu kết quả chia hết cho 400 thì năm đó là năm nhuận.
+{% endhint %}
 
 ## **Kết luận**
 
