@@ -14,4 +14,7 @@
 
 ## Bài tập
 
-1. Hoàn thiện tất cả bài tập của các bài con
+Cho người dùng nhập số N&#x20;
+
+1. Sử dụng while tính tổng từ 1 -> N
+2. Kiểm tra user có nhập đúng không? Nếu sai thì báo lỗi và cho nhập lại.
