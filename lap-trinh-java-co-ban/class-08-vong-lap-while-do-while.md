@@ -20,13 +20,14 @@ Cho người dùng nhập số N&#x20;
 2. Kiểm tra user có nhập đúng không? Nếu sai thì báo lỗi và cho nhập lại.
 
 {% hint style="info" %}
-sử dụng&#x20;
+Sử dụng&#x20;
 
-<pre class="language-java"><code class="lang-java"><strong>scanner.hasNextInt() Scanner scanner = new Scanner(System.in);
-</strong><strong>System.out.print("Nhập số: ");
-</strong><strong>boolean isUserInputIntNumber = scanner.hasNextInt();
-</strong><strong>System.out.print("Bạn vừa nhập số: " + isUserInputIntNumber);
-</strong></code></pre>
+```java
+Scanner scanner = new Scanner(System.in);
+System.out.print("Nhập số: ");
+boolean isUserInputIntNumber = scanner.hasNextInt();
+System.out.print("Bạn vừa nhập số: " + isUserInputIntNumber);
+```
 
 Để kiểm tra số nhập có phải là số không
 {% endhint %}
