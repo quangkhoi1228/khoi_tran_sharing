@@ -1,4 +1,4 @@
-# ReactJS Component
+# 2. ReactJS Component
 
 ### Giới thiệu về Component trong React
 

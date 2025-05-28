@@ -2,7 +2,7 @@
 description: Giới thiệu ReactJS và tại sao nên sử dụng nó
 ---
 
-# Giới thiệu ReactJS
+# 1. Giới thiệu ReactJS
 
 ## ReactJS là gì?
 

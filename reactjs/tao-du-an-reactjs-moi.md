@@ -1,4 +1,4 @@
-# Tạo dự án ReactJS mới
+# 1. Tạo dự án ReactJS mới
 
 Hiện tại ReactJS đang update lên phiên bản document mới. Tuy nhiên trong document mới này React lại gợi ý cho chúng ta sử dụng các framework khác như: NextJS, Remix,... để làm dự án với ReactJS. Do đó trong khoá học ReactJS này chúng ta sẽ sử dụng NextJS để thực hành.
 
