@@ -1,167 +1,188 @@
 # ReactJS Component
 
-## Component là gì?
+### Giới thiệu về Component trong React
 
-Trong react chúng ta sẽ cố gắng chia giao diện thành các khối code UI nhỏ để có thể tái sử dụng lại trong ứng dụng được gọi là Component.&#x20;
+**Component** là khối xây dựng cơ bản nhất trong React. Mỗi component đại diện cho một phần của giao diện người dùng (UI) và có thể được tái sử dụng ở nhiều nơi.
 
-{% hint style="info" %}
-Component có thể chỉ là 1 button, 1 heading hoặc cũng có thể là cả 1 khối code rất lớn.
-{% endhint %}
+Trong Next.js App Router, component có thể được sử dụng trong các route như `app/page.tsx` hoặc trong các component UI tái sử dụng trong thư mục `components`.
 
-```jsx
-<button>button</button>
+***
+
+### Cách tạo Function Component bằng TypeScript
+
+#### Cú pháp cơ bản
+
+```tsx
+// app/components/Hello.tsx
+'use client';
+
+import React from 'react';
+
+const Hello = () => {
+  return <h1>Chào mừng đến với React + TypeScript + Next.js!</h1>;
+};
+
+export default Hello;
 ```
 
-```jsx
-<article>
-  <h1>My First Component</h1>
-  <ol>
-    <li>Components: UI Building Blocks</li>
-    <li>Defining a Component</li>
-    <li>Using a Component</li>
-  </ol>
-</article>
-```
+#### Lưu ý
 
-Thông thường khi code giao diện trang web truyền thống các dev sẽ vẽ markup bằng HTML và CSS sau đó thêm các tương tác vào những đoạn code HTML đó bằng JS.
+* Trong App Router, các file client-side cần có dòng `'use client'` ở đầu file nếu sử dụng state, event, hoặc effect.
+* Tên component **phải viết hoa chữ cái đầu** (`Hello`), nếu không sẽ không được React hiểu là một component.
+* File có đuôi `.tsx` cho phép viết JSX kết hợp TypeScript.
 
-React cũng giữ nguyên cách chúng ta code giao diện như vậy tuy nhiên sẽ phân tách các khối UI khác nhau bằng cách tạo ra các component và trong component sẽ chứa tất cả các markup(HTML, CSS) và bao gồm luôn cả tương tác JS trong đó. &#x20;
+***
 
-{% hint style="info" %}
-React component là một hàm JS sẽ trả về markup của UI và bao gồm luôn cả các tương tác trong component đó
-{% endhint %}
+### Tạo Component có Props với TypeScript
 
-Ví dụ 1 component đơn giản:
+Props là **cách truyền dữ liệu vào component** từ nơi sử dụng nó. Ta định nghĩa kiểu của props bằng `type` hoặc `interface`.
 
-```jsx
-export default function HelloMessage() {
+#### Ví dụ component nhận props
+
+```tsx
+// app/components/Greeting.tsx
+'use client';
+
+type GreetingProps = {
+  name: string;
+  age?: number; // tuỳ chọn
+};
+
+const Greeting = ({ name, age }: GreetingProps) => {
   return (
-    <article>
-      <h1>Hello World!</h1>
-      <p>This is my first ReactJS component</p>
-      <hr />
-    </article>
-  )
-}
+    <div>
+      <h2>Xin chào {name}!</h2>
+      {age && <p>Bạn {age} tuổi.</p>}
+    </div>
+  );
+};
+
+export default Greeting;
 ```
 
-![](<../.gitbook/assets/image (4).png>)
+#### Cách sử dụng component có props
 
-## Cách tạo 1 component trong React
+```tsx
+// app/page.tsx
+import Greeting from './components/Greeting';
 
-### 1. Định nghĩa function
-
-Đầu tiên chúng ta cần phải định nghĩa một function bởi vì trong React các component là một function.
-
-```jsx
-function HelloMessage() { }
-```
-
-Trong ví dụ trên chúng ta khởi tạo 1 hàm có tên là HelloMessage để định nghĩa component HelloMessage
-
-{% hint style="warning" %}
-Component trong react là một function bình thường trong JS tuy nhiên để xác định đây là một component thì chúng ta bắt buộc phải viết hoa chữ cái đầu của hàm để chúng có thể hoạt động được
-{% endhint %}
-
-### 2. Thêm nội dung component
-
-Nội dung của một component bao gồm 2 phần chính là giao diện và tương tác của component. Đối với giao diện bởi thì chúng ta sẽ sử dụng cú pháp có tên là JSX. JSX có cách viết khá giống cách viết của HTML.
-
-{% hint style="info" %}
-JSX là một cú pháp đặc biệt cho phép chúng ta viết code markup trong React, tuy nhiên khi ra thực tế thì JSX sẽ được biên dịch ra code HTML, CSS, JS thuần để trình duyệt web có thể đọc và xử lý được. Các bạn có thể tham khảo thêm JSX [tại đây](https://app.gitbook.com/s/-MC5-BglfKHq4hM84twh/\~/changes/384/reactjs/reactjs-jsx)
-{% endhint %}
-
-Và từ khoá return sẽ giúp chúng ta trả về giá trị cần trả. Chúng ta có thể ghi tất cả nội dung trong 1 dòng duy nhất như hình dưới.
-
-```jsx
-return <h1>Hello World!</h1>
-```
-
-Tuy nhiên nếu code của chúng ta nhiều dòng chúng ta nên wrap chúng trong cặp dấu ngoặc tròn `()`
-
-```jsx
-return (
-    <article>
-      <h1>Hello World!</h1>
-      <p>This is my first ReactJS component</p>
-      <hr />
-    </article>
-  )
-```
-
-{% hint style="info" %}
-Về cách thêm tương tác cho component ReactJS chúng ta sẽ được học ở bài [Tương tác trong React](https://app.gitbook.com/s/-MC5-BglfKHq4hM84twh/\~/changes/383/reactjs/tuong-tac-trong-react)
-{% endhint %}
-
-### 3.  Export component ra ngoài
-
-Sau khi chúng ta đã code xong nội dung của component chúng ta cần export component ra ngoài để sử dụng bằng từ khoá export default
-
-```jsx
-export default function HelloMessage() {
+export default function HomePage() {
   return (
-    <article>
-      <h1>Hello World!</h1>
-      <p>This is my first ReactJS component</p>
-      <hr />
-    </article>
-  )
-}
-```
-
-{% hint style="info" %}
-Từ khoá export default này có sẵn trong JS chứ không phải là cú pháp của React. Các bạn có thể đọc thêm [ở đây](broken-reference)
-{% endhint %}
-
-## Sử dụng Component
-
-Sau khi bạn đã định nghĩa component . Bạn có thể lồng nó vào trong các component khác.&#x20;
-
-Ví dụ trong trường hợp chúng ta đã định nghĩa component HelloMessage. Và chúng ta mong muốn có một component tổng hợp lại thì chúng ta có thể lồng component này trong component tổng.
-
-{% hint style="info" %}
-Để dễ dàng quản lý thì chúng ta nên tách component thành 1 file riêng sau đó import vào trong file mà chúng ta mong muốn sử dụng component đó. Tham khảo thêm [tại đây](https://app.gitbook.com/s/-MC5-BglfKHq4hM84twh/\~/changes/386/reactjs/import-export-conponent)
-{% endhint %}
-
-file HelloMessage.js
-
-```jsx
-export default function HelloMessage() {
-  return (
-    <article>
-      <h1>Hello World!</h1>
-      <p>This is my first ReactJS component</p>
-      <hr />
-    </article>
-  )
-}
-```
-
-file Class01.js
-
-```jsx
-import HelloMessage from "./components/HelloMessage";
-
-export default function Class01() {
-  return (
-    <>
-      <HelloMessage />
-      <HelloMessage />
-      <HelloMessage />
-    </>
+    <div>
+      <Greeting name="Khôi" age={25} />
+      <Greeting name="Mai" />
+    </div>
   );
 }
 ```
 
-![](<../.gitbook/assets/image (3) (4).png>)
+***
 
-## Tóm tắt
+### Truyền `children` cho Component
 
-* React cho phép bạn tạo các component, các phần tử giao diện người dùng có thể tái sử dụng cho ứng dụng của bạn.
-* Trong ứng dụng React, mọi phần của giao diện người dùng đều là component
-* Các React component là các hàm JavaScript thông thường, ngoại trừ:
-  1. Tên của nó luôn bắt đầu bằng một chữ in hoa
-  2. Chúng trả lại JSX.
+Một prop đặc biệt trong React là `children`, dùng để **nhúng nội dung con** vào component cha.
 
+#### Ví dụ component layout dùng `children`
 
+```tsx
+// app/components/Card.tsx
+'use client';
 
+type CardProps = {
+  children: React.ReactNode;
+};
+
+const Card = ({ children }: CardProps) => {
+  return <div className="border p-4 rounded shadow">{children}</div>;
+};
+
+export default Card;
+```
+
+#### Cách sử dụng
+
+```tsx
+<Card>
+  <h3>Thông báo</h3>
+  <p>Đây là nội dung bên trong thẻ Card.</p>
+</Card>
+```
+
+***
+
+### Tái sử dụng Component qua danh sách `.map()`
+
+Bạn có thể render nhiều component cùng loại với dữ liệu từ mảng.
+
+#### Ví dụ hiển thị danh sách sản phẩm
+
+```tsx
+// app/components/ProductItem.tsx
+'use client';
+
+type Product = {
+  id: number;
+  name: string;
+  price: number;
+};
+
+type ProductItemProps = {
+  product: Product;
+};
+
+const ProductItem = ({ product }: ProductItemProps) => {
+  return (
+    <div>
+      <h4>{product.name}</h4>
+      <p>Giá: {product.price.toLocaleString()} VND</p>
+    </div>
+  );
+};
+
+export default ProductItem;
+```
+
+```tsx
+// app/page.tsx
+import ProductItem from './components/ProductItem';
+
+const products = [
+  { id: 1, name: 'Áo thun', price: 150000 },
+  { id: 2, name: 'Quần jeans', price: 320000 },
+];
+
+export default function HomePage() {
+  return (
+    <div>
+      {products.map((p) => (
+        <ProductItem key={p.id} product={p} />
+      ))}
+    </div>
+  );
+}
+```
+
+***
+
+### Bài tập thực hành cho học viên
+
+#### Bài tập 1: Tạo component `ProfileCard`
+
+* Nhận props: `avatar: string`, `fullName: string`, `bio: string`
+* Hiển thị ảnh đại diện, tên, mô tả ngắn gọn
+* Dùng CSS Module để căn chỉnh layout, bo tròn ảnh
+
+#### Bài tập 2: Tạo component `Button` có thể tái sử dụng
+
+* Nhận props: `onClick: () => void`, `label: string`, `variant: 'primary' | 'secondary'`
+* Khi click thì `console.log('Clicked!')`
+
+***
+
+### Tổng kết
+
+* Component là phần tử cơ bản nhất của UI trong React
+* Props là cách truyền dữ liệu vào component, nên dùng `type` để khai báo rõ ràng
+* `children` giúp truyền nội dung lồng vào trong component
+* CSS Module giúp style độc lập, dễ tái sử dụng
+* App Router yêu cầu `'use client'` nếu dùng tương tác
