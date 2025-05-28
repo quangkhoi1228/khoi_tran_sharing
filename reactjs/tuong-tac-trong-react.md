@@ -1,2 +1,0 @@
-# Tương tác trong React
-
