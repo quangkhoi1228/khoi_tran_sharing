@@ -6,11 +6,9 @@ description: Hello World!!!
 
 ## Xin chào!!!
 
-Mình là Khôi, một Web/Mobile developer tại TP.Hồ Chí Minh.
+Mình là Khôi, một Technical project manager tại TP.Hồ Chí Minh.
 
-Mình bắt đầu học và làm web từ những năm đầu đại học(2017). Sau hơn 5 năm làm Web trên cả 2 vai trò là FE và BE mình bắt đầu chuyển qua lập trình Mobile và phát triển UI/UX cho người dùng.
-
-Hiện tại mình vẫn đang làm Web và Mobile cho các dự án, song song với đó mình bắt đầu tìm hiểu về Data Science và chia sẻ kiến thức mình tích góp được qua kinh nghiệm thực tế tại kênh [youtube](https://www.youtube.com/channel/UCAeGyJO0zhIKOqiLbOpHhbA) cá nhân.
+Mình bắt đầu học và làm web từ những năm đầu đại học(2017). Sau hơn 7 năm làm Web, Mobile trên cả 2 vai trò là FE và BE mình bắt đầu chuyển qua tìm hiểu AI và nghiên cứu các kỹ thuật ứng dụng AI vào doanh nghiệp.
 
 Hy vọng qua tài liệu mình ghi chú ở đây có thể giúp các bạn có thể hiểu và áp dụng chúng vào công việc của mình.
 
